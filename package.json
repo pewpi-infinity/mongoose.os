@@ -1,0 +1,23 @@
+{
+  "name": "infinity-research-hub",
+  "version": "1.0.0",
+  "description": "A platform for publishing and tokenizing research papers with a news feed interface",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "research",
+    "science",
+    "news",
+    "tokenization",
+    "papers",
+    "database"
+  ],
+  "author": "Infinity Research Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

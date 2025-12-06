@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Research - Science News Feed</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔬 Infinity Research Hub</h1>
+            <p class="tagline">Pure Science. No Politics. Just Discovery.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#feed" class="active">Research Feed</a></li>
+                <li><a href="#editor">Paper Editor</a></li>
+                <li><a href="#tokens">My Tokens</a></li>
+                <li><a href="#database">Database</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Research Feed Section -->
+        <section id="feed" class="section active">
+            <h2>Latest Research Papers</h2>
+            <div id="research-feed" class="research-grid">
+                <!-- Research papers will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- Paper Editor Section -->
+        <section id="editor" class="section">
+            <h2>Research Paper Terminal</h2>
+            <p class="editor-description">Build your own research paper and earn tokens for your contributions.</p>
+            
+            <div class="editor-container">
+                <div class="editor-header">
+                    <input type="text" id="paper-title" placeholder="Research Paper Title" class="input-field">
+                    <input type="text" id="paper-author" placeholder="Author Name" class="input-field">
+                    <input type="text" id="paper-keywords" placeholder="Keywords (comma-separated)" class="input-field">
+                </div>
+                
+                <div class="editor-main">
+                    <div class="editor-section">
+                        <label>Abstract:</label>
+                        <textarea id="paper-abstract" placeholder="Enter your research abstract..." rows="4"></textarea>
+                    </div>
+                    
+                    <div class="editor-section">
+                        <label>Research Content:</label>
+                        <textarea id="paper-content" placeholder="Enter your research content..." rows="15"></textarea>
+                    </div>
+                    
+                    <div class="editor-section">
+                        <label>References:</label>
+                        <textarea id="paper-references" placeholder="Enter references..." rows="4"></textarea>
+                    </div>
+                </div>
+                
+                <div class="editor-footer">
+                    <button id="tokenize-btn" class="btn btn-primary">Tokenize & Submit Research</button>
+                    <button id="save-draft-btn" class="btn btn-secondary">Save Draft</button>
+                    <div id="editor-status" class="status-message"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tokens Section -->
+        <section id="tokens" class="section">
+            <h2>Your Research Tokens</h2>
+            <div class="tokens-info">
+                <div class="token-card">
+                    <h3>Token Balance</h3>
+                    <p class="token-balance" id="token-balance">0 RT</p>
+                    <small>Research Tokens (RT)</small>
+                </div>
+                <div class="token-card">
+                    <h3>Papers Published</h3>
+                    <p class="token-balance" id="papers-count">0</p>
+                </div>
+                <div class="token-card">
+                    <h3>Total Reads</h3>
+                    <p class="token-balance" id="total-reads">0</p>
+                </div>
+            </div>
+            
+            <h3>Your Published Research</h3>
+            <div id="user-papers" class="research-grid">
+                <!-- User's papers will be displayed here -->
+            </div>
+        </section>
+
+        <!-- Database Section -->
+        <section id="database" class="section">
+            <h2>Infinity Research Database</h2>
+            <p class="database-description">Explore the complete repository of tokenized research papers.</p>
+            
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search research papers..." class="input-field">
+                <button id="search-btn" class="btn btn-primary">Search</button>
+            </div>
+            
+            <div class="database-stats">
+                <div class="stat-item">
+                    <span class="stat-label">Total Papers:</span>
+                    <span class="stat-value" id="total-papers">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Total Tokens:</span>
+                    <span class="stat-value" id="total-tokens">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Active Researchers:</span>
+                    <span class="stat-value" id="active-researchers">0</span>
+                </div>
+            </div>
+            
+            <div id="database-results" class="research-grid">
+                <!-- Search results will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Infinity Research Hub - Advancing Science Through Tokenized Knowledge</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
