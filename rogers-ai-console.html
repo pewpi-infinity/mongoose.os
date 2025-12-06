@@ -273,7 +273,13 @@
         parseAndRenderMessage('rogers', String(reply));
         // TTS if enabled
         if (ttsToggle.checked && 'speechSynthesis' in window) {
-          try { const u = new SpeechSynthesisUtterance(stripTokens(String(reply))); window.speechSynthesis.cancel(); window.speechSynthesis.speak(u); } catch(e) { log('TTS error: ' + e); }
+          try { 
+            const utterance = new SpeechSynthesisUtterance(stripTokens(String(reply))); 
+            window.speechSynthesis.cancel(); 
+            window.speechSynthesis.speak(utterance); 
+          } catch(e) { 
+            log('TTS error: ' + e); 
+          }
         }
 
       } catch (err) {
