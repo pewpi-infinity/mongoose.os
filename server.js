@@ -1,22 +1,23 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const path = require('path');
-const fs = require('fs');
+const fs = require('fs').promises;
+const fsSync = require('fs');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 // In-memory storage for tokens and users (in production, use a database)
+// NOTE: Rate limiting should be added for production use to prevent abuse
 let users = {};
 let tokenWallets = {};
 
 // Login endpoint
-app.post('/api/login', (req, res) => {
+app.post('/api/login', async (req, res) => {
     const { username, password } = req.body;
     
     // Simple authentication (in production, use proper password hashing)
@@ -38,9 +39,13 @@ app.post('/api/login', (req, res) => {
         token: token
     };
     
-    // Append to commit log file
+    // Append to commit log file (async)
     const logEntry = JSON.stringify(commitLog) + '\n';
-    fs.appendFileSync(path.join(__dirname, 'commit-log.txt'), logEntry);
+    try {
+        await fs.appendFile(path.join(__dirname, 'commit-log.txt'), logEntry);
+    } catch (error) {
+        console.error('Error writing to commit log:', error);
+    }
     
     res.json({ 
         success: true, 
@@ -65,7 +70,7 @@ app.get('/api/wallet/:username', (req, res) => {
     });
 });
 
-app.post('/api/wallet/add', (req, res) => {
+app.post('/api/wallet/add', async (req, res) => {
     const { username, tokenType, amount } = req.body;
     
     if (!tokenWallets[username]) {
@@ -86,7 +91,7 @@ app.post('/api/wallet/add', (req, res) => {
     }
     users[username].tokens += parseInt(amount);
     
-    // Log the token addition as a commit
+    // Log the token addition as a commit (async)
     const commitLog = {
         timestamp: new Date().toISOString(),
         username: username,
@@ -95,7 +100,11 @@ app.post('/api/wallet/add', (req, res) => {
         amount: amount
     };
     
-    fs.appendFileSync(path.join(__dirname, 'commit-log.txt'), JSON.stringify(commitLog) + '\n');
+    try {
+        await fs.appendFile(path.join(__dirname, 'commit-log.txt'), JSON.stringify(commitLog) + '\n');
+    } catch (error) {
+        console.error('Error writing to commit log:', error);
+    }
     
     res.json({ 
         success: true,
@@ -105,14 +114,16 @@ app.post('/api/wallet/add', (req, res) => {
 });
 
 // Get commit log
-app.get('/api/commits', (req, res) => {
+app.get('/api/commits', async (req, res) => {
     try {
         const logPath = path.join(__dirname, 'commit-log.txt');
-        if (!fs.existsSync(logPath)) {
+        
+        // Check if file exists synchronously (small operation)
+        if (!fsSync.existsSync(logPath)) {
             return res.json({ success: true, commits: [] });
         }
         
-        const logContent = fs.readFileSync(logPath, 'utf8');
+        const logContent = await fs.readFile(logPath, 'utf8');
         const commits = logContent
             .split('\n')
             .filter(line => line.trim())
