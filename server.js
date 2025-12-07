@@ -1,145 +1,35 @@
-const express = require('express');
-const path = require('path');
-const fs = require('fs').promises;
-const fsSync = require('fs');
+// File: server.js
+const express = require('express'), cors = require('cors'), fs = require('fs'), fsp = fs.promises, path = require('path');
+const { exec } = require('child_process');
+const app = express(); app.use(cors()); app.use(express.json({limit:'2mb'})); app.use(express.static('.'));
+const root = process.cwd(), dirs = ['tokens','search','logs'];
 
-const app = express();
+async function ensure(){ for(const d of dirs) await fsp.mkdir(path.join(root,d), {recursive:true}); }
+function sh(cmd){ return new Promise((res,rej)=> exec(cmd,{cwd:root},(e,so,se)=> e ? rej(new Error((so||'')+(se||''))) : res((so||'')+(se||'')))); }
+
+app.post('/api/tokens', async (req,res)=> {
+  try { await ensure(); const t = req.body||{}; const fname = `${(t.name||'Token')}-${Date.now()}.json`;
+    await fsp.writeFile(path.join(root,'tokens',fname), JSON.stringify(t,null,2));
+    let log=''; try { log += await sh(`git add tokens/${fname}`); log += await sh(`git commit -m "token:${fname}"`); } catch(e){ log += `WARN ${e.message}`; }
+    res.json({ ok:true, path:`tokens/${fname}`, log });
+  } catch(e){ res.status(500).json({ error:e.message }); }
+});
+
+app.post('/api/search', async (req,res)=> {
+  try { await ensure(); const a = req.body||{}; const fname = `search-${Date.now()}.json`;
+    await fsp.writeFile(path.join(root,'search',fname), JSON.stringify(a,null,2));
+    let log=''; try { log += await sh(`git add search/${fname}`); log += await sh(`git commit -m "search:${fname}"`); } catch(e){ log += `WARN ${e.message}`; }
+    res.json({ ok:true, path:`search/${fname}`, log });
+  } catch(e){ res.status(500).json({ error:e.message }); }
+});
+
+app.post('/api/logs', async (req,res)=> {
+  try { await ensure(); const msg = req.body?.msg || ''; const fname = `log-${Date.now()}.txt`;
+    await fsp.writeFile(path.join(root,'logs',fname), `${new Date().toISOString()} :: ${msg}\n`);
+    let log=''; try { log += await sh(`git add logs/${fname}`); log += await sh(`git commit -m "log:${fname}"`); } catch(e){ log += `WARN ${e.message}`; }
+    res.json({ ok:true, path:`logs/${fname}`, log });
+  } catch(e){ res.status(500).json({ error:e.message }); }
+});
+
 const PORT = process.env.PORT || 3000;
-
-// Middleware
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
-
-// In-memory storage for tokens and users (in production, use a database)
-// NOTE: Rate limiting should be added for production use to prevent abuse
-let users = {};
-let tokenWallets = {};
-
-// Login endpoint
-app.post('/api/login', async (req, res) => {
-    const { username, password } = req.body;
-    
-    // Simple authentication (in production, use proper password hashing)
-    if (!users[username]) {
-        users[username] = { password, tokens: 0 };
-        tokenWallets[username] = [];
-    } else if (users[username].password !== password) {
-        return res.status(401).json({ success: false, message: 'Invalid credentials' });
-    }
-    
-    // Create a simple token
-    const token = Buffer.from(`${username}:${Date.now()}`).toString('base64');
-    
-    // Save login as server-side commit
-    const commitLog = {
-        timestamp: new Date().toISOString(),
-        username: username,
-        action: 'login',
-        token: token
-    };
-    
-    // Append to commit log file (async)
-    const logEntry = JSON.stringify(commitLog) + '\n';
-    try {
-        await fs.appendFile(path.join(__dirname, 'commit-log.txt'), logEntry);
-    } catch (error) {
-        console.error('Error writing to commit log:', error);
-    }
-    
-    res.json({ 
-        success: true, 
-        token: token,
-        username: username,
-        tokens: users[username].tokens
-    });
-});
-
-// Token wallet endpoints
-app.get('/api/wallet/:username', (req, res) => {
-    const { username } = req.params;
-    
-    if (!tokenWallets[username]) {
-        tokenWallets[username] = [];
-    }
-    
-    res.json({ 
-        success: true,
-        tokens: tokenWallets[username],
-        balance: users[username]?.tokens || 0
-    });
-});
-
-app.post('/api/wallet/add', async (req, res) => {
-    const { username, tokenType, amount } = req.body;
-    
-    if (!tokenWallets[username]) {
-        tokenWallets[username] = [];
-    }
-    
-    const newToken = {
-        id: Date.now(),
-        type: tokenType,
-        amount: amount,
-        timestamp: new Date().toISOString()
-    };
-    
-    tokenWallets[username].push(newToken);
-    
-    if (!users[username]) {
-        users[username] = { tokens: 0 };
-    }
-    users[username].tokens += parseInt(amount);
-    
-    // Log the token addition as a commit (async)
-    const commitLog = {
-        timestamp: new Date().toISOString(),
-        username: username,
-        action: 'add_token',
-        tokenType: tokenType,
-        amount: amount
-    };
-    
-    try {
-        await fs.appendFile(path.join(__dirname, 'commit-log.txt'), JSON.stringify(commitLog) + '\n');
-    } catch (error) {
-        console.error('Error writing to commit log:', error);
-    }
-    
-    res.json({ 
-        success: true,
-        wallet: tokenWallets[username],
-        balance: users[username].tokens
-    });
-});
-
-// Get commit log
-app.get('/api/commits', async (req, res) => {
-    try {
-        const logPath = path.join(__dirname, 'commit-log.txt');
-        
-        // Check if file exists synchronously (small operation)
-        if (!fsSync.existsSync(logPath)) {
-            return res.json({ success: true, commits: [] });
-        }
-        
-        const logContent = await fs.readFile(logPath, 'utf8');
-        const commits = logContent
-            .split('\n')
-            .filter(line => line.trim())
-            .map(line => JSON.parse(line));
-        
-        res.json({ success: true, commits: commits });
-    } catch (error) {
-        res.status(500).json({ success: false, message: error.message });
-    }
-});
-
-// Serve the main page
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
-
-app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-});
+ensure().then(()=> app.listen(PORT, ()=> console.log(`Backend on http://localhost:${PORT}`)));
