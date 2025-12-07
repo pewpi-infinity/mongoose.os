@@ -1,77 +1,114 @@
+cat > index.html << 'EOF'
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Infinity Cart Engine</title>
   <link rel="stylesheet" href="styles.css">
-  <script type="module">
-    // === Infinity Cart Engine Boot ===
-    import { log } from './infinity-utils.js';
-    import websitesDB from './websites-database.js';
-    import server from './server.js';
-
-    const carts = [
-      'cart000_run_all.py',
-      'cart001A_infinity_runcommands.py',
-      'cart002_engineering.py',
-      'cart003_computers.py',
-      'cart004_nuances.py',
-      'cart005_code.py',
-      'cart006_python.py',
-      'cart007_tokens.py',
-      'cart008_government.py',
-      'cart009_power.py',
-      'cart010_components.py',
-      'cart011_speakeasy.py',
-      'cart012_solutes.py',
-      'cart013_mercury_aluminum_growth.py',
-      'cart014_mercury_vapor_power.py',
-      'cart015_compression_hydrogen_engine.py',
-      'cart016_hot_cold_TEG.py',
-      'cart017_spiderweb_engine.py',
-      'cart018_zip_hashing.py',
-      'cart019_token_generation.py',
-      'cart020_unzip_install_strategy.py',
-      'cart021_token_tiers.py',
-      'cart022_bank_grade_tokens.py',
-      'cart023_idea_merger.py',
-      'cart024_quantum_transport.py',
-      'cart025_ai_watcher_login.py',
-      'cart026_aluminum_oxide_devices.py',
-      'cart027_robotics.py',
-      'cart028_machines.py',
-      'cart029_crystal_truths.py',
-      'cart030_superchemistry_fireproof.py',
-      'cart031_exoskeleton.py',
-      'cart032_ecosystem.py',
-      'cart033_nature.py',
-      'cart034_drones.py',
-      'cart035_signal_trace.py',
-      'cart036_rf_generation.py',
-      'cart037_mice_brainmapping.py',
-      'cart038_genetics.py',
-      'cart039_dna_engine.py',
-      'cart040_gas_shell_code.py',
-      'cart041_hydrogen_expansion.py'
-    ];
-
-    async function bootCarts() {
-      log("🚀 Booting Infinity Cart Engine…");
-      for (const cart of carts) {
-        log(`🔗 Hooking up ${cart}`);
-        // Simulate module registration
-        const cartModule = document.createElement('div');
-        cartModule.textContent = `🧠 ${cart} loaded`;
-        document.body.appendChild(cartModule);
-      }
-      log("✅ All carts hooked up and running.");
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
     }
-
-    bootCarts();
-  </script>
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ffdd57;
+      text-shadow: 2px 2px #000;
+    }
+    .cart-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .cart-btn {
+      background: #ff6f61;
+      border: none;
+      border-radius: 12px;
+      padding: 1rem;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s, background 0.3s;
+      color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .cart-btn:hover {
+      transform: scale(1.05);
+      background: #ff3b2e;
+    }
+    .output {
+      margin-top: 2rem;
+      text-align: left;
+      background: rgba(0,0,0,0.4);
+      padding: 1rem;
+      border-radius: 8px;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .log-entry {
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    .success { color: #00ff9d; }
+    .error { color: #ff3b2e; }
+  </style>
 </head>
 <body>
   <h1>Infinity Cart Engine</h1>
-  <div id="status">Loading all modules…</div>
+  <p>Press a cart to run it through the backend 🚀</p>
+
+  <div class="cart-grid" id="cartGrid"></div>
+
+  <div class="output" id="output"></div>
+
+  <script>
+    const cartIDs = [
+      '000','001A','002','003','004','005','006','007','008','009','010',
+      '011','012','013','014','015','016','017','018','019','020','021',
+      '022','023','024','025','026','027','028','029','030','031','032',
+      '033','034','035','036','037','038','039','040','041'
+    ];
+
+    const cartGrid = document.getElementById('cartGrid');
+    const output = document.getElementById('output');
+
+    function log(message, type="") {
+      const div = document.createElement('div');
+      div.className = `log-entry ${type}`;
+      div.textContent = message;
+      output.appendChild(div);
+      output.scrollTop = output.scrollHeight;
+    }
+
+    function runCart(id) {
+      log(`🔗 Running cart ${id}…`);
+      fetch(`http://localhost:5000/run?cart=${id}`)
+        .then(res => res.json())
+        .then(data => {
+          if (data.output) {
+            log(`✅ Cart ${id} output: ${data.output}`, "success");
+          } else {
+            log(`❌ Cart ${id} error: ${data.error}`, "error");
+          }
+        })
+        .catch(err => log(`❌ Network error: ${err}`, "error"));
+    }
+
+    // Build buttons dynamically
+    cartIDs.forEach(id => {
+      const btn = document.createElement('button');
+      btn.className = 'cart-btn';
+      btn.textContent = `Cart ${id}`;
+      btn.onclick = () => runCart(id);
+      cartGrid.appendChild(btn);
+    });
+  </script>
 </body>
 </html>
+EOF
