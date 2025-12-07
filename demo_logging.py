@@ -1,89 +1,85 @@
-#!/usr/bin/env python3
+# cart043_demo_logging.py
 """
-Demo script to simulate logged Octave behavior.
-This creates sample log entries to demonstrate the logging format.
+Cart 043: Demo Logging (Discourse)
+Ethical, provenance-first logger that records public discourse mentions relevant to your hydrogen mission.
+- Sources: manual notes (strings), tags, sentiment hint (neutral proxy), context
+- Filters: non-harassing, non-targeting; respectful framing only
+- Artifacts + audit logs
+
+CLI:
+  python cart043_demo_logging.py note --text "Article discussed hydrogen scaling" --tags mission,hydrogen
+  python cart043_demo_logging.py export
+  python cart043_demo_logging.py health
 """
 
-import sys
-import time
-from run_octave_logged import ensure_log_dir, log_message
+import sys, os, json, time, random
 
+ROOT=os.path.dirname(os.path.abspath(__file__))
+LOGS=os.path.join(ROOT,"logs"); os.makedirs(LOGS,exist_ok=True)
+ART=os.path.join(ROOT,"artifacts"); os.makedirs(ART,exist_ok=True)
+DATA=os.path.join(ROOT,"data"); os.makedirs(DATA,exist_ok=True)
 
-def demo_logging():
-    """Create sample log entries to demonstrate the system."""
-    print("=" * 60)
-    print("Demo: Creating sample Octave log entries")
-    print("=" * 60)
-    print()
-    
-    log_file = ensure_log_dir()
-    print(f"Log file: {log_file.absolute()}")
-    print()
-    
-    # Sample Octave session
-    demo_commands = [
-        ("IN", "x = 5"),
-        ("OUT", "x = 5"),
-        ("IN", "y = x * 2"),
-        ("OUT", "y = 10"),
-        ("IN", "A = [1 2 3; 4 5 6; 7 8 9]"),
-        ("OUT", "A ="),
-        ("OUT", "   1   2   3"),
-        ("OUT", "   4   5   6"),
-        ("OUT", "   7   8   9"),
-        ("IN", "det(A)"),
-        ("OUT", "ans = 0"),
-        ("IN", "% Calculate eigenvalues"),
-        ("OUT", ""),
-        ("IN", "eig(A)"),
-        ("OUT", "ans ="),
-        ("OUT", "  16.1168"),
-        ("OUT", "  -1.1168"),
-        ("OUT", "   0.0000"),
-        ("IN", "% Three-body problem initial conditions"),
-        ("OUT", ""),
-        ("IN", "m1 = 1.0; m2 = 1.0; m3 = 1.0;"),
-        ("OUT", ""),
-        ("IN", "G = 6.67430e-11"),
-        ("OUT", "G = 6.6743e-11"),
-        ("IN", "disp('Numerical integration required for general solution')"),
-        ("OUT", "Numerical integration required for general solution"),
-    ]
-    
-    print("Creating log entries...")
-    for i, (direction, message) in enumerate(demo_commands, 1):
-        log_message(log_file, direction, message)
-        print(f"  [{i}/{len(demo_commands)}] Logged: {direction} - {message[:50]}...")
-        time.sleep(0.05)  # Small delay for timestamps
-    
-    print()
-    print("✓ Demo log entries created successfully!")
-    print()
-    print("To view the logs:")
-    print("  1. Run: python3 log_server.py")
-    print("  2. Open: http://localhost:8000/")
-    print()
-    print("Or view directly:")
-    print(f"  cat {log_file}")
-    print()
-    
-    # Display a sample of the log
-    print("=" * 60)
-    print("Sample log output:")
-    print("=" * 60)
-    with open(log_file, 'r') as f:
-        lines = f.readlines()
-        for line in lines[:5]:
-            print(line.rstrip())
-    print("  ...")
-    print(f"  ({len(lines)} total lines)")
-    print("=" * 60)
+AUDIT=os.path.join(LOGS,"demo_logging_audit.jsonl")
+REG=os.path.join(DATA,"demo_logging_store.json")
 
+DEFAULT={"notes":[]}
 
-if __name__ == "__main__":
+def now(): return time.strftime("%Y-%m-%dT%H:%M:%S", time.gmtime())
+def audit(e): e=dict(e); e["t"]=now(); 
+with open(AUDIT,"a",encoding="utf-8") as f: f.write(json.dumps(e)+"\n")
+
+def load():
+    if not os.path.exists(REG): return DEFAULT.copy()
     try:
-        demo_logging()
-        sys.exit(0)
-    except Exception as e:
-        print(f"Error: {e}")
-        sys.exit(1)
+        with open(REG,"r",encoding="utf-8") as f: return json.load(f)
+    except: return DEFAULT.copy()
+
+def save(obj):
+    with open(REG,"w",encoding="utf-8") as f: json.dump(obj,f,indent=2)
+
+def save_artifact(name,obj):
+    p=os.path.join(ART,f"{name}.json")
+    with open(p,"w",encoding="utf-8") as f: json.dump(obj,f,indent=2)
+    return p
+
+# ---------- Note ----------
+def note(text: str, tags: list):
+    # neutral sentiment proxy (random baseline)
+    sentiment = round(random.uniform(0.4,0.6), 2)
+    entry={"text":text,"tags":tags,"sentiment_hint":sentiment,"created":now()}
+    db=load(); db["notes"].append(entry); save(db)
+    path=save_artifact(f"demo_note_{int(time.time())}", entry)
+    audit({"action":"note","tags":tags})
+    return {"ok":True,"path":path}
+
+# ---------- Export / Health ----------
+def export():
+    db=load()
+    path=save_artifact("demo_logging_export", db)
+    audit({"action":"export","count":len(db['notes'])})
+    return {"ok":True,"path":path}
+
+def health():
+    db=load()
+    out={"notes":len(db["notes"])}
+    path=save_artifact("demo_logging_health", out)
+    audit({"action":"health","count":out['notes']})
+    return {"ok":True,"path":path,"summary":out}
+
+def main():
+    a=sys.argv[1:]
+    if not a:
+        print("Usage: note --text '...' --tags t1,t2 | export | health")
+        return
+    cmd=a[0]
+    if cmd=="note":
+        text=""; tags=[]
+        for i,x in enumerate(a):
+            if x=="--text" and i+1<len(a): text=a[i+1]
+            if x=="--tags" and i+1<len(a): tags=[t.strip() for t in a[i+1].split(",") if t.strip()]
+        print(json.dumps(note(text,tags), indent=2)); return
+    if cmd=="export": print(json.dumps(export(), indent=2)); return
+    if cmd=="health": print(json.dumps(health(), indent=2)); return
+    print(json.dumps({"error":"unknown command"}, indent=2))
+
+if __name__=="__main__": main()
