@@ -1,370 +1,87 @@
-<!-- File: index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Infinity Portal · Mongoose.os</title>
+  <title>Infinity · Mongoose</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body{margin:0;background:#0b0f14;color:#e8f0ff;font-family:system-ui,Segoe UI,Roboto,sans-serif}
+    header{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:12px;border-bottom:1px solid #121a22}
+    .brand{color:#67d1ff;font-weight:600}
+    .nav{display:flex;gap:8px;flex-wrap:wrap}
+    button{background:#0f1720;color:#e8f0ff;border:1px solid #1a2430;border-radius:8px;padding:8px 10px;cursor:pointer}
+    .panel{max-width:900px;margin:16px auto;padding:16px;border:1px solid #121a22;border-radius:12px;background:#0e141b}
+    h2{margin:0 0 8px;color:#67d1ff}
+    .muted{color:#99a3b2}
+    .log{background:#0a1016;border:1px dashed #1a2430;padding:8px;border-radius:8px;white-space:pre-wrap;max-height:220px;overflow:auto}
+    footer{padding:12px;text-align:center;color:#99a3b2}
+  </style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">∞ Infinity · Mongoose.os</div>
+  <header>
+    <div class="brand">∞ Infinity · Mongoose</div>
     <nav class="nav">
-      <button class="btn" data-view="home">Home</button>
-      <button class="btn" data-view="pitch">Pitch lab</button>
-      <button class="btn" data-view="tokens">Token maker</button>
-      <button class="btn" data-view="search">Research terminal</button>
-      <button class="btn" data-view="sites">Sites</button>
-      <button class="btn" data-view="logs">Logs</button>
-      <button class="btn" data-view="wallet">Wallet</button>
-      <button class="btn" data-view="modules">Modules</button>
+      <button data-view="home">Home</button>
+      <button data-view="sites">Sites</button>
+      <button data-view="diagnostics">Diagnostics</button>
     </nav>
-    <div class="user">
-      <span id="userStatus">Guest</span>
-      <button id="loginBtn" class="btn">Sign in</button>
-    </div>
+    <div><span id="userStatus">Guest</span></div>
   </header>
 
   <main id="view">
-    <!-- Home -->
-    <section data-route="home" class="panel">
+    <section class="panel" data-route="home">
       <h2>Welcome</h2>
-      <p class="muted">Interactive Mario-world SPA coming soon. This portal is modular: carts attach here and log every action.</p>
-      <div class="grid2">
-        <div class="card">
-          <h3>Pitch lab</h3>
-          <p>Stable whistle detection. Timeline and smoothing.</p>
-          <button class="btn" data-view="pitch">Open</button>
-        </div>
-        <div class="card">
-          <h3>Token maker</h3>
-          <p>Create whistle or research tokens and export to JSON.</p>
-          <button class="btn" data-view="tokens">Open</button>
-        </div>
-        <div class="card">
-          <h3>Research terminal</h3>
-          <p>Seed queries. Build plans. Save artifacts.</p>
-          <button class="btn" data-view="search">Open</button>
-        </div>
-        <div class="card">
-          <h3>Sites index</h3>
-          <p>Infinity · Omni · Mongoose · Octave · Rooster.</p>
-          <button class="btn" data-view="sites">Open</button>
-        </div>
-      </div>
+      <p class="muted">Minimal baseline to prove buttons and sites loading work. We’ll add modules after this passes.</p>
     </section>
 
-    <!-- Pitch lab -->
-    <section data-route="pitch" class="panel">
-      <h2>Pitch lab</h2>
-      <p class="muted">Stable note detection with YIN-like autocorrelation, smoothing, and lock hysteresis.</p>
-      <div class="row">
-        <button id="pitchStart" class="btn">Start listening</button>
-        <button id="pitchStop" class="btn">Stop</button>
-        <label>A4:
-          <select id="pitchA4">
-            <option>440</option><option>442</option><option>432</option>
-          </select>
-        </label>
-        <label>Accidentals:
-          <select id="pitchAcc"><option value="sharp">Sharps (C#)</option><option value="flat">Flats (Db)</option></select>
-        </label>
-        <label>Smooth N:
-          <input id="pitchSmooth" type="number" value="12" min="4" max="24">
-        </label>
-        <label>Lock ms:
-          <input id="pitchLock" type="number" value="200" min="120" max="400">
-        </label>
-      </div>
-      <div class="row">
-        <div class="badge" id="pitchBadge">--</div>
-        <div id="pitchReadout" class="readout">Waiting…</div>
-      </div>
-      <div class="timeline" id="pitchTimeline"></div>
-      <div class="small">Tip: increase Smooth N and Lock ms if your whistle is breathy/noisy.</div>
-    </section>
-
-    <!-- Token maker -->
-    <section data-route="tokens" class="panel">
-      <h2>Token maker</h2>
-      <p class="muted">Create whistle tokens (experimental) and research tokens (valuable). Export JSON; later, push to repo.</p>
-      <div class="row">
-        <button id="tokenArm" class="btn">Arm capture</button>
-        <button id="tokenClear" class="btn">Clear</button>
-        <button id="tokenBake" class="btn">Make token</button>
-        <button id="tokenDownload" class="btn">Download JSON</button>
-      </div>
-      <div class="row">
-        <input id="tokenName" placeholder="Token name (e.g., Whistle-01)">
-        <input id="tokenAuthor" placeholder="Author (optional)">
-        <select id="tokenKind">
-          <option value="whistle">whistle-sequence</option>
-          <option value="research">research-plan</option>
-        </select>
-      </div>
-      <div class="log" id="tokenLog"></div>
-    </section>
-
-    <!-- Research terminal -->
-    <section data-route="search" class="panel">
-      <h2>Research terminal</h2>
-      <p class="muted">Seed queries; build plans with expansions; export JSON. Optional: connect to backend for repo writes.</p>
-      <div class="grid2">
-        <div>
-          <textarea id="queryInput" rows="6" placeholder="Type queries, one per line…"></textarea>
-          <div class="row">
-            <button id="queryPlan" class="btn">Build plan</button>
-            <button id="queryDownload" class="btn">Download plan</button>
-          </div>
-          <div class="log" id="queryLog"></div>
-        </div>
-        <div>
-          <h3>Search web (experimental)</h3>
-          <p class="muted">Outputs links and titles (client-side). Backends can enrich with summaries.</p>
-          <div class="row">
-            <input id="webQuery" placeholder="Search term">
-            <button id="webRun" class="btn">Search</button>
-          </div>
-          <div class="log" id="webLog"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Sites index -->
-    <section data-route="sites" class="panel">
+    <section class="panel" data-route="sites" style="display:none">
       <h2>Sites index</h2>
-      <p class="muted">Loaded from sites.json at repo root.</p>
+      <p class="muted">Loaded from sites.json in the same folder as this page.</p>
       <div class="log" id="sitesLog">Loading…</div>
     </section>
 
-    <!-- Logs viewer -->
-    <section data-route="logs" class="panel">
-      <h2>Logs</h2>
-      <p class="muted">Client logs; paste a logs manifest URL to aggregate GitHub Pages logs.</p>
-      <div class="row">
-        <input id="logsManifest" placeholder="https://.../logs/manifest.json" style="flex:1">
-        <button id="logsLoad" class="btn">Load</button>
-        <button id="logsClear" class="btn">Clear</button>
-        <label>Auto:
-          <select id="logsAuto"><option value="off">off</option><option value="5">5s</option><option value="10">10s</option></select>
-        </label>
-      </div>
-      <div class="small" id="logsStats">Total 0 · Updated Never</div>
-      <div class="log" id="logsView">No manifest set.</div>
-    </section>
-
-    <!-- Wallet -->
-    <section data-route="wallet" class="panel">
-      <h2>Wallet</h2>
-      <p class="muted">Mock wallet (local). Octave coins (most valuable), Infinity (most created), Mongoose & others.</p>
-      <div class="row">
-        <button id="walletMintOctave" class="btn">Mint Octave +1</button>
-        <button id="walletMintInfinity" class="btn">Mint Infinity +1</button>
-        <button id="walletMintMongoose" class="btn">Mint Mongoose +1</button>
-        <button id="walletReset" class="btn warn">Reset</button>
-      </div>
-      <div class="grid3">
-        <div class="card"><h3>Octave</h3><div id="coinOctave" class="badge">0</div></div>
-        <div class="card"><h3>Infinity</h3><div id="coinInfinity" class="badge">0</div></div>
-        <div class="card"><h3>Mongoose</h3><div id="coinMongoose" class="badge">0</div></div>
-      </div>
-    </section>
-
-    <!-- Modules (carts) -->
-    <section data-route="modules" class="panel">
-      <h2>Modules</h2>
-      <p class="muted">Auto-detected carts loaded via modules manifest.</p>
-      <div class="log" id="modulesLog">Loading modules…</div>
-      <div id="modulesGrid" class="grid3"></div>
+    <section class="panel" data-route="diagnostics" style="display:none">
+      <h2>Diagnostics</h2>
+      <div class="log" id="diagLog">Ready.</div>
+      <button id="pingSites">Ping sites.json</button>
+      <button id="pingSelf">Ping this page</button>
     </section>
   </main>
 
-  <footer class="foot">
-    Infinity · Omni · Mongoose.os · Octave · Rooster — modular SPA with provenance.
-  </footer>
+  <footer>Infinity · Mongoose — baseline verified, modules next.</footer>
 
-  <script src="infinity-utils.js"></script>
-  <script src="websites-database.js"></script>
   <script>
     // Router
     const view = document.getElementById('view');
-    function show(route){ [...view.children].forEach(sec => sec.style.display = (sec.dataset.route===route?'block':'none')); }
-    document.querySelectorAll('nav .btn').forEach(b=> b.onclick = ()=> show(b.dataset.view));
+    function show(route){ [...view.children].forEach(sec => sec.style.display = (sec.dataset.route===route ? 'block':'none')); }
+    document.querySelectorAll('nav button').forEach(b => b.onclick = ()=> show(b.dataset.view));
     show('home');
 
-    // Login mock
-    const userStatus = document.getElementById('userStatus');
-    document.getElementById('loginBtn').onclick = ()=>{
-      const name = prompt('Enter username (local):','guest');
-      if(name){ userStatus.textContent = name; logClient(`login:${name}`); }
-    };
-
-    // Pitch lab
-    InfinityPitch.init({
-      badge: document.getElementById('pitchBadge'),
-      readout: document.getElementById('pitchReadout'),
-      timeline: document.getElementById('pitchTimeline'),
-      controls: {
-        startBtn: document.getElementById('pitchStart'),
-        stopBtn: document.getElementById('pitchStop'),
-        a4Sel: document.getElementById('pitchA4'),
-        accSel: document.getElementById('pitchAcc'),
-        smoothInput: document.getElementById('pitchSmooth'),
-        lockInput: document.getElementById('pitchLock')
-      },
-      onStable: (note)=> captureIfArmed(note)
-    });
-
-    // Token maker
-    let captureArmed=false, seq=[];
-    const tokenLog = document.getElementById('tokenLog');
-    function tlog(m){ tokenLog.textContent += m+"\\n"; tokenLog.scrollTop = tokenLog.scrollHeight; }
-    function captureIfArmed(n){ if(!captureArmed) return; seq.push(n); tlog(`+ ${n.label} @ ${n.freq.toFixed(1)} Hz`); }
-    document.getElementById('tokenArm').onclick = ()=> { captureArmed=!captureArmed; tlog(captureArmed?'Capture ARMED':'Capture DISARMED'); logClient(captureArmed?'token.capture.on':'token.capture.off'); };
-    document.getElementById('tokenClear').onclick = ()=> { seq.length=0; tlog('Cleared sequence'); };
-    document.getElementById('tokenBake').onclick = ()=> {
-      const token = InfinityTokens.build({
-        kind: document.getElementById('tokenKind').value,
-        name: document.getElementById('tokenName').value || 'Token',
-        author: document.getElementById('tokenAuthor').value || null,
-        seq,
-        a4: InfinityPitch.getA4(),
-        acc: InfinityPitch.getAcc()
-      });
-      window._lastToken = token;
-      tlog(`Made token ${token.name} (${token.kind}) · ${token.length} items`);
-      logClient(`token.make:${token.kind}:${token.length}`);
-    };
-    document.getElementById('tokenDownload').onclick = ()=>{
-      const token = window._lastToken || InfinityTokens.build({
-        kind: document.getElementById('tokenKind').value,
-        name: document.getElementById('tokenName').value || 'Token',
-        author: document.getElementById('tokenAuthor').value || null,
-        seq, a4: InfinityPitch.getA4(), acc: InfinityPitch.getAcc()
-      });
-      InfinityUtils.downloadJSON(token, `tokens-${token.kind}-${token.name}-${Date.now()}.json`);
-      tlog('Downloaded token JSON');
-    };
-
-    // Research terminal
-    const qLog = document.getElementById('queryLog');
-    function qlog(m){ qLog.textContent += m+"\\n"; qLog.scrollTop = qLog.scrollHeight; }
-    document.getElementById('queryPlan').onclick = ()=>{
-      const q = document.getElementById('queryInput').value.trim();
-      if(!q) return qlog('Enter queries.');
-      const plan = InfinityResearch.plan(q);
-      window._lastPlan = plan;
-      qlog(`Plan: ${plan.terms.length} terms · ${plan.queueSizeEstimate} items`);
-      qlog(JSON.stringify(plan,null,2));
-      logClient(`plan.build:${plan.terms.length}`);
-    };
-    document.getElementById('queryDownload').onclick = ()=>{
-      const plan = window._lastPlan || InfinityResearch.plan(document.getElementById('queryInput').value.trim());
-      InfinityUtils.downloadJSON(plan, `research-plan-${Date.now()}.json`);
-      qlog('Downloaded plan JSON');
-    };
-
-    // Simple web search (client-side, no secrets)
-    const webLog = document.getElementById('webLog');
-    function wlog(m){ webLog.textContent += m+"\\n"; webLog.scrollTop = webLog.scrollHeight; }
-    document.getElementById('webRun').onclick = async ()=>{
-      const term = document.getElementById('webQuery').value.trim();
-      if(!term) return wlog('Enter a search term.');
+    // Sites loader
+    async function loadSites(){
+      const log = document.getElementById('sitesLog');
       try {
-        const results = await InfinityWebSearch.duckduckgo(term);
-        wlog(`Results: ${results.length}`);
-        results.slice(0,10).forEach(r=> wlog(`- ${r.title} :: ${r.url}`));
-        logClient(`web.search:${term}:${results.length}`);
+        const res = await fetch('sites.json?v=' + Date.now()); // cache-bust
+        if(!res.ok) throw new Error('HTTP ' + res.status);
+        const sites = await res.json();
+        log.textContent = sites.map(s => `- ${s.key} · ${s.title} · ${s.url}`).join('\n');
       } catch(e) {
-        wlog(`Search error: ${e.message}`);
+        log.textContent = 'Error loading sites.json: ' + e.message + '\nExpected at: ' + location.href.replace(/index\.html.*/,'') + 'sites.json';
       }
-    };
-
-    // Sites index
-    (async ()=>{
-      try {
-        const sites = await InfinityUtils.fetchJSON('sites.json');
-        document.getElementById('sitesLog').textContent = sites.map(s=> `- ${s.key} · ${s.title} · ${s.url}`).join("\\n");
-      } catch(e) {
-        document.getElementById('sitesLog').textContent = 'Sites index unavailable. Ensure sites.json is at repo root.';
-      }
-    })();
-
-    // Logs viewer
-    const logsView = document.getElementById('logsView');
-    const logsStats = document.getElementById('logsStats');
-    let autoTimer=null;
-    document.getElementById('logsLoad').onclick = async ()=>{
-      const url = document.getElementById('logsManifest').value.trim();
-      if(!url) return logsView.textContent='No manifest set.';
-      try {
-        const manifest = await InfinityUtils.fetchJSON(url);
-        let total=0, out=[];
-        for(const f of manifest.files||[]){
-          const txt = await InfinityUtils.fetchText(f.url);
-          const lines = txt.split(/\\r?\\n/); total += lines.length;
-          out.push(`# ${f.name}\\n${txt}\\n`);
-        }
-        logsView.textContent = out.join("\\n");
-        logsStats.textContent = `Total ${total} · Updated ${new Date().toLocaleString()}`;
-      } catch(e) {
-        logsView.textContent = `Error: ${e.message}`;
-      }
-    };
-    document.getElementById('logsClear').onclick = ()=>{
-      logsView.textContent=''; logsStats.textContent='Total 0 · Updated Never';
-    };
-    document.getElementById('logsAuto').onchange = ()=>{
-      if(autoTimer) clearInterval(autoTimer);
-      const v = document.getElementById('logsAuto').value;
-      if(v!=='off') autoTimer = setInterval(()=> document.getElementById('logsLoad').click(), parseInt(v,10)*1000);
-    };
-
-    // Wallet (local)
-    const wallet = InfinityWallet.load();
-    const setCoins = ()=> {
-      document.getElementById('coinOctave').textContent = wallet.octave;
-      document.getElementById('coinInfinity').textContent = wallet.infinity;
-      document.getElementById('coinMongoose').textContent = wallet.mongoose;
-    };
-    setCoins();
-    document.getElementById('walletMintOctave').onclick = ()=> { wallet.octave++; InfinityWallet.save(wallet); setCoins(); logClient('wallet.mint:octave'); };
-    document.getElementById('walletMintInfinity').onclick = ()=> { wallet.infinity++; InfinityWallet.save(wallet); setCoins(); logClient('wallet.mint:infinity'); };
-    document.getElementById('walletMintMongoose').onclick = ()=> { wallet.mongoose++; InfinityWallet.save(wallet); setCoins(); logClient('wallet.mint:mongoose'); };
-    document.getElementById('walletReset').onclick = ()=> { InfinityWallet.reset(); Object.assign(wallet, InfinityWallet.load()); setCoins(); logClient('wallet.reset'); };
-
-    // Modules (carts)
-    (async ()=>{
-      try {
-        const manifest = await InfinityUtils.fetchJSON('modules.json');
-        const grid = document.getElementById('modulesGrid');
-        const log = document.getElementById('modulesLog');
-        log.textContent = `Loaded ${manifest.modules.length} modules`;
-        manifest.modules.forEach(m=>{
-          const card = document.createElement('div');
-          card.className='card';
-          card.innerHTML = `<h3>${m.title}</h3><p class="muted">${m.desc||''}</p><button class="btn" data-module="${m.script}">Open</button>`;
-          grid.appendChild(card);
-        });
-        grid.querySelectorAll('button[data-module]').forEach(b=>{
-          b.onclick = async ()=>{
-            const src = b.dataset.module;
-            try { await InfinityUtils.loadScript(src); logClient(`module.open:${src}`); alert(`Module ${src} loaded.`); }
-            catch(e){ alert(`Module load failed: ${e.message}`); }
-          };
-        });
-      } catch(e) {
-        document.getElementById('modulesLog').textContent = 'No modules.json found. Add one with script entries.';
-      }
-    })();
-
-    // Client logging (local + optional backend)
-    function logClient(msg){
-      InfinityLogs.appendLocal(msg);
-      // Optional POST: InfinityLogs.post('/api/logs', msg); // requires backend
     }
+    // Auto-load when opening the section
+    document.querySelector('button[data-view="sites"]').addEventListener('click', loadSites);
+
+    // Diagnostics
+    const dlog = (m)=>{ const el=document.getElementById('diagLog'); el.textContent += '\n' + m; el.scrollTop = el.scrollHeight; };
+    document.getElementById('pingSites').onclick = async ()=>{
+      try { const r = await fetch('sites.json?v=' + Date.now()); dlog('sites.json -> ' + r.status); }
+      catch(e){ dlog('sites.json error: ' + e.message); }
+    };
+    document.getElementById('pingSelf').onclick = async ()=>{
+      try { const r = await fetch(location.href + '?v=' + Date.now()); dlog('index -> ' + r.status); }
+      catch(e){ dlog('index error: ' + e.message); }
+    };
   </script>
 </body>
 </html>
