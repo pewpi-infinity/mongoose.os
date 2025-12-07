@@ -1,537 +1,326 @@
+cat << 'EOF' > index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mongoose Research Hub - Multi-Scale Discovery Platform</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>🔬 Mongoose Research Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root { --bg:#0b0f14; --fg:#e8f0ff; --accent:#67d1ff; --muted:#99a3b2; --ok:#5df28f; --warn:#ffd166; --err:#ff6b6b; }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,Segoe UI,Roboto,sans-serif}
+    header{padding:16px;border-bottom:1px solid #121a22;display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+    h1{margin:0;color:var(--accent);font-size:20px} .pill{border:1px solid #1a2430;padding:4px 8px;border-radius:999px;background:#0f1720}
+    main{max-width:1100px;margin:0 auto;padding:16px;display:grid;gap:16px} section{border:1px solid #121a22;border-radius:12px;background:#0e141b;padding:16px}
+    h2{margin:0 0 8px;color:var(--accent);font-size:18px} p{margin:6px 0;color:var(--muted)}
+    button,input,select,textarea{background:#0f1720;color:var(--fg);border:1px solid #1a2430;border-radius:8px;padding:8px;font-size:14px}
+    button{cursor:pointer} .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px} .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .log{background:#0a1016;border:1px dashed #1a2430;padding:8px;border-radius:8px;white-space:pre-wrap;max-height:180px;overflow:auto}
+    .badge{display:inline-block;padding:4px 8px;border-radius:8px;border:1px solid #1a2430;background:#111a24;min-width:56px;text-align:center}
+    .readout{font-size:22px} .small{font-size:12px;color:var(--muted)} .ok{color:var(--ok)} .warn{color:var(--warn)} .err{color:var(--err)}
+    ul.linklist{columns:2;gap:24px;padding-left:16px} ul.linklist li{margin:4px 0}
+    footer{padding:16px;text-align:center;color:var(--muted)}
+  </style>
 </head>
 <body>
-    <header>
-        <h1>🔬 Mongoose Research Hub</h1>
-        <p class="tagline">Multi-Scale Discovery Platform: From Microscale to Macroscale Research</p>
-    </header>
+  <header>
+    <h1>🔬 Mongoose Research Hub</h1>
+    <span class="pill">Multi-Scale Discovery Platform</span>
+    <span class="pill">Pitch Lab · Token Baker · Octave Logs</span>
+  </header>
 
-    <nav class="main-nav">
-        <button class="nav-btn active" data-section="research">Research Portal</button>
-        <button class="nav-btn" data-section="video">Video Library</button>
-        <button class="nav-btn" data-section="audio">Audio Library</button>
-        <button class="nav-btn" data-section="resources">Resources</button>
-    </nav>
+  <main>
+    <!-- Pitch Lab -->
+    <section id="pitchLab">
+      <h2>Pitch lab</h2>
+      <p>Stable note detection for whistling and single tones. Sharps/flats, tuning, jitter smoothing, lock hysteresis.</p>
+      <div class="row">
+        <button id="startPitch">Start listening</button>
+        <button id="stopPitch">Stop</button>
+        <select id="tuning"><option value="440">A4 = 440Hz</option><option value="442">A4 = 442Hz</option><option value="432">A4 = 432Hz</option></select>
+        <select id="accidentals"><option value="sharp">Sharps (C#)</option><option value="flat">Flats (Db)</option></select>
+      </div>
+      <div class="row">
+        <div class="badge" id="noteBadge">--</div>
+        <div class="readout" id="noteReadout">Waiting…</div>
+      </div>
+      <div class="small">Adjust smoothing window, jump tolerance, and lock time if your whistle is very bright or breathy.</div>
+    </section>
 
-    <main>
-        <!-- Research Portal Section -->
-        <section id="research-section" class="content-section active">
-            <div class="research-controls">
-                <h2>Multi-Page Research Interface</h2>
-                <div class="control-panel">
-                    <div class="control-group">
-                        <label>Search Topics:</label>
-                        <input type="text" id="search-input" placeholder="Enter search terms (e.g., quantum physics, AI, weather)">
-                        <button id="start-research">Start Research</button>
-                    </div>
-                    <div class="control-group">
-                        <label>Active Pages: <span id="page-count">0</span>/40</label>
-                        <button id="clear-pages">Clear All Pages</button>
-                    </div>
-                    <div class="control-group">
-                        <label>Term Extraction:</label>
-                        <button id="extract-terms">Extract & Combine Terms</button>
-                        <button id="expand-research">Expand Research</button>
-                    </div>
-                </div>
-                <div id="extracted-terms" class="terms-display"></div>
-            </div>
+    <!-- Token Baker -->
+    <section id="tokenBaker">
+      <h2>Experimental token baker</h2>
+      <p>Arm capture, whistle a melody, bake a JSON token. Download locally or save to the repo via Actions.</p>
+      <div class="row">
+        <button id="armCapture">Arm capture</button>
+        <button id="commitToken">Bake token</button>
+        <button id="downloadToken">Download JSON</button>
+      </div>
+      <div class="row">
+        <input id="tokenName" placeholder="Token name (e.g., Whistle-01)" />
+        <input id="author" placeholder="Author (optional)" />
+      </div>
+      <div class="log" id="tokenLog"></div>
+      <div class="small">Repo save uses a manifest and GitHub Actions to ingest user artifacts on PR/Upload.</div>
+    </section>
 
-            <div class="research-grid" id="research-grid">
-                <!-- Research pages will be dynamically added here -->
-            </div>
-
-            <div class="term-combinations" id="term-combinations">
-                <h3>Combined Search Terms</h3>
-                <div id="combined-terms-list"></div>
-            </div>
-        </section>
-
-        <!-- Video Library Section -->
-        <section id="video-section" class="content-section">
-            <h2>Research Video Library</h2>
-            <div class="video-controls">
-                <input type="text" id="video-url" placeholder="Enter video URL (YouTube, Vimeo, direct link)">
-                <button id="add-video">Add Video</button>
-            </div>
-            <div class="video-grid" id="video-grid">
-                <div class="video-player-container">
-                    <video id="main-video-player" controls>
-                        <source src="" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="player-controls">
-                        <button class="control-btn" id="video-play">▶️ Play</button>
-                        <button class="control-btn" id="video-pause">⏸️ Pause</button>
-                        <button class="control-btn" id="video-stop">⏹️ Stop</button>
-                        <input type="range" id="video-volume" min="0" max="100" value="50">
-                        <label>Volume</label>
-                    </div>
-                </div>
-                <div id="video-playlist" class="playlist">
-                    <h3>Video Playlist</h3>
-                    <ul id="video-list"></ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Audio Library Section -->
-        <section id="audio-section" class="content-section">
-            <h2>Live Audio & Spaces Library</h2>
-            <div class="audio-controls">
-                <input type="text" id="audio-url" placeholder="Enter audio URL (podcast, live stream, audio file)">
-                <button id="add-audio">Add Audio</button>
-            </div>
-            <div class="audio-grid">
-                <div class="audio-player-container">
-                    <audio id="main-audio-player" controls>
-                        <source src="" type="audio/mpeg">
-                        Your browser does not support the audio tag.
-                    </audio>
-                    <div class="player-controls">
-                        <button class="control-btn" id="audio-play">▶️ Play</button>
-                        <button class="control-btn" id="audio-pause">⏸️ Pause</button>
-                        <button class="control-btn" id="audio-stop">⏹️ Stop</button>
-                        <input type="range" id="audio-volume" min="0" max="100" value="50">
-                        <label>Volume</label>
-                        <button class="control-btn" id="audio-speed">Speed: 1x</button>
-                    </div>
-                </div>
-                <div id="audio-playlist" class="playlist">
-                    <h3>Audio Playlist</h3>
-                    <ul id="audio-list"></ul>
-                </div>
-            </div>
-            <div class="live-spaces">
-                <h3>Live Spaces & Podcasts</h3>
-                <div id="live-spaces-list"></div>
-            </div>
-        </section>
-
-        <!-- Resources Section -->
-        <section id="resources-section" class="content-section">
-            <h2>Curated Research Resources</h2>
-            <div class="resources-grid">
-                <div class="resource-category">
-                    <h3>🔬 Science & Physics</h3>
-                    <ul id="science-links"></ul>
-                </div>
-                <div class="resource-category">
-                    <h3>💻 Technology & AI</h3>
-                    <ul id="tech-links"></ul>
-                </div>
-                <div class="resource-category">
-                    <h3>🌍 Nature & Environment</h3>
-                    <ul id="nature-links"></ul>
-                </div>
-                <div class="resource-category">
-                    <h3>🌤️ Weather & Atmosphere</h3>
-                    <ul id="weather-links"></ul>
-                </div>
-                <div class="resource-category">
-                    <h3>🚀 Space & Solar System</h3>
-                    <ul id="space-links"></ul>
-                </div>
-                <div class="resource-category">
-                    <h3>📱 Computing & Phones</h3>
-                    <ul id="computing-links"></ul>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>Mongoose Research Hub - Exploring the universe from microscale to macroscale</p>
-        <p>Combining multiple search terms to narrow searches while opening universes of minute details</p>
-    </footer>
-
-    <script src="websites-database.js"></script>
-    <script src="app.js"></script>
-    <title>Octave Log Viewer</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Courier New', monospace;
-            background: #1e1e1e;
-            color: #d4d4d4;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        header {
-            margin-bottom: 20px;
-            padding: 20px;
-            background: #252526;
-            border-radius: 8px;
-            border-left: 4px solid #007acc;
-        }
-        
-        h1 {
-            color: #ffffff;
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-        
-        .subtitle {
-            color: #858585;
-            font-size: 14px;
-        }
-        
-        .controls {
-            margin-bottom: 20px;
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-        
-        button {
-            background: #007acc;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-family: inherit;
-            font-size: 14px;
-            transition: background 0.3s;
-        }
-        
-        button:hover {
-            background: #005a9e;
-        }
-        
-        button.danger {
-            background: #d32f2f;
-        }
-        
-        button.danger:hover {
-            background: #b71c1c;
-        }
-        
-        .stats {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 20px;
-            padding: 15px;
-            background: #252526;
-            border-radius: 4px;
-        }
-        
-        .stat-item {
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .stat-label {
-            color: #858585;
-            font-size: 12px;
-            margin-bottom: 4px;
-        }
-        
-        .stat-value {
-            color: #4fc3f7;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        
-        .log-container {
-            background: #1e1e1e;
-            border: 1px solid #3e3e42;
-            border-radius: 4px;
-            padding: 20px;
-            min-height: 400px;
-            max-height: 600px;
-            overflow-y: auto;
-            font-size: 14px;
-            line-height: 1.6;
-        }
-        
-        .log-line {
-            margin-bottom: 4px;
-            padding: 4px 0;
-        }
-        
-        .log-line.input {
-            color: #4ec9b0;
-        }
-        
-        .log-line.output {
-            color: #ce9178;
-        }
-        
-        .timestamp {
-            color: #858585;
-            margin-right: 8px;
-        }
-        
-        .direction {
-            font-weight: bold;
-            margin-right: 8px;
-        }
-        
-        .direction.in {
-            color: #4ec9b0;
-        }
-        
-        .direction.out {
-            color: #ce9178;
-        }
-        
-        .content {
-            color: #d4d4d4;
-        }
-        
-        .empty-state {
-            text-align: center;
-            padding: 60px 20px;
-            color: #858585;
-        }
-        
-        .empty-state-icon {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-        
-        .error {
-            background: #5a1d1d;
-            color: #f48771;
-            padding: 10px;
-            border-radius: 4px;
-            margin-bottom: 20px;
-            border-left: 4px solid #d32f2f;
-        }
-        
-        .auto-refresh {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        
-        .auto-refresh input[type="checkbox"] {
-            width: 18px;
-            height: 18px;
-            cursor: pointer;
-        }
-        
-        .auto-refresh label {
-            cursor: pointer;
-            user-select: none;
-        }
-        
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
-        }
-        
-        .refreshing {
-            animation: pulse 1s infinite;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>🐙 Mongoose.os - Octave Log Viewer</h1>
-            <p class="subtitle">Real-time viewing of logged Octave shell sessions</p>
-        </header>
-        
-        <div class="controls">
-            <button id="refresh-btn" onclick="loadLogs()">🔄 Refresh Logs</button>
-            <button class="danger" onclick="clearLogs()">🗑️ Clear Logs</button>
-            <div class="auto-refresh">
-                <input type="checkbox" id="auto-refresh" onchange="toggleAutoRefresh()">
-                <label for="auto-refresh">Auto-refresh (5s)</label>
-            </div>
+    <!-- Research Terminal -->
+    <section id="searchTerminal">
+      <h2>Research search terminal</h2>
+      <p>Seed advanced research queues with simple queries. Save query + plan into artifacts for later processing.</p>
+      <div class="grid-2">
+        <div>
+          <textarea id="queryInput" rows="4" placeholder="Type query lines…"></textarea>
+          <div class="row">
+            <button id="runSearch">Plan</button>
+            <button id="downloadPlan">Download plan</button>
+          </div>
+          <div class="log" id="searchLog"></div>
         </div>
-        
-        <div class="stats">
-            <div class="stat-item">
-                <span class="stat-label">Total Lines</span>
-                <span class="stat-value" id="total-lines">0</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-label">Last Updated</span>
-                <span class="stat-value" id="last-updated">Never</span>
-            </div>
+        <div>
+          <h3 class="small">Sites index</h3>
+          <div class="log" id="sitesLog">Loading…</div>
         </div>
-        
-        <div id="error-container"></div>
-        
-        <div class="log-container" id="log-content">
-            <div class="empty-state">
-                <div class="empty-state-icon">📋</div>
-                <p>No logs yet. Start the Octave shell with:</p>
-                <p style="margin-top: 10px; color: #4ec9b0;">python3 run_octave_logged.py</p>
-            </div>
+      </div>
+    </section>
+
+    <!-- Octave Log Viewer -->
+    <section id="octaveLogs">
+      <h2>🐢 Mongoose.os · Octave Log Viewer</h2>
+      <p>Client-side viewer of published logs. Point to a manifest JSON of log files.</p>
+      <div class="row">
+        <input id="logsManifestUrl" placeholder="https://.../logs/manifest.json" style="flex:1"/>
+        <button id="loadLogs">Refresh logs</button>
+        <button id="clearLogs">Clear</button>
+      </div>
+      <div class="row small">
+        <span>Auto-refresh (5s):</span>
+        <select id="autoRefresh"><option value="off">off</option><option value="5">5s</option><option value="10">10s</option></select>
+        <span id="logStats" class="small">Total Lines 0 · Last Updated Never</span>
+      </div>
+      <div class="log" id="logsView">No logs manifest set.</div>
+    </section>
+
+    <!-- Curated Resources -->
+    <section id="resources">
+      <h2>Curated research resources</h2>
+      <div class="grid-3">
+        <div>
+          <h3 class="small">🔬 Science & Physics</h3>
+          <ul class="linklist">
+            <li><a href="https://www.nature.com">Nature</a></li>
+            <li><a href="https://www.science.org">Science Magazine</a></li>
+            <li><a href="https://arxiv.org">arXiv</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov">PubMed</a></li>
+            <li><a href="https://royalsociety.org">Royal Society</a></li>
+          </ul>
         </div>
-    </div>
-    
-    <script>
-        let autoRefreshInterval = null;
-        
-        function showError(message) {
-            const errorContainer = document.getElementById('error-container');
-            errorContainer.innerHTML = `<div class="error">⚠️ Error: ${message}</div>`;
-        }
-        
-        function clearError() {
-            document.getElementById('error-container').innerHTML = '';
-        }
-        
-        function formatTime(date) {
-            return date.toLocaleTimeString('en-US', { hour12: false });
-        }
-        
-        function parseLogs(logText) {
-            if (!logText || logText.trim() === '') {
-                return [];
+        <div>
+          <h3 class="small">💻 Technology & AI</h3>
+          <ul class="linklist">
+            <li><a href="https://github.com">GitHub</a></li>
+            <li><a href="https://developer.mozilla.org">MDN Web Docs</a></li>
+            <li><a href="https://arstechnica.com">Ars Technica</a></li>
+            <li><a href="https://www.technologyreview.com">MIT Tech Review</a></li>
+            <li><a href="https://news.ycombinator.com">Hacker News</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="small">🌌 Space & Solar System</h3>
+          <ul class="linklist">
+            <li><a href="https://www.nasa.gov">NASA</a></li>
+            <li><a href="https://www.esa.int">ESA</a></li>
+            <li><a href="https://www.jpl.nasa.gov">JPL</a></li>
+            <li><a href="https://solarsystem.nasa.gov">Solar System</a></li>
+            <li><a href="https://www.universetoday.com">Universe Today</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Infinity · Omni · Mongoose.os · Octave · Osprey — growing as modules with provenance.</footer>
+
+  <script>
+    // ---------- Pitch Detection (autocorrelation + smoothing + hysteresis) ----------
+    const noteNamesSharp = ["C","C#","D","D#","E","F","F#","G","G#","A","A#","B"];
+    const noteNamesFlat  = ["C","Db","D","Eb","E","F","Gb","G","Ab","A","Bb","B"];
+    const tuningSel = document.getElementById('tuning');
+    const accSel = document.getElementById('accidentals');
+    const noteBadge = document.getElementById('noteBadge');
+    const noteReadout = document.getElementById('noteReadout');
+    const startPitchBtn = document.getElementById('startPitch');
+    const stopPitchBtn = document.getElementById('stopPitch');
+
+    let audioCtx=null, analyser=null, micStream=null, rafId=null;
+    const smoothBuf=[]; const SMOOTH_N=10; const JUMP_T=0.03; const LOCK_MS=160;
+    let lastStableFreq=0, lastLockTime=0, lockedNote=null;
+
+    function autocorrelate(buf, sampleRate){
+      const SIZE=buf.length; const MAX=Math.floor(SIZE/2);
+      let bestOffset=-1, bestCorr=0;
+      for(let offset=40; offset<MAX; offset++){
+        let corr=0; for(let i=0;i<MAX;i++) corr += buf[i]*buf[i+offset];
+        corr /= MAX; if(corr>bestCorr){ bestCorr=corr; bestOffset=offset; }
+      }
+      if(bestCorr<0.01 || bestOffset<0) return 0;
+      return sampleRate/bestOffset;
+    }
+    const movingAvg = (a)=> a.reduce((x,y)=>x+y,0)/a.length;
+    const freqToNoteNumber=(f,A4)=> 69 + 12*Math.log2(f/A4);
+    function formatNote(freq){
+      const A4=parseFloat(tuningSel.value||"440");
+      const nn=Math.round(freqToNoteNumber(freq,A4));
+      const octave=Math.floor(nn/12)-1;
+      const names = accSel.value==='flat'?noteNamesFlat:noteNamesSharp;
+      const name=names[(nn%12+12)%12];
+      return {label:`${name}${octave}`, nn, octave};
+    }
+
+    async function startPitch(){
+      if(audioCtx) return;
+      micStream = await navigator.mediaDevices.getUserMedia({audio:true});
+      audioCtx = new (window.AudioContext||window.webkitAudioContext)();
+      analyser = audioCtx.createAnalyser(); analyser.fftSize=2048;
+      const source = audioCtx.createMediaStreamSource(micStream); source.connect(analyser);
+      const buf=new Float32Array(analyser.fftSize);
+
+      const loop=()=>{
+        analyser.getFloatTimeDomainData(buf);
+        const f = autocorrelate(buf, audioCtx.sampleRate);
+        if(f>40 && f<2000){
+          smoothBuf.push(f); if(smoothBuf.length>SMOOTH_N) smoothBuf.shift();
+          const sfreq = movingAvg(smoothBuf);
+          const rel = Math.abs((sfreq - (lastStableFreq||sfreq)) / (lastStableFreq||sfreq));
+          const now = performance.now();
+          if(!lastStableFreq || rel < JUMP_T){
+            if(now - lastLockTime > LOCK_MS){
+              lastStableFreq = sfreq; const n = formatNote(sfreq);
+              if(lockedNote !== n.label){
+                lockedNote = n.label;
+                noteBadge.textContent = n.label;
+                noteReadout.textContent = `Stable: ${n.label} (${sfreq.toFixed(1)} Hz)`;
+                captureMaybePush(n.label, sfreq, n.nn);
+              }
+              lastLockTime = now;
             }
-            
-            const lines = logText.split('\n');
-            const parsed = [];
-            
-            for (const line of lines) {
-                if (!line.trim()) continue;
-                
-                // Parse format: [TIMESTAMP] [IN/OUT] content
-                const match = line.match(/^(\[.*?\])\s*\[(IN|OUT)\]\s*(.*)$/);
-                if (match) {
-                    parsed.push({
-                        timestamp: match[1],
-                        direction: match[2],
-                        content: match[3]
-                    });
-                } else {
-                    // Line doesn't match expected format, include as-is
-                    parsed.push({
-                        timestamp: '',
-                        direction: '',
-                        content: line
-                    });
-                }
-            }
-            
-            return parsed;
+          }
         }
-        
-        function renderLogs(logs) {
-            const container = document.getElementById('log-content');
-            
-            if (logs.length === 0) {
-                container.innerHTML = `
-                    <div class="empty-state">
-                        <div class="empty-state-icon">📋</div>
-                        <p>No logs yet. Start the Octave shell with:</p>
-                        <p style="margin-top: 10px; color: #4ec9b0;">python3 run_octave_logged.py</p>
-                    </div>
-                `;
-                return;
-            }
-            
-            let html = '';
-            for (const log of logs) {
-                const dirClass = log.direction.toLowerCase();
-                html += `
-                    <div class="log-line ${dirClass}">
-                        ${log.timestamp ? `<span class="timestamp">${log.timestamp}</span>` : ''}
-                        ${log.direction ? `<span class="direction ${dirClass}">[${log.direction}]</span>` : ''}
-                        <span class="content">${escapeHtml(log.content)}</span>
-                    </div>
-                `;
-            }
-            
-            container.innerHTML = html;
-            container.scrollTop = container.scrollHeight;
+        rafId = requestAnimationFrame(loop);
+      };
+      loop();
+    }
+    function stopPitch(){
+      if(rafId) cancelAnimationFrame(rafId); rafId=null;
+      if(micStream) micStream.getTracks().forEach(t=>t.stop()); micStream=null;
+      if(audioCtx) audioCtx.close(); audioCtx=null; analyser=null;
+      noteBadge.textContent="--"; noteReadout.textContent="Stopped";
+      smoothBuf.length=0; lastStableFreq=0; lockedNote=null;
+    }
+    startPitchBtn.onclick=startPitch; stopPitchBtn.onclick=stopPitch;
+
+    // ---------- Token Baker ----------
+    const armBtn=document.getElementById('armCapture');
+    const bakeBtn=document.getElementById('commitToken');
+    const dlBtn=document.getElementById('downloadToken');
+    const tokenLog=document.getElementById('tokenLog');
+    const tokenNameInput=document.getElementById('tokenName');
+    const authorInput=document.getElementById('author');
+    let captureArmed=false; let sequence=[];
+
+    function logToken(msg){ tokenLog.textContent += msg+"\\n"; tokenLog.scrollTop = tokenLog.scrollHeight; }
+    function captureMaybePush(label,freq,nn){
+      if(!captureArmed) return;
+      sequence.push({ t:new Date().toISOString(), note:label, freq:+freq.toFixed(2), nn });
+      logToken(`+ ${label} @ ${freq.toFixed(1)} Hz`);
+    }
+    armBtn.onclick=()=>{ captureArmed=!captureArmed; logToken(captureArmed?"Capture ARMED":"Capture DISARMED"); };
+    function buildToken(){
+      const name=(tokenNameInput.value||"Token").replace(/\\s+/g,'-');
+      const token={ kind:"experimental-note-sequence", name, author:authorInput.value||null,
+        created:new Date().toISOString(), tuningA4:parseFloat(tuningSel.value), accidentals:accSel.value,
+        length:sequence.length, sequence };
+      return token;
+    }
+    bakeBtn.onclick=()=>{ const t=buildToken(); logToken(`Bake: ${t.name} (${t.length} notes)`); };
+    dlBtn.onclick=()=>{
+      const t=buildToken(); const blob=new Blob([JSON.stringify(t,null,2)],{type:"application/json"});
+      const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=`tokens-${t.name}-${Date.now()}.json`; a.click();
+      logToken(`Downloaded: tokens-${t.name}.json`);
+    };
+
+    // ---------- Research Terminal ----------
+    const queryInput=document.getElementById('queryInput');
+    const runBtn=document.getElementById('runSearch');
+    const dlPlanBtn=document.getElementById('downloadPlan');
+    const searchLog=document.getElementById('searchLog');
+    const sitesLog=document.getElementById('sitesLog');
+
+    function logSearch(m){ searchLog.textContent += m+"\\n"; searchLog.scrollTop=searchLog.scrollHeight; }
+    function planResearch(q){
+      const lines=q.split(/\\n+/).map(l=>l.trim()).filter(Boolean);
+      const terms=lines.flatMap(l=>l.split(/[,;]+/)).map(t=>t.trim()).filter(Boolean);
+      const uniq=[...new Set(terms.map(t=>t.toLowerCase()))];
+      const facets=uniq.map(t=>({term:t, expansions:[t, t+" theory", t+" examples", t+" critique"]}));
+      return { terms:uniq, facets, queueSizeEstimate:uniq.length*4, created:new Date().toISOString() };
+    }
+    runBtn.onclick=()=>{
+      const q=queryInput.value.trim(); if(!q) return logSearch("Enter a query.");
+      const plan=planResearch(q); logSearch(`Plan: ${plan.terms.length} terms · ${plan.queueSizeEstimate} items`);
+      logSearch(JSON.stringify(plan,null,2));
+      window._lastPlan = plan;
+    };
+    dlPlanBtn.onclick=()=>{
+      const plan = window._lastPlan || planResearch(queryInput.value.trim());
+      const blob=new Blob([JSON.stringify(plan,null,2)],{type:"application/json"});
+      const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=`search-plan-${Date.now()}.json`; a.click();
+      logSearch(`Downloaded plan.`);
+    }
+    async function loadSites(){
+      try{
+        const res = await fetch('sites.json'); if(!res.ok) throw new Error("sites.json not found");
+        const sites = await res.json();
+        sitesLog.textContent = sites.map(s=>`- ${s.key} · ${s.title} · ${s.url}`).join("\\n");
+      }catch(e){
+        sitesLog.textContent = "Sites index unavailable. Add a sites.json at repo root.";
+      }
+    }
+    loadSites();
+
+    // ---------- Octave Logs Viewer ----------
+    const manifestInput=document.getElementById('logsManifestUrl');
+    const loadLogsBtn=document.getElementById('loadLogs');
+    const clearLogsBtn=document.getElementById('clearLogs');
+    const logsView=document.getElementById('logsView');
+    const autoRefreshSel=document.getElementById('autoRefresh');
+    const logStats=document.getElementById('logStats');
+    let autoTimer=null;
+
+    async function fetchText(url){ const r=await fetch(url,{cache:'no-store'}); if(!r.ok) throw new Error(r.status); return await r.text(); }
+    async function refreshLogs(){
+      const url=manifestInput.value.trim(); if(!url){ logsView.textContent="No logs manifest set."; return; }
+      try{
+        const manifest = JSON.parse(await fetchText(url));
+        let totalLines=0; let out=[];
+        for(const item of manifest.files||[]){
+          const text = await fetchText(item.url);
+          const lines = text.split(/\\r?\\n/); totalLines += lines.length;
+          out.push(`# ${item.name}\\n` + text + "\\n");
         }
-        
-        function escapeHtml(text) {
-            const div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML;
-        }
-        
-        async function loadLogs() {
-            const refreshBtn = document.getElementById('refresh-btn');
-            refreshBtn.classList.add('refreshing');
-            clearError();
-            
-            try {
-                const response = await fetch('/api/logs');
-                const data = await response.json();
-                
-                if (data.success) {
-                    const logs = parseLogs(data.logs);
-                    renderLogs(logs);
-                    
-                    document.getElementById('total-lines').textContent = data.lines;
-                    document.getElementById('last-updated').textContent = formatTime(new Date());
-                } else {
-                    showError(data.error || 'Failed to load logs');
-                }
-            } catch (error) {
-                showError('Failed to connect to server: ' + error.message);
-            } finally {
-                refreshBtn.classList.remove('refreshing');
-            }
-        }
-        
-        async function clearLogs() {
-            if (!confirm('Are you sure you want to clear all logs?')) {
-                return;
-            }
-            
-            clearError();
-            
-            try {
-                const response = await fetch('/api/clear');
-                const data = await response.json();
-                
-                if (data.success) {
-                    document.getElementById('log-content').innerHTML = `
-                        <div class="empty-state">
-                            <div class="empty-state-icon">✅</div>
-                            <p>Logs cleared successfully</p>
-                        </div>
-                    `;
-                    document.getElementById('total-lines').textContent = '0';
-                } else {
-                    showError(data.error || 'Failed to clear logs');
-                }
-            } catch (error) {
-                showError('Failed to connect to server: ' + error.message);
-            }
-        }
-        
-        function toggleAutoRefresh() {
-            const checkbox = document.getElementById('auto-refresh');
-            
-            if (checkbox.checked) {
-                autoRefreshInterval = setInterval(loadLogs, 5000);
-            } else {
-                if (autoRefreshInterval) {
-                    clearInterval(autoRefreshInterval);
-                    autoRefreshInterval = null;
-                }
-            }
-        }
-        
-        // Load logs on page load
-        loadLogs();
-    </script>
+        logsView.textContent = out.join("\\n");
+        logStats.textContent = `Total Lines ${totalLines} · Last Updated ${new Date().toLocaleString()}`;
+      }catch(e){
+        logsView.textContent = `Error loading logs: ${e.message}`;
+      }
+    }
+    loadLogsBtn.onclick=refreshLogs;
+    clearLogsBtn.onclick=()=>{ logsView.textContent=""; logStats.textContent="Total Lines 0 · Last Updated Never"; };
+    autoRefreshSel.onchange=()=>{
+      if(autoTimer) clearInterval(autoTimer); autoTimer=null;
+      const v = autoRefreshSel.value;
+      if(v!=='off'){ autoTimer = setInterval(refreshLogs, parseInt(v,10)*1000); }
+    };
+  </script>
 </body>
 </html>
+EOF
