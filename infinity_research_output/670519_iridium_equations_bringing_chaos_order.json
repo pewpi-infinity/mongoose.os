@@ -1,0 +1,17 @@
+{
+  "header": {
+    "token_number": 670519,
+    "token_value": 1766,
+    "token_color": "\ud83e\ude75 BLUE",
+    "generated": "2025-12-08T01:07:38.007160",
+    "topic": "iridium equations bringing chaos order"
+  },
+  "articles": [
+    {
+      "source_id": 5,
+      "url": "https://arxiv.org/search/?query=iridium+equations+bringing+chaos+order",
+      "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out. (read timeout=10)",
+      "status": "ERROR"
+    }
+  ]
+}

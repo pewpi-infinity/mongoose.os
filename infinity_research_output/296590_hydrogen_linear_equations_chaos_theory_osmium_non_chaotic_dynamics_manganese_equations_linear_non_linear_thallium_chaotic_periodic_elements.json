@@ -1,0 +1,17 @@
+{
+  "header": {
+    "token_number": 296590,
+    "token_value": 1846,
+    "token_color": "\ud83e\ude75 BLUE",
+    "generated": "2025-12-08T01:04:06.338445",
+    "topic": "hydrogen linear equations chaos theory osmium non chaotic dynamics manganese equations linear non linear thallium chaotic periodic elements"
+  },
+  "articles": [
+    {
+      "source_id": 5,
+      "url": "https://arxiv.org/search/?query=hydrogen+linear+equations+chaos+theory+osmium+non+chaotic+dynamics+manganese+equations+linear+non+linear+thallium+chaotic+periodic+elements",
+      "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out. (read timeout=10)",
+      "status": "ERROR"
+    }
+  ]
+}
