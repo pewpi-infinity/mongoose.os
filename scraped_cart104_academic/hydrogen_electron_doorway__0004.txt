@@ -86,7 +86,7 @@ URL: https://pubmed.ncbi.nlm.nih.gov?q=hydrogen+electron+doorway
   
 
   
-    <meta name="ncbi_phid" content="80B40001A00BF4F50000369ABE937066.1.m_1" />
+    <meta name="ncbi_phid" content="B1320001B5835015000036E21793C14F.1.m_1" />
   
 
   
@@ -294,7 +294,7 @@ URL: https://pubmed.ncbi.nlm.nih.gov?q=hydrogen+electron+doorway
 
 
 
-<input type="hidden" name="csrfmiddlewaretoken" value="7Y5S8m03UEBoJTIe6GG8MJEvlMbFSa9Pc88aZ2016rKNwOAQC0LCAG56DTKDnyDa">
+<input type="hidden" name="csrfmiddlewaretoken" value="SER3TnGsb7ToTQlWZJwoEMtzDbX7UbQ12Gmt3NoecAckC1tXuxmnB4o3NXS4aPHd">
 <form action="/" method="get" autocomplete="off" class="usa-search usa-search-big search-form " id="search-form" role="search">
   <div class="inner-wrap">
     <a class="pubmed-logo"
@@ -604,35 +604,6 @@ URL: https://pubmed.ncbi.nlm.nih.gov?q=hydrogen+electron+doorway
             </li>
           
             <li class="full-docsum hide-on-mobile">
-              <a href="/41317732/"
-                 data-ga-category="result_click"
-                 data-ga-action="trending"
-                 data-ga-label="41317732">
-                Innate immune and metabolic signals induce mitochondria-dependent membrane lysis via mitoxyperiosis.
-              </a>
-              <div class="docsum-citation">
-  
-    
-    <span class="docsum-authors short-authors">Wang Y, et al.</span>
-    
-    <span class="docsum-journal-citation short-journal-citation">Cell. 2025.</span>
-  
-  
-  
-  <span class="citation-part">PMID: <span class="docsum-pmid">41317732</span></span>
-  
-  
-    
-  
-  
-  
-  
-  
-</div>
-
-            </li>
-          
-            <li class="full-docsum hide-on-mobile">
               <a href="/1301674/"
                  data-ga-category="result_click"
                  data-ga-action="trending"
@@ -655,6 +626,35 @@ URL: https://pubmed.ncbi.nlm.nih.gov?q=hydrogen+electron+doorway
   
   
   <span class="language spaced-citation-item citation-part">Italian.</span>
+  
+  
+</div>
+
+            </li>
+          
+            <li class="full-docsum hide-on-mobile">
+              <a href="/41344322/"
+                 data-ga-category="result_click"
+                 data-ga-action="trending"
+                 data-ga-label="41344322">
+                Excessive vigorous exercise impairs cognitive function through a muscle-derived mitochondrial pretender.
+              </a>
+              <div class="docsum-citation">
+  
+    
+    <span class="docsum-authors short-authors">Huang Y, et al.</span>
+    
+    <span class="docsum-journal-citation short-journal-citation">Cell Metab. 2025.</span>
+  
+  
+  
+  <span class="citation-part">PMID: <span class="docsum-pmid">41344322</span></span>
+  
+  
+    
+  
+  
+  
   
   
 </div>

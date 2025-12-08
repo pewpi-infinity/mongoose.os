@@ -86,7 +86,7 @@ URL: https://pubmed.ncbi.nlm.nih.gov?q=hydrogen+resonance
   
 
   
-    <meta name="ncbi_phid" content="14B900015F49A5750000275D2E189384.1.m_1" />
+    <meta name="ncbi_phid" content="B1320001B5835015000038E1A527D511.1.m_1" />
   
 
   
@@ -294,7 +294,7 @@ URL: https://pubmed.ncbi.nlm.nih.gov?q=hydrogen+resonance
 
 
 
-<input type="hidden" name="csrfmiddlewaretoken" value="BFWTQ2AWgdmKk8aqT4WMGbnnvizUpBu0Kxv2SGt4QEJoWwPT4VArsKXm0oayBV36">
+<input type="hidden" name="csrfmiddlewaretoken" value="vbkVTJetgLmUU8TaNKBFgcDukVXCRt6PuaFEOSvfBmeO2D6ltUTiiKA4KofIccvH">
 <form action="/" method="get" autocomplete="off" class="usa-search usa-search-big search-form " id="search-form" role="search">
   <div class="inner-wrap">
     <a class="pubmed-logo"
@@ -604,35 +604,6 @@ URL: https://pubmed.ncbi.nlm.nih.gov?q=hydrogen+resonance
             </li>
           
             <li class="full-docsum hide-on-mobile">
-              <a href="/41317732/"
-                 data-ga-category="result_click"
-                 data-ga-action="trending"
-                 data-ga-label="41317732">
-                Innate immune and metabolic signals induce mitochondria-dependent membrane lysis via mitoxyperiosis.
-              </a>
-              <div class="docsum-citation">
-  
-    
-    <span class="docsum-authors short-authors">Wang Y, et al.</span>
-    
-    <span class="docsum-journal-citation short-journal-citation">Cell. 2025.</span>
-  
-  
-  
-  <span class="citation-part">PMID: <span class="docsum-pmid">41317732</span></span>
-  
-  
-    
-  
-  
-  
-  
-  
-</div>
-
-            </li>
-          
-            <li class="full-docsum hide-on-mobile">
               <a href="/1301674/"
                  data-ga-category="result_click"
                  data-ga-action="trending"
@@ -655,6 +626,35 @@ URL: https://pubmed.ncbi.nlm.nih.gov?q=hydrogen+resonance
   
   
   <span class="language spaced-citation-item citation-part">Italian.</span>
+  
+  
+</div>
+
+            </li>
+          
+            <li class="full-docsum hide-on-mobile">
+              <a href="/41344322/"
+                 data-ga-category="result_click"
+                 data-ga-action="trending"
+                 data-ga-label="41344322">
+                Excessive vigorous exercise impairs cognitive function through a muscle-derived mitochondrial pretender.
+              </a>
+              <div class="docsum-citation">
+  
+    
+    <span class="docsum-authors short-authors">Huang Y, et al.</span>
+    
+    <span class="docsum-journal-citation short-journal-citation">Cell Metab. 2025.</span>
+  
+  
+  
+  <span class="citation-part">PMID: <span class="docsum-pmid">41344322</span></span>
+  
+  
+    
+  
+  
+  
   
   
 </div>
