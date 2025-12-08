@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 4027
-Token Value: 3074
-Token Color: GREEN
-Token Date & Time: 2025-12-07T18:43:48.179186 / 00:00
+Token #: 7217
+Token Value: 3022
+Token Color: YELLOW
+Token Date & Time: 2025-12-07T18:44:39.264926 / 00:00
 Topic: 201–300: Electromagnetism & circuits
 ============================================
 
@@ -296,43 +296,43 @@ Mathematical Model 40:
 
 
 ## Reference Index (40 Sources)
-1. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
+1. https://www.nature.com/search?q=201–300:+Electromagnetism+&+circuits
 2. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
-3. https://research.ibm.com/search?q=201–300:+Electromagnetism+&+circuits
-4. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
-5. https://research.ibm.com/search?q=201–300:+Electromagnetism+&+circuits
-6. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
+3. https://ocw.mit.edu/search/?q=201–300:+Electromagnetism+&+circuits
+4. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
+5. https://www.nature.com/search?q=201–300:+Electromagnetism+&+circuits
+6. https://research.ibm.com/search?q=201–300:+Electromagnetism+&+circuits
 7. https://www.nature.com/search?q=201–300:+Electromagnetism+&+circuits
-8. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
-9. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
+8. https://www.nature.com/search?q=201–300:+Electromagnetism+&+circuits
+9. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
 10. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
-11. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
-12. https://ocw.mit.edu/search/?q=201–300:+Electromagnetism+&+circuits
-13. https://ocw.mit.edu/search/?q=201–300:+Electromagnetism+&+circuits
-14. https://research.ibm.com/search?q=201–300:+Electromagnetism+&+circuits
-15. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
-16. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
-17. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
-18. https://ocw.mit.edu/search/?q=201–300:+Electromagnetism+&+circuits
-19. https://ocw.mit.edu/search/?q=201–300:+Electromagnetism+&+circuits
+11. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
+12. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
+13. https://www.nature.com/search?q=201–300:+Electromagnetism+&+circuits
+14. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
+15. https://research.ibm.com/search?q=201–300:+Electromagnetism+&+circuits
+16. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
+17. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
+18. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
+19. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
 20. https://research.ibm.com/search?q=201–300:+Electromagnetism+&+circuits
-21. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
-22. https://research.ibm.com/search?q=201–300:+Electromagnetism+&+circuits
-23. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
-24. https://ocw.mit.edu/search/?q=201–300:+Electromagnetism+&+circuits
-25. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
-26. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
-27. https://research.ibm.com/search?q=201–300:+Electromagnetism+&+circuits
-28. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
-29. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
-30. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
-31. https://ocw.mit.edu/search/?q=201–300:+Electromagnetism+&+circuits
-32. https://ocw.mit.edu/search/?q=201–300:+Electromagnetism+&+circuits
+21. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
+22. https://www.nature.com/search?q=201–300:+Electromagnetism+&+circuits
+23. https://ocw.mit.edu/search/?q=201–300:+Electromagnetism+&+circuits
+24. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
+25. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
+26. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
+27. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
+28. https://ocw.mit.edu/search/?q=201–300:+Electromagnetism+&+circuits
+29. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
+30. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
+31. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
+32. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
 33. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
 34. https://www.nature.com/search?q=201–300:+Electromagnetism+&+circuits
-35. https://ocw.mit.edu/search/?q=201–300:+Electromagnetism+&+circuits
-36. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
+35. https://www.nature.com/search?q=201–300:+Electromagnetism+&+circuits
+36. https://dash.harvard.edu/server/api/search?q=201–300:+Electromagnetism+&+circuits
 37. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
-38. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
+38. https://arxiv.org/search/?query=201–300:+Electromagnetism+&+circuits
 39. https://research.ibm.com/search?q=201–300:+Electromagnetism+&+circuits
-40. https://ui.adsabs.harvard.edu/v1/search/query?q=201–300:+Electromagnetism+&+circuits
+40. https://www.nature.com/search?q=201–300:+Electromagnetism+&+circuits

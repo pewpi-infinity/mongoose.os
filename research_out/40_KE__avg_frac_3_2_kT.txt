@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 1265
-Token Value: 4017
-Token Color: BLUE
-Token Date & Time: 2025-12-07T18:43:47.980443 / 00:00
+Token #: 3451
+Token Value: 3900
+Token Color: GREEN
+Token Date & Time: 2025-12-07T18:44:28.893236 / 00:00
 Topic: 40. KE_{avg} = \frac{3}{2} kT
 ============================================
 
@@ -297,42 +297,42 @@ Mathematical Model 40:
 
 ## Reference Index (40 Sources)
 1. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-2. https://ocw.mit.edu/search/?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-3. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
-4. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
-5. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+2. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+3. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+4. https://www.nature.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+5. https://dash.harvard.edu/server/api/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
 6. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
-7. https://www.nature.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+7. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
 8. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-9. https://www.nature.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-10. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
-11. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-12. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
-13. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-14. https://dash.harvard.edu/server/api/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+9. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+10. https://www.nature.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+11. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
+12. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+13. https://www.nature.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+14. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
 15. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-16. https://www.nature.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+16. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
 17. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-18. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-19. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-20. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+18. https://www.nature.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+19. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
+20. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
 21. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-22. https://dash.harvard.edu/server/api/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-23. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-24. https://www.nature.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-25. https://dash.harvard.edu/server/api/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-26. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+22. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
+23. https://ocw.mit.edu/search/?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+24. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+25. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+26. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
 27. https://ocw.mit.edu/search/?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-28. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-29. https://ocw.mit.edu/search/?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+28. https://www.nature.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+29. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
 30. https://ocw.mit.edu/search/?q=40.+KE_{avg}+=+\frac{3}{2}+kT
 31. https://dash.harvard.edu/server/api/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-32. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+32. https://ocw.mit.edu/search/?q=40.+KE_{avg}+=+\frac{3}{2}+kT
 33. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-34. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-35. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-36. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-37. https://dash.harvard.edu/server/api/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-38. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
+34. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+35. https://ocw.mit.edu/search/?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+36. https://ocw.mit.edu/search/?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+37. https://research.ibm.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+38. https://ui.adsabs.harvard.edu/v1/search/query?q=40.+KE_{avg}+=+\frac{3}{2}+kT
 39. https://www.nature.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
-40. https://www.nature.com/search?q=40.+KE_{avg}+=+\frac{3}{2}+kT
+40. https://arxiv.org/search/?query=40.+KE_{avg}+=+\frac{3}{2}+kT
