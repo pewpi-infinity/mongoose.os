@@ -1,0 +1,17 @@
+{
+  "header": {
+    "token_number": 614710,
+    "token_value": 1525,
+    "token_color": "\ud83d\udc9c PURPLE",
+    "generated": "2025-12-08T02:20:54.998678",
+    "topic": "cerium linear chaotic teaching plutonium equations linear systems polonium non linear teaching control"
+  },
+  "articles": [
+    {
+      "source_id": 2,
+      "url": "https://arxiv.org/search/?query=cerium+linear+chaotic+teaching+plutonium+equations+linear+systems+polonium+non+linear+teaching+control",
+      "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out. (read timeout=10)",
+      "status": "ERROR"
+    }
+  ]
+}
