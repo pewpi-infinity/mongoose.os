@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 2596
-Token Value: 2989
-Token Color: PURPLE
-Token Date & Time: 2025-12-07T18:22:48.658563 / 00:00
+Token #: 7545
+Token Value: 3507
+Token Color: RED
+Token Date & Time: 2025-12-07T18:35:56.632192 / 00:00
 Topic: 5. \nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0}
 ============================================
 
@@ -296,43 +296,43 @@ Mathematical Model 40:
 
 
 ## Reference Index (40 Sources)
-1. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-2. https://research.ibm.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-3. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-4. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-5. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-6. https://ui.adsabs.harvard.edu/v1/search/query?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-7. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-8. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+1. https://ui.adsabs.harvard.edu/v1/search/query?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+2. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+3. https://ui.adsabs.harvard.edu/v1/search/query?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+4. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+5. https://ocw.mit.edu/search/?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+6. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+7. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+8. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
 9. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-10. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-11. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-12. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-13. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-14. https://ocw.mit.edu/search/?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+10. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+11. https://ui.adsabs.harvard.edu/v1/search/query?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+12. https://ocw.mit.edu/search/?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+13. https://ocw.mit.edu/search/?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+14. https://research.ibm.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
 15. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
 16. https://research.ibm.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-17. https://ui.adsabs.harvard.edu/v1/search/query?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-18. https://research.ibm.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-19. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-20. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-21. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+17. https://ocw.mit.edu/search/?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+18. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+19. https://ocw.mit.edu/search/?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+20. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+21. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
 22. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-23. https://research.ibm.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-24. https://research.ibm.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-25. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-26. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-27. https://research.ibm.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-28. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-29. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-30. https://ocw.mit.edu/search/?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-31. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-32. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-33. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+23. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+24. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+25. https://research.ibm.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+26. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+27. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+28. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+29. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+30. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+31. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+32. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+33. https://ui.adsabs.harvard.edu/v1/search/query?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
 34. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
 35. https://ocw.mit.edu/search/?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-36. https://ui.adsabs.harvard.edu/v1/search/query?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-37. https://ui.adsabs.harvard.edu/v1/search/query?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-38. https://ui.adsabs.harvard.edu/v1/search/query?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
-39. https://research.ibm.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+36. https://ocw.mit.edu/search/?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+37. https://arxiv.org/search/?query=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+38. https://research.ibm.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
+39. https://www.nature.com/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
 40. https://dash.harvard.edu/server/api/search?q=5.+\nabla+\cdot+\vec{E}+=+\frac{\rho}{\varepsilon_0}
