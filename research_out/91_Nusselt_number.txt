@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 6310
-Token Value: 4952
-Token Color: PURPLE
-Token Date & Time: 2025-12-07T18:44:58.684963 / 00:00
+Token #: 3910
+Token Value: 5424
+Token Color: RED
+Token Date & Time: 2025-12-07T18:45:34.013864 / 00:00
 Topic: 91. Nusselt number
 ============================================
 
@@ -296,43 +296,43 @@ Mathematical Model 40:
 
 
 ## Reference Index (40 Sources)
-1. https://arxiv.org/search/?query=91.+Nusselt+number
-2. https://www.nature.com/search?q=91.+Nusselt+number
-3. https://research.ibm.com/search?q=91.+Nusselt+number
+1. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
+2. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
+3. https://www.nature.com/search?q=91.+Nusselt+number
 4. https://www.nature.com/search?q=91.+Nusselt+number
-5. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
-6. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
-7. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
-8. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
+5. https://arxiv.org/search/?query=91.+Nusselt+number
+6. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
+7. https://ocw.mit.edu/search/?q=91.+Nusselt+number
+8. https://arxiv.org/search/?query=91.+Nusselt+number
 9. https://arxiv.org/search/?query=91.+Nusselt+number
-10. https://research.ibm.com/search?q=91.+Nusselt+number
-11. https://ocw.mit.edu/search/?q=91.+Nusselt+number
-12. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
+10. https://ocw.mit.edu/search/?q=91.+Nusselt+number
+11. https://www.nature.com/search?q=91.+Nusselt+number
+12. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
 13. https://ocw.mit.edu/search/?q=91.+Nusselt+number
-14. https://ocw.mit.edu/search/?q=91.+Nusselt+number
-15. https://research.ibm.com/search?q=91.+Nusselt+number
-16. https://www.nature.com/search?q=91.+Nusselt+number
-17. https://ocw.mit.edu/search/?q=91.+Nusselt+number
+14. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
+15. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
+16. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
+17. https://arxiv.org/search/?query=91.+Nusselt+number
 18. https://research.ibm.com/search?q=91.+Nusselt+number
-19. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
+19. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
 20. https://research.ibm.com/search?q=91.+Nusselt+number
-21. https://research.ibm.com/search?q=91.+Nusselt+number
+21. https://www.nature.com/search?q=91.+Nusselt+number
 22. https://research.ibm.com/search?q=91.+Nusselt+number
-23. https://arxiv.org/search/?query=91.+Nusselt+number
-24. https://www.nature.com/search?q=91.+Nusselt+number
-25. https://www.nature.com/search?q=91.+Nusselt+number
-26. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
-27. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
+23. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
+24. https://research.ibm.com/search?q=91.+Nusselt+number
+25. https://arxiv.org/search/?query=91.+Nusselt+number
+26. https://ocw.mit.edu/search/?q=91.+Nusselt+number
+27. https://ocw.mit.edu/search/?q=91.+Nusselt+number
 28. https://ocw.mit.edu/search/?q=91.+Nusselt+number
-29. https://ocw.mit.edu/search/?q=91.+Nusselt+number
-30. https://www.nature.com/search?q=91.+Nusselt+number
-31. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
-32. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
-33. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
-34. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
-35. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
-36. https://ocw.mit.edu/search/?q=91.+Nusselt+number
-37. https://research.ibm.com/search?q=91.+Nusselt+number
-38. https://research.ibm.com/search?q=91.+Nusselt+number
+29. https://www.nature.com/search?q=91.+Nusselt+number
+30. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
+31. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number
+32. https://www.nature.com/search?q=91.+Nusselt+number
+33. https://research.ibm.com/search?q=91.+Nusselt+number
+34. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
+35. https://research.ibm.com/search?q=91.+Nusselt+number
+36. https://arxiv.org/search/?query=91.+Nusselt+number
+37. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
+38. https://www.nature.com/search?q=91.+Nusselt+number
 39. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
-40. https://ui.adsabs.harvard.edu/v1/search/query?q=91.+Nusselt+number
+40. https://dash.harvard.edu/server/api/search?q=91.+Nusselt+number

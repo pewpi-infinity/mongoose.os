@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 2393
-Token Value: 2965
+Token #: 8779
+Token Value: 5333
 Token Color: YELLOW
-Token Date & Time: 2025-12-07T18:45:02.673221 / 00:00
+Token Date & Time: 2025-12-07T18:45:37.658305 / 00:00
 Topic: 84. W = \vec{F} \cdot \vec{d}
 ============================================
 
@@ -296,43 +296,43 @@ Mathematical Model 40:
 
 
 ## Reference Index (40 Sources)
-1. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-2. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+1. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+2. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
 3. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
-4. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+4. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
 5. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
-6. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
-7. https://research.ibm.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-8. https://research.ibm.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-9. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-10. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-11. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+6. https://research.ibm.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+7. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+8. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
+9. https://www.nature.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+10. https://www.nature.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+11. https://www.nature.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
 12. https://www.nature.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
 13. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-14. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-15. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-16. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-17. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-18. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+14. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
+15. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+16. https://www.nature.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+17. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
+18. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
 19. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-20. https://www.nature.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-21. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
-22. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-23. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-24. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-25. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
-26. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-27. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
-28. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-29. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-30. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
-31. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
-32. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-33. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-34. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-35. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-36. https://www.nature.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+20. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
+21. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+22. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+23. https://research.ibm.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+24. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
+25. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+26. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
+27. https://research.ibm.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+28. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+29. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+30. https://www.nature.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+31. https://www.nature.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+32. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+33. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+34. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
+35. https://arxiv.org/search/?query=84.+W+=+\vec{F}+\cdot+\vec{d}
+36. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
 37. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-38. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-39. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
-40. https://research.ibm.com/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+38. https://dash.harvard.edu/server/api/search?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+39. https://ocw.mit.edu/search/?q=84.+W+=+\vec{F}+\cdot+\vec{d}
+40. https://ui.adsabs.harvard.edu/v1/search/query?q=84.+W+=+\vec{F}+\cdot+\vec{d}
