@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 8625
-Token Value: 2702
+Token #: 9176
+Token Value: 5579
 Token Color: BLUE
-Token Date & Time: 2025-12-07T18:43:17.363469 / 00:00
+Token Date & Time: 2025-12-07T18:43:48.032810 / 00:00
 Topic: 58. H = - \sum p_i \log p_i
 ============================================
 
@@ -296,43 +296,43 @@ Mathematical Model 40:
 
 
 ## Reference Index (40 Sources)
-1. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-2. https://arxiv.org/search/?query=58.+H+=+-+\sum+p_i+\log+p_i
-3. https://arxiv.org/search/?query=58.+H+=+-+\sum+p_i+\log+p_i
-4. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
+1. https://ocw.mit.edu/search/?q=58.+H+=+-+\sum+p_i+\log+p_i
+2. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+3. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+4. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
 5. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-6. https://ocw.mit.edu/search/?q=58.+H+=+-+\sum+p_i+\log+p_i
-7. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
-8. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-9. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-10. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
+6. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
+7. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+8. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+9. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+10. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
 11. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-12. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-13. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
-14. https://ocw.mit.edu/search/?q=58.+H+=+-+\sum+p_i+\log+p_i
-15. https://arxiv.org/search/?query=58.+H+=+-+\sum+p_i+\log+p_i
-16. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
-17. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
-18. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-19. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
-20. https://arxiv.org/search/?query=58.+H+=+-+\sum+p_i+\log+p_i
-21. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-22. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-23. https://arxiv.org/search/?query=58.+H+=+-+\sum+p_i+\log+p_i
-24. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-25. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-26. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
-27. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+12. https://ocw.mit.edu/search/?q=58.+H+=+-+\sum+p_i+\log+p_i
+13. https://ocw.mit.edu/search/?q=58.+H+=+-+\sum+p_i+\log+p_i
+14. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+15. https://ocw.mit.edu/search/?q=58.+H+=+-+\sum+p_i+\log+p_i
+16. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+17. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+18. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+19. https://arxiv.org/search/?query=58.+H+=+-+\sum+p_i+\log+p_i
+20. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
+21. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
+22. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+23. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+24. https://arxiv.org/search/?query=58.+H+=+-+\sum+p_i+\log+p_i
+25. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+26. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+27. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
 28. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
 29. https://ocw.mit.edu/search/?q=58.+H+=+-+\sum+p_i+\log+p_i
-30. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-31. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-32. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
+30. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+31. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+32. https://arxiv.org/search/?query=58.+H+=+-+\sum+p_i+\log+p_i
 33. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-34. https://arxiv.org/search/?query=58.+H+=+-+\sum+p_i+\log+p_i
-35. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
-36. https://ocw.mit.edu/search/?q=58.+H+=+-+\sum+p_i+\log+p_i
-37. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-38. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
-39. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
-40. https://arxiv.org/search/?query=58.+H+=+-+\sum+p_i+\log+p_i
+34. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i
+35. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+36. https://arxiv.org/search/?query=58.+H+=+-+\sum+p_i+\log+p_i
+37. https://research.ibm.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+38. https://dash.harvard.edu/server/api/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+39. https://www.nature.com/search?q=58.+H+=+-+\sum+p_i+\log+p_i
+40. https://ui.adsabs.harvard.edu/v1/search/query?q=58.+H+=+-+\sum+p_i+\log+p_i

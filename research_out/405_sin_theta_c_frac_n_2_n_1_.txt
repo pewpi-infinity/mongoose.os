@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 8086
-Token Value: 2574
+Token #: 4646
+Token Value: 4887
 Token Color: PURPLE
-Token Date & Time: 2025-12-07T18:43:20.445049 / 00:00
+Token Date & Time: 2025-12-07T18:43:48.227978 / 00:00
 Topic: 405. \sin \theta_c = \frac{n_2}{n_1}
 ============================================
 
@@ -297,42 +297,42 @@ Mathematical Model 40:
 
 ## Reference Index (40 Sources)
 1. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-2. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-3. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+2. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+3. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
 4. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-5. https://ui.adsabs.harvard.edu/v1/search/query?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+5. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
 6. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-7. https://ui.adsabs.harvard.edu/v1/search/query?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-8. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-9. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-10. https://ui.adsabs.harvard.edu/v1/search/query?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+7. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+8. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+9. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+10. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
 11. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
 12. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-13. https://arxiv.org/search/?query=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+13. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
 14. https://ui.adsabs.harvard.edu/v1/search/query?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-15. https://ui.adsabs.harvard.edu/v1/search/query?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-16. https://arxiv.org/search/?query=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-17. https://ui.adsabs.harvard.edu/v1/search/query?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-18. https://arxiv.org/search/?query=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-19. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+15. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+16. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+17. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+18. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+19. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
 20. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-21. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-22. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-23. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-24. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-25. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-26. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-27. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-28. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+21. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+22. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+23. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+24. https://arxiv.org/search/?query=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+25. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+26. https://ui.adsabs.harvard.edu/v1/search/query?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+27. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+28. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
 29. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-30. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+30. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
 31. https://ui.adsabs.harvard.edu/v1/search/query?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-32. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-33. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-34. https://ui.adsabs.harvard.edu/v1/search/query?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+32. https://ui.adsabs.harvard.edu/v1/search/query?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+33. https://arxiv.org/search/?query=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+34. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
 35. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-36. https://ui.adsabs.harvard.edu/v1/search/query?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-37. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-38. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+36. https://ocw.mit.edu/search/?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+37. https://dash.harvard.edu/server/api/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+38. https://arxiv.org/search/?query=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
 39. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
-40. https://research.ibm.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
+40. https://www.nature.com/search?q=405.+\sin+\theta_c+=+\frac{n_2}{n_1}
