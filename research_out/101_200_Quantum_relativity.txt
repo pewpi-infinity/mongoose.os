@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 9150
-Token Value: 2253
-Token Color: RED
-Token Date & Time: 2025-12-07T18:47:25.576474 / 00:00
+Token #: 1815
+Token Value: 4119
+Token Color: BLUE
+Token Date & Time: 2025-12-07T18:47:57.823404 / 00:00
 Topic: 101–200: Quantum & relativity
 ============================================
 
@@ -296,43 +296,43 @@ Mathematical Model 40:
 
 
 ## Reference Index (40 Sources)
-1. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
+1. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
 2. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
-3. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
-4. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
-5. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
-6. https://www.nature.com/search?q=101–200:+Quantum+&+relativity
-7. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
-8. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
-9. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
+3. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
+4. https://research.ibm.com/search?q=101–200:+Quantum+&+relativity
+5. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
+6. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
+7. https://www.nature.com/search?q=101–200:+Quantum+&+relativity
+8. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
+9. https://www.nature.com/search?q=101–200:+Quantum+&+relativity
 10. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
-11. https://research.ibm.com/search?q=101–200:+Quantum+&+relativity
-12. https://research.ibm.com/search?q=101–200:+Quantum+&+relativity
-13. https://research.ibm.com/search?q=101–200:+Quantum+&+relativity
-14. https://research.ibm.com/search?q=101–200:+Quantum+&+relativity
-15. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
-16. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
-17. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
-18. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
-19. https://research.ibm.com/search?q=101–200:+Quantum+&+relativity
-20. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
-21. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
+11. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
+12. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
+13. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
+14. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
+15. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
+16. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
+17. https://www.nature.com/search?q=101–200:+Quantum+&+relativity
+18. https://research.ibm.com/search?q=101–200:+Quantum+&+relativity
+19. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
+20. https://www.nature.com/search?q=101–200:+Quantum+&+relativity
+21. https://www.nature.com/search?q=101–200:+Quantum+&+relativity
 22. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
-23. https://www.nature.com/search?q=101–200:+Quantum+&+relativity
-24. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
+23. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
+24. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
 25. https://research.ibm.com/search?q=101–200:+Quantum+&+relativity
-26. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
-27. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
-28. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
-29. https://research.ibm.com/search?q=101–200:+Quantum+&+relativity
-30. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
-31. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
-32. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
-33. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
-34. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
-35. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
-36. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
-37. https://research.ibm.com/search?q=101–200:+Quantum+&+relativity
-38. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
-39. https://ui.adsabs.harvard.edu/v1/search/query?q=101–200:+Quantum+&+relativity
-40. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
+26. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
+27. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
+28. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
+29. https://www.nature.com/search?q=101–200:+Quantum+&+relativity
+30. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
+31. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
+32. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
+33. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
+34. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
+35. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
+36. https://ocw.mit.edu/search/?q=101–200:+Quantum+&+relativity
+37. https://www.nature.com/search?q=101–200:+Quantum+&+relativity
+38. https://dash.harvard.edu/server/api/search?q=101–200:+Quantum+&+relativity
+39. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity
+40. https://arxiv.org/search/?query=101–200:+Quantum+&+relativity

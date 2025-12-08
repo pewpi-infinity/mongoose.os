@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 1172
-Token Value: 3948
-Token Color: RED
-Token Date & Time: 2025-12-07T18:47:25.616726 / 00:00
+Token #: 4315
+Token Value: 4993
+Token Color: YELLOW
+Token Date & Time: 2025-12-07T18:48:01.900008 / 00:00
 Topic: 203. Z = R + j(X_L - X_C)
 ============================================
 
@@ -296,43 +296,43 @@ Mathematical Model 40:
 
 
 ## Reference Index (40 Sources)
-1. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+1. https://arxiv.org/search/?query=203.+Z+=+R+++j(X_L+-+X_C)
 2. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
-3. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
-4. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-5. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
-6. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+3. https://research.ibm.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+4. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
+5. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+6. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
 7. https://arxiv.org/search/?query=203.+Z+=+R+++j(X_L+-+X_C)
-8. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
-9. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
-10. https://research.ibm.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+8. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+9. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
+10. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
 11. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
-12. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+12. https://arxiv.org/search/?query=203.+Z+=+R+++j(X_L+-+X_C)
 13. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
 14. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-15. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-16. https://arxiv.org/search/?query=203.+Z+=+R+++j(X_L+-+X_C)
+15. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+16. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
 17. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
 18. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
 19. https://research.ibm.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-20. https://arxiv.org/search/?query=203.+Z+=+R+++j(X_L+-+X_C)
-21. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-22. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-23. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-24. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-25. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
-26. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
-27. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
-28. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
-29. https://arxiv.org/search/?query=203.+Z+=+R+++j(X_L+-+X_C)
-30. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-31. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-32. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
-33. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-34. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-35. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
-36. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
-37. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
-38. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
+20. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
+21. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+22. https://research.ibm.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+23. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
+24. https://research.ibm.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+25. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+26. https://dash.harvard.edu/server/api/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+27. https://arxiv.org/search/?query=203.+Z+=+R+++j(X_L+-+X_C)
+28. https://research.ibm.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+29. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
+30. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+31. https://ocw.mit.edu/search/?q=203.+Z+=+R+++j(X_L+-+X_C)
+32. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
+33. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
+34. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
+35. https://research.ibm.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+36. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)
+37. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
+38. https://arxiv.org/search/?query=203.+Z+=+R+++j(X_L+-+X_C)
 39. https://ui.adsabs.harvard.edu/v1/search/query?q=203.+Z+=+R+++j(X_L+-+X_C)
 40. https://www.nature.com/search?q=203.+Z+=+R+++j(X_L+-+X_C)

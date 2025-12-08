@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 3957
-Token Value: 5765
+Token #: 9358
+Token Value: 3590
 Token Color: YELLOW
-Token Date & Time: 2025-12-07T18:47:25.624333 / 00:00
+Token Date & Time: 2025-12-07T18:48:01.920581 / 00:00
 Topic: 206. f_0 = \frac{1}{2\pi \sqrt{LC}}
 ============================================
 
@@ -296,43 +296,43 @@ Mathematical Model 40:
 
 
 ## Reference Index (40 Sources)
-1. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-2. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-3. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-4. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-5. https://research.ibm.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+1. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+2. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+3. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+4. https://research.ibm.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+5. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
 6. https://research.ibm.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-7. https://arxiv.org/search/?query=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-8. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-9. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-10. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-11. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-12. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+7. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+8. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+9. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+10. https://www.nature.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+11. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+12. https://www.nature.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
 13. https://research.ibm.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-14. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-15. https://www.nature.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-16. https://arxiv.org/search/?query=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-17. https://arxiv.org/search/?query=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-18. https://www.nature.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-19. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-20. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-21. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-22. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-23. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+14. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+15. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+16. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+17. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+18. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+19. https://arxiv.org/search/?query=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+20. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+21. https://arxiv.org/search/?query=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+22. https://arxiv.org/search/?query=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+23. https://www.nature.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
 24. https://arxiv.org/search/?query=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-25. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-26. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+25. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+26. https://research.ibm.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
 27. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
 28. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-29. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-30. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+29. https://www.nature.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+30. https://www.nature.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
 31. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-32. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-33. https://www.nature.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-34. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-35. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-36. https://arxiv.org/search/?query=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-37. https://arxiv.org/search/?query=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-38. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+32. https://research.ibm.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+33. https://arxiv.org/search/?query=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+34. https://research.ibm.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+35. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+36. https://ocw.mit.edu/search/?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+37. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+38. https://www.nature.com/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
 39. https://ui.adsabs.harvard.edu/v1/search/query?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
-40. https://dash.harvard.edu/server/api/search?q=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}
+40. https://arxiv.org/search/?query=206.+f_0+=+\frac{1}{2\pi+\sqrt{LC}}

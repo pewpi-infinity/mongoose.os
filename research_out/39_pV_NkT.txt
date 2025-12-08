@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 3014
-Token Value: 2817
-Token Color: RED
-Token Date & Time: 2025-12-07T18:47:24.795171 / 00:00
+Token #: 9932
+Token Value: 4525
+Token Color: PURPLE
+Token Date & Time: 2025-12-07T18:47:54.984374 / 00:00
 Topic: 39. pV = NkT
 ============================================
 
@@ -296,43 +296,43 @@ Mathematical Model 40:
 
 
 ## Reference Index (40 Sources)
-1. https://arxiv.org/search/?query=39.+pV+=+NkT
+1. https://www.nature.com/search?q=39.+pV+=+NkT
 2. https://www.nature.com/search?q=39.+pV+=+NkT
 3. https://ocw.mit.edu/search/?q=39.+pV+=+NkT
-4. https://research.ibm.com/search?q=39.+pV+=+NkT
-5. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
-6. https://ocw.mit.edu/search/?q=39.+pV+=+NkT
-7. https://ocw.mit.edu/search/?q=39.+pV+=+NkT
-8. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
-9. https://arxiv.org/search/?query=39.+pV+=+NkT
-10. https://ui.adsabs.harvard.edu/v1/search/query?q=39.+pV+=+NkT
+4. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
+5. https://www.nature.com/search?q=39.+pV+=+NkT
+6. https://arxiv.org/search/?query=39.+pV+=+NkT
+7. https://research.ibm.com/search?q=39.+pV+=+NkT
+8. https://ocw.mit.edu/search/?q=39.+pV+=+NkT
+9. https://ui.adsabs.harvard.edu/v1/search/query?q=39.+pV+=+NkT
+10. https://www.nature.com/search?q=39.+pV+=+NkT
 11. https://www.nature.com/search?q=39.+pV+=+NkT
-12. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
-13. https://research.ibm.com/search?q=39.+pV+=+NkT
+12. https://arxiv.org/search/?query=39.+pV+=+NkT
+13. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
 14. https://www.nature.com/search?q=39.+pV+=+NkT
-15. https://www.nature.com/search?q=39.+pV+=+NkT
-16. https://ui.adsabs.harvard.edu/v1/search/query?q=39.+pV+=+NkT
-17. https://ocw.mit.edu/search/?q=39.+pV+=+NkT
-18. https://research.ibm.com/search?q=39.+pV+=+NkT
-19. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
-20. https://arxiv.org/search/?query=39.+pV+=+NkT
-21. https://arxiv.org/search/?query=39.+pV+=+NkT
+15. https://ui.adsabs.harvard.edu/v1/search/query?q=39.+pV+=+NkT
+16. https://www.nature.com/search?q=39.+pV+=+NkT
+17. https://arxiv.org/search/?query=39.+pV+=+NkT
+18. https://ocw.mit.edu/search/?q=39.+pV+=+NkT
+19. https://research.ibm.com/search?q=39.+pV+=+NkT
+20. https://research.ibm.com/search?q=39.+pV+=+NkT
+21. https://ui.adsabs.harvard.edu/v1/search/query?q=39.+pV+=+NkT
 22. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
-23. https://research.ibm.com/search?q=39.+pV+=+NkT
-24. https://ocw.mit.edu/search/?q=39.+pV+=+NkT
-25. https://research.ibm.com/search?q=39.+pV+=+NkT
-26. https://ocw.mit.edu/search/?q=39.+pV+=+NkT
-27. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
-28. https://arxiv.org/search/?query=39.+pV+=+NkT
-29. https://research.ibm.com/search?q=39.+pV+=+NkT
-30. https://research.ibm.com/search?q=39.+pV+=+NkT
-31. https://arxiv.org/search/?query=39.+pV+=+NkT
-32. https://research.ibm.com/search?q=39.+pV+=+NkT
+23. https://arxiv.org/search/?query=39.+pV+=+NkT
+24. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
+25. https://www.nature.com/search?q=39.+pV+=+NkT
+26. https://www.nature.com/search?q=39.+pV+=+NkT
+27. https://ocw.mit.edu/search/?q=39.+pV+=+NkT
+28. https://ui.adsabs.harvard.edu/v1/search/query?q=39.+pV+=+NkT
+29. https://ui.adsabs.harvard.edu/v1/search/query?q=39.+pV+=+NkT
+30. https://www.nature.com/search?q=39.+pV+=+NkT
+31. https://research.ibm.com/search?q=39.+pV+=+NkT
+32. https://www.nature.com/search?q=39.+pV+=+NkT
 33. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
-34. https://arxiv.org/search/?query=39.+pV+=+NkT
+34. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
 35. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
-36. https://dash.harvard.edu/server/api/search?q=39.+pV+=+NkT
+36. https://www.nature.com/search?q=39.+pV+=+NkT
 37. https://www.nature.com/search?q=39.+pV+=+NkT
-38. https://research.ibm.com/search?q=39.+pV+=+NkT
-39. https://ocw.mit.edu/search/?q=39.+pV+=+NkT
-40. https://arxiv.org/search/?query=39.+pV+=+NkT
+38. https://ocw.mit.edu/search/?q=39.+pV+=+NkT
+39. https://ui.adsabs.harvard.edu/v1/search/query?q=39.+pV+=+NkT
+40. https://www.nature.com/search?q=39.+pV+=+NkT
