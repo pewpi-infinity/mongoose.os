@@ -1,0 +1,17 @@
+{
+  "header": {
+    "token_number": 360350,
+    "token_value": 4428,
+    "token_color": "\ud83e\ude75 BLUE",
+    "generated": "2025-12-08T01:49:46.246102",
+    "topic": "tungsten chaotic control periodic neodymium equations periodic table"
+  },
+  "articles": [
+    {
+      "source_id": 7,
+      "url": "https://arxiv.org/search/?query=tungsten+chaotic+control+periodic+neodymium+equations+periodic+table",
+      "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out. (read timeout=10)",
+      "status": "ERROR"
+    }
+  ]
+}
