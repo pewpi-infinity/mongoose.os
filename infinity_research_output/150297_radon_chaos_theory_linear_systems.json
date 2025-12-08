@@ -1,0 +1,17 @@
+{
+  "header": {
+    "token_number": 150297,
+    "token_value": 4064,
+    "token_color": "\ud83d\udc9b YELLOW",
+    "generated": "2025-12-08T02:49:17.192410",
+    "topic": "radon chaos theory linear systems"
+  },
+  "articles": [
+    {
+      "source_id": 2,
+      "url": "https://arxiv.org/search/?query=radon+chaos+theory+linear+systems",
+      "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out. (read timeout=10)",
+      "status": "ERROR"
+    }
+  ]
+}
