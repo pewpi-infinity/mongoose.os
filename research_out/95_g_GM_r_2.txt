@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 9119
-Token Value: 4936
-Token Color: RED
-Token Date & Time: 2025-12-07T18:46:47.171415 / 00:00
+Token #: 5299
+Token Value: 5657
+Token Color: YELLOW
+Token Date & Time: 2025-12-07T18:47:25.351311 / 00:00
 Topic: 95. g = GM/r^2
 ============================================
 
@@ -297,42 +297,42 @@ Mathematical Model 40:
 
 ## Reference Index (40 Sources)
 1. https://ocw.mit.edu/search/?q=95.+g+=+GM/r^2
-2. https://www.nature.com/search?q=95.+g+=+GM/r^2
+2. https://ui.adsabs.harvard.edu/v1/search/query?q=95.+g+=+GM/r^2
 3. https://www.nature.com/search?q=95.+g+=+GM/r^2
-4. https://www.nature.com/search?q=95.+g+=+GM/r^2
-5. https://ui.adsabs.harvard.edu/v1/search/query?q=95.+g+=+GM/r^2
+4. https://research.ibm.com/search?q=95.+g+=+GM/r^2
+5. https://arxiv.org/search/?query=95.+g+=+GM/r^2
 6. https://ocw.mit.edu/search/?q=95.+g+=+GM/r^2
 7. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
-8. https://arxiv.org/search/?query=95.+g+=+GM/r^2
-9. https://ocw.mit.edu/search/?q=95.+g+=+GM/r^2
-10. https://www.nature.com/search?q=95.+g+=+GM/r^2
-11. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
-12. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
-13. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
-14. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
-15. https://arxiv.org/search/?query=95.+g+=+GM/r^2
+8. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
+9. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
+10. https://arxiv.org/search/?query=95.+g+=+GM/r^2
+11. https://arxiv.org/search/?query=95.+g+=+GM/r^2
+12. https://research.ibm.com/search?q=95.+g+=+GM/r^2
+13. https://research.ibm.com/search?q=95.+g+=+GM/r^2
+14. https://arxiv.org/search/?query=95.+g+=+GM/r^2
+15. https://ocw.mit.edu/search/?q=95.+g+=+GM/r^2
 16. https://www.nature.com/search?q=95.+g+=+GM/r^2
-17. https://www.nature.com/search?q=95.+g+=+GM/r^2
-18. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
-19. https://ocw.mit.edu/search/?q=95.+g+=+GM/r^2
-20. https://arxiv.org/search/?query=95.+g+=+GM/r^2
-21. https://research.ibm.com/search?q=95.+g+=+GM/r^2
+17. https://research.ibm.com/search?q=95.+g+=+GM/r^2
+18. https://ui.adsabs.harvard.edu/v1/search/query?q=95.+g+=+GM/r^2
+19. https://research.ibm.com/search?q=95.+g+=+GM/r^2
+20. https://research.ibm.com/search?q=95.+g+=+GM/r^2
+21. https://ui.adsabs.harvard.edu/v1/search/query?q=95.+g+=+GM/r^2
 22. https://research.ibm.com/search?q=95.+g+=+GM/r^2
-23. https://arxiv.org/search/?query=95.+g+=+GM/r^2
-24. https://arxiv.org/search/?query=95.+g+=+GM/r^2
-25. https://research.ibm.com/search?q=95.+g+=+GM/r^2
+23. https://research.ibm.com/search?q=95.+g+=+GM/r^2
+24. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
+25. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
 26. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
 27. https://www.nature.com/search?q=95.+g+=+GM/r^2
-28. https://www.nature.com/search?q=95.+g+=+GM/r^2
+28. https://arxiv.org/search/?query=95.+g+=+GM/r^2
 29. https://arxiv.org/search/?query=95.+g+=+GM/r^2
-30. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
-31. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
-32. https://www.nature.com/search?q=95.+g+=+GM/r^2
-33. https://ui.adsabs.harvard.edu/v1/search/query?q=95.+g+=+GM/r^2
+30. https://research.ibm.com/search?q=95.+g+=+GM/r^2
+31. https://ui.adsabs.harvard.edu/v1/search/query?q=95.+g+=+GM/r^2
+32. https://arxiv.org/search/?query=95.+g+=+GM/r^2
+33. https://ocw.mit.edu/search/?q=95.+g+=+GM/r^2
 34. https://www.nature.com/search?q=95.+g+=+GM/r^2
-35. https://arxiv.org/search/?query=95.+g+=+GM/r^2
-36. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
-37. https://www.nature.com/search?q=95.+g+=+GM/r^2
-38. https://arxiv.org/search/?query=95.+g+=+GM/r^2
-39. https://www.nature.com/search?q=95.+g+=+GM/r^2
-40. https://arxiv.org/search/?query=95.+g+=+GM/r^2
+35. https://dash.harvard.edu/server/api/search?q=95.+g+=+GM/r^2
+36. https://ui.adsabs.harvard.edu/v1/search/query?q=95.+g+=+GM/r^2
+37. https://arxiv.org/search/?query=95.+g+=+GM/r^2
+38. https://ui.adsabs.harvard.edu/v1/search/query?q=95.+g+=+GM/r^2
+39. https://arxiv.org/search/?query=95.+g+=+GM/r^2
+40. https://ui.adsabs.harvard.edu/v1/search/query?q=95.+g+=+GM/r^2

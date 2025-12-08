@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 3882
-Token Value: 3219
-Token Color: GREEN
-Token Date & Time: 2025-12-07T18:46:47.203586 / 00:00
+Token #: 3699
+Token Value: 3562
+Token Color: RED
+Token Date & Time: 2025-12-07T18:47:25.586801 / 00:00
 Topic: 103. E^2 = p^2 c^2 + m^2 c^4
 ============================================
 
@@ -296,43 +296,43 @@ Mathematical Model 40:
 
 
 ## Reference Index (40 Sources)
-1. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-2. https://ui.adsabs.harvard.edu/v1/search/query?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-3. https://ui.adsabs.harvard.edu/v1/search/query?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-4. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-5. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-6. https://dash.harvard.edu/server/api/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-7. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+1. https://arxiv.org/search/?query=103.+E^2+=+p^2+c^2+++m^2+c^4
+2. https://research.ibm.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+3. https://research.ibm.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+4. https://arxiv.org/search/?query=103.+E^2+=+p^2+c^2+++m^2+c^4
+5. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+6. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+7. https://dash.harvard.edu/server/api/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 8. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-9. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+9. https://dash.harvard.edu/server/api/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 10. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 11. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 12. https://research.ibm.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-13. https://research.ibm.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-14. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-15. https://ui.adsabs.harvard.edu/v1/search/query?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+13. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+14. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+15. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 16. https://ui.adsabs.harvard.edu/v1/search/query?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-17. https://research.ibm.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+17. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 18. https://research.ibm.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 19. https://ui.adsabs.harvard.edu/v1/search/query?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 20. https://dash.harvard.edu/server/api/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-21. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-22. https://dash.harvard.edu/server/api/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-23. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-24. https://arxiv.org/search/?query=103.+E^2+=+p^2+c^2+++m^2+c^4
-25. https://ui.adsabs.harvard.edu/v1/search/query?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-26. https://ui.adsabs.harvard.edu/v1/search/query?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+21. https://ui.adsabs.harvard.edu/v1/search/query?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+22. https://arxiv.org/search/?query=103.+E^2+=+p^2+c^2+++m^2+c^4
+23. https://research.ibm.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+24. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+25. https://arxiv.org/search/?query=103.+E^2+=+p^2+c^2+++m^2+c^4
+26. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 27. https://dash.harvard.edu/server/api/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-28. https://arxiv.org/search/?query=103.+E^2+=+p^2+c^2+++m^2+c^4
-29. https://arxiv.org/search/?query=103.+E^2+=+p^2+c^2+++m^2+c^4
-30. https://arxiv.org/search/?query=103.+E^2+=+p^2+c^2+++m^2+c^4
+28. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+29. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+30. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 31. https://arxiv.org/search/?query=103.+E^2+=+p^2+c^2+++m^2+c^4
-32. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-33. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-34. https://ui.adsabs.harvard.edu/v1/search/query?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+32. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+33. https://ui.adsabs.harvard.edu/v1/search/query?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+34. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 35. https://research.ibm.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-36. https://research.ibm.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-37. https://arxiv.org/search/?query=103.+E^2+=+p^2+c^2+++m^2+c^4
-38. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+36. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+37. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
+38. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
 39. https://ocw.mit.edu/search/?q=103.+E^2+=+p^2+c^2+++m^2+c^4
-40. https://arxiv.org/search/?query=103.+E^2+=+p^2+c^2+++m^2+c^4
+40. https://www.nature.com/search?q=103.+E^2+=+p^2+c^2+++m^2+c^4
