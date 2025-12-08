@@ -1,0 +1,17 @@
+{
+  "header": {
+    "token_number": 709696,
+    "token_value": 4672,
+    "token_color": "\ud83d\udc9a GREEN",
+    "generated": "2025-12-08T01:22:01.102703",
+    "topic": "technetium periodic table order from chaos antimony linear chaos emergence"
+  },
+  "articles": [
+    {
+      "source_id": 5,
+      "url": "https://arxiv.org/search/?query=technetium+periodic+table+order+from+chaos+antimony+linear+chaos+emergence",
+      "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out. (read timeout=10)",
+      "status": "ERROR"
+    }
+  ]
+}
