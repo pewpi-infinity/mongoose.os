@@ -1,0 +1,17 @@
+{
+  "header": {
+    "token_number": 136196,
+    "token_value": 2416,
+    "token_color": "\ud83d\udc9c PURPLE",
+    "generated": "2025-12-08T02:39:55.665447",
+    "topic": "magnesium chaos theory teaching elements krypton order from chaos periodic neptunium teaching order from chaos phosphorus linear non chaotic control"
+  },
+  "articles": [
+    {
+      "source_id": 3,
+      "url": "https://arxiv.org/search/?query=magnesium+chaos+theory+teaching+elements+krypton+order+from+chaos+periodic+neptunium+teaching+order+from+chaos+phosphorus+linear+non+chaotic+control",
+      "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out. (read timeout=10)",
+      "status": "ERROR"
+    }
+  ]
+}
