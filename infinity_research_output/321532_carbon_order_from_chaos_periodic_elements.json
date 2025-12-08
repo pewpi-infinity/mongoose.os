@@ -1,0 +1,17 @@
+{
+  "header": {
+    "token_number": 321532,
+    "token_value": 4000,
+    "token_color": "\ud83d\udc9b YELLOW",
+    "generated": "2025-12-08T01:11:04.886824",
+    "topic": "carbon order from chaos periodic elements"
+  },
+  "articles": [
+    {
+      "source_id": 3,
+      "url": "https://arxiv.org/search/?query=carbon+order+from+chaos+periodic+elements",
+      "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out. (read timeout=10)",
+      "status": "ERROR"
+    }
+  ]
+}
