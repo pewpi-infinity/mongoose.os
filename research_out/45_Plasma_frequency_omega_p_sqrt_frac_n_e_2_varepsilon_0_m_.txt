@@ -1,10 +1,10 @@
 
 ∞ Infinity Research Paper ∞
 ============================================
-Token #: 2568
-Token Value: 5783
-Token Color: RED
-Token Date & Time: 2025-12-07T18:44:17.672712 / 00:00
+Token #: 8484
+Token Value: 2604
+Token Color: GREEN
+Token Date & Time: 2025-12-07T18:44:58.364968 / 00:00
 Topic: 45. Plasma frequency: \( \omega_p = \sqrt{\frac{n e^2}{\varepsilon_0 m}} \)
 ============================================
 
@@ -296,43 +296,43 @@ Mathematical Model 40:
 
 
 ## Reference Index (40 Sources)
-1. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-2. https://arxiv.org/search/?query=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-3. https://ui.adsabs.harvard.edu/v1/search/query?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-4. https://arxiv.org/search/?query=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+1. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+2. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+3. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+4. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
 5. https://arxiv.org/search/?query=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
 6. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-7. https://arxiv.org/search/?query=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+7. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
 8. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-9. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-10. https://arxiv.org/search/?query=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-11. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-12. https://ui.adsabs.harvard.edu/v1/search/query?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-13. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-14. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-15. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-16. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+9. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+10. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+11. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+12. https://arxiv.org/search/?query=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+13. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+14. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+15. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+16. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
 17. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-18. https://ui.adsabs.harvard.edu/v1/search/query?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-19. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-20. https://arxiv.org/search/?query=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-21. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-22. https://ui.adsabs.harvard.edu/v1/search/query?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-23. https://arxiv.org/search/?query=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-24. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+18. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+19. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+20. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+21. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+22. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+23. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+24. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
 25. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-26. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-27. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+26. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+27. https://ui.adsabs.harvard.edu/v1/search/query?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
 28. https://ui.adsabs.harvard.edu/v1/search/query?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-29. https://ocw.mit.edu/search/?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+29. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
 30. https://arxiv.org/search/?query=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
 31. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-32. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-33. https://arxiv.org/search/?query=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-34. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+32. https://ui.adsabs.harvard.edu/v1/search/query?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+33. https://ui.adsabs.harvard.edu/v1/search/query?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+34. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
 35. https://arxiv.org/search/?query=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-36. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-37. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-38. https://www.nature.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
-39. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+36. https://dash.harvard.edu/server/api/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+37. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+38. https://ui.adsabs.harvard.edu/v1/search/query?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
+39. https://ui.adsabs.harvard.edu/v1/search/query?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
 40. https://research.ibm.com/search?q=45.+Plasma+frequency:+\(+\omega_p+=+\sqrt{\frac{n+e^2}{\varepsilon_0+m}}+\)
