@@ -1,0 +1,17 @@
+{
+  "header": {
+    "token_number": 125098,
+    "token_value": 1287,
+    "token_color": "\ud83e\ude75 BLUE",
+    "generated": "2025-12-08T02:22:13.363383",
+    "topic": "helium non chaotic systems order from chaos boron non linear equations chaos control holmium linear periodic table"
+  },
+  "articles": [
+    {
+      "source_id": 1,
+      "url": "https://arxiv.org/search/?query=helium+non+chaotic+systems+order+from+chaos+boron+non+linear+equations+chaos+control+holmium+linear+periodic+table",
+      "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out. (read timeout=10)",
+      "status": "ERROR"
+    }
+  ]
+}

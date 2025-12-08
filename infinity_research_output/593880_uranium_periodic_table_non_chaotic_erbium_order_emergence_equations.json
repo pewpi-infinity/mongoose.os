@@ -1,0 +1,17 @@
+{
+  "header": {
+    "token_number": 593880,
+    "token_value": 1944,
+    "token_color": "\ud83d\udc9c PURPLE",
+    "generated": "2025-12-08T02:24:24.236213",
+    "topic": "uranium periodic table non chaotic erbium order emergence equations"
+  },
+  "articles": [
+    {
+      "source_id": 5,
+      "url": "https://arxiv.org/search/?query=uranium+periodic+table+non+chaotic+erbium+order+emergence+equations",
+      "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out. (read timeout=10)",
+      "status": "ERROR"
+    }
+  ]
+}

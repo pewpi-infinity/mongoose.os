@@ -350,7 +350,7 @@ URL: https://home.cern?q=singularity
                                                                                                                                                                       
                                                                                       <div class="views-element-container form-group">
 
-<div class="view view-cern-news-menu-featured view-id-cern_news_menu_featured view-display-id-block_1 js-view-dom-id-413a499ee9fadb2cb28aaf65dd0f14fa3afd653bc7fdaab0e5d8fa5e7d7fb352 cern-view-display-block cern-view-display-block_1 clearfix">
+<div class="view view-cern-news-menu-featured view-id-cern_news_menu_featured view-display-id-block_1 js-view-dom-id-83d6537f5a52ab80f09f853ba56af82686e7e6706fa2aa8fa739388300819906 cern-view-display-block cern-view-display-block_1 clearfix">
   
       
 
@@ -1015,7 +1015,7 @@ URL: https://home.cern?q=singularity
                                                                                                                                                                       
                                                                                       <div class="views-element-container form-group">
 
-<div class="view view-resource-menu-content view-id-resource_menu_content view-display-id-block_1 js-view-dom-id-a9612bd6051d054a019aa9f1ce3386a8d62c8726ae4cbfffa03e4aa27364b474 cern-view-display-block cern-view-display-block_1 clearfix">
+<div class="view view-resource-menu-content view-id-resource_menu_content view-display-id-block_1 js-view-dom-id-49a969676eea3ed0aae0a4b694812052573e084c0886bc367f618f0fe22f39b1 cern-view-display-block cern-view-display-block_1 clearfix">
   
           <h1 class="mb-3 mt-3 text-center">Featured resources</h1>
       
@@ -1704,7 +1704,7 @@ the boundaries of nuclear physics</p>
 						
 						<div class="views-element-container form-group">
 
-<div class="horizontal-boxes view view-news-microviews view-id-news_microviews view-display-id-block_4 js-view-dom-id-74fa176accd5b8919b61e86c969470f55dd3df1b336c9ec6de3ae193f18c4b50 cern-view-display-block cern-view-display-block_4 clearfix">
+<div class="horizontal-boxes view view-news-microviews view-id-news_microviews view-display-id-block_4 js-view-dom-id-8394f01c9d10a7bab20e82c3fd07fca38b6e5fbece92ec3a9f5718db48fa4bb4 cern-view-display-block cern-view-display-block_4 clearfix">
   
       
 
@@ -2775,9 +2775,9 @@ come to <span style="background-color:#2980b9;">CERN</span> …</span></span></s
 					<div class="box-effects-wrapper ">
 						
 						
-						<div class="views-element-container form-group">
+						<div class="views-element-container form-group"><div class="views-element-container form-group">
 
-<div class="events-collision view view-events-microviews view-id-events_microviews view-display-id-upcoming_events_collision js-view-dom-id-2314ed3722d151fa08175eef14759a3698a88c5a9a86b549131d569283630544 cern-view-display-block cern-view-display-upcoming_events_collision clearfix">
+<div class="events-collision view view-events-microviews view-id-events_microviews view-display-id-upcoming_events_collision js-view-dom-id-ef840ad9cf8b3bf1879bd3b0dd1474f1a9a2574c4b1eb9d2736973a7022ab752 cern-view-display-block cern-view-display-upcoming_events_collision clearfix">
   
       
 
@@ -2910,12 +2910,10 @@ come to <span style="background-color:#2980b9;">CERN</span> …</span></span></s
         
                             <div class="agenda-box-link mb-1 mt-1">
                 <h3>
-                    <a href="/events/alessandro-conigli" hreflang="en" title="Alessandro Conigli">
+                    <a href="/events/precision-lattice-calculation-hadronic-contribution-running-electroweak-gauge-couplings" hreflang="en" title="Precision lattice calculation of the hadronic contribution to the running of the electroweak gauge couplings">
                     <span class="text-color" >
                         
-  Alessandro Conigli
-
-
+  Precision lattice calculation of the hadronic contribution to the r...
                     </span>
                     </a>
                 </h3>
@@ -3347,6 +3345,7 @@ come to <span style="background-color:#2980b9;">CERN</span> …</span></span></s
       <a href="/events"> View all events </a>
     </div>
     </div>
+</div>
 </div>
 
 						
