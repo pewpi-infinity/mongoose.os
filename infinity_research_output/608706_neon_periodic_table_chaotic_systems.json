@@ -1,0 +1,17 @@
+{
+  "header": {
+    "token_number": 608706,
+    "token_value": 4382,
+    "token_color": "\ud83e\ude75 BLUE",
+    "generated": "2025-12-08T00:04:04.870632",
+    "topic": "neon periodic table chaotic systems"
+  },
+  "articles": [
+    {
+      "source_id": 3,
+      "url": "https://arxiv.org/search/?query=neon+periodic+table+chaotic+systems",
+      "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Read timed out. (read timeout=10)",
+      "status": "ERROR"
+    }
+  ]
+}
