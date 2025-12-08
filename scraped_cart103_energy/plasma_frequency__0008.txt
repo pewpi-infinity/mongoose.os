@@ -66,16 +66,16 @@ URL: https://www.iea.org?q=plasma+frequency
     <![endif]-->
 
     <!--[if IE]>
-    <script nonce="eyiyRZi6tXW8tLYgGZWPyHWEhXj1PDAM">var de = document.documentElement; de.className = de.className.replace('not-ie','ie');</script>
+    <script nonce="HfcTsA7R91GZOQ8pNbX0RKHWaAGKcSI8">var de = document.documentElement; de.className = de.className.replace('not-ie','ie');</script>
     <![endif]-->
 
     
-    <script nonce="eyiyRZi6tXW8tLYgGZWPyHWEhXj1PDAM">
+    <script nonce="HfcTsA7R91GZOQ8pNbX0RKHWaAGKcSI8">
 !function(i){var e,t=window.A17||{},n=i.documentElement,s=window,r=i.getElementsByTagName("head")[0];t.browserSpec=(i.querySelectorAll,"addEventListener"in s&&s.history.pushState&&i.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure","1.1")?"html5":"html4"),t.touch=!!("ontouchstart"in s||s.documentTouch&&i instanceof DocumentTouch),t.objectFit="objectFit"in n.style,t.isIE=function(){var e=window.navigator.userAgent,t=e.indexOf("MSIE ");if(0<t)return parseInt(e.substring(t+5,e.indexOf(".",t)),10);if(0<e.indexOf("Trident/")){var n=e.indexOf("rv:");return parseInt(e.substring(n+3,e.indexOf(".",n)),10)}var i=e.indexOf("Edge/");if(0<i)return parseInt(e.substring(i+5,e.indexOf(".",i)),10);return!1}(),window.A17=t,n.className=n.className.replace(/\bno-js\b/," js "+t.browserSpec+(t.touch?" touch":" no-touch")+(t.objectFit?" objectFit":" no-objectFit")+(t.isIE?" ie":" no-ie")),"html4"===t.browserSpec&&((e=i.createElement("link")).rel="stylesheet",e.title="html4css",e.href="/dist/styles/html4css.css",r.appendChild(e),function e(){!i.readyState&&i.addEventListener&&(i.body?setTimeout(function(){i.readyState="complete"},500):setTimeout(e,9))}(),function e(){if(/in/.test(i.readyState))setTimeout(e,9);else for(var t=0;t<i.styleSheets.length;t++){var n=i.styleSheets[t];"html4css"!==n.title&&(n.disabled=!0)}}())}(document);
 </script>
 
     <!-- Google Tag Manager -->
-    <script nonce="eyiyRZi6tXW8tLYgGZWPyHWEhXj1PDAM">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script nonce="HfcTsA7R91GZOQ8pNbX0RKHWaAGKcSI8">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -1721,6 +1721,28 @@ URL: https://www.iea.org?q=plasma+frequency
                         <div class="o-hero-latest__featured-list">
                 <ul class="o-hero-latest__list" data-behavior="masonry" data-masonry-breakpoint="medium">
                                                                                                                                                                                                                                         <li class="o-hero-latest__list-item">
+                                    <article class="o-hero-latest__listing o-hero-latest__listing--commentary
+    
+    "
+>
+    <a href="/commentaries/opportunities-for-district-heating-in-the-changing-energy-landscape" class="o-hero-latest__link" data-behavior="track" data-track-event="HomepageFeature" data-track-eventcategory="Homepage" data-track-eventaction="click featured" data-track-eventlabel="Opportunities for district heating in the changing energy landscape">
+        <div class="o-hero-latest__content">
+                            <span class="a-tag-small" >
+    Electricity
+</span>
+                        <h2 class="o-hero-latest__title f-title-8"><span class="o-hero-latest__hover">Opportunities for district heating in the changing energy landscape</span></h2>
+
+                    </div>
+                    <div class="o-hero-latest__img">
+                <div class="o-hero-latest__imgSpacer">
+                    <img src="https://iea.imgix.net/cab7cb85-b2f7-4d3a-bf5e-e6a1297569d0/DistrictHeating_shutterstock_2327644459.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5341%2C3006&w=322&h=181&fit=crop&fm=jpg&q=70&auto=format" srcset="https://iea.imgix.net/cab7cb85-b2f7-4d3a-bf5e-e6a1297569d0/DistrictHeating_shutterstock_2327644459.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5341%2C3006&w=120&fit=crop&fm=jpg&q=70&auto=format&h=68 120w,https://iea.imgix.net/cab7cb85-b2f7-4d3a-bf5e-e6a1297569d0/DistrictHeating_shutterstock_2327644459.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5341%2C3006&w=240&fit=crop&fm=jpg&q=70&auto=format&h=135 240w,https://iea.imgix.net/cab7cb85-b2f7-4d3a-bf5e-e6a1297569d0/DistrictHeating_shutterstock_2327644459.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5341%2C3006&w=250&fit=crop&fm=jpg&q=70&auto=format&h=141 250w,https://iea.imgix.net/cab7cb85-b2f7-4d3a-bf5e-e6a1297569d0/DistrictHeating_shutterstock_2327644459.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5341%2C3006&w=500&fit=crop&fm=jpg&q=70&auto=format&h=281 500w,https://iea.imgix.net/cab7cb85-b2f7-4d3a-bf5e-e6a1297569d0/DistrictHeating_shutterstock_2327644459.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5341%2C3006&w=322&fit=crop&fm=jpg&q=70&auto=format&h=181 322w,https://iea.imgix.net/cab7cb85-b2f7-4d3a-bf5e-e6a1297569d0/DistrictHeating_shutterstock_2327644459.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5341%2C3006&w=644&fit=crop&fm=jpg&q=70&auto=format&h=362 644w" sizes="(max-width: 729px) 120px,(min-width: 730px) and (max-width:959px) 120px,(min-width: 960px) and (max-width:1279px) 250px,(min-width: 1280px) and (max-width:1479px) 322px,(min-width: 1480px) 322px" alt="Photo depicts Construction and installation of the framework for the pre-insulated hot water pipe reinforcement in a concrete collector. Greening and efficiency of the heat supply. Construction in progress. Energy distribution." />
+                </div>
+            </div>
+        
+            </a>
+</article>
+                                </li>
+                                                                                                                                                                                            <li class="o-hero-latest__list-item">
                                     <article class="o-hero-latest__listing o-hero-latest__listing--news
     
     "
@@ -1780,28 +1802,6 @@ URL: https://www.iea.org?q=plasma+frequency
                     <div class="o-hero-latest__img">
                 <div class="o-hero-latest__imgSpacer">
                     <img src="https://iea.imgix.net/3e631749-a294-4a20-916b-f7f7e694313e/shutterstock_2023406210_PolicyoptionstoacceleratedistributedsolarPVinUkraine.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5452%2C3070&w=322&h=181&fit=crop&fm=jpg&q=70&auto=format" srcset="https://iea.imgix.net/3e631749-a294-4a20-916b-f7f7e694313e/shutterstock_2023406210_PolicyoptionstoacceleratedistributedsolarPVinUkraine.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5452%2C3070&w=120&fit=crop&fm=jpg&q=70&auto=format&h=68 120w,https://iea.imgix.net/3e631749-a294-4a20-916b-f7f7e694313e/shutterstock_2023406210_PolicyoptionstoacceleratedistributedsolarPVinUkraine.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5452%2C3070&w=240&fit=crop&fm=jpg&q=70&auto=format&h=135 240w,https://iea.imgix.net/3e631749-a294-4a20-916b-f7f7e694313e/shutterstock_2023406210_PolicyoptionstoacceleratedistributedsolarPVinUkraine.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5452%2C3070&w=250&fit=crop&fm=jpg&q=70&auto=format&h=141 250w,https://iea.imgix.net/3e631749-a294-4a20-916b-f7f7e694313e/shutterstock_2023406210_PolicyoptionstoacceleratedistributedsolarPVinUkraine.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5452%2C3070&w=500&fit=crop&fm=jpg&q=70&auto=format&h=282 500w,https://iea.imgix.net/3e631749-a294-4a20-916b-f7f7e694313e/shutterstock_2023406210_PolicyoptionstoacceleratedistributedsolarPVinUkraine.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5452%2C3070&w=322&fit=crop&fm=jpg&q=70&auto=format&h=181 322w,https://iea.imgix.net/3e631749-a294-4a20-916b-f7f7e694313e/shutterstock_2023406210_PolicyoptionstoacceleratedistributedsolarPVinUkraine.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C0%2C5452%2C3070&w=644&fit=crop&fm=jpg&q=70&auto=format&h=363 644w" sizes="(max-width: 729px) 120px,(min-width: 730px) and (max-width:959px) 120px,(min-width: 960px) and (max-width:1279px) 250px,(min-width: 1280px) and (max-width:1479px) 322px,(min-width: 1480px) 322px" alt="Photo depicts an Eco house with sun panels energy" />
-                </div>
-            </div>
-        
-            </a>
-</article>
-                                </li>
-                                                                                                                                                                                            <li class="o-hero-latest__list-item">
-                                    <article class="o-hero-latest__listing o-hero-latest__listing--news
-    
-    "
->
-    <a href="/news/electricity-market-designs-must-evolve-to-keep-pace-with-changing-system-needs" class="o-hero-latest__link" data-behavior="track" data-track-event="HomepageFeature" data-track-eventcategory="Homepage" data-track-eventaction="click featured" data-track-eventlabel="Electricity market designs must evolve to keep pace with changing system needs">
-        <div class="o-hero-latest__content">
-                            <span class="a-tag-small" >
-    Electricity
-</span>
-                        <h2 class="o-hero-latest__title f-title-8"><span class="o-hero-latest__hover">Electricity market designs must evolve to keep pace with changing system needs</span></h2>
-
-                    </div>
-                    <div class="o-hero-latest__img">
-                <div class="o-hero-latest__imgSpacer">
-                    <img src="https://iea.imgix.net/3b65950a-b21a-4873-b41a-0bb724df5922/shutterstock_1894931218-Stockmarketpricesdisplayedwithcitylightsreflectingofftheglass.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C57%2C6142%2C3459&w=322&h=181&fit=crop&fm=jpg&q=70&auto=format" srcset="https://iea.imgix.net/3b65950a-b21a-4873-b41a-0bb724df5922/shutterstock_1894931218-Stockmarketpricesdisplayedwithcitylightsreflectingofftheglass.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C57%2C6142%2C3459&w=120&fit=crop&fm=jpg&q=70&auto=format&h=68 120w,https://iea.imgix.net/3b65950a-b21a-4873-b41a-0bb724df5922/shutterstock_1894931218-Stockmarketpricesdisplayedwithcitylightsreflectingofftheglass.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C57%2C6142%2C3459&w=240&fit=crop&fm=jpg&q=70&auto=format&h=135 240w,https://iea.imgix.net/3b65950a-b21a-4873-b41a-0bb724df5922/shutterstock_1894931218-Stockmarketpricesdisplayedwithcitylightsreflectingofftheglass.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C57%2C6142%2C3459&w=250&fit=crop&fm=jpg&q=70&auto=format&h=141 250w,https://iea.imgix.net/3b65950a-b21a-4873-b41a-0bb724df5922/shutterstock_1894931218-Stockmarketpricesdisplayedwithcitylightsreflectingofftheglass.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C57%2C6142%2C3459&w=500&fit=crop&fm=jpg&q=70&auto=format&h=282 500w,https://iea.imgix.net/3b65950a-b21a-4873-b41a-0bb724df5922/shutterstock_1894931218-Stockmarketpricesdisplayedwithcitylightsreflectingofftheglass.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C57%2C6142%2C3459&w=322&fit=crop&fm=jpg&q=70&auto=format&h=181 322w,https://iea.imgix.net/3b65950a-b21a-4873-b41a-0bb724df5922/shutterstock_1894931218-Stockmarketpricesdisplayedwithcitylightsreflectingofftheglass.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C57%2C6142%2C3459&w=644&fit=crop&fm=jpg&q=70&auto=format&h=363 644w" sizes="(max-width: 729px) 120px,(min-width: 730px) and (max-width:959px) 120px,(min-width: 960px) and (max-width:1279px) 250px,(min-width: 1280px) and (max-width:1479px) 322px,(min-width: 1480px) 322px" alt="Shutterstock 1894931218 Stock market prices displayed with city lights reflecting off the glass" />
                 </div>
             </div>
         
@@ -2400,4 +2400,4 @@ URL: https://www.iea.org?q=plasma+frequency
                 </div>
                             <div role="listitem" class="m-slider-topics__item">
                     <a href="/topics/energy-and-gender" class="m-slider-topics__link">
-                                                    <img data-src="https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=600&h=132&fit=crop&fm=jpg&q=70&auto=format" data-lazyload data-srcset="https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=790&fit=crop&fm=jpg&q=70&auto=format&h=174 790w,https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=1580&fit=crop&fm=jpg&q=70&auto=format&h=348 1580w,https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=550&fit=crop&fm=jpg&q=70&auto=format&h=121 550w,https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=1100&fit=crop&fm=jpg&q=70&auto=format&h=242 1100w,https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=600&fit=crop&fm=jpg&q=70&auto=format&h=132 600w,https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=
+                                                    <img data-src="https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=600&h=132&fit=crop&fm=jpg&q=70&auto=format" data-lazyload data-srcset="https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=790&fit=crop&fm=jpg&q=70&auto=format&h=174 790w,https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=1580&fit=crop&fm=jpg&q=70&auto=format&h=348 1580w,https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=550&fit=crop&fm=jpg&q=70&auto=format&h=121 550w,https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=1100&fit=crop&fm=jpg&q=70&auto=format&h=242 1100w,https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=600&fit=crop&fm=jpg&q=70&auto=format&h=132 600w,https://iea.imgix.net/827d6197-2b82-4e62-85de-2c49070eba8a/thisisengineering-X7cls0azgKg-unsplash.jpg?auto=compress%2Cformat&fit=min&q=80&rect=0%2C1221%2C7952%2C1752&w=1200&fit=crop&fm=jpg&q=70&auto=format&h=264 1200w" sizes="(max-width: 729px) 790px,(min-width: 730px) and (max-width:959px) 790px,(min-width: 960px) and (max-width:1279px) 550px,(min-width: 1
