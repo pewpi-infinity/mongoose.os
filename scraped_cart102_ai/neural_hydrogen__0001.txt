@@ -133,7 +133,7 @@ URL: https://ai.google?q=neural+hydrogen
           rel="stylesheet" />
     
   
-      <link href="/static/dist/css/site.6e01f41150e81ef67afa.css" rel="stylesheet" />
+      <link href="/static/dist/css/site.631790954462e3409ef0.css" rel="stylesheet" />
     
   <link href="/static/dist/css/site-aig.b9d8b093225474f91950.css" rel="stylesheet" />
 
@@ -171,9 +171,9 @@ URL: https://ai.google?q=neural+hydrogen
     </script>
     
   
-      <script src="/static/dist/site/site-59d5dc8888ad4d2e4177.js" defer></script>
+      <script src="/static/dist/site/site-5224ac74c0ac4de67efb.js" defer></script>
     
-  <script src="/static/dist/site/site-aig-59d5dc8888ad4d2e4177.js" defer></script>
+  <script src="/static/dist/site/site-aig-5224ac74c0ac4de67efb.js" defer></script>
 
   </head>
   <body class="
@@ -281,6 +281,43 @@ URL: https://ai.google?q=neural+hydrogen
       
         <div class="button-group button-group--compact button-group--stacked">
           <div class="button-group__buttons">
+            
+              
+
+
+
+
+
+  
+  
+    <a href="/products/"
+      
+      class="button button--outlined icon-right"
+      
+      
+        data-gtm-event="nav_select"
+        data-event-nav-type="subheader"
+        data-event-nav-name="Products - Explore products"
+      
+      
+      >
+      
+        <div class="button__icon">
+          <span class="icon-md-outlined" aria-hidden="true">keyboard_arrow_right</span>
+        </div>
+      
+      
+        <div class="button__label">
+          
+            Explore products
+          
+        </div>
+      
+    </a>
+  
+
+
+
             
               
 
@@ -644,7 +681,7 @@ URL: https://ai.google?q=neural+hydrogen
 
   
     
-      <img src="https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/large-photos-nav.svg" class="image image--svg picture__image media--aspect-1-1" alt="" role="presentation"">
+      <img src="https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/large-photos.svg" class="image image--svg picture__image media--aspect-1-1" alt="" role="presentation"">
     
   
 
@@ -2450,6 +2487,43 @@ URL: https://ai.google?q=neural+hydrogen
 
   
   
+    <a href="/products/"
+      
+      class="button button--outlined icon-right"
+      
+      
+        data-gtm-event="nav_select"
+        data-event-nav-type="subheader"
+        data-event-nav-name="Products - Explore products"
+      
+      
+      >
+      
+        <div class="button__icon">
+          <span class="icon-md-outlined" aria-hidden="true">keyboard_arrow_right</span>
+        </div>
+      
+      
+        <div class="button__label">
+          
+            Explore products
+          
+        </div>
+      
+    </a>
+  
+
+
+
+                  
+                    
+
+
+
+
+
+  
+  
     <a href="/get-started/"
       
       class="button button--outlined icon-right"
@@ -2804,7 +2878,7 @@ URL: https://ai.google?q=neural+hydrogen
 
   
     
-      <img src="https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/large-photos-nav.svg" class="image image--svg picture__image media--aspect-1-1" alt="" role="presentation"">
+      <img src="https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/large-photos.svg" class="image image--svg picture__image media--aspect-1-1" alt="" role="presentation"">
     
   
 
@@ -4472,6 +4546,43 @@ URL: https://ai.google?q=neural+hydrogen
 
   
   
+    <a href="/products/"
+      
+      class="button button--outlined icon-right"
+      
+      
+        data-gtm-event="nav_select"
+        data-event-nav-type="subheader"
+        data-event-nav-name="Products - Explore products"
+      
+      
+      >
+      
+        <div class="button__icon">
+          <span class="icon-md-outlined" aria-hidden="true">keyboard_arrow_right</span>
+        </div>
+      
+      
+        <div class="button__label">
+          
+            Explore products
+          
+        </div>
+      
+    </a>
+  
+
+
+
+                      
+                        
+
+
+
+
+
+  
+  
     <a href="/get-started/"
       
       class="button button--outlined icon-right"
@@ -4826,7 +4937,7 @@ URL: https://ai.google?q=neural+hydrogen
 
   
     
-      <img src="https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/large-photos-nav.svg" class="image image--svg picture__image media--aspect-1-1" alt="" role="presentation"">
+      <img src="https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/large-photos.svg" class="image image--svg picture__image media--aspect-1-1" alt="" role="presentation"">
     
   
 
@@ -7108,7 +7219,7 @@ Prompts 3+: Vibe code until you&#x27;re happy with the end results.
       
         <div class="prompt-card  has-extended-prompt has-modal prompt-card--yellow"
              style="background: {{ settings.card_color }};"
-             data-deeplink="https://gemini.google.com/app?prompt_id=00052&amp;prompt_action=autosubmit"
+             
              
                   data-gtm-event="prompt_wall_select"
                   data-event-content-name="Build a multiple-choice study guide"
@@ -7215,7 +7326,7 @@ Prompts 3+: Vibe code until you&#x27;re happy with the end results.
       
         <div class="prompt-card  has-extended-prompt has-modal prompt-card--green"
              style="background: {{ settings.card_color }};"
-             data-deeplink="https://gemini.google.com/app?prompt_id=00472&amp;prompt_action=autosubmit"
+             
              
                   data-gtm-event="prompt_wall_select"
                   data-event-content-name="Map out hike-friendly national park options"
@@ -7255,7 +7366,7 @@ Prompts 3+: Vibe code until you&#x27;re happy with the end results.
     
       
         <div class="prompt-card has-image has-extended-prompt has-modal"
-             data-deeplink="https://gemini.google.com/app?prompt_id=00557&amp;prompt_action=autosubmit"
+             
              
                 data-gtm-event="prompt_wall_select"
                 data-event-content-name="Create surreal photorealistic ice cream"
@@ -7326,7 +7437,7 @@ Prompts 3+: Vibe code until you&#x27;re happy with the end results.
       
         <div class="prompt-card  has-extended-prompt has-modal"
              style="background: {{ settings.card_color }};"
-             data-deeplink="https://gemini.google.com/app?prompt_id=00474&amp;prompt_action=autosubmit"
+             
              
                   data-gtm-event="prompt_wall_select"
                   data-event-content-name="Plan a family trip"
@@ -7366,7 +7477,7 @@ Prompts 3+: Vibe code until you&#x27;re happy with the end results.
     
       
         <div class="prompt-card has-image has-extended-prompt has-modal"
-             data-deeplink="https://gemini.google.com/app?prompt_id=DCIJ6IQgSWuC&amp;prompt_action=autosubmit"
+             
              
                 data-gtm-event="prompt_wall_select"
                 data-event-content-name="Restore an old picture"
@@ -7452,7 +7563,7 @@ Present the newly restored and colorized image. After the image is created, brie
     
       
         <div class="prompt-card has-image has-extended-prompt has-modal"
-             data-deeplink="https://gemini.google.com/app?prompt_id=U64o7HCctRIN&amp;prompt_action=autosubmit"
+             
              
                 data-gtm-event="prompt_wall_select"
                 data-event-content-name="Create a retro-style mall studio portrait"
@@ -7523,7 +7634,7 @@ Present the newly restored and colorized image. After the image is created, brie
       
         <div class="prompt-card  has-extended-prompt has-modal prompt-card--blue"
              style="background: {{ settings.card_color }};"
-             data-deeplink="https://gemini.google.com/app?prompt_id=00117&amp;prompt_action=autosubmit"
+             
              
                   data-gtm-event="prompt_wall_select"
                   data-event-content-name="Explain asynchronous programming in JavaScript"
@@ -7564,7 +7675,7 @@ Present the newly restored and colorized image. After the image is created, brie
       
         <div class="prompt-card  has-extended-prompt has-modal"
              style="background: {{ settings.card_color }};"
-             data-deeplink="https://gemini.google.com/app?prompt_id=00479&amp;prompt_action=autosubmit"
+             
              
                   data-gtm-event="prompt_wall_select"
                   data-event-content-name="Discover cities with history and art scenes"
@@ -7747,7 +7858,7 @@ Prompts 3+: Vibe code until you&#x27;re happy with the end results.
       
         <div class="prompt-card  has-extended-prompt has-modal prompt-card--yellow"
              style="background: {{ settings.card_color }};"
-             data-deeplink="https://gemini.google.com/app?prompt_id=00052&amp;prompt_action=autosubmit"
+             
              
                   data-gtm-event="prompt_wall_select"
                   data-event-content-name="Build a multiple-choice study guide"
@@ -7854,35 +7965,8 @@ Prompts 3+: Vibe code until you&#x27;re happy with the end results.
       
         <div class="prompt-card  has-extended-prompt has-modal prompt-card--green"
              style="background: {{ settings.card_color }};"
-             data-deeplink="https://gemini.google.com/app?prompt_id=00472&amp;prompt_action=autosubmit"
+             
              
                   data-gtm-event="prompt_wall_select"
                   data-event-content-name="Map out hike-friendly national park options"
-                  data-modal-open="modal-overlay-0-map-out-hike-friendly-national-park-options"
-                  data-modal-extended-prompt="Show me a map of national parks known for hiking trails."
-                  
-                  
-              >
-          <div class="prompt-card__content">
-            
-              <span class="prompt-icon prompt-card__icon">
-                <span class="icon-md-outlined">
-                  hiking
-                </span>
-              </span>
-            
-            <span class="prompt-card__heading">Map out hike-friendly national park options</span>
-            <span class="prompt-card__text">
-              Show me a map of national parks known for hiking trails.
-            </span>
-          </div>
-        </div>
-      
-    
-  
-
-
-              </div>
-            
-              <div class="marquee-carousel__slide js-marquee-card" aria-hidden="true">
-          
+                  data-modal-open="modal-overlay-0-map-out-hike-friendly-national-park-optio

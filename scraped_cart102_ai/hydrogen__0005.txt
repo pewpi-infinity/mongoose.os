@@ -187,8 +187,8 @@ URL: https://cs.stanford.edu?q=hydrogen
 <div class="su-hero ">
 
         <div class="su-hero__media">
-            <div class="media-entity-wrapper image">
-  
+            <div class="contextual-region media-entity-wrapper image">
+  <div data-contextual-id="media:media=5101:changed=1704753714&amp;ds_bundle=image&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="xCzFPRichoFxPu3vQ7gw5pjLWnmzwuAWY59nkmwCm00" data-drupal-ajax-container=""></div>
   
 
 
@@ -437,8 +437,8 @@ URL: https://cs.stanford.edu?q=hydrogen
           <div class="ptype-stanford-card">
 <div class="ds-entity--paragraph ds-entity--stanford-card">
   <div data-contextual-id="paragraph:root_parent_type=node&amp;root_parent=1726&amp;paragraph=4441:changed=1758755379&amp;ds_bundle=stanford_card&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="sKbq4liKADudK9_Xm_IuSp0zoo749iwXDSPGt1d_bHc" data-drupal-ajax-container=""></div><article  class="su-card ">
-    <div class="media-entity-wrapper image">
-  
+    <div class="contextual-region media-entity-wrapper image">
+  <div data-contextual-id="media:media=5626:changed=1734739980&amp;ds_bundle=image&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="mpjprCaxC4t8PSdowWcjqZKskr9HuYm1ApAUTED8nFE" data-drupal-ajax-container=""></div>
   
 
 
@@ -477,8 +477,8 @@ URL: https://cs.stanford.edu?q=hydrogen
           <div class="ptype-stanford-card">
 <div class="ds-entity--paragraph ds-entity--stanford-card">
   <div data-contextual-id="paragraph:root_parent_type=node&amp;root_parent=1726&amp;paragraph=4446:changed=1758755379&amp;ds_bundle=stanford_card&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="k3WtQLnEiPsAdEun2bNGVGBJJqAd4lx-p3kHOBVYrYs" data-drupal-ajax-container=""></div><article  class="su-card ">
-    <div class="media-entity-wrapper image">
-  
+    <div class="contextual-region media-entity-wrapper image">
+  <div data-contextual-id="media:media=5641:changed=1734741362&amp;ds_bundle=image&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="lZOCbW66y5GQ4HN1hQVeacDT-fpyV0aw3TUFWbBVUlY" data-drupal-ajax-container=""></div>
   
 
 
@@ -642,8 +642,8 @@ URL: https://cs.stanford.edu?q=hydrogen
           <div class="ptype-stanford-card">
 <div class="ds-entity--paragraph ds-entity--stanford-card">
   <div data-contextual-id="paragraph:root_parent_type=node&amp;root_parent=1726&amp;paragraph=4406:changed=1758755379&amp;ds_bundle=stanford_card&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="RDZ5pOu4yPWZpM_jbli3hkJHRGbljJePF99z-1y582M" data-drupal-ajax-container=""></div><article  class="su-card ">
-    <div class="media-entity-wrapper image">
-  
+    <div class="contextual-region media-entity-wrapper image">
+  <div data-contextual-id="media:media=5541:changed=1734311124&amp;ds_bundle=image&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="7csI23EjO7nwuQFp79HmwNRSTkX5IBnKL7PsdZ97RpE" data-drupal-ajax-container=""></div>
   
 
 
@@ -685,8 +685,8 @@ URL: https://cs.stanford.edu?q=hydrogen
           <div class="ptype-stanford-card">
 <div class="ds-entity--paragraph ds-entity--stanford-card">
   <div data-contextual-id="paragraph:root_parent_type=node&amp;root_parent=1726&amp;paragraph=4411:changed=1758755379&amp;ds_bundle=stanford_card&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="juNWkOLk6eOwoB9xlfKK8zkvqtLrQiuRh17CTBxFTfo" data-drupal-ajax-container=""></div><article  class="su-card ">
-    <div class="media-entity-wrapper image">
-  
+    <div class="contextual-region media-entity-wrapper image">
+  <div data-contextual-id="media:media=5546:changed=1734311147&amp;ds_bundle=image&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="TayevxT5CWx3XpvTI9S3aNLshNtTozjjq6iXr6YPKgM" data-drupal-ajax-container=""></div>
   
 
 
@@ -728,8 +728,8 @@ URL: https://cs.stanford.edu?q=hydrogen
           <div class="ptype-stanford-card">
 <div class="ds-entity--paragraph ds-entity--stanford-card">
   <div data-contextual-id="paragraph:root_parent_type=node&amp;root_parent=1726&amp;paragraph=8441:changed=1758755379&amp;ds_bundle=stanford_card&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="HGC9yGDIUAjiHXLqh3uh1R-sejc3DIx4-t_i2p_b2DY" data-drupal-ajax-container=""></div><article  class="su-card ">
-    <div class="media-entity-wrapper image">
-  
+    <div class="contextual-region media-entity-wrapper image">
+  <div data-contextual-id="media:media=6166:changed=1758755258&amp;ds_bundle=image&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="KOGrnsej9npA5dUrSOULESlULMhyFix_gWR_vt0Bya4" data-drupal-ajax-container=""></div>
   
 
 
@@ -816,8 +816,8 @@ URL: https://cs.stanford.edu?q=hydrogen
           <div class="ptype-stanford-card">
 <div class="ds-entity--paragraph ds-entity--stanford-card">
   <div data-contextual-id="paragraph:root_parent_type=node&amp;root_parent=1726&amp;paragraph=4456:changed=1758755379&amp;ds_bundle=stanford_card&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="mtq08P67UdlBL07Ea55s_8LCxUecUE0OMMZPMU138UU" data-drupal-ajax-container=""></div><article  class="su-card ">
-    <div class="media-entity-wrapper image">
-  
+    <div class="contextual-region media-entity-wrapper image">
+  <div data-contextual-id="media:media=5606:changed=1734657475&amp;ds_bundle=image&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="2qkqBQyYbvwPcxoIlpDthQxV31eZT0MGBE3A-S2jVj0" data-drupal-ajax-container=""></div>
   
 
 
@@ -859,8 +859,8 @@ URL: https://cs.stanford.edu?q=hydrogen
           <div class="ptype-stanford-card">
 <div class="ds-entity--paragraph ds-entity--stanford-card">
   <div data-contextual-id="paragraph:root_parent_type=node&amp;root_parent=1726&amp;paragraph=4461:changed=1758755379&amp;ds_bundle=stanford_card&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="KiPL0mhHBSowKlFTC31AJop5r32H3Xu6tutXrlnBz4A" data-drupal-ajax-container=""></div><article  class="su-card ">
-    <div class="media-entity-wrapper image">
-  
+    <div class="contextual-region media-entity-wrapper image">
+  <div data-contextual-id="media:media=5616:changed=1734659438&amp;ds_bundle=image&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="_ArSAS13dYDZ1VRTSxo220S0lZBtXTpHKIAsiKcrctM" data-drupal-ajax-container=""></div>
   
 
 
@@ -902,8 +902,8 @@ URL: https://cs.stanford.edu?q=hydrogen
           <div class="ptype-stanford-card">
 <div class="ds-entity--paragraph ds-entity--stanford-card">
   <div data-contextual-id="paragraph:root_parent_type=node&amp;root_parent=1726&amp;paragraph=4466:changed=1758755379&amp;ds_bundle=stanford_card&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="zue7qBA0lrvyDV-Py6kLPDU56wMKvQHBqjiWjV_uQRY" data-drupal-ajax-container=""></div><article  class="su-card ">
-    <div class="media-entity-wrapper image">
-  
+    <div class="contextual-region media-entity-wrapper image">
+  <div data-contextual-id="media:media=5611:changed=1734658270&amp;ds_bundle=image&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="ZBlnFvbeduqGIRFxQlKILc06-tECc4QvOManJg5J6mc" data-drupal-ajax-container=""></div>
   
 
 
@@ -997,8 +997,8 @@ URL: https://cs.stanford.edu?q=hydrogen
 
 <figure  class="su-media ">
 
-    <div class="su-media__wrapper ">            <div class="media-entity-wrapper image">
-  
+    <div class="su-media__wrapper ">            <div class="contextual-region media-entity-wrapper image">
+  <div data-contextual-id="media:media=5871:changed=1751932170&amp;ds_bundle=image&amp;ds_view_mode=default&amp;langcode=en" data-contextual-token="dWkf34xb2_nD2wUCGu0UB856EBLybPdSyyDhmAoSVL4" data-drupal-ajax-container=""></div>
   
 
 
