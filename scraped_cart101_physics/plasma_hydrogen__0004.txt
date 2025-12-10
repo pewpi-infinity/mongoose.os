@@ -699,6 +699,40 @@ IMG SIZE: 1332 * 900
 							<!-- news entry -->
                             <div class="news-item col-sm-4">
                                 <div class="spotlight-img">
+                                    <a href="https://news.fnal.gov/2025/12/fermilab-teams-up-with-proficio-to-develop-water-treatment-system-targeting-pfas/" tabindex="-1">
+                                        <img alt="Fermilab teams up with Proficio to develop water treatment system targeting PFAS" class="lozad" data-src="/fnalincludes/v6_0/images/hp-spotlight/2025/fermilab-teams-up-with-proficio-targeting-PFAS-400x225.jpg" />
+                                    </a>
+                                </div>
+                                <div class="spotlight-text">
+                                    <a href="https://news.fnal.gov/2025/12/fermilab-teams-up-with-proficio-to-develop-water-treatment-system-targeting-pfas/" title="Fermilab teams up with Proficio to develop water treatment system targeting PFAS">
+                                        <h3>Fermilab teams up with Proficio to develop water treatment system targeting PFAS</h3>
+                                    </a>
+                                    <p>Fermilab and a Chicagoland firm Proficio Consultancy are teaming up to develop a specialized water treatment system that uses beams of electrons to destroy harmful chemicals in water.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- END news entry -->
+                            
+                            <!-- news entry -->
+                            <div class="news-item col-sm-4">
+                                <div class="spotlight-img">
+                                    <a href="https://news.fnal.gov/2025/12/fermilab-dedicates-new-state-of-the-art-building-honoring-scientist-helen-edwards/" tabindex="-1">
+                                        <img alt="Fermilab dedicates new state-of-the-art building honoring scientist Helen Edwards" class="lozad" data-src="/fnalincludes/v6_0/images/hp-spotlight/2025/edwards-center-plaque-unveiling-400x225.jpg" />
+                                    </a>
+                                </div>
+                                <div class="spotlight-text">
+                                    <a href="https://news.fnal.gov/2025/12/fermilab-dedicates-new-state-of-the-art-building-honoring-scientist-helen-edwards/" title="Fermilab dedicates new state-of-the-art building honoring scientist Helen Edwards">
+                                        <h3>Fermilab dedicates new state-of-the-art building honoring scientist Helen Edwards</h3>
+                                    </a>
+                                    <p>Fermilab's newest leading-edge research building, named after renowned accelerator physicist Helen Edwards, was dedicated today in a formal ceremony with DOE, state and local officials. The newly dedicated research center serves as a collaborative hub for engineers, technicians, scientists and experts from across the lab as Fermilab enters a new era of research.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- END news entry -->
+                            
+                            <!-- news entry -->
+                            <div class="news-item col-sm-4">
+                                <div class="spotlight-img">
                                     <a href="https://news.fnal.gov/2025/12/fermilab-celebrates-new-era-of-quantum-innovation-with-exploring-the-quantum-universe/" tabindex="-1">
                                         <img alt="Fermilab Quantum Symposium" class="lozad" data-src="/fnalincludes/v6_0/images/hp-spotlight/2025/panel-discussion-md.jpg" />
                                     </a>
@@ -712,40 +746,6 @@ IMG SIZE: 1332 * 900
                                 </div>
                             </div>
                             <!-- END news entry -->
-							 
-                            <!-- news entry -->
-                            <div class="news-item col-sm-4">
-                                <div class="spotlight-img">
-                                    <a href="https://news.fnal.gov/2025/12/microboone-finds-no-evidence-for-a-sterile-neutrino/" tabindex="-1">
-                                        <img alt="MicroBooNE finds no evidence for a sterile neutrino" class="lozad" data-src="/fnalincludes/v6_0/images/hp-spotlight/2025/MicroBooNE-no-evidence-sterile-neutrino400x225.jpg" />
-                                    </a>
-                                </div>
-                                <div class="spotlight-text">
-                                    <a href="https://news.fnal.gov/2025/12/microboone-finds-no-evidence-for-a-sterile-neutrino/" title="MicroBooNE finds no evidence for a sterile neutrino">
-                                        <h3>MicroBooNE finds no evidence for a sterile neutrino</h3>
-                                    </a>
-                                    <p>Scientists on the MicroBooNE experiment further ruled out the possibility of one sterile neutrino as an explanation for results from previous experiments. In the latest MicroBooNE result, the collaboration used one detector and two beams to study neutrino behavior, ruling out the single sterile neutrino model with 95% certainty. 
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- END news entry --> 
-                            
-                            <!-- news entry -->
-                            <div class="news-item col-sm-4">
-                                <div class="spotlight-img">
-                                    <a href="https://news.fnal.gov/2025/11/u-s-department-of-energy-launches-genesis-mission-to-transform-american-science-and-innovation-through-the-ai-computing-revolution/" tabindex="-1">
-                                        <img alt="US Department of Energy launches âGenesis Missionâ to transform American science and innovation through the AI computing revolution" class="lozad" data-src="/fnalincludes/v6_0/images/hp-spotlight/2025/genesis-mission-400x225.jpg" />
-                                    </a>
-                                </div>
-                                <div class="spotlight-text">
-                                    <a href="https://news.fnal.gov/2025/11/u-s-department-of-energy-launches-genesis-mission-to-transform-american-science-and-innovation-through-the-ai-computing-revolution/" title="US Department of Energy launches âGenesis Missionâ to transform American science and innovation through the AI computing revolution">
-                                        <h3>US Department of Energy launches 'Genesis Mission' to transform American science and innovation through the AI computing revolution</h3>
-                                    </a>
-                                    <p>President Trump issued an Executive Order on November 24 to launch the Genesis Mission, a historic national effort led by the US Department of Energy. 
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- END news entry --> 
 							                            		
 							                                                  
                       </div>
@@ -763,6 +763,40 @@ IMG SIZE: 1332 * 900
 							<!-- news entry -->
                             <div class="news-item col-sm-4">
                                 <div class="spotlight-img">
+                                    <a href="https://news.fnal.gov/2025/12/microboone-finds-no-evidence-for-a-sterile-neutrino/" tabindex="-1">
+                                        <img alt="MicroBooNE finds no evidence for a sterile neutrino" class="lozad" data-src="/fnalincludes/v6_0/images/hp-spotlight/2025/MicroBooNE-no-evidence-sterile-neutrino400x225.jpg" />
+                                    </a>
+                                </div>
+                                <div class="spotlight-text">
+                                    <a href="https://news.fnal.gov/2025/12/microboone-finds-no-evidence-for-a-sterile-neutrino/" title="MicroBooNE finds no evidence for a sterile neutrino">
+                                        <h3>MicroBooNE finds no evidence for a sterile neutrino</h3>
+                                    </a>
+                                    <p>Scientists on the MicroBooNE experiment further ruled out the possibility of one sterile neutrino as an explanation for results from previous experiments. In the latest MicroBooNE result, the collaboration used one detector and two beams to study neutrino behavior, ruling out the single sterile neutrino model with 95% certainty. 
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- END news entry -->  
+                            
+                            <!-- news entry -->
+                             <div class="news-item col-sm-4">
+                                <div class="spotlight-img">
+                                    <a href="https://news.fnal.gov/2025/11/u-s-department-of-energy-launches-genesis-mission-to-transform-american-science-and-innovation-through-the-ai-computing-revolution/" tabindex="-1">
+                                        <img alt="US Department of Energy launches âGenesis Missionâ to transform American science and innovation through the AI computing revolution" class="lozad" data-src="/fnalincludes/v6_0/images/hp-spotlight/2025/genesis-mission-400x225.jpg" />
+                                    </a>
+                                </div>
+                                <div class="spotlight-text">
+                                    <a href="https://news.fnal.gov/2025/11/u-s-department-of-energy-launches-genesis-mission-to-transform-american-science-and-innovation-through-the-ai-computing-revolution/" title="US Department of Energy launches âGenesis Missionâ to transform American science and innovation through the AI computing revolution">
+                                        <h3>US Department of Energy launches 'Genesis Mission' to transform American science and innovation through the AI computing revolution</h3>
+                                    </a>
+                                    <p>President Trump issued an Executive Order on November 24 to launch the Genesis Mission, a historic national effort led by the US Department of Energy. 
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- END news entry --> 
+                            
+                            <!-- news entry -->
+                            <div class="news-item col-sm-4">
+                                <div class="spotlight-img">
                                     <a href="https://news.fnal.gov/2025/11/energy-department-announces-partnership-with-fermilab-and-qblox-to-manufacture-foundational-quantum-control-platform-for-u-s-research-and-innovation/" tabindex="-1">
                                         <img alt="Energy Department Announces Partnership with Fermilab and Qblox to Manufacture Foundational Quantum Control Platform for U.S. Research and Innovation" class="lozad" data-src="/fnalincludes/v6_0/images/hp-spotlight/2025/DOE-Partnership-Fermilab-Qblox-400x225.jpg" />
                                     </a>
@@ -775,41 +809,7 @@ IMG SIZE: 1332 * 900
                                     </p>
                                 </div>
                             </div>
-                            <!-- END news entry --> 
-
-                            <!-- news entry -->
-                            <div class="news-item col-sm-4">
-                                <div class="spotlight-img">
-                                    <a href="https://news.fnal.gov/2025/11/fermilabs-sqms-center-funded-with-125-million-to-shape-the-future-of-quantum-information-science/" tabindex="-1">
-                                        <img alt="Fermilab's SQMS Center funded with $125 million to shape the future of quantum information science" class="lozad" data-src="/fnalincludes/v6_0/images/hp-spotlight/2025/SQMS-center-funded-quantum-information-science-400x225.jpg" />
-                                    </a>
-                                </div>
-                                <div class="spotlight-text">
-                                    <a href="https://news.fnal.gov/2025/11/fermilabs-sqms-center-funded-with-125-million-to-shape-the-future-of-quantum-information-science/" title="Fermilab's SQMS Center funded with $125 million to shape the future of quantum information science">
-                                        <h3>Fermilab's SQMS Center funded with $125 million to shape the future of quantum information science</h3>
-                                    </a>
-                                    <p>The SQMS Center enters a new era focused on scaling quantum systems from discovery to deployment &mdash; driving innovation in computation, communication and sensing. 
-                                    </p>
-                                </div>
-                            </div>
                             <!-- END news entry -->  
-                            
-                            <!-- news entry -->
-                            <div class="news-item col-sm-4">
-                                <div class="spotlight-img">
-                                    <a href="https://news.fnal.gov/2025/09/squeezed-light-technology-could-accelerate-path-to-quantum-networking/" tabindex="-1">
-                                        <img alt="'Squeezed light' technology could accelerate path to quantum networking" class="lozad" data-src="/fnalincludes/v6_0/images/hp-spotlight/2025/squeezed-light-technology-400x225.jpg" />
-                                    </a>
-                                </div>
-                                <div class="spotlight-text">
-                                    <a href="https://news.fnal.gov/2025/09/squeezed-light-technology-could-accelerate-path-to-quantum-networking/" title="'Squeezed light' technology could accelerate path to quantum networking">
-                                        <h3>'Squeezed light' technology could accelerate path to quantum networking</h3>
-                                    </a>
-                                    <p>Scientists at Fermilab and Caltech have demonstrated the feasibility of their method of using squeezed light to dramatically increase the rate at which quantum networks can generate entangled particle pairs over long distances. This advance addresses a critical bottleneck in building large-scale quantum networks. 
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- END news entry --> 
 
 																				
                      </div>

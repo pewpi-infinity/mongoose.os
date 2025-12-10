@@ -24,7 +24,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 <meta property="og:description" content="NASA.gov brings you the latest news, images and videos from America&#039;s space agency, pioneering the future in space exploration, scientific discovery and aeronautics research." />
 <meta property="og:url" content="https://www.nasa.gov/" />
 <meta property="og:site_name" content="NASA" />
-<meta property="og:updated_time" content="2025-12-07T10:50:35-05:00" />
+<meta property="og:updated_time" content="2025-12-09T15:18:46-05:00" />
 <meta property="og:image" content="https://www.nasa.gov/wp-content/uploads/2018/07/174116main_2006_01777_highres.jpg" />
 <meta property="og:image:secure_url" content="https://www.nasa.gov/wp-content/uploads/2018/07/174116main_2006_01777_highres.jpg" />
 <meta property="og:image:width" content="1024" />
@@ -32,16 +32,12 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 <meta property="og:image:alt" content="NASA Meatball paint refresh" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="article:published_time" content="2022-12-07T13:25:23-05:00" />
-<meta property="article:modified_time" content="2025-12-07T10:50:35-05:00" />
-<meta property="og:video" content="https://www.youtube.com/embed/OYYW90WrWqU" />
-<meta property="video:duration" content="174" />
-<meta property="ya:ovs:upload_date" content="2025-12-01T10:03:08-08:00" />
-<meta property="ya:ovs:allow_embed" content="true" />
+<meta property="article:modified_time" content="2025-12-09T15:18:46-05:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="NASA" />
 <meta name="twitter:description" content="NASA.gov brings you the latest news, images and videos from America&#039;s space agency, pioneering the future in space exploration, scientific discovery and aeronautics research." />
 <meta name="twitter:image" content="https://www.nasa.gov/wp-content/uploads/2018/07/174116main_2006_01777_highres.jpg" />
-<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.nasa.gov/#organization","name":"NASA"},{"@type":"WebSite","@id":"https://www.nasa.gov/#website","url":"https://www.nasa.gov","name":"NASA","publisher":{"@id":"https://www.nasa.gov/#organization"},"inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":"https://www.nasa.gov/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.nasa.gov/wp-content/uploads/2016/01/meatball_hires.jpg","url":"https://www.nasa.gov/wp-content/uploads/2016/01/meatball_hires.jpg","width":"946","height":"473","caption":"NASA Meatball","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.nasa.gov/#webpage","url":"https://www.nasa.gov/","name":"NASA","datePublished":"2022-12-07T13:25:23-05:00","dateModified":"2025-12-07T10:50:35-05:00","about":{"@id":"https://www.nasa.gov/#organization"},"isPartOf":{"@id":"https://www.nasa.gov/#website"},"primaryImageOfPage":{"@id":"https://www.nasa.gov/wp-content/uploads/2016/01/meatball_hires.jpg"},"inLanguage":"en-US"},{"@type":"Person","@id":"https://www.nasa.gov/#author","name":"Dacia Massengill","image":{"@type":"ImageObject","@id":"https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px-96x96.png","url":"https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px-96x96.png","caption":"Dacia Massengill","inLanguage":"en-US"},"worksFor":{"@id":"https://www.nasa.gov/#organization"}},{"headline":"NASA","description":"NASA.gov brings you the latest news, images and videos from America&#039;s space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.","datePublished":"2022-12-07T13:25:23-05:00","dateModified":"2025-12-07T10:50:35-05:00","image":{"@id":"https://www.nasa.gov/wp-content/uploads/2016/01/meatball_hires.jpg"},"author":{"@id":"https://www.nasa.gov/#author","name":"Dacia Massengill"},"@type":"Article","name":"NASA","@id":"https://www.nasa.gov/#schema-4458063","isPartOf":{"@id":"https://www.nasa.gov/#webpage"},"publisher":{"@id":"https://www.nasa.gov/#organization"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://www.nasa.gov/#webpage"}},{"@type":"VideoObject","name":"What&#039;s Up: December 2025 Skywatching Tips from NASA","description":"What are some skywatching highlights in December 2025?The 3I/ATLAS comet makes its closest approach to Earth, the Geminid meteor shower sparkles across the s...","uploadDate":"2025-12-01T10:03:08-08:00","thumbnailUrl":"https://www.nasa.gov/wp-content/uploads/2016/01/meatball_hires.jpg","embedUrl":"https://www.youtube.com/embed/OYYW90WrWqU","duration":"PT2M54S","width":"1280","height":"720","isFamilyFriendly":"True","@id":"https://www.nasa.gov/#schema-7026624","isPartOf":{"@id":"https://www.nasa.gov/#webpage"},"publisher":{"@id":"https://www.nasa.gov/#organization"},"inLanguage":"en-US"}]}</script>
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.nasa.gov/#organization","name":"NASA"},{"@type":"WebSite","@id":"https://www.nasa.gov/#website","url":"https://www.nasa.gov","name":"NASA","publisher":{"@id":"https://www.nasa.gov/#organization"},"inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":"https://www.nasa.gov/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.nasa.gov/wp-content/uploads/2016/01/meatball_hires.jpg","url":"https://www.nasa.gov/wp-content/uploads/2016/01/meatball_hires.jpg","width":"946","height":"473","caption":"NASA Meatball","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.nasa.gov/#webpage","url":"https://www.nasa.gov/","name":"NASA","datePublished":"2022-12-07T13:25:23-05:00","dateModified":"2025-12-09T15:18:46-05:00","about":{"@id":"https://www.nasa.gov/#organization"},"isPartOf":{"@id":"https://www.nasa.gov/#website"},"primaryImageOfPage":{"@id":"https://www.nasa.gov/wp-content/uploads/2016/01/meatball_hires.jpg"},"inLanguage":"en-US"},{"@type":"Person","@id":"https://www.nasa.gov/#author","name":"Dacia Massengill","image":{"@type":"ImageObject","@id":"https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px-96x96.png","url":"https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px-96x96.png","caption":"Dacia Massengill","inLanguage":"en-US"},"worksFor":{"@id":"https://www.nasa.gov/#organization"}},{"headline":"NASA","description":"NASA.gov brings you the latest news, images and videos from America&#039;s space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.","datePublished":"2022-12-07T13:25:23-05:00","dateModified":"2025-12-09T15:18:46-05:00","image":{"@id":"https://www.nasa.gov/wp-content/uploads/2016/01/meatball_hires.jpg"},"author":{"@id":"https://www.nasa.gov/#author","name":"Dacia Massengill"},"@type":"Article","name":"NASA","@id":"https://www.nasa.gov/#schema-4458063","isPartOf":{"@id":"https://www.nasa.gov/#webpage"},"publisher":{"@id":"https://www.nasa.gov/#organization"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://www.nasa.gov/#webpage"}}]}</script>
 <meta name="google-site-verification" content="f9cFyjLDza0c9qy-0OGVk2g57vju1kPrVkoTezSOq28" />
 <!-- /Rank Math WordPress SEO plugin -->
 
@@ -80,12 +76,12 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 <style id='wp-block-library-inline-css'>
 :root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px;--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color)}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
 </style>
-<link rel='stylesheet' id='all-css-2' href='https://www.nasa.gov/_static/??-eJyNkNFuwyAMRX9oLqq0bO3DtG8x4KYoYJANifr3o0srVdW09AnZOj72xSwFXOZKXI2LoT+QGpTYxsBqmi5e4SSYaMkyrbWxLURvtF4i6c6pvpkuCexi86SmN4wP2nU5lczdqCu7S4H/wYvQiYTY0Wu8jdlNQD7ULH8M3EPdo5RcWoGEE8ltH7oJx25cRTFYQbnAanq21DOljjIq/l4wxmwxAuO8idJ8/YJNDMWdw0xgkZlkE3+Ic2W/09f+8+P9OAyH4fgD8kCvRg==' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://www.nasa.gov/_static/??-eJyNkNFuwyAMRX9oFKXT2qep32LATa2AQTYk6t+PLqtUVVWzJ2Tr+NgXuxTjM1fkan2k/pjUTIltJFbbdAlqzgIJlyzTWlvXKAar9RpRd171w3YJsY8toNresIG063IqmbtRV3aXiN/gRfCMguzxf7yL2U8GA9UsLwbuoe5RSi6tmAQTyt8+8BOM3biKIjkBuZrV9GypF0wdZVD4vWCM2UE0DPMmivPtCzYxEH+hGY0DZpRN/CHOjT2l7+F4+PocDsdh/wPyAa8y' type='text/css' media='all' />
 <style id='nasa-blocks-gravity-form-embed-style-inline-css'>
 .gform_fields{-moz-column-gap:10px;column-gap:10px;display:grid;grid-template-columns:repeat(12,1fr);row-gap:16px}.gform_footer{margin-top:36px}@media only screen and (min-width:800px){.gform_fields{row-gap:36px}}.gform_fields>*{grid-column:span 12}.gform_fields .gfield .ginput_container .large,.gform_fields .gfield .ginput_container>*{width:100%}.gform_fields .ginput_container .gfield_select,.gform_fields .ginput_container input:not([type=checkbox]):not([type=radio]),.gform_fields .ginput_container select{height:48px}.gform_fields .ginput_container textarea{height:148px}.gfield_label.gform-field-label,.gform_fields .gfield_description,.gform_fields .gsection_description{display:block;grid-column:span 12}.gform_fields .gfield{grid-column:span 12}@media only screen and (min-width:800px){.gfield.gfield--width-full:not(.gfield--type-section):not(.gfield--type-html):not(.gfield--type-choice):not(.gfield--type-fileupload){display:grid;grid-template-columns:repeat(12,1fr)}.gform_fields .gfield--width-full.gfield-hds-inline-field-cols-3 .ginput_container,.gform_fields .gfield-hds-inline-field-cols-3{grid-column:span 3}.gform_fields .gfield--width-full.gfield--type-date .ginput_container.ginput_container_date,.gform_fields .gfield-hds-inline-field-cols-4{grid-column:span 4}.gform_fields .gfield-hds-inline-field-cols-5,.gform_fields .gfield.gfield--type-time .ginput_container{grid-column:span 5}.gform_fields .gfield--width-full.gfield--type-date .ginput_container,.gform_fields .gfield--width-full.gfield-hds-inline-field-cols-6 .ginput_container,.gform_fields .gfield-hds-inline-field-cols-6{grid-column:span 6}.gform_fields .gfield-hds-inline-field-cols-7{grid-column:span 7}.gform_fields .gfield-hds-inline-field-cols-8{grid-column:span 8}.gform_fields .gfield-hds-inline-field-cols-9{grid-column:span 9}.gform_fields .gfield-hds-inline-field-cols-10{grid-column:span 10}.gform_fields .gfield-hds-inline-field-cols-11{grid-column:span 11}.gform_fields .gfield--width-full,.gform_fields .gfield--width-full .ginput_container{grid-column:span 12}.gform_fields .gfield .ginput_container .small{width:33%}.gform_fields .gfield .ginput_container .medium{width:50%}.gform_fields .gfield--width-full.gfield-hds-inline-field-cols-3 .ginput_container .medium,.gform_fields .gfield--width-full.gfield-hds-inline-field-cols-3 .ginput_container .small,.gform_fields .gfield--width-full.gfield-hds-inline-field-cols-6 .ginput_container .medium,.gform_fields .gfield--width-full.gfield-hds-inline-field-cols-6 .ginput_container .small{width:100%}}.gfield--type-phone .ginput_container.ginput_container_phone{grid-column:span 4}.gfield--input-type-time .ginput_container,.gfield--type-time .ginput_container{-moz-column-gap:5px;column-gap:5px;display:flex;flex-wrap:nowrap}.gfield--input-type-time .hour_minute_colon,.gfield--type-time .ginput_container .hour_minute_colon{display:none}.gfield--input-type-address .ginput_container span,.gform-grid-col{display:grid}.gfield--input-type-address .ginput_container span.ginput_left,.gfield--input-type-address .ginput_container span.ginput_right{flex:0 0 calc(50% - 5px)}.gform_fields .gfield--input-type-hidden{position:absolute}.gform_fields .gfield .ginput_container_consent input{width:auto}.ui-datepicker .ui-datepicker-header{display:grid;grid-template-columns:15% 70% 15%;grid-template-rows:auto}.ui-datepicker .ui-datepicker-header .ui-datepicker-next,.ui-datepicker .ui-datepicker-header .ui-datepicker-prev,.ui-datepicker .ui-datepicker-header .ui-datepicker-title{grid-row:1}.ui-datepicker .ui-datepicker-header .ui-datepicker-title{grid-column:2}.ui-datepicker .ui-datepicker-header .ui-datepicker-next{display:grid;justify-content:end}.gform_fields .gfield.gfield--input-type-datedropdown .ginput_container{-moz-column-gap:5px;column-gap:5px;display:flex;flex-wrap:nowrap}@media only screen and (min-width:800px){.gfield--type-address .ginput_container,.gfield--type-name .ginput_container{display:flex}.gfield--type-name .ginput_container,.gform_fields .gfield.gfield--input-type-datedropdown .ginput_container{-moz-column-gap:10px;column-gap:10px;flex-wrap:nowrap}.gfield--type-address .ginput_container{-moz-column-gap:10px;column-gap:10px;flex-wrap:wrap;row-gap:5px}.gfield--type-address .ginput_container .ginput_left,.gfield--type-address .ginput_container .ginput_right{width:calc(50% - 5px)}}.gform_wrapper .gform_validation_container{display:none!important}.hds-single-form-embed .form-entry-content{width:100%}fieldset.gfield{border:none;padding:0}.gform_fields .ginput_container input,.gform_fields .ginput_container select,.gform_fields .ginput_container textarea{border:1px solid #d1d1d1;border-radius:2px}.gform_fields .ginput_container input:focus,.gform_fields .ginput_container select:focus,.gform_fields .ginput_container textarea:focus{border-color:#288bff;outline:2px solid #288bff}.gform_fields .ginput_container input:not([type=checkbox]):not([type=radio]){padding:0 16px}.gform_fields .gfield .ginput_container textarea{padding:16px}.gform_fields .ginput_container input[type=checkbox],.gform_fields .ginput_container input[type=radio]{margin-right:4px}.gform_fields .ginput_container .gchoice{margin-bottom:8px}.gform_fields .ginput_container input[type=radio]{border-radius:100%}.gform_fields .gfield--type-fileupload .ginput_container input[type=file]{padding-top:8px}.gform_fields .gfield-hds-multifile-uploads .ginput_container_fileupload{border:1px solid #d1d1d1;border-radius:2px;padding:12px 24px}.gform_fields .gfield--type-section .gsection_title{border-bottom:1px solid #000;padding-bottom:4px}.gform_fields .gfield--type-section .gsection_description{font-size:1rem;line-height:1.65em;margin-bottom:0}.gform_fields .ginput_container_select{position:relative}.gform_fields select{-moz-appearance:none;-webkit-appearance:none;appearance:none;background:#fff;padding:0 12px}.gfield--input-type-datedropdown .ginput_container_date:after,.gform_fields .gfield-hds-canadian-address-type .address_state:after,.gform_fields .gfield-hds-international-address-type .address_country:after,.gform_fields .gfield-hds-us-address-type .address_state:after,.gform_fields .gfield_time_ampm:after,.gform_fields .ginput_container_select:after{content:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9Ikljb24gLyBBcnJvdyAvIENoZXZyb24tRG93biI+CjxwYXRoIGlkPSJWZWN0b3IgMjcgKFN0cm9rZSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNSA2LjMxODg5TDkuMDQxMDUgMi4yNUwxMCAzLjIxNTU1TDUgOC4yNUwtNC4yMjA1N2UtMDggMy4yMTU1NUwwLjk1ODk0OSAyLjI1TDUgNi4zMTg4OVoiIGZpbGw9ImJsYWNrIi8+CjwvZz4KPC9zdmc+Cg==);display:block;pointer-events:none;position:absolute;right:16px;top:16px}.gform_fields input.gform-datepicker{width:100%}.gform_fields .ginput_container_date{position:relative}.gform_fields .gfield--input-type-datepicker .ginput_container_date:after{content:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDBINlYySDE0VjBIMTZWMkgxOVYyMEgxVjJINFYwWk0zIDRIMTdWNkgzVjRaTTMgOFYxOEgxN1Y4SDNaIiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K);display:block;position:absolute;right:16px;top:16px}.ui-datepicker.gform-theme-datepicker{background:#fff;border-radius:2px;box-shadow:0 0 20px rgba(0,0,0,.2);margin-top:5px;padding:10px;width:270px}.ui-datepicker .ui-datepicker-month,.ui-datepicker .ui-datepicker-year{-moz-appearance:none;-webkit-appearance:none;appearance:none;background:#fff;border:none;height:24px}.ui-datepicker .ui-datepicker-month{text-align:center;width:60%}img.ui-datepicker-trigger{display:none}.ui-datepicker .ui-icon-circle-triangle-e,.ui-datepicker .ui-icon-circle-triangle-w{background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9Ikljb24gLyBBcnJvdyAvIENpcmNsZS1MZWZ0Ij4KPHBhdGggaWQ9IkVsbGlwc2UgMjQ1IiBkPSJNMTAgMTkuNUM0Ljc1MzMgMTkuNSAwLjUgMTUuMjQ2NyAwLjUgMTBDMC40OTk5OTkgNC43NTMzIDQuNzUzMjkgMC41IDEwIDAuNUMxNS4yNDY3IDAuNDk5OTk5IDE5LjUgNC43NTMyOSAxOS41IDEwQzE5LjUgMTUuMjQ2NyAxNS4yNDY3IDE5LjUgMTAgMTkuNVoiIHN0cm9rZT0iIzE3MTcxQiIvPgo8cGF0aCBpZD0iVmVjdG9yIDI3IChTdHJva2UpIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTguOTQ0OTEgMTBMMTIuMiAxMy4yMzI4TDExLjQyNzYgMTRMNy40MDAwMiAxMEwxMS40Mjc2IDZMMTIuMiA2Ljc2NzE2TDguOTQ0OTEgMTBaIiBmaWxsPSIjMTcxNzFCIi8+CjwvZz4KPC9zdmc+Cg==);background-size:100%;display:block;font-size:0;height:24px;width:24px}.ui-icon-circle-triangle-e{transform:rotate(180deg)}.ui-datepicker .ui-datepicker-calendar{border-collapse:collapse;margin:10px 0 -10px -5px;width:260px}.ui-datepicker-calendar tbody tr td{border-bottom:10px solid transparent;text-align:center}.ui-datepicker-calendar tbody tr td a{color:#17171b}.ui-datepicker-calendar .ui-datepicker-unselectable{color:#959599}.ui-datepicker-calendar .ui-datepicker-current-day{background:#1c67e6}.ui-datepicker-calendar .ui-datepicker-current-day a{color:#fff}.gfield_label.gform-field-label{color:#2e2e32;font-weight:600;letter-spacing:-.25px;margin-bottom:8px}.gform_fields .gfield_description,.gform_fields .gsection_description{color:#58585b;font-size:12px;margin-top:5px}.gfield_required,.gform_fields .gfield_validation_message{color:#af1108}.gfield_required .gfield_required_text{font-size:90%;font-weight:400;margin-left:6px}.gfield_required .gfield_required_asterisk{margin-left:3px}.gform_fields .gfield_validation_message{align-items:center;display:flex;letter-spacing:.25px}.gform_fields .validation_message--hidden-on-empty{display:none}.gfield_validation_message:before{content:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMCAxOUMxNC45NzA2IDE5IDE5IDE0Ljk3MDYgMTkgMTBDMTkgNS4wMjk0NCAxNC45NzA2IDEgMTAgMUM1LjAyOTQ0IDEgMSA1LjAyOTQ0IDEgMTBDMSAxNC45NzA2IDUuMDI5NDQgMTkgMTAgMTlaTTkgMTNWNEgxMVYxM0g5Wk05IDE2VjE0SDExVjE2SDlaIiBmaWxsPSIjRjY0MTM3Ii8+Cjwvc3ZnPgo=);margin-right:6px}.gform_fields .gform-field-label--type-sub{margin-bottom:12px}.gform_fields input+.gform-field-label--type-sub{margin:5px 0 12px}.gform_fields .gfield-hds-multifile-uploads button,.gform_footer .gform_button.button{background-color:#af1108;border:none;color:#fff;font-size:16px;font-weight:600;line-height:20px;padding:12px 20px;transition:background-color .2s ease-in-out}.gform_fields .gfield-hds-multifile-uploads button{font-size:12px;padding:6px 10px}.gform_fields .gfield-hds-multifile-uploads button:hover,.gform_footer .gform_button.button:hover{background-color:#b60109;cursor:pointer;transition:background-color .2s ease-in-out}.gform_fields .gfield-hds-multifile-uploads button:focus .gform_footer .gform_button.button:focus{outline:1px dashed #b9b9bb}.gform_fields .gfield-hds-singlefile-uploads .ginput_container input::file-selector-button{background-color:#af1108;border:none;color:#fff;font-size:12px;font-weight:600;line-height:20px;padding:6px 10px;transition:background-color .2s ease-in-out}.gform_fields .gfield-hds-singlefile-uploads .ginput_container input::file-selector-button:hover{background-color:#b60109;cursor:pointer;transition:background-color .2s ease-in-out}.usa-article-content div.form-entry-content p.form-omb-approval-wrapper{margin:0}div.form-entry-content p.form-omb-approval-wrapper .form-omb-approval-label{font-size:.7rem;font-weight:700;margin-right:5px}div.form-entry-content p.form-omb-approval-wrapper .form-omb-approval-code{font-family:dm-mono;font-size:.9rem;font-style:normal;font-weight:500;letter-spacing:1px;line-height:1em;text-transform:uppercase}.hds-single-form-embed.bg-carbon-90 .form-entry-content{margin-bottom:40px;width:100%}.bg-carbon-90 .gform_fields .ginput_container span>*,.bg-carbon-90 .gform_fields .ginput_container>*{background:transparent;color:#d1d1d1}.bg-carbon-90 .gform_fields .ginput_container input::-moz-placeholder{color:#d1d1d1}.bg-carbon-90 .gform_fields .ginput_container input::placeholder{color:#d1d1d1}.bg-carbon-90 .gform_fields .gsection_title{border-bottom:1px solid #fff}.bg-carbon-90 .gform_fields .ginput_container_date:after{content:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9Ikljb24gLyBDYWxlbmRhciI+CjxwYXRoIGlkPSJVbmlvbiIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDBINlYySDE0VjBIMTZWMkgxOVYyMEgxVjJINFYwWk0zIDRIMTdWNkgzVjRaTTMgOFYxOEgxN1Y4SDNaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+Cjwvc3ZnPgo=)}.bg-carbon-90 .gform_fields .ginput_container_select:after{content:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9Ikljb24gLyBBcnJvdyAvIENoZXZyb24tRG93biI+CjxwYXRoIGlkPSJWZWN0b3IgMjcgKFN0cm9rZSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNSA2LjMxODg5TDkuMDQxMDUgMi4yNUwxMCAzLjIxNTU1TDUgOC4yNUwtNC4yMjA1N2UtMDggMy4yMTU1NUwwLjk1ODk0OSAyLjI1TDUgNi4zMTg4OVoiIGZpbGw9IndoaXRlIi8+CjwvZz4KPC9zdmc+Cg==)}.bg-carbon-90 .gfield--type-html,.bg-carbon-90 .gfield--type-html a,.bg-carbon-90 .gform-field-label,.bg-carbon-90 .gform_fields .gfield_description,.bg-carbon-90 .gform_fields .gsection_description,.bg-carbon-90 .gform_required_legend,.bg-carbon-90 .gsection_title,.bg-carbon-90 h2{color:#d1d1d1}@media only screen and (min-width:800px){.hds-single-form-embed.bg-carbon-90{padding:2rem}.hds-single-form-embed.bg-carbon-90 .form-entry-content{margin-bottom:0}.gform_fields select{padding:0 16px}}
 
 </style>
-<link rel='stylesheet' id='all-css-4' href='https://www.nasa.gov/wp-content/plugins/popup-maker/dist/assets/site.css?m=1764785691g' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-4' href='https://www.nasa.gov/wp-content/plugins/popup-maker/dist/assets/site.css?m=1765214433g' type='text/css' media='all' />
 <style id='popup-maker-site-inline-css'>
 /* Popup Theme 862807: Default Theme */
 .pum-theme-862807, .pum-theme-default-theme { background-color: rgba( 255, 255, 255, 1.00 ) } 
@@ -149,7 +145,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 <script id="random-popup-display-js-extra">
 var popupData = {"popupId":"872473","randomChance":"0.1"};
 </script>
-<script type="text/javascript" src="https://www.nasa.gov/_static/??-eJyNkE1uAjEMRi/UECHxu6h6FnfGDR45dogdYDh9p4UFYsEgWfbmPcuf47kEko5bjxaHqY4N63gfi0yyGOwjvoJCplTB8RHuVBzFox8wT4qAwZ+XWL+Bg8BpBswoLbimxDhDcruo3PobBzhlvKrMLbUDVAymHQHPoBWk1xyKllZCT1YYxmelcEskU/wKJ/LxR2u2CGbo/9+cLI/Nie2e4Ct/Lreb1Xa33uzXwy84m5uA"  defer></script><script defer='defer' defer="defer" src="https://www.google.com/recaptcha/api.js" id="gform_recaptcha-js"></script>
+<script type="text/javascript" src="https://www.nasa.gov/_static/??-eJyNkMtuAzEIRX8ojpX3qsq30BniMMLgGpx0+vWZPBZRF51KCDbnIC7xWgJJx61Hi8NUXw3r+BrLTLIcbBH/gkKmVMHxHe5UHMWjnzFPioDB3Uusn8BB4DIDZpQWXFNinCG5fas8+z8OcMr4ozK31M5QMZh2BDyDVpBecyhaWgk9WWEYfyuFWyKZ4le4kI8nrdkimKE/vjlZHpsT2yvBMX+sDvvderXdbg7DDTg7m24="  defer></script><script defer='defer' defer="defer" src="https://www.google.com/recaptcha/api.js" id="gform_recaptcha-js"></script>
 <link rel="https://api.w.org/" href="https://www.nasa.gov/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.nasa.gov/wp-json/wp/v2/pages/128943" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.nasa.gov/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.8.3" />
 <link rel='shortlink' href='https://www.nasa.gov/' />
@@ -170,8 +166,8 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 	<meta name="searchgov_custom2" content=""/>
 	<meta name="searchgov_custom3" content="page"/>
 	<meta name="searchgov_custom4" content="en"/>
-	<meta name="searchgov_custom5" content="2025-12-07"/>
-	<meta name="searchgov_custom6" content="1765122635000"/>
+	<meta name="searchgov_custom5" content="2025-12-09"/>
+	<meta name="searchgov_custom6" content="1765311526000"/>
 	<meta name="keywords" content=""/>
 	<meta name="parsely-title" content="NASA" />
 <meta name="parsely-link" content="https://www.nasa.gov" />
@@ -180,7 +176,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 <meta name="parsely-pub-date" content="2022-12-07T18:25:23Z" />
 <meta name="parsely-section" content="General" />
 <meta name="parsely-author" content="Dacia Massengill" />
-
+<link rel="preload" as="image" fetchpriority="high" imagesizes="(max-width: 1536px) 100vw, 1536px" imagesrcset="https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg 4000w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=2048,1366 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=2000,1334 2000w">
 	<!-- USWDS Includes -->
 	<!-- End USWDS Includes -->
 </head>
@@ -465,7 +461,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 		</ul>
 	</div>
 </div>
-<div class="global-nav__home global-nav__features global-nav__col grid-col-9 desktop:padding-left-105"><h3 class="heading-12 color-carbon-40 text-uppercase margin-bottom-2">Featured</h3><div class="grid-row"><a href="https://www.nasa.gov/solar-system/planets/mars/nasa-tests-drones-in-death-valley-preps-for-martian-sands-and-skies/" class="hds-content-card hds-content-card-home grid-col-12 desktop:grid-col-4 color-spacesuit-white padding-x-0 desktop:padding-right-3 margin-bottom-4" target="_self"><div class="grid-col margin-bottom-2"><div class="bg-carbon-black minh-mobile"><img width="1024" height="576" src="https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg?w=1024" class="hds-media-background z-100" alt="Two people stand side by side on a sandy hill, or dune. The person on the left is standing in a blue top, while the person on the right in a gray top is holding a controller. Above and to the left of their heads is a rotorcraft flying above the dune. The background of this image is more sandy dunes." style="object-position: 0% 0%" decoding="async" fetchpriority="high" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg 4043w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg?resize=300,169 300w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg?resize=768,432 768w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg?resize=1024,576 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg?resize=1536,864 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg?resize=2048,1152 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg?resize=400,225 400w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg?resize=600,338 600w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg?resize=900,506 900w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg?resize=1200,675 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pia26674-researchers-test-mars-drone-software-in-death-valley-web.jpg?resize=2000,1125 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></div></div><div class="grid-col padding-left-0"><div class="label margin-bottom-1">6 min read</div><div class="margin-bottom-2"><h3 class="heading-16 line-height-md">NASA Tests Drones in Death Valley, Preps for Martian Sands and Skies</h3></div><div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40"><span class="display-flex flex-align-center margin-right-2"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>article</span></span><span>6 days ago</span></div></div></a><a href="https://www.nasa.gov/missions/osiris-rex/sugars-gum-stardust-found-in-nasas-asteroid-bennu-samples/" class="hds-content-card hds-content-card-home grid-col-12 desktop:grid-col-4 color-spacesuit-white padding-x-0 desktop:padding-right-3 margin-bottom-4" target="_self"><div class="grid-col margin-bottom-2"><div class="bg-carbon-black minh-mobile"><img width="1024" height="729" src="https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg?w=1024" class="hds-media-background z-100" alt="" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg 2872w, https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg?resize=300,214 300w, https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg?resize=768,547 768w, https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg?resize=1024,729 1024w, https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg?resize=1536,1094 1536w, https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg?resize=2048,1459 2048w, https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg?resize=400,285 400w, https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg?resize=600,427 600w, https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg?resize=900,641 900w, https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg?resize=1200,855 1200w, https://www.nasa.gov/wp-content/uploads/2025/11/orex-022.jpg?resize=2000,1425 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></div></div><div class="grid-col padding-left-0"><div class="label margin-bottom-1">8 min read</div><div class="margin-bottom-2"><h3 class="heading-16 line-height-md">Sugars, ‘Gum,’ Stardust Found in NASA&#8217;s Asteroid Bennu Samples</h3></div><div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40"><span class="display-flex flex-align-center margin-right-2"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>article</span></span><span>6 days ago</span></div></div></a><a href="https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-observatory-passes-spate-of-key-tests/" class="hds-content-card hds-content-card-home grid-col-12 desktop:grid-col-4 color-spacesuit-white padding-x-0 desktop:padding-right-3 margin-bottom-4" target="_self"><div class="grid-col margin-bottom-2"><div class="bg-carbon-black minh-mobile"><img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?w=1024" class="hds-media-background z-100" alt="Core portion of Roman observatory exiting test chamber" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg 6192w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></div></div><div class="grid-col padding-left-0"><div class="label margin-bottom-1">4 min read</div><div class="margin-bottom-2"><h3 class="heading-16 line-height-md">NASA&#8217;s Roman Observatory Passes Spate of Key Tests</h3></div><div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40"><span class="display-flex flex-align-center margin-right-2"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>article</span></span><span>2 weeks ago</span></div></div></a></div></div><div class="global-nav__secondary global-nav__col grid-col-5 desktop:padding-left-105" hidden>
+<div class="global-nav__home global-nav__features global-nav__col grid-col-9 desktop:padding-left-105"><h3 class="heading-12 color-carbon-40 text-uppercase margin-bottom-2">Featured</h3><div class="grid-row"><a href="https://www.nasa.gov/science-research/earth-science/new-nasa-sensor-goes-hunting-for-critical-minerals/" class="hds-content-card hds-content-card-home grid-col-12 desktop:grid-col-4 color-spacesuit-white padding-x-0 desktop:padding-right-3 margin-bottom-4" target="_self"><div class="grid-col margin-bottom-2"><div class="bg-carbon-black minh-mobile"><img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?w=1024" class="hds-media-background z-100" alt="" style="object-position: 0% 0%" decoding="async" fetchpriority="high" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg 3525w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></div></div><div class="grid-col padding-left-0"><div class="label margin-bottom-1">5 min read</div><div class="margin-bottom-2"><h3 class="heading-16 line-height-md">New NASA Sensor Goes Hunting for Critical Minerals</h3></div><div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40"><span class="display-flex flex-align-center margin-right-2"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>article</span></span><span>7 hours ago</span></div></div></a><a href="https://www.nasa.gov/general/nasa-wins-second-emmy-award-for-2024-total-solar-eclipse-broadcast/" class="hds-content-card hds-content-card-home grid-col-12 desktop:grid-col-4 color-spacesuit-white padding-x-0 desktop:padding-right-3 margin-bottom-4" target="_self"><div class="grid-col margin-bottom-2"><div class="bg-carbon-black minh-mobile"><img width="1049" height="867" src="https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1049&amp;h=867&amp;fit=clip&amp;crop=faces%2Cfocalpoint" class="hds-media-background z-100" alt="A black circle fills half the image, from the upper left corner to the middle. Around the edges of the black circle, there is a wispy white glow - the Sun&#039;s corona. Small pink bursts -- prominences -- are visible through the corona. The rest of the image is black." style="object-position: 0% 0%" decoding="async" srcset="https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1049&amp;h=867&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1049w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=300&amp;h=248&amp;fit=crop&amp;crop=faces%2Cfocalpoint 300w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=768&amp;h=635&amp;fit=crop&amp;crop=faces%2Cfocalpoint 768w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1024&amp;h=846&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1024w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=400&amp;h=331&amp;fit=crop&amp;crop=faces%2Cfocalpoint 400w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=600&amp;h=496&amp;fit=crop&amp;crop=faces%2Cfocalpoint 600w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=900&amp;h=744&amp;fit=crop&amp;crop=faces%2Cfocalpoint 900w" sizes="(max-width: 1049px) 100vw, 1049px" /></div></div><div class="grid-col padding-left-0"><div class="label margin-bottom-1">3 min read</div><div class="margin-bottom-2"><h3 class="heading-16 line-height-md">NASA Wins Second Emmy Award for 2024 Total Solar Eclipse Broadcast</h3></div><div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40"><span class="display-flex flex-align-center margin-right-2"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>article</span></span><span>4 days ago</span></div></div></a><a href="https://www.nasa.gov/missions/roman-space-telescope/nasa-completes-nancy-grace-roman-space-telescope-construction/" class="hds-content-card hds-content-card-home grid-col-12 desktop:grid-col-4 color-spacesuit-white padding-x-0 desktop:padding-right-3 margin-bottom-4" target="_self"><div class="grid-col margin-bottom-2"><div class="bg-carbon-black minh-mobile"><img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?w=1024" class="hds-media-background z-100" alt="The complete observatory in a clean room" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg 5945w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></div></div><div class="grid-col padding-left-0"><div class="label margin-bottom-1">8 min read</div><div class="margin-bottom-2"><h3 class="heading-16 line-height-md">NASA Completes Nancy Grace Roman Space Telescope Construction</h3></div><div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40"><span class="display-flex flex-align-center margin-right-2"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg><span>article</span></span><span>5 days ago</span></div></div></a></div></div><div class="global-nav__secondary global-nav__col grid-col-5 desktop:padding-left-105" hidden>
 	<div class="global-nav__secondary-wrapper global-nav__wrapper">
 
 		<!-- This is just a mobile button -->
@@ -487,10 +483,37 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 
 <div class="global-nav__tertiary global-nav__col grid-col-4 usa-col" hidden>
 	<div class="global-nav__tertiary-submenu global-nav__wrapper" style="max-width: 440px" submenu-id="global-nav-missions"><h3 class="heading-12 color-carbon-40 text-uppercase margin-bottom-2">Featured</h3>
-<a href="https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-observatory-passes-spate-of-key-tests/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+<a href="https://science.nasa.gov/missions/hubble/hubble-spots-a-storm-of-new-stars/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
 	<div class="grid-col">
 		<div class="width-full bg-carbon-black minh-15">
-			<img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?w=1024" class="hds-media-background z-100" alt="NASA&#8217;s Roman Observatory Passes Spate of Key Tests" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg 6192w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/11/scipa-lift-out-of-ses-chamber-and-air-pad-into-ssdif-141.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
+			<img src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_NGC1792_potw2548a.jpg?w=1024" alt="Hubble Spots a Storm of New Stars" class="hds-media-background z-100" />		</div>
+	</div>
+
+	<div class="grid-col padding-left-105">
+
+		<div class="label margin-bottom-1">2 min read</div>
+
+		<div class="margin-bottom-2">
+			<h3 class="heading-16 line-height-md">Hubble Spots a Storm of New Stars</h3>
+		</div>
+
+		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
+
+			<span class="display-flex flex-align-center margin-right-2">
+				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+				<span>article</span>
+			</span>
+
+			<span>4 days ago</span>
+
+		</div>
+	</div>
+</a>
+
+<a href="https://science.nasa.gov/missions/artemis/artemis-4/nasa-selects-2-instruments-for-artemis-iv-lunar-surface-science/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+	<div class="grid-col">
+		<div class="width-full bg-carbon-black minh-15">
+			<img src="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-science-division/2025/LunarSouthPoleHeader.png?w=1024" alt="NASA Selects 2 Instruments for Artemis IV Lunar Surface Science" class="hds-media-background z-100" />		</div>
 	</div>
 
 	<div class="grid-col padding-left-105">
@@ -498,7 +521,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 		<div class="label margin-bottom-1">4 min read</div>
 
 		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">NASA&#8217;s Roman Observatory Passes Spate of Key Tests</h3>
+			<h3 class="heading-16 line-height-md">NASA Selects 2 Instruments for Artemis IV Lunar Surface Science</h3>
 		</div>
 
 		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
@@ -508,24 +531,24 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>2 weeks ago</span>
+			<span>5 days ago</span>
 
 		</div>
 	</div>
 </a>
 
-<a href="https://www.nasa.gov/humans-in-space/chapea-crew-begins-stay-inside-nasas-mars-habitat-for-second-mission/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+<a href="https://science.nasa.gov/missions/xrism/nasa-jaxa-xrism-finds-elemental-bounty-in-supernova-remnant/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
 	<div class="grid-col">
 		<div class="width-full bg-carbon-black minh-15">
-			<img width="1024" height="768" src="https://www.nasa.gov/wp-content/uploads/2025/11/chapeamission2-crew.png?w=1024" class="hds-media-background z-100" alt="CHAPEA Crew Begins Stay Inside NASA’s Mars Habitat for Second Mission" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/11/chapeamission2-crew.png 1920w, https://www.nasa.gov/wp-content/uploads/2025/11/chapeamission2-crew.png?resize=300,225 300w, https://www.nasa.gov/wp-content/uploads/2025/11/chapeamission2-crew.png?resize=768,576 768w, https://www.nasa.gov/wp-content/uploads/2025/11/chapeamission2-crew.png?resize=1024,768 1024w, https://www.nasa.gov/wp-content/uploads/2025/11/chapeamission2-crew.png?resize=1536,1152 1536w, https://www.nasa.gov/wp-content/uploads/2025/11/chapeamission2-crew.png?resize=400,300 400w, https://www.nasa.gov/wp-content/uploads/2025/11/chapeamission2-crew.png?resize=600,450 600w, https://www.nasa.gov/wp-content/uploads/2025/11/chapeamission2-crew.png?resize=900,675 900w, https://www.nasa.gov/wp-content/uploads/2025/11/chapeamission2-crew.png?resize=1200,900 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
+			<img src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/09/6-astrophysics-main-cassiopeia-a.jpg?w=1024" alt="NASA-JAXA XRISM Finds Elemental Bounty in Supernova Remnant" class="hds-media-background z-100" />		</div>
 	</div>
 
 	<div class="grid-col padding-left-105">
 
-		<div class="label margin-bottom-1">3 min read</div>
+		<div class="label margin-bottom-1">4 min read</div>
 
 		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">CHAPEA Crew Begins Stay Inside NASA’s Mars Habitat for Second Mission</h3>
+			<h3 class="heading-16 line-height-md">NASA-JAXA XRISM Finds Elemental Bounty in Supernova Remnant</h3>
 		</div>
 
 		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
@@ -535,34 +558,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>2 weeks ago</span>
-
-		</div>
-	</div>
-</a>
-
-<a href="https://www.nasa.gov/centers-and-facilities/johnson/nasas-2025-astronaut-candidates-shaping-artemis-exploration/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
-	<div class="grid-col">
-		<div class="width-full bg-carbon-black minh-15">
-			<img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg?w=1024" class="hds-media-background z-100" alt="NASA’s 2025 Astronaut Candidates: Shaping Artemis Exploration " style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg 7973w, https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/11/jsc2025e076421.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
-	</div>
-
-	<div class="grid-col padding-left-105">
-
-		<div class="label margin-bottom-1">5 min read</div>
-
-		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">NASA’s 2025 Astronaut Candidates: Shaping Artemis Exploration </h3>
-		</div>
-
-		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
-
-			<span class="display-flex flex-align-center margin-right-2">
-				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
-				<span>article</span>
-			</span>
-
-			<span>2 weeks ago</span>
+			<span>5 days ago</span>
 
 		</div>
 	</div>
@@ -589,7 +585,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>3 days ago</span>
+			<span>5 days ago</span>
 
 		</div>
 	</div>
@@ -616,7 +612,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>5 days ago</span>
+			<span>7 days ago</span>
 
 		</div>
 	</div>
@@ -649,6 +645,60 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 	</div>
 </a>
 </div><div class="global-nav__tertiary-submenu global-nav__wrapper" style="max-width: 440px" submenu-id="global-nav-earth-climate"><h3 class="heading-12 color-carbon-40 text-uppercase margin-bottom-2">Highlights</h3>
+<a href="https://www.nasa.gov/galleries-ames-earth-science/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+	<div class="grid-col">
+		<div class="width-full bg-carbon-black minh-15">
+			<img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?w=1024" class="hds-media-background z-100" alt="Galleries &#8211; Ames Earth Science" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg 6000w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
+	</div>
+
+	<div class="grid-col padding-left-105">
+
+		<div class="label margin-bottom-1">1 min read</div>
+
+		<div class="margin-bottom-2">
+			<h3 class="heading-16 line-height-md">Galleries &#8211; Ames Earth Science</h3>
+		</div>
+
+		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
+
+			<span class="display-flex flex-align-center margin-right-2">
+				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+				<span>article</span>
+			</span>
+
+			<span>4 hours ago</span>
+
+		</div>
+	</div>
+</a>
+
+<a href="https://www.nasa.gov/science-research/earth-science/new-nasa-sensor-goes-hunting-for-critical-minerals/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+	<div class="grid-col">
+		<div class="width-full bg-carbon-black minh-15">
+			<img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?w=1024" class="hds-media-background z-100" alt="New NASA Sensor Goes Hunting for Critical Minerals" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg 3525w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
+	</div>
+
+	<div class="grid-col padding-left-105">
+
+		<div class="label margin-bottom-1">5 min read</div>
+
+		<div class="margin-bottom-2">
+			<h3 class="heading-16 line-height-md">New NASA Sensor Goes Hunting for Critical Minerals</h3>
+		</div>
+
+		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
+
+			<span class="display-flex flex-align-center margin-right-2">
+				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+				<span>article</span>
+			</span>
+
+			<span>7 hours ago</span>
+
+		</div>
+	</div>
+</a>
+
 <a href="https://science.nasa.gov/earth/earth-observatory/senyar-swamps-sumatra/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
 	<div class="grid-col">
 		<div class="width-full bg-carbon-black minh-15">
@@ -670,61 +720,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>3 days ago</span>
-
-		</div>
-	</div>
-</a>
-
-<a href="https://science.nasa.gov/earth/earth-observatory/hayli-gubbis-explosive-first-impression/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
-	<div class="grid-col">
-		<div class="width-full bg-carbon-black minh-15">
-			<img src="https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2025/hayli-gubbi’s-explosive-first-impression/ethiopia_hayligubbi_amo_20251123_th.jpg?w=1024" alt="Hayli Gubbi’s Explosive First Impression" class="hds-media-background z-100" />		</div>
-	</div>
-
-	<div class="grid-col padding-left-105">
-
-		<div class="label margin-bottom-1">4 min read</div>
-
-		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">Hayli Gubbi’s Explosive First Impression</h3>
-		</div>
-
-		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
-
-			<span class="display-flex flex-align-center margin-right-2">
-				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
-				<span>article</span>
-			</span>
-
-			<span>4 days ago</span>
-
-		</div>
-	</div>
-</a>
-
-<a href="https://science.nasa.gov/kids/camp-landsat/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
-	<div class="grid-col">
-		<div class="width-full bg-carbon-black minh-15">
-			<img src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/06/c/camp-landsat-logo-thumbnail-card-grid.png?w=1024" alt="Camp Landsat" class="hds-media-background z-100" />		</div>
-	</div>
-
-	<div class="grid-col padding-left-105">
-
-		<div class="label margin-bottom-1">1 min read</div>
-
-		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">Camp Landsat</h3>
-		</div>
-
-		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
-
-			<span class="display-flex flex-align-center margin-right-2">
-				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
-				<span>article</span>
-			</span>
-
-			<span>4 days ago</span>
+			<span>5 days ago</span>
 
 		</div>
 	</div>
@@ -751,7 +747,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>2 days ago</span>
+			<span>4 days ago</span>
 
 		</div>
 	</div>
@@ -778,7 +774,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>3 days ago</span>
+			<span>4 days ago</span>
 
 		</div>
 	</div>
@@ -805,7 +801,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>3 days ago</span>
+			<span>5 days ago</span>
 
 		</div>
 	</div>
@@ -832,7 +828,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>3 days ago</span>
+			<span>4 days ago</span>
 
 		</div>
 	</div>
@@ -859,7 +855,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>4 days ago</span>
+			<span>5 days ago</span>
 
 		</div>
 	</div>
@@ -886,70 +882,16 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>4 days ago</span>
+			<span>5 days ago</span>
 
 		</div>
 	</div>
 </a>
 </div><div class="global-nav__tertiary-submenu global-nav__wrapper" style="max-width: 440px" submenu-id="global-nav-science"><h3 class="heading-12 color-carbon-40 text-uppercase margin-bottom-2">Highlights</h3>
-<a href="https://www.nasa.gov/general/nasa-wins-second-emmy-award-for-2024-total-solar-eclipse-broadcast/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+<a href="https://www.nasa.gov/galleries-ames-earth-science/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
 	<div class="grid-col">
 		<div class="width-full bg-carbon-black minh-15">
-			<img width="1049" height="867" src="https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1049&amp;h=867&amp;fit=clip&amp;crop=faces%2Cfocalpoint" class="hds-media-background z-100" alt="NASA Wins Second Emmy Award for 2024 Total Solar Eclipse Broadcast" style="object-position: 0% 0%" decoding="async" srcset="https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1049&amp;h=867&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1049w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=300&amp;h=248&amp;fit=crop&amp;crop=faces%2Cfocalpoint 300w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=768&amp;h=635&amp;fit=crop&amp;crop=faces%2Cfocalpoint 768w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1024&amp;h=846&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1024w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=400&amp;h=331&amp;fit=crop&amp;crop=faces%2Cfocalpoint 400w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=600&amp;h=496&amp;fit=crop&amp;crop=faces%2Cfocalpoint 600w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=900&amp;h=744&amp;fit=crop&amp;crop=faces%2Cfocalpoint 900w" sizes="(max-width: 1049px) 100vw, 1049px" />		</div>
-	</div>
-
-	<div class="grid-col padding-left-105">
-
-		<div class="label margin-bottom-1">3 min read</div>
-
-		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">NASA Wins Second Emmy Award for 2024 Total Solar Eclipse Broadcast</h3>
-		</div>
-
-		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
-
-			<span class="display-flex flex-align-center margin-right-2">
-				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
-				<span>article</span>
-			</span>
-
-			<span>2 days ago</span>
-
-		</div>
-	</div>
-</a>
-
-<a href="https://science.nasa.gov/researchers/solicitations/roses-2025/f-10-prism-correction-faq-posted-and-pre-proposal-teleconference-today-december-5-2025/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
-	<div class="grid-col">
-		<div class="width-full bg-carbon-black minh-15">
-			<img src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/04/w/waveBehaviors_thumb.png?w=1024" alt="F.10 PRISM Correction, FAQ posted, and pre-proposal teleconference today December 5, 2025." class="hds-media-background z-100" />		</div>
-	</div>
-
-	<div class="grid-col padding-left-105">
-
-		<div class="label margin-bottom-1">2 min read</div>
-
-		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">F.10 PRISM Correction, FAQ posted, and pre-proposal teleconference today December 5, 2025.</h3>
-		</div>
-
-		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
-
-			<span class="display-flex flex-align-center margin-right-2">
-				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
-				<span>article</span>
-			</span>
-
-			<span>3 days ago</span>
-
-		</div>
-	</div>
-</a>
-
-<a href="https://science.nasa.gov/researchers/solicitations/roses-2025/b-3-living-with-a-star-science-clarification-regarding-interagency-awards/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
-	<div class="grid-col">
-		<div class="width-full bg-carbon-black minh-15">
-			<img src="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/skywatching/2025/november/Jupiter%20higher_credit_Bill%20Dunford_CC%20BY-NC%202.0.jpg?w=1024" alt="B.3 Living With a Star Science Clarification Regarding Interagency Awards" class="hds-media-background z-100" />		</div>
+			<img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?w=1024" class="hds-media-background z-100" alt="Galleries &#8211; Ames Earth Science" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg 6000w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/06/milanloiacono-firesensefortstewart-04-2025-2393.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
 	</div>
 
 	<div class="grid-col padding-left-105">
@@ -957,7 +899,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 		<div class="label margin-bottom-1">1 min read</div>
 
 		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">B.3 Living With a Star Science Clarification Regarding Interagency Awards</h3>
+			<h3 class="heading-16 line-height-md">Galleries &#8211; Ames Earth Science</h3>
 		</div>
 
 		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
@@ -967,12 +909,120 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>3 days ago</span>
+			<span>4 hours ago</span>
+
+		</div>
+	</div>
+</a>
+
+<a href="https://www.nasa.gov/science-research/earth-science/new-nasa-sensor-goes-hunting-for-critical-minerals/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+	<div class="grid-col">
+		<div class="width-full bg-carbon-black minh-15">
+			<img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?w=1024" class="hds-media-background z-100" alt="New NASA Sensor Goes Hunting for Critical Minerals" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg 3525w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
+	</div>
+
+	<div class="grid-col padding-left-105">
+
+		<div class="label margin-bottom-1">5 min read</div>
+
+		<div class="margin-bottom-2">
+			<h3 class="heading-16 line-height-md">New NASA Sensor Goes Hunting for Critical Minerals</h3>
+		</div>
+
+		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
+
+			<span class="display-flex flex-align-center margin-right-2">
+				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+				<span>article</span>
+			</span>
+
+			<span>7 hours ago</span>
+
+		</div>
+	</div>
+</a>
+
+<a href="https://science.nasa.gov/researchers/solicitations/roses-2025/amendment-27-b-4-space-weather-research-to-operations-to-research-step-2-due-date-delayed-to-april-10-2026/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+	<div class="grid-col">
+		<div class="width-full bg-carbon-black minh-15">
+			<img src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/creative/calendars/2026/nasa-2026-science-calendar-december.jpg?w=1024" alt="Amendment 27: B.4 Space Weather Research-to-Operations-to-Research Step-2 Due Date delayed to April 10, 2026" class="hds-media-background z-100" />		</div>
+	</div>
+
+	<div class="grid-col padding-left-105">
+
+		<div class="label margin-bottom-1">1 min read</div>
+
+		<div class="margin-bottom-2">
+			<h3 class="heading-16 line-height-md">Amendment 27: B.4 Space Weather Research-to-Operations-to-Research Step-2 Due Date delayed to April 10, 2026</h3>
+		</div>
+
+		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
+
+			<span class="display-flex flex-align-center margin-right-2">
+				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+				<span>article</span>
+			</span>
+
+			<span>1 day ago</span>
 
 		</div>
 	</div>
 </a>
 </div><div class="global-nav__tertiary-submenu global-nav__wrapper" style="max-width: 440px" submenu-id="global-nav-aeronautics"><h3 class="heading-12 color-carbon-40 text-uppercase margin-bottom-2">Highlights</h3>
+<a href="https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-safer-skies-for-future-urban-air-travel/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+	<div class="grid-col">
+		<div class="width-full bg-carbon-black minh-15">
+			<img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg?w=1024" class="hds-media-background z-100" alt="NASA Demonstrates Safer Skies for Future Urban Air Travel " style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg 4856w, https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg?resize=2048,1366 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/acd25-0133-012.jpg?resize=2000,1334 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
+	</div>
+
+	<div class="grid-col padding-left-105">
+
+		<div class="label margin-bottom-1">2 min read</div>
+
+		<div class="margin-bottom-2">
+			<h3 class="heading-16 line-height-md">NASA Demonstrates Safer Skies for Future Urban Air Travel </h3>
+		</div>
+
+		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
+
+			<span class="display-flex flex-align-center margin-right-2">
+				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+				<span>article</span>
+			</span>
+
+			<span>2 hours ago</span>
+
+		</div>
+	</div>
+</a>
+
+<a href="https://www.nasa.gov/science-research/earth-science/new-nasa-sensor-goes-hunting-for-critical-minerals/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+	<div class="grid-col">
+		<div class="width-full bg-carbon-black minh-15">
+			<img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?w=1024" class="hds-media-background z-100" alt="New NASA Sensor Goes Hunting for Critical Minerals" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg 3525w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
+	</div>
+
+	<div class="grid-col padding-left-105">
+
+		<div class="label margin-bottom-1">5 min read</div>
+
+		<div class="margin-bottom-2">
+			<h3 class="heading-16 line-height-md">New NASA Sensor Goes Hunting for Critical Minerals</h3>
+		</div>
+
+		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
+
+			<span class="display-flex flex-align-center margin-right-2">
+				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+				<span>article</span>
+			</span>
+
+			<span>7 hours ago</span>
+
+		</div>
+	</div>
+</a>
+
 <a href="https://www.nasa.gov/centers-and-facilities/armstrong/nasas-x-59-completes-first-flight-prepares-for-more-flight-testing/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
 	<div class="grid-col">
 		<div class="width-full bg-carbon-black minh-15">
@@ -999,60 +1049,6 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 		</div>
 	</div>
 </a>
-
-<a href="https://www.nasa.gov/centers-and-facilities/langley/nasa-flights-study-cosmic-ray-effects-for-air-future-space-travelers/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
-	<div class="grid-col">
-		<div class="width-full bg-carbon-black minh-15">
-			<img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg?w=1024" class="hds-media-background z-100" alt="NASA Flights Study Cosmic Ray Effects for Air, Future Space Travelers" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg 4898w, https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/09/img-3738.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
-	</div>
-
-	<div class="grid-col padding-left-105">
-
-		<div class="label margin-bottom-1">4 min read</div>
-
-		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">NASA Flights Study Cosmic Ray Effects for Air, Future Space Travelers</h3>
-		</div>
-
-		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
-
-			<span class="display-flex flex-align-center margin-right-2">
-				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
-				<span>article</span>
-			</span>
-
-			<span>2 months ago</span>
-
-		</div>
-	</div>
-</a>
-
-<a href="https://www.nasa.gov/aeronautics/nasa-partners-push-forward-with-remotely-piloted-airspace-integration/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
-	<div class="grid-col">
-		<div class="width-full bg-carbon-black minh-15">
-			<img width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg?w=1024" class="hds-media-background z-100" alt="NASA, Partners Push Forward with Remotely Piloted Airspace Integration " style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg 8256w, https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/09/acd25-132-006.jpg?resize=2000,1333 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
-	</div>
-
-	<div class="grid-col padding-left-105">
-
-		<div class="label margin-bottom-1">3 min read</div>
-
-		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">NASA, Partners Push Forward with Remotely Piloted Airspace Integration </h3>
-		</div>
-
-		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
-
-			<span class="display-flex flex-align-center margin-right-2">
-				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
-				<span>article</span>
-			</span>
-
-			<span>3 months ago</span>
-
-		</div>
-	</div>
-</a>
 </div><div class="global-nav__tertiary-submenu global-nav__wrapper" style="max-width: 440px" submenu-id="global-nav-technology"><h3 class="heading-12 color-carbon-40 text-uppercase margin-bottom-2">Highlights</h3>
 <a href="https://science.nasa.gov/researchers/solicitations/roses-2025/f-10-prism-correction-faq-posted-and-pre-proposal-teleconference-today-december-5-2025/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
 	<div class="grid-col">
@@ -1075,7 +1071,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>3 days ago</span>
+			<span>4 days ago</span>
 
 		</div>
 	</div>
@@ -1102,7 +1098,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>5 days ago</span>
+			<span>6 days ago</span>
 
 		</div>
 	</div>
@@ -1129,7 +1125,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>5 days ago</span>
+			<span>6 days ago</span>
 
 		</div>
 	</div>
@@ -1160,10 +1156,10 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 	</div>
 </a>
 </div></div><div class="global-nav__tertiary-submenu global-nav__wrapper" style="max-width: 440px" submenu-id="global-nav-about-nasa"><h3 class="heading-12 color-carbon-40 text-uppercase margin-bottom-2">Featured</h3>
-<a href="https://www.nasa.gov/centers-and-facilities/goddard/nasas-fly-foundational-robots-demo-to-bolster-in-space-infrastructure/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+<a href="https://www.nasa.gov/general/nasa-wins-second-emmy-award-for-2024-total-solar-eclipse-broadcast/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
 	<div class="grid-col">
 		<div class="width-full bg-carbon-black minh-15">
-			<img width="513" height="287" src="https://www.nasa.gov/wp-content/uploads/2025/12/ffr-mission-illustration.png?w=513" class="hds-media-background z-100" alt="NASA’s Fly Foundational Robots Demo to Bolster In-Space Infrastructure" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/ffr-mission-illustration.png 513w, https://www.nasa.gov/wp-content/uploads/2025/12/ffr-mission-illustration.png?resize=300,168 300w, https://www.nasa.gov/wp-content/uploads/2025/12/ffr-mission-illustration.png?resize=400,224 400w" sizes="(max-width: 513px) 100vw, 513px" />		</div>
+			<img width="1049" height="867" src="https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1049&amp;h=867&amp;fit=clip&amp;crop=faces%2Cfocalpoint" class="hds-media-background z-100" alt="NASA Wins Second Emmy Award for 2024 Total Solar Eclipse Broadcast" style="object-position: 0% 0%" decoding="async" srcset="https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1049&amp;h=867&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1049w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=300&amp;h=248&amp;fit=crop&amp;crop=faces%2Cfocalpoint 300w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=768&amp;h=635&amp;fit=crop&amp;crop=faces%2Cfocalpoint 768w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1024&amp;h=846&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1024w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=400&amp;h=331&amp;fit=crop&amp;crop=faces%2Cfocalpoint 400w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=600&amp;h=496&amp;fit=crop&amp;crop=faces%2Cfocalpoint 600w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=900&amp;h=744&amp;fit=crop&amp;crop=faces%2Cfocalpoint 900w" sizes="(max-width: 1049px) 100vw, 1049px" />		</div>
 	</div>
 
 	<div class="grid-col padding-left-105">
@@ -1171,7 +1167,34 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 		<div class="label margin-bottom-1">3 min read</div>
 
 		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">NASA’s Fly Foundational Robots Demo to Bolster In-Space Infrastructure</h3>
+			<h3 class="heading-16 line-height-md">NASA Wins Second Emmy Award for 2024 Total Solar Eclipse Broadcast</h3>
+		</div>
+
+		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
+
+			<span class="display-flex flex-align-center margin-right-2">
+				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+				<span>article</span>
+			</span>
+
+			<span>4 days ago</span>
+
+		</div>
+	</div>
+</a>
+
+<a href="https://science.nasa.gov/learning-resources/science-activation/eclipse-soundscapes-volunteers-still-engaged-in-scientific-discovery-post-eclipse/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
+	<div class="grid-col">
+		<div class="width-full bg-carbon-black minh-15">
+			<img src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/learn/science-activation-stories/2025/ES_AudioMoth_Recording_Device-MaryKay_Severino.jpeg?w=1024" alt="Eclipse Soundscapes Volunteers Still Engaged in Scientific Discovery Post-Eclipse" class="hds-media-background z-100" />		</div>
+	</div>
+
+	<div class="grid-col padding-left-105">
+
+		<div class="label margin-bottom-1">3 min read</div>
+
+		<div class="margin-bottom-2">
+			<h3 class="heading-16 line-height-md">Eclipse Soundscapes Volunteers Still Engaged in Scientific Discovery Post-Eclipse</h3>
 		</div>
 
 		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
@@ -1182,33 +1205,6 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 			</span>
 
 			<span>6 days ago</span>
-
-		</div>
-	</div>
-</a>
-
-<a href="https://www.nasa.gov/centers-and-facilities/johnson/the-overview-effect-astronaut-perspectives-from-25-years-in-low-earth-orbit/" class="hds-content-card hds-content-card-3 grid-row color-spacesuit-white margin-bottom-4" target="_self">
-	<div class="grid-col">
-		<div class="width-full bg-carbon-black minh-15">
-			<img width="1024" height="682" src="https://www.nasa.gov/wp-content/uploads/2025/11/iss072e035863medium.jpg?w=1024" class="hds-media-background z-100" alt="The Overview Effect: Astronaut Perspectives from 25 Years in Low Earth Orbit" style="object-position: 0% 0%" decoding="async" srcset="https://www.nasa.gov/wp-content/uploads/2025/11/iss072e035863medium.jpg 1280w, https://www.nasa.gov/wp-content/uploads/2025/11/iss072e035863medium.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/11/iss072e035863medium.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/11/iss072e035863medium.jpg?resize=1024,682 1024w, https://www.nasa.gov/wp-content/uploads/2025/11/iss072e035863medium.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/11/iss072e035863medium.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/11/iss072e035863medium.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/11/iss072e035863medium.jpg?resize=1200,800 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />		</div>
-	</div>
-
-	<div class="grid-col padding-left-105">
-
-		<div class="label margin-bottom-1">4 min read</div>
-
-		<div class="margin-bottom-2">
-			<h3 class="heading-16 line-height-md">The Overview Effect: Astronaut Perspectives from 25 Years in Low Earth Orbit</h3>
-		</div>
-
-		<div class="heading-12 display-flex flex-align-center font-weight-bold text-uppercase margin-bottom-1 color-carbon-40">
-
-			<span class="display-flex flex-align-center margin-right-2">
-				<svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
-				<span>article</span>
-			</span>
-
-			<span>2 weeks ago</span>
 
 		</div>
 	</div>
@@ -1235,7 +1231,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<span>article</span>
 			</span>
 
-			<span>6 days ago</span>
+			<span>1 week ago</span>
 
 		</div>
 	</div>
@@ -1334,44 +1330,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 		
 <article id="post-128943" class="post-128943 page type-page status-publish has-post-thumbnail hentry">
 	<div class="entry-content">
-		<div id="" class="hds-featured-link-list bg-spacesuit-white padding-x-2 tablet:padding-x-3 desktop:padding-x-4 padding-y-5 desktop:padding-y-6 hds-module hds-module-full alignfull wp-block-nasa-blocks-featured-link-list">	<div class="grid-container grid-container-block padding-0">
-		<div class="margin-bottom-4">
-			<h2 class="heading-22">
-				LIVE Monday, Dec. 8, 4:45 p.m. EST (2145 UTC)			</h2>
-		</div>
-
-					<div class="grid-row padding-y-2 border-top-1px border-color-carbon-30-important">
-				<div class="grid-row featured-link-list-row width-full flex-align-center">
-					<div class="grid-col-2 desktop:grid-col-1 tablet:padding-right-3 desktop:padding-right-5">
-						<div class="width-full">
-							<div class="hds-cover-wrapper width-full ratio-1x1 radius-pill overflow-hidden">
-								<figure class="hds-media-background  "><img decoding="async" width="150" height="150" src="https://www.nasa.gov/wp-content/uploads/2023/10/54193905419-720542de4f-o.jpg?w=150&amp;h=150&amp;crop=1" class="attachment-thumbnail size-thumbnail" alt="The International Space Station is pictured from the SpaceX Dragon crew spacecraft by a SpaceX Crew-8 member shortly after undocking from the Harmony module&#039;s space-facing port. The orbital outpost was soaring 272 miles above the cloudy Patagonia region of South America at the time of this photograph." style="transform: scale(1.2); transform-origin: 45% 54%; object-position: 45% 54%; object-fit: cover;" block_context="nasa-block" loading="eager" srcset="https://www.nasa.gov/wp-content/uploads/2023/10/54193905419-720542de4f-o.jpg?resize=150,150 150w, https://www.nasa.gov/wp-content/uploads/2023/10/54193905419-720542de4f-o.jpg?resize=50,50 50w, https://www.nasa.gov/wp-content/uploads/2023/10/54193905419-720542de4f-o.jpg?resize=100,100 100w, https://www.nasa.gov/wp-content/uploads/2023/10/54193905419-720542de4f-o.jpg?resize=200,200 200w" sizes="auto, (max-width: 150px) 100vw, 150px" /></figure>							</div>
-						</div> 
-					</div>
-					<div class="grid-col-8 desktop:grid-col-10 padding-left-3 desktop:padding-left-0">
-						<div class="grid-row flex-align-center">
-							<div class="grid-col-12 desktop:grid-col-6">
-								<h2 class="heading-36 margin-0">Space Station Crew Return</h2>
-							</div>
-							<div class="grid-col-12 desktop:grid-col-6">
-								<p class="p-md margin-0 color-carbon-black">Coverage of farewell remarks and hatch closing of the Soyuz MS-27 spacecraft at the International Space Station</p>
-							</div>
-						</div>
-					</div>
-					<div class="grid-col-2 desktop:grid-col-1 display-flex flex-justify-end">
-						<a href="https://plus.nasa.gov/scheduled-video/nasa-astronaut-jonny-kim-soyuz-ms-27-space-station-farewells-and-hatch-closing/" target="" aria-label="" rel="noopener">
-                            <svg class="hds-featured-link-list-button margin-left-auto margin-right-0" viewBox="0 0 32 32" fill="none">
-                                <circle class="color-nasa-red" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path>
-                            </svg>
-						</a>
-					</div>
-				</div>
-			</div>
-			</div>
-
-	</div>
-
-<div id="" class="hds-nasa-mag padding-0 hds-module hds-module-full alignfull wp-block-nasa-blocks-nasa-mag">	<div class="hds-carousel-wrapper">
+		<div id="" class="hds-nasa-mag padding-0 hds-module hds-module-full alignfull wp-block-nasa-blocks-nasa-mag">	<div class="hds-carousel-wrapper">
 		<div class="hds-slider nasa-mag-slider">
 							<div class="hds-nasa-mag-wrapper hds-cover-wrapper width-full maxw-full bg-carbon-black minh-tablet color-mode-dark">
 					<div class="hds-foreground-wrapper display-flex flex-column">
@@ -1381,8 +1340,8 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 									<h2 class="display-72 margin-bottom-1 color-spacesuit-white">
 										Return to Earth									</h2>
 									<p class="maxw-tablet color-spacesuit-white">
-										NASA astronaut Jonny Kim, accompanied by Roscosmos cosmonauts Sergey Ryzhikov and Alexey Zubritsky, is preparing to depart the International Space Station at 8:41 p.m. EST on Monday, Dec. 8. Live coverage resumes on NASA+ at 4:45 p.m. EST on Monday, Dec. 8.									</p>
-									<a href="https://www.nasa.gov/news-release/nasa-sets-coverage-for-astronaut-jonny-kim-crewmates-return/" target="_self" class="usa-button usa-button--secondary bg-nasa-red">Live Coverage Schedule</a>								</div>
+										At 12:03 a.m. EST on Tuesday, Dec. 9, the Soyuz MS-27 spacecraft, carrying NASA astronaut Jonny Kim and Roscosmos cosmonauts Sergey Ryzhikov and Alexey Zubritsky, landed on the the steppe of Kazakhstan, southeast of the town of Dzhezkazgan. This completes the crew&#039;s 245-day mission aboard the station.									</p>
+									<a href="https://www.nasa.gov/news-release/nasa-astronaut-jonny-kim-crewmates-return-from-space-station/" target="_self" class="usa-button usa-button--secondary bg-nasa-red">Learn More</a>								</div>
 							</div>
 						</div>
 						<div class="hds-mag-nav-cols grid-container grid-row width-full grid-container-extrawide margin-top-auto margin-bottom-0 padding-x-3 padding-bottom-2 desktop:padding-bottom-5">
@@ -1390,39 +1349,39 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 								<div class="hds-nasa-mag-col-inner border-top-1px padding-y-1 desktop:padding-bottom-0 desktop:padding-top-2">
 									<h3 class="label color-spacesuit-white">
 										advancinG RESEARCH									</h3>
-											<a href="https://www.nasa.gov/missions/station/iss-research/nasa-astronaut-jonny-kim-advances-research-aboard-space-station/" target="_self" class="button-primary button-primary-sm link-external-true">
+												<a href="https://www.nasa.gov/missions/station/iss-research/nasa-astronaut-jonny-kim-advances-research-aboard-space-station/" target="_self" class="button-primary button-primary-sm link-external-false">
 			<span class="line-height-alt-1 color-spacesuit-white-important" >
 				NASA Astronaut Jonny Kim                			</span>
 			<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="button-primary-circle" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg>
 		</a>
-									</div>
+										</div>
 							</div>
 							<div class="hds-nasa-mag-col grid-col-12 tablet:grid-col-4 desktop:grid-col-3 padding-right-2">
 								<div class="hds-nasa-mag-col-inner border-top-1px padding-y-1 desktop:padding-bottom-0 desktop:padding-top-2">
 									<h3 class="label color-spacesuit-white">
-										OFF THE EARTH, FOR THE EARTH									</h3>
-											<a href="https://www.nasa.gov/blogs/spacestation/" target="_self" class="button-primary button-primary-sm link-external-true">
+										CURRENT MISSION									</h3>
+												<a href="https://www.nasa.gov/mission/expedition-74/" target="_self" class="button-primary button-primary-sm link-external-false">
 			<span class="line-height-alt-1 color-spacesuit-white-important" >
-				Space Station Blog                			</span>
+				Expedition 74                			</span>
 			<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="button-primary-circle" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg>
 		</a>
-									</div>
+										</div>
 							</div>
 							<div class="hds-nasa-mag-col grid-col-12 tablet:grid-col-4 desktop:grid-col-3 desktop:padding-right-2">
 								<div class="hds-nasa-mag-col-inner border-top-1px padding-y-1 desktop:padding-bottom-0 desktop:padding-top-2">
 									<h3 class="label color-spacesuit-white">
-										CURRENT MISSION									</h3>
-											<a href="https://www.nasa.gov/mission/expedition-73/" target="_self" class="button-primary button-primary-sm link-external-true">
+										25 years									</h3>
+												<a href="https://www.nasa.gov/international-space-station/iss25/" target="_self" class="button-primary button-primary-sm link-external-false">
 			<span class="line-height-alt-1 color-spacesuit-white-important" >
-				Expedition 73                			</span>
+				A Momentous Milestone                			</span>
 			<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="button-primary-circle" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg>
 		</a>
-									</div>
+										</div>
 							</div>
 						</div>
 					</div>
 					<div class="skrim-overlay skrim-left mobile-skrim-top z-200"></div>
-					<figure class="hds-media-background  "><img decoding="async" width="1920" height="1280" src="https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint" class="attachment-2048x2048 size-2048x2048" alt="NASA astronaut and Expedition 73 Flight Engineer Jonny Kim poses for a portrait inside the cupola, the International Space Station&#039;s &quot;window to the world.&quot; The orbital outpost was soaring 265 miles above the Indian Ocean off the coast of Madagascar at the time of this photograph." style="transform: scale(1); transform-origin: 14% 47%; object-position: 14% 47%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=1920&amp;h=1280&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1920w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=300&amp;h=200&amp;fit=crop&amp;crop=faces%2Cfocalpoint 300w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=768&amp;h=512&amp;fit=crop&amp;crop=faces%2Cfocalpoint 768w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=1024&amp;h=683&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1024w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=1536&amp;h=1024&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1536w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=400&amp;h=267&amp;fit=crop&amp;crop=faces%2Cfocalpoint 400w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=600&amp;h=400&amp;fit=crop&amp;crop=faces%2Cfocalpoint 600w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=900&amp;h=600&amp;fit=crop&amp;crop=faces%2Cfocalpoint 900w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=1200&amp;h=800&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1200w" sizes="auto, (max-width: 1920px) 100vw, 1920px" /></figure>				</div>
+					<figure class="hds-media-background  "><img fetchpriority="high" decoding="async" width="2048" height="1366" src="https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?w=2048" class="attachment-2048x2048 size-2048x2048" alt="" style="transform: scale(1); transform-origin: 44% 36%; object-position: 44% 36%; object-fit: cover;" block_context="nasa-block" loading="eager" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg 4000w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=2048,1366 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=2000,1334 2000w" sizes="auto, (max-width: 2048px) 100vw, 2048px" /></figure>				</div>
 					</div>
 
 		<div class="hds-mag-progress-wrapper">
@@ -1432,7 +1391,7 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 							<circle r=25 cx="25" cy="25" fill="transparent" style="stroke-dasharray: 157.08; stroke-dashoffset: 157.08;" ></circle>
 						</svg>
 					</div>
-					<figure class="hds-media-background  "><img decoding="async" width="1920" height="1280" src="https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=1920&amp;h=1280&amp;fit=clip&amp;crop=faces%2Cfocalpoint" class="attachment-thumbnail size-thumbnail" alt="NASA astronaut and Expedition 73 Flight Engineer Jonny Kim poses for a portrait inside the cupola, the International Space Station&#039;s &quot;window to the world.&quot; The orbital outpost was soaring 265 miles above the Indian Ocean off the coast of Madagascar at the time of this photograph." style="transform: scale(1); transform-origin: 14% 47%; object-position: 14% 47%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=1920&amp;h=1280&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1920w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=300&amp;h=200&amp;fit=crop&amp;crop=faces%2Cfocalpoint 300w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=768&amp;h=512&amp;fit=crop&amp;crop=faces%2Cfocalpoint 768w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=1024&amp;h=683&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1024w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=1536&amp;h=1024&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1536w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=400&amp;h=267&amp;fit=crop&amp;crop=faces%2Cfocalpoint 400w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=600&amp;h=400&amp;fit=crop&amp;crop=faces%2Cfocalpoint 600w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=900&amp;h=600&amp;fit=crop&amp;crop=faces%2Cfocalpoint 900w, https://images-assets.nasa.gov/image/iss073e0027778/iss073e0027778~large.jpg?w=1200&amp;h=800&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1200w" sizes="auto, (max-width: 1920px) 100vw, 1920px" /></figure>				</button>
+					<figure class="hds-media-background  "><img decoding="async" width="150" height="150" src="https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?w=150&amp;h=150&amp;crop=1" class="attachment-thumbnail size-thumbnail" alt="" style="transform: scale(1); transform-origin: 44% 36%; object-position: 44% 36%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=150,150 150w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=50,50 50w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=100,100 100w, https://www.nasa.gov/wp-content/uploads/2025/12/54972938651-f80f6a38f6-o.jpg?resize=200,200 200w" sizes="auto, (max-width: 150px) 100vw, 150px" /></figure>				</button>
 						<button class="hds-mag-progress hds-mag-pause-play" >
 				<div class="hds-progress-ring">
 					<svg class="splide__toggle__play" style="display: none;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
@@ -1453,62 +1412,64 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<h2 class="section-heading-md">Featured News</h2>
 			</div>
 			<div class="desktop:grid-col display-flex flex-align-center desktop:flex-justify-end">
-						<a href="https://www.nasa.gov/news/recently-published/" target="_self" class="button-primary button-primary link-external-true">
+							<a href="https://www.nasa.gov/news/recently-published/" target="_self" class="button-primary button-primary link-external-false">
 			<span class="line-height-alt-1 " >
 				Recently Published                			</span>
 			<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="button-primary-circle" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg>
 		</a>
-				</div>
+					</div>
 		</div>
-		<div class="grid-col"><div class="grid-row latest-news-items"><div class="grid-col mobile:grid-col tablet:grid-col-12 desktop:grid-col latest-news-item latest-news-item-0 margin-bottom-2 -tablet:margin-bottom-0 desktop:margin-bottom-0 padding-right-0 tablet:padding-right-0 desktop:padding-right-2"><a href="https://www.nasa.gov/general/nasa-wins-second-emmy-award-for-2024-total-solar-eclipse-broadcast/" class="tablet:grid-col latest-news-item news-item tablet:padding-right-0"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-column flex-align-start flex-justify-start z-200"><div class="display-flex flex-align-center label color-spacesuit-white margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div><div class="display-block"><div class="label margin-bottom-1">3 Min Read</div><p class="heading-22 color-spacesuit-white margin-0"><span>NASA Wins Second Emmy Award for 2024 Total Solar Eclipse Broadcast</span></p></div></div><figure class="hds-media-background  "><img decoding="async" width="1049" height="867" src="https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1049&amp;h=867&amp;fit=clip&amp;crop=faces%2Cfocalpoint" class="attachment-large size-large" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1049&amp;h=867&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1049w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=300&amp;h=248&amp;fit=crop&amp;crop=faces%2Cfocalpoint 300w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=768&amp;h=635&amp;fit=crop&amp;crop=faces%2Cfocalpoint 768w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1024&amp;h=846&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1024w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=400&amp;h=331&amp;fit=crop&amp;crop=faces%2Cfocalpoint 400w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=600&amp;h=496&amp;fit=crop&amp;crop=faces%2Cfocalpoint 600w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=900&amp;h=744&amp;fit=crop&amp;crop=faces%2Cfocalpoint 900w" sizes="auto, (max-width: 1049px) 100vw, 1049px" /></figure></div></a></div><div class="tablet:grid-col grid-row latest-news-items"><a href="https://science.nasa.gov/missions/hubble/hubble-spots-a-storm-of-new-stars/" class="tablet:grid-col latest-news-item news-item margin-bottom-2 tablet:margin-bottom-0 desktop:margin-bottom-0 tablet:padding-right-2 desktop:padding-right-2" rel="noopener"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-column flex-align-start flex-justify-start z-200"><div class="display-flex flex-align-center label color-spacesuit-white margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div><div class="display-block"><div class="label margin-bottom-1">2 Min Read</div><p class="heading-22 color-spacesuit-white margin-0"><span>Hubble Spots a Storm of New Stars</span></p></div></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_NGC1792_potw2548a.jpg" ></figure></div></a><div class="grid-col news-item-stack"><a href="https://science.nasa.gov/missions/artemis/artemis-4/nasa-selects-2-instruments-for-artemis-iv-lunar-surface-science/" class="tablet:grid-col latest-news-item news-item tablet:margin-right-0 desktop:margin-right-0 margin-bottom-2 mobile:margin-bottom-2 tablet:margin-bottom-2 desktop:margin-bottom-2" rel="noopener"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-column flex-align-start flex-justify-start z-200"><div class="display-flex flex-align-center label color-spacesuit-white margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div><div class="display-block"><div class="label margin-bottom-1">4 Min Read</div><p class="heading-22 color-spacesuit-white margin-0"><span>NASA Selects 2 Instruments for Artemis IV Lunar Surface Science</span></p></div></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-science-division/2025/LunarSouthPoleHeader.png" ></figure></div></a><a href="https://science.nasa.gov/missions/xrism/nasa-jaxa-xrism-finds-elemental-bounty-in-supernova-remnant/" class="tablet:grid-col latest-news-item news-item tablet:margin-right-0 desktop:margin-right-0 margin-bottom-2 mobile:margin-bottom-0 tablet:margin-bottom-0 desktop:margin-bottom-0" rel="noopener"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-column flex-align-start flex-justify-start z-200"><div class="display-flex flex-align-center label color-spacesuit-white margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div><div class="display-block"><div class="label margin-bottom-1">4 Min Read</div><p class="heading-22 color-spacesuit-white margin-0"><span>NASA-JAXA XRISM Finds Elemental Bounty in Supernova Remnant</span></p></div></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/09/6-astrophysics-main-cassiopeia-a.jpg" ></figure></div></a></div></div></div><div class="grid-row padding-top-2 desktop:padding-top-3"><a href="https://www.nasa.gov/missions/roman-space-telescope/nasa-completes-nancy-grace-roman-space-telescope-construction/" class="mobile:grid-col-6 tablet:grid-col-6 desktop:grid-col padding-left-0 padding-right-0 desktop:padding-right-2 padding-bottom-4 desktop:padding-bottom-0">
-	<div class="display-flex hds-news-item-bubble"><div class="padding-right-3"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black circle-10 minw-10 maxh-10 minh-10"><figure class="hds-media-background  "><img decoding="async" width="150" height="150" src="https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?w=150&amp;h=150&amp;crop=1" class="attachment-thumbnail size-thumbnail" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=150,150 150w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=50,50 50w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=100,100 100w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=200,200 200w" sizes="auto, (max-width: 150px) 100vw, 150px" /></figure></div></div><div><div class="label margin-bottom-1 color-carbon-black">8 Min Read</div><p class="heading-14 color-carbon-black line-height-md margin-top-1 margin-bottom-1">NASA Completes Nancy Grace Roman Space Telescope Construction</p><div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div></div></div></a><a href="https://www.nasa.gov/general/nasa-software-raises-bar-for-aircraft-icing-research/" class="mobile:grid-col-6 tablet:grid-col-6 desktop:grid-col padding-left-0 padding-right-0 desktop:padding-right-2 padding-bottom-4 desktop:padding-bottom-0">
-	<div class="display-flex hds-news-item-bubble"><div class="padding-right-3"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black circle-10 minw-10 maxh-10 minh-10"><figure class="hds-media-background  "><img decoding="async" width="150" height="150" src="https://www.nasa.gov/wp-content/uploads/2024/08/grc-2023-c-02525.jpg?w=150&amp;h=150&amp;crop=1" class="attachment-thumbnail size-thumbnail" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://www.nasa.gov/wp-content/uploads/2024/08/grc-2023-c-02525.jpg?resize=150,150 150w, https://www.nasa.gov/wp-content/uploads/2024/08/grc-2023-c-02525.jpg?resize=50,50 50w, https://www.nasa.gov/wp-content/uploads/2024/08/grc-2023-c-02525.jpg?resize=100,100 100w, https://www.nasa.gov/wp-content/uploads/2024/08/grc-2023-c-02525.jpg?resize=200,200 200w" sizes="auto, (max-width: 150px) 100vw, 150px" /></figure></div></div><div><div class="label margin-bottom-1 color-carbon-black">4 Min Read</div><p class="heading-14 color-carbon-black line-height-md margin-top-1 margin-bottom-1">NASA Software Raises Bar for Aircraft Icing Research </p><div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div></div></div></a><a href="https://science.nasa.gov/earth/earth-observatory/satellites-detect-seasonal-pulses-in-earths-glaciers/" class="mobile:grid-col-6 tablet:grid-col-6 desktop:grid-col padding-left-0 padding-right-0 desktop:padding-right-2 padding-bottom-4 desktop:padding-bottom-0" rel="noopener">
-	<div class="display-flex hds-news-item-bubble"><div class="padding-right-3"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black circle-10 minw-10 maxh-10 minh-10"><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2025/satellites-detect-seasonal-pulses-in-earth’s-glaciers/malaspinaseasonal_hls_2025_th.jpg" ></figure></div></div><div><div class="label margin-bottom-1 color-carbon-black">4 Min Read</div><p class="heading-14 color-carbon-black line-height-md margin-top-1 margin-bottom-1">Satellites Detect Seasonal Pulses in Earth’s Glaciers</p><div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div></div></div></a><a href="https://www.nasa.gov/centers-and-facilities/johnson/the-international-space-station-marks-25-years-of-continuous-human-presence/" class="mobile:grid-col-6 tablet:grid-col-6 desktop:grid-col padding-left-0 padding-right-0 desktop:padding-right-2 padding-bottom-4 desktop:padding-bottom-0">
+		<div class="grid-col"><div class="grid-row latest-news-items"><div class="grid-col mobile:grid-col tablet:grid-col-12 desktop:grid-col latest-news-item latest-news-item-0 margin-bottom-2 -tablet:margin-bottom-0 desktop:margin-bottom-0 padding-right-0 tablet:padding-right-0 desktop:padding-right-2"><a href="https://www.nasa.gov/science-research/earth-science/new-nasa-sensor-goes-hunting-for-critical-minerals/" class="tablet:grid-col latest-news-item news-item tablet:padding-right-0"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-column flex-align-start flex-justify-start z-200"><div class="display-flex flex-align-center label color-spacesuit-white margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div><div class="display-block"><div class="label margin-bottom-1">5 Min Read</div><p class="heading-22 color-spacesuit-white margin-0"><span>New NASA Sensor Goes Hunting for Critical Minerals</span></p></div></div><figure class="hds-media-background  "><img decoding="async" width="1024" height="683" src="https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?w=1024" class="attachment-large size-large" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg 3525w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/1-pilot-waving.jpg?resize=2000,1333 2000w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure></div></a></div><div class="tablet:grid-col grid-row latest-news-items"><a href="https://www.nasa.gov/general/nasa-wins-second-emmy-award-for-2024-total-solar-eclipse-broadcast/" class="tablet:grid-col latest-news-item news-item margin-bottom-2 tablet:margin-bottom-0 desktop:margin-bottom-0 tablet:padding-right-2 desktop:padding-right-2"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-column flex-align-start flex-justify-start z-200"><div class="display-flex flex-align-center label color-spacesuit-white margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div><div class="display-block"><div class="label margin-bottom-1">3 Min Read</div><p class="heading-22 color-spacesuit-white margin-0"><span>NASA Wins Second Emmy Award for 2024 Total Solar Eclipse Broadcast</span></p></div></div><figure class="hds-media-background  "><img decoding="async" width="1049" height="867" src="https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1049&amp;h=867&amp;fit=clip&amp;crop=faces%2Cfocalpoint" class="attachment-large size-large" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1049&amp;h=867&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1049w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=300&amp;h=248&amp;fit=crop&amp;crop=faces%2Cfocalpoint 300w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=768&amp;h=635&amp;fit=crop&amp;crop=faces%2Cfocalpoint 768w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=1024&amp;h=846&amp;fit=crop&amp;crop=faces%2Cfocalpoint 1024w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=400&amp;h=331&amp;fit=crop&amp;crop=faces%2Cfocalpoint 400w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=600&amp;h=496&amp;fit=crop&amp;crop=faces%2Cfocalpoint 600w, https://images-assets.nasa.gov/image/NHQ202404080107/NHQ202404080107~orig.jpg?w=900&amp;h=744&amp;fit=crop&amp;crop=faces%2Cfocalpoint 900w" sizes="auto, (max-width: 1049px) 100vw, 1049px" /></figure></div></a><div class="grid-col news-item-stack"><a href="https://science.nasa.gov/blogs/solar-cycle-25/2025/12/08/strong-flare-erupts-from-sun-7/" class="tablet:grid-col latest-news-item news-item tablet:margin-right-0 desktop:margin-right-0 margin-bottom-2 mobile:margin-bottom-2 tablet:margin-bottom-2 desktop:margin-bottom-2" rel="noopener"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-column flex-align-start flex-justify-start z-200"><div class="display-flex flex-align-center label color-spacesuit-white margin-bottom-auto"><svg class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 20 20" style="enable-background:new 0 0 16 16;fill:none;"><circle cx="10" cy="10" r="9.5" stroke="#58585b"></circle><path fill-rule="evenodd" clip-rule="evenodd" d="M15 6H5V13H9L12 15V13H15V6ZM7 8H13V9H7V8ZM11 10H7V11H11V10Z" fill="#58585b"></path></svg><span>Blog</span></div><div class="display-block"><div class="label margin-bottom-1">1 Min Read</div><p class="heading-22 color-spacesuit-white margin-0"><span>Strong Flare Erupts from Sun </span></p></div></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/space-weather/SDO_12-08-25_0502UT_131.jpg" ></figure></div></a><a href="https://science.nasa.gov/missions/hubble/hubble-spots-a-storm-of-new-stars/" class="tablet:grid-col latest-news-item news-item tablet:margin-right-0 desktop:margin-right-0 margin-bottom-2 mobile:margin-bottom-0 tablet:margin-bottom-0 desktop:margin-bottom-0" rel="noopener"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-column flex-align-start flex-justify-start z-200"><div class="display-flex flex-align-center label color-spacesuit-white margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div><div class="display-block"><div class="label margin-bottom-1">2 Min Read</div><p class="heading-22 color-spacesuit-white margin-0"><span>Hubble Spots a Storm of New Stars</span></p></div></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_NGC1792_potw2548a.jpg" ></figure></div></a></div></div></div><div class="grid-row padding-top-2 desktop:padding-top-3"><a href="https://science.nasa.gov/missions/artemis/artemis-4/nasa-selects-2-instruments-for-artemis-iv-lunar-surface-science/" class="mobile:grid-col-6 tablet:grid-col-6 desktop:grid-col padding-left-0 padding-right-0 desktop:padding-right-2 padding-bottom-4 desktop:padding-bottom-0" rel="noopener">
+	<div class="display-flex hds-news-item-bubble"><div class="padding-right-3"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black circle-10 minw-10 maxh-10 minh-10"><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-science-division/2025/LunarSouthPoleHeader.png" ></figure></div></div><div><div class="label margin-bottom-1 color-carbon-black">4 Min Read</div><p class="heading-14 color-carbon-black line-height-md margin-top-1 margin-bottom-1">NASA Selects 2 Instruments for Artemis IV Lunar Surface Science</p><div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div></div></div></a><a href="https://science.nasa.gov/missions/xrism/nasa-jaxa-xrism-finds-elemental-bounty-in-supernova-remnant/" class="mobile:grid-col-6 tablet:grid-col-6 desktop:grid-col padding-left-0 padding-right-0 desktop:padding-right-2 padding-bottom-4 desktop:padding-bottom-0" rel="noopener">
+	<div class="display-flex hds-news-item-bubble"><div class="padding-right-3"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black circle-10 minw-10 maxh-10 minh-10"><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/09/6-astrophysics-main-cassiopeia-a.jpg" ></figure></div></div><div><div class="label margin-bottom-1 color-carbon-black">4 Min Read</div><p class="heading-14 color-carbon-black line-height-md margin-top-1 margin-bottom-1">NASA-JAXA XRISM Finds Elemental Bounty in Supernova Remnant</p><div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div></div></div></a><a href="https://www.nasa.gov/missions/roman-space-telescope/nasa-completes-nancy-grace-roman-space-telescope-construction/" class="mobile:grid-col-6 tablet:grid-col-6 desktop:grid-col padding-left-0 padding-right-0 desktop:padding-right-2 padding-bottom-4 desktop:padding-bottom-0">
+	<div class="display-flex hds-news-item-bubble"><div class="padding-right-3"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black circle-10 minw-10 maxh-10 minh-10"><figure class="hds-media-background  "><img decoding="async" width="150" height="150" src="https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?w=150&amp;h=150&amp;crop=1" class="attachment-thumbnail size-thumbnail" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=150,150 150w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=50,50 50w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=100,100 100w, https://www.nasa.gov/wp-content/uploads/2025/12/complete.jpg?resize=200,200 200w" sizes="auto, (max-width: 150px) 100vw, 150px" /></figure></div></div><div><div class="label margin-bottom-1 color-carbon-black">8 Min Read</div><p class="heading-14 color-carbon-black line-height-md margin-top-1 margin-bottom-1">NASA Completes Nancy Grace Roman Space Telescope Construction</p><div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div></div></div></a><a href="https://www.nasa.gov/centers-and-facilities/johnson/the-international-space-station-marks-25-years-of-continuous-human-presence/" class="mobile:grid-col-6 tablet:grid-col-6 desktop:grid-col padding-left-0 padding-right-0 desktop:padding-right-2 padding-bottom-4 desktop:padding-bottom-0">
 	<div class="display-flex hds-news-item-bubble"><div class="padding-right-3"><div class="hds-cover-wrapper cover-hover-zoom bg-carbon-black circle-10 minw-10 maxh-10 minh-10"><figure class="hds-media-background  "><img decoding="async" width="150" height="150" src="https://www.nasa.gov/wp-content/uploads/2023/07/iss061e003293.jpg?w=150&amp;h=150&amp;crop=1" class="attachment-thumbnail size-thumbnail" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://www.nasa.gov/wp-content/uploads/2023/07/iss061e003293.jpg?resize=150,150 150w, https://www.nasa.gov/wp-content/uploads/2023/07/iss061e003293.jpg?resize=50,50 50w, https://www.nasa.gov/wp-content/uploads/2023/07/iss061e003293.jpg?resize=100,100 100w, https://www.nasa.gov/wp-content/uploads/2023/07/iss061e003293.jpg?resize=200,200 200w" sizes="auto, (max-width: 150px) 100vw, 150px" /></figure></div></div><div><div class="label margin-bottom-1 color-carbon-black">6 Min Read</div><p class="heading-14 color-carbon-black line-height-md margin-top-1 margin-bottom-1">The International Space Station Marks 25 Years of Continuous Human Presence </p><div class="display-flex flex-align-center label color-carbon-60 margin-bottom-auto"><svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"/><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"/></g></g></svg><span>Article</span></div></div></div></a></div></div>	</div>
 	</div>
 
-<div id="" class="hds-featured-video bg-carbon-black padding-y-8 padding-x-3 hds-module hds-module-full alignfull wp-block-nasa-blocks-featured-video">	<div class="grid-container-widescreen grid-container padding-x-0">
-		<div class="grid-row flex-align-center">
-			<div class="grid-col-12 desktop:grid-col-4 desktop:padding-right-5 padding-bottom-5 desktop:padding-bottom-0">
-				<div class="hds-featured-videos-video-content">
-					<div class="label color-carbon-40 margin-0 margin-bottom-2">Featured Video</div>
-					<h3 class="heading-36 color-spacesuit-white margin-top-0 margin-bottom-2">What&#8217;s Up</h3>
-					<p class="color-carbon-20 p-sm margin-bottom-3">In December, skywatchers can observe comet 3I/ATLAS make its closest approach to Earth; the Geminid meteor shower sparkle across the sky; and the Moon and Jupiter appearing close together for a conjunction.</p>
-							<a href="https://science.nasa.gov/solar-system/skywatching/whats-up-december-2025-skywatching-tips-from-nasa/" target="_self" class="button-primary button-primary-sm link-external-true" rel="noopener">
+<div id="" class="width-full maxw-full bg-carbon-05 hds-cover-wrapper minh-tablet-lg hds-module hds-module-full alignfull wp-block-nasa-blocks-callout">
+	<div class="hds-foreground-wrapper padding-bottom-9 padding-top-9 display-flex">
+		<div class="grid-row grid-container grid-container-block margin-top-auto width-full maxw-desktop-lg padding-top-9 padding-x-3 z-400">
+			<div class="grid-row grid-container grid-container-block margin-top-auto width-full maxw-desktop-lg padding-y-9 padding-x-3 z-400">
+				<div class="grid-col-12 tablet:grid-col-12 desktop:grid-col-6 z-400">
+					<div class="margin-0">
+						<h2 class="page-heading-md font-weight-extrabold line-height-heading-1 color-spacesuit-white-important">Chart-Topping Supernova</h2>
+						<p class="p-lg margin-top-2 padding-0 margin-bottom-4 color-spacesuit-white-important">NASA’s James Webb Space Telescope has observed a supernova that exploded when the universe was only 730 million years old — the earliest detection of its kind to date.  Webb’s crisp near-infrared images also allowed astronomers to locate the supernova’s faint host galaxy.</p>
+									<a href="https://science.nasa.gov/missions/webb/nasas-webb-identifies-earliest-supernova-to-date-shows-host-galaxy/" target="_self" class="button-primary  link-external-false" rel="noopener">
 			<span class="line-height-alt-1 color-spacesuit-white-important" >
-				Skywatching Highlights                			</span>
+				Webb’s Observations                                    <span class="usa-sr-only"> about Chart-Topping Supernova</span>
+                			</span>
 			<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="button-primary-circle" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg>
 		</a>
-					</div>
-			</div>
-			<div class="grid-col-12 desktop:grid-col-8 desktop:padding-left-5 position-relative">
-				<div class="hds-featured-videos-video-player">
-					<div class="hds-embed-container"><iframe width="200" height="113" src="https://www.youtube.com/embed/OYYW90WrWqU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title=Live High-Definition Views from the International Space Station (Official NASA Stream)></iframe></div>				</div>
-			</div>
+							</div>
+				</div>
+				<div class="grid-col-12 tablet:grid-col-12 desktop:grid-col-6 z-400"></div>
+			</div>	
 		</div>
 	</div>
+	<div class="skrim-overlay skrim-left mobile-skrim-top z-200"></div>
+	<figure class="hds-media-background  "><img decoding="async" width="2048" height="1098" src="https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png?w=2048" class="attachment-2048x2048 size-2048x2048" alt="" style="transform: scale(1); transform-origin: 66% 46%; object-position: 66% 46%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png 3786w, https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png?resize=300,161 300w, https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png?resize=768,412 768w, https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png?resize=1024,549 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png?resize=1536,824 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png?resize=2048,1098 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png?resize=400,214 400w, https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png?resize=600,322 600w, https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png?resize=900,483 900w, https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png?resize=1200,643 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/supernovagrb250314a-artistsconcept-1.png?resize=2000,1072 2000w" sizes="auto, (max-width: 2048px) 100vw, 2048px" /></figure>
 	</div>
 
 <div id="" class="hds-card-grid padding-top-7 padding-bottom-3 padding-x-0 hds-module hds-module-full alignfull wp-block-nasa-blocks-card-grid">			<div class="hds-card-grid-header grid-container grid-container-block">
 				<div class="grid-row flex-align-start margin-bottom-5">
 					<div class="desktop:grid-col-8 margin-bottom-2 desktop:margin-bottom-0">
 						<div class="margin-bottom-1">
-							<h2 class="section-heading-sm line-height-sm">Solar System Exploration</h2>
+							<h2 class="section-heading-sm line-height-sm">Welcome to the Universe</h2>
 						</div>
 											</div>
 					<div class="desktop:grid-col display-flex flex-align-center desktop:flex-justify-end">
-								<a href="https://science.nasa.gov/solar-system/" target="_self" class="button-primary button-primary link-external-true" rel="noopener">
+									<a href="https://science.nasa.gov/universe/" target="_self" class="button-primary button-primary link-external-false" rel="noopener">
 			<span class="line-height-alt-1 " >
 				Discover More                			</span>
 			<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="button-primary-circle" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg>
 		</a>
-						</div>
+							</div>
 				</div>
 				<div class="grid-row grid-gap-2"></div>
 			</div>
 			<div class="hds-card-grid-cards grid-container grid-container-block">
 				<div class="hds-cards-included grid-row">
-					<a href="https://science.nasa.gov/skywatching/" class="hds-card-topic hds-card margin-bottom-4 desktop:margin-bottom-5 mobile:grid-col-12 tablet:grid-col-6 desktop:grid-col-3 margin-bottom-6" rel="noopener"><div class="hds-card-inner"><div class="hds-foreground-wrapper z-300 display-flex flex-direction-column flex-align-end flex-justify-end"><div class="hds-card-content padding-3"><h3 class="heading-29 hds-topic-card-heading color-spacesuit-white"><span>Skywatching</span><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-nasa-red" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg></h3></div></div><div class="hds-card-thumbnail"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-align-end flex-justify-start z-200"></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/mission/35th-anniversary/stargazing-banner-2_crop.jpg" ></figure></div></div></a><a href="https://science.nasa.gov/asteroids-comets-meteors/" class="hds-card-topic hds-card margin-bottom-4 desktop:margin-bottom-5 mobile:grid-col-12 tablet:grid-col-6 desktop:grid-col-3 margin-bottom-6" rel="noopener"><div class="hds-card-inner"><div class="hds-foreground-wrapper z-300 display-flex flex-direction-column flex-align-end flex-justify-end"><div class="hds-card-content padding-3"><h3 class="heading-29 hds-topic-card-heading color-spacesuit-white"><span>Asteroids, Comets &amp; Meteors</span><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-nasa-red" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg></h3></div></div><div class="hds-card-thumbnail"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-align-end flex-justify-start z-200"></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://science.nasa.gov/wp-content/uploads/2018/07/bennu-banner-1920x640-1.jpg" ></figure></div></div></a><a href="https://science.nasa.gov/moon/" class="hds-card-topic hds-card margin-bottom-4 desktop:margin-bottom-5 mobile:grid-col-12 tablet:grid-col-6 desktop:grid-col-3 margin-bottom-6" rel="noopener"><div class="hds-card-inner"><div class="hds-foreground-wrapper z-300 display-flex flex-direction-column flex-align-end flex-justify-end"><div class="hds-card-content padding-3"><h3 class="heading-29 hds-topic-card-heading color-spacesuit-white"><span>Earth’s Moon</span><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-nasa-red" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg></h3></div></div><div class="hds-card-thumbnail"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-align-end flex-justify-start z-200"></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://science.nasa.gov/wp-content/uploads/2023/03/moon-1-jpeg.webp" ></figure></div></div></a><a href="https://science.nasa.gov/jupiter/" class="hds-card-topic hds-card margin-bottom-4 desktop:margin-bottom-5 mobile:grid-col-12 tablet:grid-col-6 desktop:grid-col-3 margin-bottom-6" rel="noopener"><div class="hds-card-inner"><div class="hds-foreground-wrapper z-300 display-flex flex-direction-column flex-align-end flex-justify-end"><div class="hds-card-content padding-3"><h3 class="heading-29 hds-topic-card-heading color-spacesuit-white"><span>Jupiter</span><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-nasa-red" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg></h3></div></div><div class="hds-card-thumbnail"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-align-end flex-justify-start z-200"></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/4204/Jupiter_against_black_background_of_space.jpeg" ></figure></div></div></a>				</div>
+					<a href="https://science.nasa.gov/universe/black-holes/" class="hds-card-topic hds-card margin-bottom-4 desktop:margin-bottom-5 mobile:grid-col-12 tablet:grid-col-6 desktop:grid-col-3 margin-bottom-6" rel="noopener"><div class="hds-card-inner"><div class="hds-foreground-wrapper z-300 display-flex flex-direction-column flex-align-end flex-justify-end"><div class="hds-card-content padding-3"><h3 class="heading-29 hds-topic-card-heading color-spacesuit-white"><span>Black Holes</span><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-nasa-red" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg></h3></div></div><div class="hds-card-thumbnail"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-align-end flex-justify-start z-200"></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://science.nasa.gov/wp-content/uploads/2023/06/blackhole-binary-mainsequence-jpg.webp" ></figure></div></div></a><a href="https://science.nasa.gov/universe/stars/" class="hds-card-topic hds-card margin-bottom-4 desktop:margin-bottom-5 mobile:grid-col-12 tablet:grid-col-6 desktop:grid-col-3 margin-bottom-6" rel="noopener"><div class="hds-card-inner"><div class="hds-foreground-wrapper z-300 display-flex flex-direction-column flex-align-end flex-justify-end"><div class="hds-card-content padding-3"><h3 class="heading-29 hds-topic-card-heading color-spacesuit-white"><span>Stars</span><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-nasa-red" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg></h3></div></div><div class="hds-card-thumbnail"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-align-end flex-justify-start z-200"></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://science.nasa.gov/wp-content/uploads/2023/06/may102022-x1pt5flare-171-131-304-jpg.webp" ></figure></div></div></a><a href="https://science.nasa.gov/universe/galaxies/" class="hds-card-topic hds-card margin-bottom-4 desktop:margin-bottom-5 mobile:grid-col-12 tablet:grid-col-6 desktop:grid-col-3 margin-bottom-6" rel="noopener"><div class="hds-card-inner"><div class="hds-foreground-wrapper z-300 display-flex flex-direction-column flex-align-end flex-justify-end"><div class="hds-card-content padding-3"><h3 class="heading-29 hds-topic-card-heading color-spacesuit-white"><span>Galaxies</span><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-nasa-red" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg></h3></div></div><div class="hds-card-thumbnail"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-align-end flex-justify-start z-200"></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://science.nasa.gov/wp-content/uploads/2023/06/spiral-galaxy-jpg.webp" ></figure></div></div></a><a href="https://science.nasa.gov/eyes/" class="hds-card-topic hds-card margin-bottom-4 desktop:margin-bottom-5 mobile:grid-col-12 tablet:grid-col-6 desktop:grid-col-3 margin-bottom-6" rel="noopener"><div class="hds-card-inner"><div class="hds-foreground-wrapper z-300 display-flex flex-direction-column flex-align-end flex-justify-end"><div class="hds-card-content padding-3"><h3 class="heading-29 hds-topic-card-heading color-spacesuit-white"><span>Eyes</span><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="color-nasa-red" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg></h3></div></div><div class="hds-card-thumbnail"><div class="skrim-overlay skrim-overlay-dark skrim-left mobile-skrim-top padding-3 display-flex flex-align-end flex-justify-start z-200"></div><figure class="hds-media-background  "><img decoding="async" loading="lazy" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/eyes/common/promotion/Eyes_noText.png" ></figure></div></div></a>				</div>
 			</div>
 	</div>
 
@@ -1520,15 +1481,15 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 					<h3 class="label">Today</h3>
 					<h2 class="display-41 margin-0">Image Of The Day</h2>
 				</div>
-				<p class="heading-22 margin-bottom-2">Testing Drones for Mars in the Mojave Desert</p>
-				<p class="p-md">Researchers from NASA&#8217;s Jet Propulsion Laboratory in Southern California monitor a research drone in the Dumont Dunes area of the Mojave Desert in September 2025 as part of a test campaign to develop navigation software to guide future rotorcraft on Mars.</p>
+				<p class="heading-22 margin-bottom-2">Sprites Over Château de Beynac</p>
+				<p class="p-md">A flash of lightning, and then—something else. High above a storm, a crimson figure blinks in and out of existence. If you see it, you are a lucky witness of a sprite, one of the least-understood electrical phenomena in Earth’s upper atmosphere.</p>
 				<div className="margin-top-1 margin-bottom-1">
-							<a href="https://www.nasa.gov/image-of-the-day/" target="_self" class="button-primary button-primary-sm link-external-false">
+								<a href="https://www.nasa.gov/image-of-the-day/" target="_self" class="button-primary button-primary-sm link-external-false">
 			<span class="line-height-alt-1 " >
 				Browse Image Archive                			</span>
 			<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="button-primary-circle" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg>
 		</a>
-					</div>
+						</div>
 			</div>
 			<div class="grid-col-12 desktop:grid-col-8 desktop:padding-left-5">
 				<div class="margin-bottom-2 display-block tablet:display-none desktop:display-none">
@@ -1536,8 +1497,8 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 					<h2 class="display-41 margin-0">Image Of The Day</h2>
 				</div>
 				<div class="hds-image-download-wrapper width-full display-block cursor-pointer"
-					role="link" tabindex="0" aria-label="View full image page" onClick="window.location='https://www.nasa.gov/image-detail/pia26674orig/'" onKeyPress="if(event.keyCode == 13){window.location='https://www.nasa.gov/image-detail/pia26674orig/'}"				>
-					<div class="hds-media-wrapper margin-left-auto margin-right-auto"><figure class="hds-media-inner hds-cover-wrapper hds-media-ratio-fit "><img decoding="async" width="1536" height="1024" src="https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg?w=1536" class="attachment-1536x1536 size-1536x1536" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg 4043w, https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg?resize=300,200 300w, https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg?resize=768,512 768w, https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg?resize=1024,683 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg?resize=1536,1024 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg?resize=2048,1365 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg?resize=400,267 400w, https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg?resize=600,400 600w, https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg?resize=900,600 900w, https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg?resize=1200,800 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg?resize=2000,1333 2000w" sizes="auto, (max-width: 1536px) 100vw, 1536px" /></figure></div>					<a class="hds-image-download-link" href="https://www.nasa.gov/wp-content/uploads/2025/12/pia26674orig.jpg">
+					role="link" tabindex="0" aria-label="View full image page" onClick="window.location='https://www.nasa.gov/image-detail/nasa-december-2025-3456x2234/'" onKeyPress="if(event.keyCode == 13){window.location='https://www.nasa.gov/image-detail/nasa-december-2025-3456x2234/'}"				>
+					<div class="hds-media-wrapper margin-left-auto margin-right-auto"><figure class="hds-media-inner hds-cover-wrapper hds-media-ratio-fit "><img decoding="async" width="1536" height="993" src="https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg?w=1536" class="attachment-1536x1536 size-1536x1536" alt="" style="transform: scale(1); transform-origin: 50% 50%; object-position: 50% 50%; object-fit: cover;" block_context="nasa-block" loading="lazy" srcset="https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg 3456w, https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg?resize=300,194 300w, https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg?resize=768,496 768w, https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg?resize=1024,662 1024w, https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg?resize=1536,993 1536w, https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg?resize=2048,1324 2048w, https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg?resize=400,259 400w, https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg?resize=600,388 600w, https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg?resize=900,582 900w, https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg?resize=1200,776 1200w, https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg?resize=2000,1293 2000w" sizes="auto, (max-width: 1536px) 100vw, 1536px" /></figure></div>					<a class="hds-image-download-link" href="https://www.nasa.gov/wp-content/uploads/2025/12/nasa-december-2025-3456x2234-1.jpg">
 						<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<circle cx="16" cy="16" r="16" fill="#1C67E3"/>
 							<path d="M15.2355 8L15.2355 16.4829L11.9502 13.4077L10.8799 14.4093L15.9999 19.2L21.1199 14.4093L20.0496 13.4077L16.7643 16.4829L16.7643 8L15.2355 8Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M9.6 20.8V18.4H8V22.4H24V18.4H22.4V20.8H9.6Z" fill="white"/>
@@ -1545,12 +1506,12 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 					</a>
 				</div>
 				<div class="margin-top-1 margin-bottom-1 under-image-button">
-							<a href="https://www.nasa.gov/image-detail/pia26674orig/" target="_self" class="button-primary button-primary-sm link-external-false">
+								<a href="https://www.nasa.gov/image-detail/nasa-december-2025-3456x2234/" target="_self" class="button-primary button-primary-sm link-external-false">
 			<span class="line-height-alt-1 " >
 				View image                			</span>
 			<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="button-primary-circle" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg>
 		</a>
-					</div>
+						</div>
 			</div>
 		</div>
 	</div>
@@ -1563,12 +1524,12 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 				<h2 class="section-heading-sm line-height-sm">Image Galleries</h2>
 			</div>
 			<div class="desktop:grid-col display-flex flex-align-center desktop:flex-justify-end">
-						<a href="https://www.nasa.gov/images/" target="_self" class="button-primary button-primary link-external-true">
+							<a href="https://www.nasa.gov/images/" target="_self" class="button-primary button-primary link-external-false">
 			<span class="line-height-alt-1 " >
 				More NASA Images                			</span>
 			<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle class="button-primary-circle" cx="16" cy="16" r="16"></circle><path d="M8 16.956h12.604l-3.844 4.106 1.252 1.338L24 16l-5.988-6.4-1.252 1.338 3.844 4.106H8v1.912z" class="color-spacesuit-white"></path></svg>
 		</a>
-				</div>
+					</div>
 		</div>
 		<div class="grid-row grid-gap-2"></div>
 	</div>
@@ -1695,4 +1656,24 @@ var popupData = {"popupId":"872473","randomChance":"0.1"};
 								<li><a href="https://science.nasa.gov/"><span>Science</span></a></li>
 								<li><a href="https://www.nasa.gov/aeronautics/"><span>Aeronautics</span></a></li>
 								<li><a href="https://www.nasa.gov/technology/"><span>Technology</span></a></li>
-								<li><a href="https://www.nasa.gov/learning-resources/"><span>Learning Resources</span></a></li
+								<li><a href="https://www.nasa.gov/learning-resources/"><span>Learning Resources</span></a></li>
+								<li><a href="https://www.nasa.gov/about/"><span>About NASA</span></a></li>
+								<li><a href="https://www.nasa.gov/es/" target="_blank" rel="noopener"><span>NASA en Español</span><span class="usa-sr-only"> (opens in new tab)</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="grid-col-12 tablet:grid-col-4 desktop:grid-col-2 color-spacesuit-white  margin-bottom-5 tablet:margin-bottom-0 padding-right-5 desktop:padding-right-0">
+					<div class="width-fit-content margin-left-0 desktop:margin-left-auto">
+						<div class="hds-footer-socials margin-bottom-2">
+							<h3 class="heading-16 color-carbon-40 margin-bottom-2">Follow NASA</h3>
+							<ul class="social-icons margin-bottom-3">
+								<li>
+									<a href="https://www.facebook.com/NASA" target="_blank" rel="noopener" aria-label="NASA on Facebook (opens in new tab)"><svg aria-hidden="true" focusable="false" width="9" height="18" viewBox="0 0 9 18" fill="none" xmlns="https://www.w3.org/2000/svg"><path d="M8.55557 4.25966H6.95557C6.31794 4.25966 6.1852 4.52158 6.1852 5.18173V6.63003H8.55557L8.30787 9.0004H6.1852V17.2967H2.62965V9.0004H0.259277V6.63003H2.62965V3.89462C2.62965 1.79803 3.73306 0.704102 6.21957 0.704102H8.55557V4.25966Z" fill="#F7F5F4"></path></svg></a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/nasa/" target="_blank" rel="noopener" aria-label="NASA on Instagram (opens in new tab)"><svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="https://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.74015 9.0004C4.74015 11.3542 6.64829 13.2611 9.00089 13.2611C11.3535 13.2611 13.2616 11.353 13.2616 9.0004C13.2616 6.6478 11.3535 4.74084 9.00089 4.74084C6.64829 4.74084 4.74015 6.6478 4.74015 9.0004ZM11.7625 9.00037C11.7625 10.5281 10.524 11.7654 8.9975 11.7654C7.47098 11.7654 6.23247 10.5281 6.23247 9.00037C6.23247 7.47267 7.47098 6.23533 8.9975 6.23533C10.524 6.23533 11.7625 7.47267 11.7625 9.00037Z" fill="#F7F5F4"></path><path d="M12.4344 4.57255C12.4344 5.12247 12.88 5.5681 13.4299 5.5681C13.9798 5.5681 14.4255 5.12129 14.4255 4.57255C14.4255 4.02262 13.9798 3.57699 13.4299 3.57699C12.88 3.57699 12.4344 4.02262 12.4344 4.57255Z" fill="#F7F5F4"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12.4225 17.2469C15.4317 17.1083 17.1111 15.4371 17.2474 12.4208C17.2877 11.5367 17.2972 11.2534 17.2972 9.0004C17.2972 6.74736 17.2877 6.46529 17.2474 5.57995C17.1123 2.57077 15.4388 0.893731 12.4225 0.755065C11.5372 0.713583 11.2539 0.704102 9.00089 0.704102C6.74785 0.704102 6.46578 0.713583 5.58044 0.755065C2.56652 0.892546 0.893034 2.56484 0.754367 5.57995C0.714071 6.46529 0.70459 6.74736 0.70459 9.0004C0.70459 11.2534 0.714071 11.5367 0.754367 12.4208C0.893034 15.4348 2.56533 17.1083 5.58044 17.2469C6.46578 17.2872 6.74785 17.2967 9.00089 17.2967C11.2539 17.2967 11.5372 17.2872 12.4225 17.2469ZM9.00089 2.19981C11.216 2.19981 11.4791 2.20692 12.3538 2.24721C14.6021 2.35032 15.651 3.41699 15.7553 5.64869C15.7944 6.52336 15.8027 6.78529 15.8027 9.0004C15.8027 11.2155 15.7944 11.4786 15.7553 12.3533C15.651 14.5838 14.6044 15.6528 12.3538 15.7548C11.4791 15.7951 11.2172 15.8034 9.00089 15.8034C6.78577 15.8034 6.52266 15.7939 5.64918 15.7548C3.39378 15.6517 2.35081 14.5803 2.2477 12.3533C2.20859 11.4774 2.19911 11.2155 2.19911 9.0004C2.19911 6.78529 2.20859 6.52336 2.2477 5.64869C2.35081 3.41581 3.39852 2.35032 5.64918 2.24721C6.52385 2.2081 6.78577 2.19981 9.00089 2.19981Z" fill="#F7F5F4"></path></svg></a>
+								</li>
+								<li>
+		

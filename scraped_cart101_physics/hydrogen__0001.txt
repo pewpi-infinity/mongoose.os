@@ -350,7 +350,7 @@ URL: https://home.cern?q=hydrogen
                                                                                                                                                                       
                                                                                       <div class="views-element-container form-group">
 
-<div class="view view-cern-news-menu-featured view-id-cern_news_menu_featured view-display-id-block_1 js-view-dom-id-04568030c81ba026641fb5e8abc37d548dff05d1fc0360ee1f3e0efadbdc5e2f cern-view-display-block cern-view-display-block_1 clearfix">
+<div class="view view-cern-news-menu-featured view-id-cern_news_menu_featured view-display-id-block_1 js-view-dom-id-e6bbbca58b2c3517c33f851e2dd0d46a6b11ce4f01c92b6ccb9c5b3149d6800c cern-view-display-block cern-view-display-block_1 clearfix">
   
       
 
@@ -387,7 +387,7 @@ URL: https://home.cern?q=hydrogen
         
     
     
-<div  data-history-node-id="193013" id="preview-card" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/Enviornmental%20report_image.png?itok=o72N9GrM&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/Enviornmental%20report_image.png?itok=o72N9GrM"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="193013" id="preview-card--33" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/Enviornmental%20report_image.png?itok=o72N9GrM&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/Enviornmental%20report_image.png?itok=o72N9GrM"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/news/cern/cern-reaffirms-its-commitment-environmentally-responsible-research-release-its-4th"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -434,7 +434,7 @@ URL: https://home.cern?q=hydrogen
         
     
     
-<div  data-history-node-id="193002" id="preview-card--2" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/Collide2026_16x9.png.jpeg?itok=gLwBaPMd&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/Collide2026_16x9.png.jpeg?itok=gLwBaPMd"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="193002" id="preview-card--34" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/Collide2026_16x9.png.jpeg?itok=gLwBaPMd&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/Collide2026_16x9.png.jpeg?itok=gLwBaPMd"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/news/cern/arts-cern-and-nobel-prize-museum-collaborate-collide-residency"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -481,7 +481,7 @@ URL: https://home.cern?q=hydrogen
         
     
     
-<div  data-history-node-id="192993" id="preview-card--3" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/FCC%20review_image.png?itok=VmYSjlOG&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/FCC%20review_image.png?itok=VmYSjlOG"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="192993" id="preview-card--35" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/FCC%20review_image.png?itok=VmYSjlOG&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/FCC%20review_image.png?itok=VmYSjlOG"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/press-release/accelerators/cern-council-reviews-feasibility-study-next-generation-collider"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -528,7 +528,7 @@ URL: https://home.cern?q=hydrogen
         
     
     
-<div  data-history-node-id="192974" id="preview-card--4" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/CMS%20detector%20open%202021_0.jpg?itok=ql2Nj9xX&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/CMS%20detector%20open%202021_0.jpg?itok=ql2Nj9xX"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="192974" id="preview-card--36" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/CMS%20detector%20open%202021_0.jpg?itok=ql2Nj9xX&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/CMS%20detector%20open%202021_0.jpg?itok=ql2Nj9xX"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/news/physics/first-observation-single-top-quark-production-w-and-z-bosons"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -1015,7 +1015,7 @@ URL: https://home.cern?q=hydrogen
                                                                                                                                                                       
                                                                                       <div class="views-element-container form-group">
 
-<div class="view view-resource-menu-content view-id-resource_menu_content view-display-id-block_1 js-view-dom-id-0a858de0e10e82054c639f2c9c78706f4a5f8ad0fdf8f2318deb0f185f86f283 cern-view-display-block cern-view-display-block_1 clearfix">
+<div class="view view-resource-menu-content view-id-resource_menu_content view-display-id-block_1 js-view-dom-id-db99b82c537875518c9bb5edea6962ffba0dc84cef954a4914d86075179fda19 cern-view-display-block cern-view-display-block_1 clearfix">
   
           <h1 class="mb-3 mt-3 text-center">Featured resources</h1>
       
@@ -1046,7 +1046,7 @@ URL: https://home.cern?q=hydrogen
         
     
     
-<div  data-history-node-id="192778" id="preview-card" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-09/CERN_Courier-Sep-Oct_2025.jpg?itok=4nsPurAs&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-09/CERN_Courier-Sep-Oct_2025.jpg?itok=4nsPurAs"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="192778" id="preview-card--37" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-09/CERN_Courier-Sep-Oct_2025.jpg?itok=4nsPurAs&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-09/CERN_Courier-Sep-Oct_2025.jpg?itok=4nsPurAs"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/resources/courier/physics/cern-courier-sepoct-2025"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -1094,7 +1094,7 @@ URL: https://home.cern?q=hydrogen
     
     
     
-<div  data-history-node-id="5047" id="preview-card--2" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;//cds.cern.ch/images/CERN-PHOTO-202105-067-19/file?size=medium&#039;) no-repeat center center / cover" data-background="//cds.cern.ch/images/CERN-PHOTO-202105-067-19/file?size=medium"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="5047" id="preview-card--38" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;//cds.cern.ch/images/CERN-PHOTO-202105-067-19/file?size=medium&#039;) no-repeat center center / cover" data-background="//cds.cern.ch/images/CERN-PHOTO-202105-067-19/file?size=medium"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/resources/image/accelerators/high-luminosity-lhc-gallery"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -1142,7 +1142,7 @@ URL: https://home.cern?q=hydrogen
         
     
     
-<div  data-history-node-id="5179" id="preview-card--3" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2022-05/FAQ-LHC-EN-cover-min_0_0.JPG?itok=6kjMukRO&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2022-05/FAQ-LHC-EN-cover-min_0_0.JPG?itok=6kjMukRO"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="5179" id="preview-card--39" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2022-05/FAQ-LHC-EN-cover-min_0_0.JPG?itok=6kjMukRO&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2022-05/FAQ-LHC-EN-cover-min_0_0.JPG?itok=6kjMukRO"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/resources/brochure/knowledge-sharing/lhc-facts-and-figures"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -1704,7 +1704,7 @@ the boundaries of nuclear physics</p>
 						
 						<div class="views-element-container form-group">
 
-<div class="horizontal-boxes view view-news-microviews view-id-news_microviews view-display-id-block_4 js-view-dom-id-b8c45292f3615f6a125430bdcf0c8593bfde24f812627a25121d140388ea08f7 cern-view-display-block cern-view-display-block_4 clearfix">
+<div class="horizontal-boxes view view-news-microviews view-id-news_microviews view-display-id-block_4 js-view-dom-id-06cce45dfb13d6004159ce39ebc188d9f44f52f18518d73f4598552737a29d43 cern-view-display-block cern-view-display-block_4 clearfix">
   
       
 
@@ -1758,7 +1758,52 @@ the boundaries of nuclear physics</p>
         
     
     
-<div  data-history-node-id="193025" id="preview-card" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-12/tetraquark%20mono%20c-ac-c-ac%20v010060%20%2800000%29_0.png?itok=4OxyuyP-&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-12/tetraquark%20mono%20c-ac-c-ac%20v010060%20%2800000%29_0.png?itok=4OxyuyP-"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="193083" id="preview-card" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-12/event_displays_0.png?itok=YkMhq-1G&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-12/event_displays_0.png?itok=YkMhq-1G"  class="component-preview-cards box-pattern landing_page">
+  <a class="box-link" target=""  href="/news/news/accelerators/lhc-delivers-record-number-particle-collisions-2025"></a>
+
+        <div class="component-preview-cards__veil"></div>
+  
+  <div class="component-preview-cards__box_wrapper">
+    <div class="component-preview-cards__box">
+                                                                                              
+              
+            <div class="preview-card__title">
+                                          <h3 class="standard-title">
+            
+            
+              <a href="/news/news/accelerators/lhc-delivers-record-number-particle-collisions-2025" hreflang="en" title="LHC delivers a record number of particle collisions in 2025">
+              <span>
+                LHC delivers a record number of particle coll...
+              </span>
+              </a>
+
+            
+          </h3>
+                              </div>
+      <div class="preview-card__body"></div>
+      <div class="preview-cards__subtext">
+                          <div class="preview-card__category" style="color:">
+            Accelerators
+          </div>
+                          <div class="preview-card__category" style="color:">
+            News
+          </div>
+                                                  <div class="preview-card__date" style="color:">
+            <time datetime="2025-12-09T14:40:13Z">9 December, 2025</time>
+
+          </div>
+              </div>
+    </div>
+  </div>
+</div>
+</div>
+                                  <div class="horizontal-boxes-row views-row col-md-4">
+
+
+        
+    
+    
+<div  data-history-node-id="193025" id="preview-card--2" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-12/tetraquark%20mono%20c-ac-c-ac%20v010060%20%2800000%29_0.png?itok=4OxyuyP-&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-12/tetraquark%20mono%20c-ac-c-ac%20v010060%20%2800000%29_0.png?itok=4OxyuyP-"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/news/physics/deciphering-heavyweights-tetraquark-world"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -1803,7 +1848,7 @@ the boundaries of nuclear physics</p>
                                 
     
     
-<div  data-history-node-id="193059" id="preview-card--2" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/2025-11/MAA00678.jpg&#039;) no-repeat center center / cover" data-background="/sites/default/files/2025-11/MAA00678.jpg"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="193059" id="preview-card--3" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/2025-11/MAA00678.jpg&#039;) no-repeat center center / cover" data-background="/sites/default/files/2025-11/MAA00678.jpg"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/news/knowledge-sharing/superconductivity-addressing-global-challenges"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -1842,13 +1887,15 @@ the boundaries of nuclear physics</p>
   </div>
 </div>
 </div>
-                                  <div class="horizontal-boxes-row views-row col-md-4">
+                              </div>
+                    <div class="carousel-cern-item row">
+            <div class="horizontal-boxes-row views-row col-md-4">
 
 
         
     
     
-<div  data-history-node-id="193045" id="preview-card--3" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/CERN_HieSol09.jpg?itok=rytvZ8lw&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/CERN_HieSol09.jpg?itok=rytvZ8lw"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="193045" id="preview-card--4" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/CERN_HieSol09.jpg?itok=rytvZ8lw&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/CERN_HieSol09.jpg?itok=rytvZ8lw"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/news/accelerators/hie-isolde-10-years-10-highlights"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -1887,15 +1934,13 @@ the boundaries of nuclear physics</p>
   </div>
 </div>
 </div>
-                              </div>
-                    <div class="carousel-cern-item row">
-            <div class="horizontal-boxes-row views-row col-md-4">
+                                  <div class="horizontal-boxes-row views-row col-md-4">
 
 
                                 
     
     
-<div  data-history-node-id="193040" id="preview-card--4" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/2025-11/CareerWebsite.png&#039;) no-repeat center center / cover" data-background="/sites/default/files/2025-11/CareerWebsite.png"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="193040" id="preview-card--5" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/2025-11/CareerWebsite.png&#039;) no-repeat center center / cover" data-background="/sites/default/files/2025-11/CareerWebsite.png"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/announcement/cern/cerns-new-careers-website-now-live"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -1940,7 +1985,7 @@ the boundaries of nuclear physics</p>
         
     
     
-<div  data-history-node-id="193029" id="preview-card--5" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/Indico_FameLab25.png?itok=YUEcNBd3&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/Indico_FameLab25.png?itok=YUEcNBd3"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="193029" id="preview-card--6" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/Indico_FameLab25.png?itok=YUEcNBd3&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/Indico_FameLab25.png?itok=YUEcNBd3"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/news/cern/famelab-international-final-2025-cern"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -1979,13 +2024,15 @@ the boundaries of nuclear physics</p>
   </div>
 </div>
 </div>
-                                  <div class="horizontal-boxes-row views-row col-md-4">
+                              </div>
+                    <div class="carousel-cern-item row">
+            <div class="horizontal-boxes-row views-row col-md-4">
 
 
         
     
     
-<div  data-history-node-id="193027" id="preview-card--6" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/202208-132_10.jpg?itok=eWuMsv1S&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/202208-132_10.jpg?itok=eWuMsv1S"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="193027" id="preview-card--7" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/202208-132_10.jpg?itok=eWuMsv1S&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/202208-132_10.jpg?itok=eWuMsv1S"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/news/experiments/breakthrough-antimatter-production"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -2024,15 +2071,13 @@ the boundaries of nuclear physics</p>
   </div>
 </div>
 </div>
-                              </div>
-                    <div class="carousel-cern-item row">
-            <div class="horizontal-boxes-row views-row col-md-4">
+                                  <div class="horizontal-boxes-row views-row col-md-4">
 
 
                                 
     
     
-<div  data-history-node-id="193020" id="preview-card--7" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/2025-11/testing-hollow-core-fibre-CLEAR.jpg&#039;) no-repeat center center / cover" data-background="/sites/default/files/2025-11/testing-hollow-core-fibre-CLEAR.jpg"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="193020" id="preview-card--8" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/2025-11/testing-hollow-core-fibre-CLEAR.jpg&#039;) no-repeat center center / cover" data-background="/sites/default/files/2025-11/testing-hollow-core-fibre-CLEAR.jpg"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/news/accelerators/novel-beam-sensors-built-last"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -2077,7 +2122,7 @@ the boundaries of nuclear physics</p>
                                 
     
     
-<div  data-history-node-id="193004" id="preview-card--8" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/2025-11/IMG_5608.jpg&#039;) no-repeat center center / cover" data-background="/sites/default/files/2025-11/IMG_5608.jpg"  class="component-preview-cards box-pattern landing_page">
+<div  data-history-node-id="193004" id="preview-card--9" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/2025-11/IMG_5608.jpg&#039;) no-repeat center center / cover" data-background="/sites/default/files/2025-11/IMG_5608.jpg"  class="component-preview-cards box-pattern landing_page">
   <a class="box-link" target=""  href="/news/news/computing/when-failure-good-news"></a>
 
         <div class="component-preview-cards__veil"></div>
@@ -2109,51 +2154,6 @@ the boundaries of nuclear physics</p>
           </div>
                                                   <div class="preview-card__date" style="color:">
             <time datetime="2025-11-14T12:30:00Z">14 November, 2025</time>
-
-          </div>
-              </div>
-    </div>
-  </div>
-</div>
-</div>
-                                  <div class="horizontal-boxes-row views-row col-md-4">
-
-
-        
-    
-    
-<div  data-history-node-id="193017" id="preview-card--9" class="component-preview-cards box-pattern landing_page" style="background:url(&#039;/sites/default/files/styles/large/public/2025-11/structured_laser.jpg?itok=2k1nft_n&#039;) no-repeat center center / cover" data-background="/sites/default/files/styles/large/public/2025-11/structured_laser.jpg?itok=2k1nft_n"  class="component-preview-cards box-pattern landing_page">
-  <a class="box-link" target=""  href="/news/news/knowledge-sharing/cern-showcases-projects-environmental-applications"></a>
-
-        <div class="component-preview-cards__veil"></div>
-  
-  <div class="component-preview-cards__box_wrapper">
-    <div class="component-preview-cards__box">
-                                                                                              
-              
-            <div class="preview-card__title">
-                                          <h3 class="standard-title">
-            
-            
-              <a href="/news/news/knowledge-sharing/cern-showcases-projects-environmental-applications" hreflang="en" title="CERN showcases projects with environmental applications">
-              <span>
-                CERN showcases projects with environmental ap...
-              </span>
-              </a>
-
-            
-          </h3>
-                              </div>
-      <div class="preview-card__body"></div>
-      <div class="preview-cards__subtext">
-                          <div class="preview-card__category" style="color:">
-            Knowledge sharing
-          </div>
-                          <div class="preview-card__category" style="color:">
-            News
-          </div>
-                                                  <div class="preview-card__date" style="color:">
-            <time datetime="2025-11-13T11:36:19Z">13 November, 2025</time>
 
           </div>
               </div>
@@ -2777,7 +2777,7 @@ come to <span style="background-color:#2980b9;">CERN</span> …</span></span></s
 						
 						<div class="views-element-container form-group">
 
-<div class="events-collision view view-events-microviews view-id-events_microviews view-display-id-upcoming_events_collision js-view-dom-id-b3ef0d2563353dd222242cbd66c0534ae2b7304e2f3bfc44ddeb61869245f46b cern-view-display-block cern-view-display-upcoming_events_collision clearfix">
+<div class="events-collision view view-events-microviews view-id-events_microviews view-display-id-upcoming_events_collision js-view-dom-id-847f8b80d9b887d51fd41728c72ee8dc3cfbac9b5e4e121ee60ebec4a00e27ff cern-view-display-block cern-view-display-upcoming_events_collision clearfix">
   
       
 
@@ -2836,118 +2836,6 @@ come to <span style="background-color:#2980b9;">CERN</span> …</span></span></s
 <div  class="agenda-box-pattern box-pattern landing_page"  class="agenda-box-pattern box-pattern landing_page">
         <div class="agenda-box-pattern__box-wrapper">
                     <div class="agenda-box-date-wrapper" >
-                <span class="agenda-box-week-day">Tuesday</span>
-                <div class="agenda-box-event-dates">
-                    <span class="agenda-box-event-dates-1">9</span> <span class="agenda-box-event-dates-2">Dec</span><span class="agenda-box-event-dates-3">/25</span>
-                </div>
-                <div class="agenda-box-event-time">
-          <span class="agenda-box-start-time">
-            14:00
-                                -
-                  16:00
-                        </span>
-                                            <span class="agenda-box-time-zone">(Europe/Zurich)</span>
-                                        <br/>
-                                    </div>
-            </div>
-        
-                            <div class="agenda-box-link mb-1 mt-1">
-                <h3>
-                    <a href="/events/light-ray-operators-and-w1infinity-algebra" hreflang="en" title="Light-ray operators and the w(1+infinity) algebra">
-                    <span class="text-color" >
-                        
-  Light-ray operators and the w(1+infinity) algebra
-
-
-                    </span>
-                    </a>
-                </h3>
-            </div>
-        
-                
-        																<div class="agenda-box-content-type">
-						Event
-				</div>
-
-                            <div class="agenda-box-place">
-                CERN
-            </div>
-        
-                    <div class="agenda-box-cal-wrapper">
-                <div class="agenda-box-cal-button">
-                                            <a class="btn btn-primary" href="https://indico.cern.ch/export/event/1588321.ics" target="_blank"></a>
-                                    </div>
-            </div>
-            </div>
-</div>
-
-</span></div></div>
-                                  <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
-
-
-
-
-
-
-
-<div  class="agenda-box-pattern box-pattern landing_page"  class="agenda-box-pattern box-pattern landing_page">
-        <div class="agenda-box-pattern__box-wrapper">
-                    <div class="agenda-box-date-wrapper" >
-                <span class="agenda-box-week-day">Tuesday</span>
-                <div class="agenda-box-event-dates">
-                    <span class="agenda-box-event-dates-1">9</span> <span class="agenda-box-event-dates-2">Dec</span><span class="agenda-box-event-dates-3">/25</span>
-                </div>
-                <div class="agenda-box-event-time">
-          <span class="agenda-box-start-time">
-            16:00
-                                -
-                  18:00
-                        </span>
-                                            <span class="agenda-box-time-zone">(Europe/Zurich)</span>
-                                        <br/>
-                                    </div>
-            </div>
-        
-                            <div class="agenda-box-link mb-1 mt-1">
-                <h3>
-                    <a href="/events/precision-lattice-calculation-hadronic-contribution-running-electroweak-gauge-couplings" hreflang="en" title="Precision lattice calculation of the hadronic contribution to the running of the electroweak gauge couplings">
-                    <span class="text-color" >
-                        
-  Precision lattice calculation of the hadronic contribution to the r...
-                    </span>
-                    </a>
-                </h3>
-            </div>
-        
-                
-        																<div class="agenda-box-content-type">
-						Event
-				</div>
-
-                            <div class="agenda-box-place">
-                CERN
-            </div>
-        
-                    <div class="agenda-box-cal-wrapper">
-                <div class="agenda-box-cal-button">
-                                            <a class="btn btn-primary" href="https://indico.cern.ch/export/event/1604810.ics" target="_blank"></a>
-                                    </div>
-            </div>
-            </div>
-</div>
-
-</span></div></div>
-                                  <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
-
-
-
-
-
-
-
-<div  class="agenda-box-pattern box-pattern landing_page"  class="agenda-box-pattern box-pattern landing_page">
-        <div class="agenda-box-pattern__box-wrapper">
-                    <div class="agenda-box-date-wrapper" >
                 <span class="agenda-box-week-day">Wednesday</span>
                 <div class="agenda-box-event-dates">
                     <span class="agenda-box-event-dates-1">10</span> <span class="agenda-box-event-dates-2">Dec</span><span class="agenda-box-event-dates-3">/25</span>
@@ -2992,9 +2880,7 @@ come to <span style="background-color:#2980b9;">CERN</span> …</span></span></s
 </div>
 
 </span></div></div>
-                              </div>
-                    <div class="carousel-cern-item row">
-            <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
+                                  <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
 
 
 
@@ -3106,7 +2992,9 @@ come to <span style="background-color:#2980b9;">CERN</span> …</span></span></s
 </div>
 
 </span></div></div>
-                                  <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
+                              </div>
+                    <div class="carousel-cern-item row">
+            <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
 
 
 
@@ -3163,9 +3051,7 @@ come to <span style="background-color:#2980b9;">CERN</span> …</span></span></s
 </div>
 
 </span></div></div>
-                              </div>
-                    <div class="carousel-cern-item row">
-            <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
+                                  <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
 
 
 
@@ -3279,7 +3165,9 @@ come to <span style="background-color:#2980b9;">CERN</span> …</span></span></s
 </div>
 
 </span></div></div>
-                                  <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
+                              </div>
+                    <div class="carousel-cern-item row">
+            <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
 
 
 
@@ -3330,6 +3218,120 @@ come to <span style="background-color:#2980b9;">CERN</span> …</span></span></s
                     <div class="agenda-box-cal-wrapper">
                 <div class="agenda-box-cal-button">
                                             <a class="btn btn-primary" href="https://indico.cern.ch/export/event/1593172.ics" target="_blank"></a>
+                                    </div>
+            </div>
+            </div>
+</div>
+
+</span></div></div>
+                                  <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
+
+
+
+
+
+
+
+<div  class="agenda-box-pattern box-pattern landing_page"  class="agenda-box-pattern box-pattern landing_page">
+        <div class="agenda-box-pattern__box-wrapper">
+                    <div class="agenda-box-date-wrapper" >
+                <span class="agenda-box-week-day">Friday</span>
+                <div class="agenda-box-event-dates">
+                    <span class="agenda-box-event-dates-1">12</span> <span class="agenda-box-event-dates-2">Dec</span><span class="agenda-box-event-dates-3">/25</span>
+                </div>
+                <div class="agenda-box-event-time">
+          <span class="agenda-box-start-time">
+            11:00
+                                -
+                  12:00
+                        </span>
+                                            <span class="agenda-box-time-zone">(Europe/Zurich)</span>
+                                        <br/>
+                                    </div>
+            </div>
+        
+                            <div class="agenda-box-link mb-1 mt-1">
+                <h3>
+                    <a href="/events/arxiv-presentation-0" hreflang="en" title="Arxiv + presentation">
+                    <span class="text-color" >
+                        
+  Arxiv + presentation
+
+
+                    </span>
+                    </a>
+                </h3>
+            </div>
+        
+                
+        																<div class="agenda-box-content-type">
+						Event
+				</div>
+
+                            <div class="agenda-box-place">
+                CERN
+            </div>
+        
+                    <div class="agenda-box-cal-wrapper">
+                <div class="agenda-box-cal-button">
+                                            <a class="btn btn-primary" href="https://indico.cern.ch/export/event/1611350.ics" target="_blank"></a>
+                                    </div>
+            </div>
+            </div>
+</div>
+
+</span></div></div>
+                                  <div class="events-collision-row views-row col-md-4"><div class="views-field views-field-rendered-entity"><span class="field-content">
+
+
+
+
+
+
+
+<div  class="agenda-box-pattern box-pattern landing_page"  class="agenda-box-pattern box-pattern landing_page">
+        <div class="agenda-box-pattern__box-wrapper">
+                    <div class="agenda-box-date-wrapper" >
+                <span class="agenda-box-week-day">Monday</span>
+                <div class="agenda-box-event-dates">
+                    <span class="agenda-box-event-dates-1">15</span> <span class="agenda-box-event-dates-2">Dec</span><span class="agenda-box-event-dates-3">/25</span>
+                </div>
+                <div class="agenda-box-event-time">
+          <span class="agenda-box-start-time">
+            14:00
+                                -
+                  15:30
+                        </span>
+                                            <span class="agenda-box-time-zone">(Europe/Zurich)</span>
+                                        <br/>
+                                    </div>
+            </div>
+        
+                            <div class="agenda-box-link mb-1 mt-1">
+                <h3>
+                    <a href="/events/time-choose-mastering-what-matters-distracted-world" hreflang="en" title="Time to Choose: Mastering What Matters in a Distracted World">
+                    <span class="text-color" >
+                        
+  Time to Choose: Mastering What Matters in a Distracted World
+
+
+                    </span>
+                    </a>
+                </h3>
+            </div>
+        
+                
+        																<div class="agenda-box-content-type">
+						Event
+				</div>
+
+                            <div class="agenda-box-place">
+                CERN
+            </div>
+        
+                    <div class="agenda-box-cal-wrapper">
+                <div class="agenda-box-cal-button">
+                                            <a class="btn btn-primary" href="https://indico.cern.ch/export/event/1603470.ics" target="_blank"></a>
                                     </div>
             </div>
             </div>
