@@ -1,0 +1,6 @@
+# Build and temp
+.pushqueue/
+# Off-repo tweet queue
+storage/tweets.jsonl
+# OS noise
+.DS_Store

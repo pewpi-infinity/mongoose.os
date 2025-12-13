@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Infinity‑OS Cart Index</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #00ff9d;
+      text-shadow: 2px 2px #000;
+    }
+    .cart-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .cart-btn {
+      background: #ff6f61;
+      border: none;
+      border-radius: 10px;
+      padding: 0.8rem;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s, background 0.3s;
+      color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .cart-btn:hover {
+      transform: scale(1.05);
+      background: #ff3b2e;
+    }
+    .output {
+      margin-top: 2rem;
+      text-align: left;
+      background: rgba(0,0,0,0.5);
+      padding: 1rem;
+      border-radius: 8px;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .log-entry {
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    .success { color: #00ff9d; }
+    .error { color: #ff3b2e; }
+  </style>
+</head>
+<body>
+  <h1>Infinity‑OS Cart Index</h1>
+  <p>Press a cart to run it through the backend 🚀</p>
+
+  <div class="cart-grid" id="cartGrid"></div>
+  <div class="output" id="output"></div>
+
+  <script>
+    // All carts + JSON engines
+    const carts = [
+      "cart801_terminal_engine.py",
+      "cart804_feed_generator.py",
+      "cart805_wallet_engine.py",
+      "CART804_FEED_BUFFER.json",
+      "CART805_WALLET.json",
+      "CART803_TOKENS.json",
+      "WORLD_TOKEN_LEDGER.json",
+      "PEWPI_USER_CAPSULE.json"
+    ];
+
+    const cartGrid = document.getElementById('cartGrid');
+    const output = document.getElementById('output');
+
+    function log(message, type="") {
+      const div = document.createElement('div');
+      div.className = `log-entry ${type}`;
+      div.textContent = message;
+      output.appendChild(div);
+      output.scrollTop = output.scrollHeight;
+    }
+
+    function runCart(cart) {
+      log(`🔗 Running ${cart}…`);
+      fetch(`http://192.168.1.42:5000/run?cart=${cart}`)
+        .then(res => res.json())
+        .then(data => {
+          if (data.output) {
+            log(`✅ ${cart} output: ${data.output}`, "success");
+          } else {
+            log(`❌ ${cart} error: ${data.error}`, "error");
+          }
+        })
+        .catch(err => log(`❌ Network error: ${err}`, "error"));
+    }
+
+    // Build buttons dynamically
+    carts.forEach(cart => {
+      const btn = document.createElement('button');
+      btn.className = 'cart-btn';
+      btn.textContent = cart;
+      btn.onclick = () => runCart(cart);
+      cartGrid.appendChild(btn);
+    });
+  </script>
+</body>
+</html>
