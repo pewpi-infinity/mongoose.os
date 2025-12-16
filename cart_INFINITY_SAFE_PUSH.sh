@@ -1,34 +1,50 @@
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+set -euo pipefail
+
+LOGDIR="infinity_storage/logs"
+mkdir -p "$LOGDIR"
 
 echo "[∞] Infinity Safe Push"
 
-if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
-  echo "[!] Not a git repo. Exiting."
-  exit 1
+# Detect auto mode
+AUTO_MODE="${INFINITY_AUTO:-0}"
+
+# Check for changes
+if git diff --quiet && git diff --cached --quiet; then
+  echo "[∞] No changes to commit"
+  exit 0
 fi
 
+echo "[∞] Modified files:"
 git status --short
+echo
 
-read -p "[∞] Continue with add/commit? (y/n): " yn
-case $yn in
-  [Yy]* ) ;;
-  * ) echo "[∞] Cancelled"; exit 0;;
-esac
+if [ "$AUTO_MODE" = "1" ]; then
+  echo "[∞] AUTO mode detected — skipping confirmation"
+  CONFIRM="y"
+else
+  read -p "[∞] Continue with add/commit? (y/n): " CONFIRM
+fi
 
-git add infinity_storage || exit 1
-git add cart_INFINITY_PLUS_INDEX_BUILDER.py || true
-git add cart_INFINITY_PLUS_RESEARCH.py || true
+if [[ "$CONFIRM" != "y" && "$CONFIRM" != "Y" ]]; then
+  echo "[∞] Commit aborted by user"
+  exit 0
+fi
 
-git commit -m "Infinity+ pipeline: research + index actuator" || {
-  echo "[!] Nothing to commit"
+# Stage & commit
+git add .
+
+COMMIT_MSG="Infinity auto commit $(date '+%Y-%m-%d %H:%M:%S')"
+git commit -m "$COMMIT_MSG" || {
+  echo "[∞] Nothing new to commit"
   exit 0
 }
 
-echo "[∞] Attempting push..."
-git push || {
-  echo "[!] Push failed — files are safe locally"
-  echo "[!] You can manually upload if needed"
-  exit 0
-}
+# Push
+git push
 
-echo "[∞] Push complete"
+# Log success
+date '+%Y-%m-%d %H:%M:%S' > "$LOGDIR/last_push.time"
+echo "[∞] Push successful: $COMMIT_MSG" >> "$LOGDIR/push.log"
+
+echo "[✓] Infinity Safe Push complete"
