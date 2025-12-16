@@ -6,45 +6,39 @@ mkdir -p "$LOGDIR"
 
 echo "[∞] Infinity Safe Push"
 
-# Detect auto mode
-AUTO_MODE="${INFINITY_AUTO:-0}"
+# show status
+git status --short || true
+echo
 
-# Check for changes
+# nothing changed?
 if git diff --quiet && git diff --cached --quiet; then
   echo "[∞] No changes to commit"
   exit 0
 fi
 
-echo "[∞] Modified files:"
-git status --short
-echo
-
+# auto mode
+AUTO_MODE="${INFINITY_AUTO:-0}"
 if [ "$AUTO_MODE" = "1" ]; then
   echo "[∞] AUTO mode detected — skipping confirmation"
-  CONFIRM="y"
 else
   read -p "[∞] Continue with add/commit? (y/n): " CONFIRM
+  [[ "$CONFIRM" =~ ^[yY]$ ]] || exit 0
 fi
 
-if [[ "$CONFIRM" != "y" && "$CONFIRM" != "Y" ]]; then
-  echo "[∞] Commit aborted by user"
+# sparse-safe add
+git add --sparse .
+
+# nothing staged?
+if git diff --cached --quiet; then
+  echo "[∞] Nothing staged after sparse add"
   exit 0
 fi
 
-# Stage & commit
-git add .
-
-COMMIT_MSG="Infinity auto commit $(date '+%Y-%m-%d %H:%M:%S')"
-git commit -m "$COMMIT_MSG" || {
-  echo "[∞] Nothing new to commit"
-  exit 0
-}
-
-# Push
+MSG="Infinity auto commit $(date '+%Y-%m-%d %H:%M:%S')"
+git commit -m "$MSG"
 git push
 
-# Log success
 date '+%Y-%m-%d %H:%M:%S' > "$LOGDIR/last_push.time"
-echo "[∞] Push successful: $COMMIT_MSG" >> "$LOGDIR/push.log"
+echo "[∞] $MSG" >> "$LOGDIR/push.log"
 
-echo "[✓] Infinity Safe Push complete"
+echo "[✓] Safe Push complete"
