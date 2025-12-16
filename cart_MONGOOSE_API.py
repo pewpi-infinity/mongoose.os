@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import os, json, time
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, Response
 
 BASE = os.getcwd()
 STATE = os.path.join(BASE, "infinity_storage", "state")
@@ -16,10 +16,34 @@ def log(msg):
     with open(os.path.join(LOGS, "mongoose_api.log"), "a") as f:
         f.write(line + "\n")
 
+@app.route("/", methods=["GET"])
+def root():
+    return Response(
+        "<h1>mongoose.os API</h1>"
+        "<p>Status: <b>ONLINE</b></p>"
+        "<ul>"
+        "<li><a href='/health'>/health</a></li>"
+        "<li><a href='/live'>/live</a></li>"
+        "</ul>",
+        mimetype="text/html"
+    )
+
+@app.route("/live", methods=["GET"])
+def live():
+    carts = [f for f in os.listdir(BASE) if f.startswith("cart_")]
+    gen   = os.path.join(BASE, "cart_generated")
+    gen_n = len(os.listdir(gen)) if os.path.isdir(gen) else 0
+    return jsonify({
+        "status": "alive",
+        "time": time.time(),
+        "cart_count": len(carts),
+        "generated_carts": gen_n
+    })
+
 @app.route("/state/read", methods=["GET"])
 def read_state():
     return jsonify({
-        "repos": os.listdir(STATE),
+        "files": os.listdir(STATE),
         "time": time.time()
     })
 
