@@ -4,3 +4,12 @@
 storage/tweets.jsonl
 # OS noise
 .DS_Store
+
+# Infinity runtime state
+infinity_storage/logs/
+infinity_storage/ACTIVE_PORT
+infinity_storage/*.out
+infinity_storage/*.time
+
+# Local runtime artifacts
+*.started
