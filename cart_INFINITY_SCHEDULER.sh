@@ -1,12 +1,15 @@
 #!/data/data/com.termux/files/usr/bin/bash
 set -euo pipefail
 
-INTERVAL="${INFINITY_INTERVAL:-300}"   # 5 minutes default
-LOGDIR="infinity_storage/logs"
+BASE_DIR="$(pwd)"
+LOGDIR="$BASE_DIR/infinity_storage/logs"
+INTERVAL="${INFINITY_INTERVAL:-300}"
+
 mkdir -p "$LOGDIR"
 
 echo "[∞] Infinity Scheduler ONLINE"
 echo "[∞] Interval: ${INTERVAL}s"
+echo "[∞] Logs: $LOGDIR"
 
 while true; do
   TS="$(date '+%Y-%m-%d %H:%M:%S')"

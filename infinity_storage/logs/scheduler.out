@@ -1,0 +1,14 @@
+nohup: ignoring input
+[∞] Infinity Scheduler ONLINE
+[∞] Interval: 300s
+[∞] Logs: /data/data/com.termux/files/home/infinity-treasury/mongoose.os/infinity_storage/logs
+[∞] Tick @ 2025-12-16 07:11:36
+[∞] Infinity Safe Push
+ M cart_INFINITY_SCHEDULER.sh
+ M cart_index.sh
+ M infinity_storage/logs/last_push.time
+ M infinity_storage/logs/push.log
+ M infinity_storage/logs/scheduler.log
+?? infinity_storage/logs/scheduler.out
+
+[∞] AUTO mode detected — skipping confirmation
