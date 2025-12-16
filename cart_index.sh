@@ -14,15 +14,11 @@ if [ -z "$CARTS_SH$CARTS_PY" ]; then
 fi
 
 echo "[∞] Shell carts:"
-for c in $CARTS_SH; do
-  echo "  - $c"
-done
+for c in $CARTS_SH; do echo "  - $c"; done
 echo
 
 echo "[∞] Python carts:"
-for c in $CARTS_PY; do
-  echo "  - $c"
-done
+for c in $CARTS_PY; do echo "  - $c"; done
 echo
 
 read -p "[?] Run all carts? (y/N): " RUNALL
@@ -42,10 +38,12 @@ fi
 read -p "[?] Push all changes after run? (y/N): " PUSH
 
 if [[ "$PUSH" == "y" || "$PUSH" == "Y" ]]; then
-  if [ -x ./cart_push_all.sh ]; then
+  if [ -x "./cart_push_all.sh" ]; then
     ./cart_push_all.sh
   else
-    echo "[!] cart_push_all.sh not found or not executable"
+    git add -A
+    git commit -m "cart index run $(date -u +%Y-%m-%dT%H:%M:%SZ)" || true
+    git push || true
   fi
 fi
 

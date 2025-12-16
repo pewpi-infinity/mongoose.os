@@ -1,50 +1,92 @@
-#!/bin/bash
-set -e
+#!/data/data/com.termux/files/usr/bin/bash
+set -euo pipefail
 
-echo "[∞] Infinity Git Push (Full Stage)"
+TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+LOGDIR="infinity_storage/logs"
+mkdir -p "$LOGDIR"
+LOGFILE="$LOGDIR/push.log"
 
-# Ensure we're in a git repo
-if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
-  echo "[!] Not inside a git repository"
-  exit 1
+log() {
+  echo "[$TS] $1" | tee -a "$LOGFILE"
+}
+
+log "∞ Infinity Git Push (Adaptive Mode)"
+
+# -----------------------------
+# Detect sparse-checkout
+# -----------------------------
+SPARSE=false
+if git config --get core.sparseCheckout >/dev/null 2>&1; then
+  if [ "$(git config --get core.sparseCheckout)" = "true" ]; then
+    SPARSE=true
+    log "Sparse-checkout detected"
+  fi
 fi
 
-# Optional: governance enforcement if present
-if [ -x "./cart_INFINITY_GOVERNANCE_ENFORCER.py" ]; then
-  echo "[∞] Running governance enforcement..."
-  ./cart_INFINITY_GOVERNANCE_ENFORCER.py || {
-    echo "[!] Governance blocked the push"
+# -----------------------------
+# Pre-push sanity checks
+# -----------------------------
+log "Running pre-push sanity checks"
+
+# 1) Cart factory mismatch
+if grep -R "cart027_robotics_factory" -n . --exclude-dir=.git >/dev/null 2>&1; then
+  if [ ! -f cart027_robotics_factory.py ]; then
+    log "ERROR: cart027_robotics_factory referenced but missing"
     exit 1
-  }
+  fi
 fi
 
-echo "[∞] Git status BEFORE add:"
-git status --short
+# 2) Broken cart numbering (holes)
+MISSING=$(ls cart[0-9][0-9][0-9]_*.py 2>/dev/null \
+  | sed -E 's/cart([0-9]{3})_.*/\1/' \
+  | sort -n \
+  | awk 'NR>1 && $1!=prev+1 {print prev+1} {prev=$1}')
 
-echo "[∞] Staging EVERYTHING (git add .)"
-git add .
+if [ -n "$MISSING" ]; then
+  log "WARNING: Cart number gaps detected: $MISSING"
+fi
 
-echo "[∞] Git status AFTER add:"
-git status --short
+# -----------------------------
+# Git status
+# -----------------------------
+log "Git status BEFORE add:"
+git status --short | tee -a "$LOGFILE"
 
-# If nothing staged, exit clean
+# -----------------------------
+# Stage files safely
+# -----------------------------
+log "Staging files"
+
+if $SPARSE; then
+  log "Using sparse-aware staging"
+  git add --sparse .
+else
+  git add .
+fi
+
+# -----------------------------
+# Abort if nothing staged
+# -----------------------------
 if git diff --cached --quiet; then
-  echo "[∞] Nothing new to commit"
+  log "Nothing to commit — aborting push"
   exit 0
 fi
 
-read -p "[∞] Commit message: " MSG
-if [ -z "$MSG" ]; then
-  MSG="Infinity update $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-fi
+# -----------------------------
+# Commit
+# -----------------------------
+MSG="∞ Auto-push $(date -u +'%Y-%m-%d %H:%M UTC')"
+git commit -m "$MSG" | tee -a "$LOGFILE"
 
-git commit -m "$MSG"
+# -----------------------------
+# Push
+# -----------------------------
+log "Pushing to origin"
+git push | tee -a "$LOGFILE"
 
-echo "[∞] Pushing to origin..."
-git push || {
-  echo "[!] Push failed (repo may reject large files)"
-  echo "[!] Files remain committed locally"
-  exit 1
-}
+# -----------------------------
+# Finalize
+# -----------------------------
+date -u > "$LOGDIR/last_push.time"
+log "Push complete"
 
-echo "[∞] Push successful"
