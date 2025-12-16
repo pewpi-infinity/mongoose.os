@@ -1,73 +1,83 @@
 #!/data/data/com.termux/files/usr/bin/bash
 set -euo pipefail
 
-# REQUIREMENTS:
-# 1) gh CLI installed
-# 2) gh auth login already completed
-# 3) git configured (user.name / user.email)
-
 BASE="$(pwd)"
 GEN="$BASE/cart_generated"
+REPOS="$BASE/.repos"
 LOG="$BASE/infinity_storage/logs/repo_autocreator.log"
-ORG="pewpi-infinity"   # change if needed
-VISIBILITY="public"    # public | private
 
-mkdir -p "$GEN" "$(dirname "$LOG")"
+ORG="pewpi-infinity"
+VISIBILITY="public"
+MAX_COMMITS=25   # rotate repo after this many commits
 
-echo "[∞] REPO AUTO-CREATOR ONLINE"
-echo "[∞] Org/User: $ORG"
-echo "[∞] Watching: $GEN"
-echo "[∞] Press CTRL+C to stop"
-echo
+mkdir -p "$REPOS" "$(dirname "$LOG")"
 
-# ---- bucket -> repo naming rules ----
-repo_for_bucket() {
+# ---------- name pool ----------
+NAMES=(oak pine ant bee rover patrol sentinel atlas nova)
+
+# ---------- bucket mapping ----------
+bucket_group() {
   case "$1" in
-    01-cart*) echo "infinity-carts-core" ;;
-    02-js*)   echo "infinity-js-spa" ;;
-    04-index*)echo "infinity-index-engine" ;;
-    07-api*)  echo "infinity-api-services" ;;
-    *)        echo "infinity-misc-lab" ;;
+    01*) echo "carts" ;;
+    02*) echo "js" ;;
+    04*) echo "index" ;;
+    07*) echo "api" ;;
+    *)   echo "misc" ;;
   esac
+}
+
+# ---------- repo naming ----------
+current_repo_name() {
+  local group="$1"
+  local idx_file="$REPOS/.${group}_index"
+  [ -f "$idx_file" ] || echo 0 > "$idx_file"
+  local i
+  i=$(cat "$idx_file")
+  echo "infinity-${group}-${i}"
+}
+
+rotate_repo() {
+  local group="$1"
+  local idx_file="$REPOS/.${group}_index"
+  local i
+  i=$(cat "$idx_file")
+  echo $((i+1)) > "$idx_file"
 }
 
 ensure_repo() {
   local repo="$1"
-  if gh repo view "$ORG/$repo" >/dev/null 2>&1; then
-    echo "[=] Repo exists: $repo"
-  else
+  if ! gh repo view "$ORG/$repo" >/dev/null 2>&1; then
     echo "[+] Creating repo: $repo"
     gh repo create "$ORG/$repo" --$VISIBILITY --confirm
   fi
 }
 
-clone_or_pull() {
+ensure_clone() {
   local repo="$1"
-  if [ ! -d "$BASE/.repos/$repo/.git" ]; then
-    mkdir -p "$BASE/.repos"
-    git clone "https://github.com/$ORG/$repo.git" "$BASE/.repos/$repo"
-  else
-    (cd "$BASE/.repos/$repo" && git pull)
+  if [ ! -d "$REPOS/$repo/.git" ]; then
+    git clone "https://github.com/$ORG/$repo.git" "$REPOS/$repo"
   fi
+}
+
+commit_count() {
+  cd "$1" && git rev-list --count HEAD 2>/dev/null || echo 0
 }
 
 commit_cart() {
   local repo="$1"
   local cart="$2"
-  local src="$GEN/$cart"
-  local dst="$BASE/.repos/$repo/$cart"
-
-  cp "$src" "$dst"
-  chmod +x "$dst"
-
-  (cd "$BASE/.repos/$repo" && \
-    git add "$cart" && \
-    git commit -m "auto: add $cart" && \
-    git push)
+  cp "$GEN/$cart" "$REPOS/$repo/$cart"
+  chmod +x "$REPOS/$repo/$cart"
+  cd "$REPOS/$repo"
+  git add "$cart"
+  git commit -m "auto: $cart"
+  git push
 }
 
-# ---- main loop ----
+# ---------- main loop ----------
 declare -A SEEN
+echo "[∞] Repo Auto-Creator (rotating) ONLINE"
+
 while true; do
   for f in "$GEN"/cart_AUTO_*.sh; do
     [ -e "$f" ] || continue
@@ -76,14 +86,24 @@ while true; do
     SEEN[$bn]=1
 
     bucket="$(echo "$bn" | cut -d_ -f3)"
-    repo="$(repo_for_bucket "$bucket")"
+    group="$(bucket_group "$bucket")"
+    repo="$(current_repo_name "$group")"
 
-    echo "[→] Routing $bn → $repo"
     ensure_repo "$repo"
-    clone_or_pull "$repo"
-    commit_cart "$repo" "$bn"
+    ensure_clone "$repo"
 
-    echo "[✓] Committed $bn to $repo" | tee -a "$LOG"
+    count="$(commit_count "$REPOS/$repo")"
+    if [ "$count" -ge "$MAX_COMMITS" ]; then
+      echo "[↻] Rotating repo for $group (commit cap reached)"
+      rotate_repo "$group"
+      repo="$(current_repo_name "$group")"
+      ensure_repo "$repo"
+      ensure_clone "$repo"
+    fi
+
+    echo "[→] $bn → $repo"
+    commit_cart "$repo" "$bn"
+    echo "[✓] committed to $repo" | tee -a "$LOG"
   done
   sleep 2
 done
