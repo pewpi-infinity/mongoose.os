@@ -31,36 +31,30 @@ def root():
 @app.route("/live", methods=["GET"])
 def live():
     carts = [f for f in os.listdir(BASE) if f.startswith("cart_")]
-    gen   = os.path.join(BASE, "cart_generated")
-    gen_n = len(os.listdir(gen)) if os.path.isdir(gen) else 0
+    gen = os.path.join(BASE, "cart_generated")
     return jsonify({
         "status": "alive",
         "time": time.time(),
         "cart_count": len(carts),
-        "generated_carts": gen_n
+        "generated_carts": len(os.listdir(gen)) if os.path.isdir(gen) else 0
     })
 
 @app.route("/state/read", methods=["GET"])
 def read_state():
-    return jsonify({
-        "files": os.listdir(STATE),
-        "time": time.time()
-    })
+    return jsonify({"files": os.listdir(STATE), "time": time.time()})
 
 @app.route("/state/write", methods=["POST"])
 def write_state():
     data = request.json or {}
     name = data.get("name", f"state_{int(time.time())}.json")
-    path = os.path.join(STATE, name)
-    with open(path, "w") as f:
+    with open(os.path.join(STATE, name), "w") as f:
         json.dump(data, f, indent=2)
     log(f"STATE WRITE → {name}")
-    return jsonify({"ok": True, "file": name})
+    return jsonify({"ok": True})
 
 @app.route("/signal", methods=["POST"])
 def signal():
-    data = request.json or {}
-    log(f"SIGNAL {data}")
+    log(f"SIGNAL {request.json}")
     return jsonify({"ok": True})
 
 @app.route("/health", methods=["GET"])

@@ -1,0 +1,6 @@
+[2025-12-16 07:27:51] mongoose.os API online @ http://127.0.0.1:5051
+ * Serving Flask app 'cart_MONGOOSE_API'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5051
+[33mPress CTRL+C to quit[0m
