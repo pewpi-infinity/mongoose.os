@@ -1,78 +1,62 @@
 #!/usr/bin/env python3
-import os, time, json, threading, subprocess
-from flask import Flask, jsonify, request, Response
+import os, time, threading
+from flask import Flask, Response, jsonify
 
 BASE = os.getcwd()
-LOGD = os.path.join(BASE, "infinity_storage", "logs")
-STAT = os.path.join(BASE, "infinity_storage", "state")
 REPO_ROOT = os.path.expanduser("~/infinity-repos")
-SRC_ROOT  = os.path.expanduser("~/")  # where existing repos live
+SRC_ROOT  = os.path.expanduser("~/")
+LOG = os.path.join(BASE, "infinity_storage/logs/walker.log")
 
-os.makedirs(LOGD, exist_ok=True)
-os.makedirs(STAT, exist_ok=True)
+os.makedirs(os.path.dirname(LOG), exist_ok=True)
 os.makedirs(REPO_ROOT, exist_ok=True)
 
 app = Flask(__name__)
 events = []
 running = False
-current = {"repo": None, "sandbox": None, "count": 0}
 
 def emit(msg):
-    ts = time.strftime("%H:%M:%S")
-    line = f"[{ts}] {msg}"
+    line = f"[{time.strftime('%H:%M:%S')}] {msg}"
     events.append(line)
     if len(events) > 500:
         events.pop(0)
-    with open(os.path.join(LOGD, "walker.log"), "a") as f:
+    with open(LOG, "a") as f:
         f.write(line + "\n")
 
 def list_repos():
     out = []
-    for root, dirs, files in os.walk(SRC_ROOT):
-        if ".git" in dirs:
-            out.append(root)
-            dirs[:] = []  # stop deep walk
+    for r, d, f in os.walk(SRC_ROOT):
+        if ".git" in d:
+            out.append(r)
+            d[:] = []
     return sorted(out, key=lambda p: os.path.getmtime(p))
 
-def sanitize_and_copy(src, dst):
+def sanitize(src, dst):
     os.makedirs(dst, exist_ok=True)
-    count = 0
-    for r, d, files in os.walk(src):
-        for f in files:
-            if f.startswith("cart_") and f.endswith((".sh", ".py")):
-                sp = os.path.join(r, f)
-                dp = os.path.join(dst, f)
-                with open(sp, "r", errors="ignore") as fi:
+    c = 0
+    for r, d, f in os.walk(src):
+        for x in f:
+            if x.startswith("cart_") and x.endswith((".sh",".py")):
+                with open(os.path.join(r,x), errors="ignore") as fi:
                     data = fi.read()
-                data = data.replace("\r\n", "\n")
-                with open(dp, "w") as fo:
+                with open(os.path.join(dst,x),"w") as fo:
                     fo.write(data)
-                try:
-                    os.chmod(dp, 0o755)
-                except:
-                    pass
-                count += 1
-    return count
+                os.chmod(os.path.join(dst,x),0o755)
+                c += 1
+    return c
 
 def walker():
     global running
-    repos = list_repos()
-    emit(f"Found {len(repos)} repos")
-    for src in repos:
-        if not running:
-            emit("Paused")
-            break
+    for src in list_repos():
+        if not running: break
         name = os.path.basename(src)
         sandbox = f"infinity-sandbox-{int(time.time())}"
         dst = os.path.join(REPO_ROOT, sandbox)
-        current.update({"repo": name, "sandbox": sandbox, "count": 0})
         emit(f"Entering {name}")
-        c = sanitize_and_copy(src, dst)
-        current["count"] = c
+        c = sanitize(src, dst)
         emit(f"Sanitized {c} carts → {sandbox}")
-        time.sleep(1)
-    emit("Walker idle")
+        time.sleep(0.5)
     running = False
+    emit("Walker idle")
 
 @app.route("/start", methods=["POST"])
 def start():
@@ -83,38 +67,30 @@ def start():
         emit("Walker started")
     return jsonify(ok=True)
 
-@app.route("/pause", methods=["POST"])
-def pause():
-    global running
-    running = False
-    emit("Pause requested")
-    return jsonify(ok=True)
-
-@app.route("/throw", methods=["POST"])
-def throw():
-    # quick visible action
-    emit("Cart throw requested")
-    return jsonify(ok=True)
-
-@app.route("/state")
-def state():
-    return jsonify(running=running, current=current)
-
 @app.route("/events")
-def stream():
+def events_stream():
     def gen():
-        last = 0
+        i = 0
         while True:
-            if last < len(events):
-                yield f"data: {events[last]}\n\n"
-                last += 1
-            time.sleep(0.3)
+            if i < len(events):
+                yield f"data: {events[i]}\n\n"
+                i += 1
+            time.sleep(0.25)
     return Response(gen(), mimetype="text/event-stream")
 
 @app.route("/")
 def page():
-    return open("walker_live.html").read()
+    return """
+<!doctype html><body style="background:#05080f;color:#8ff;font-family:monospace">
+<button onclick="fetch('/start',{method:'POST'})">▶ START</button>
+<pre id=p></pre>
+<script>
+const p=document.getElementById('p');
+new EventSource('/events').onmessage=e=>{p.textContent+=e.data+"\\n";p.scrollTop=1e9}
+</script>
+</body>
+"""
 
 if __name__ == "__main__":
-    emit("Repo Walker ONLINE @ http://127.0.0.1:7070")
-    app.run(host="127.0.0.1", port=7070, threaded=True)
+    emit("Repo Walker ONLINE @ 7070")
+    app.run(port=7070)
