@@ -1,6 +1,0 @@
-#!/bin/bash
-echo "[∞] CART: cart_confidence_decay"
-echo "[∞] BUCKET: 01-cart"
-echo "[∞] TIME: Tue Dec 16 07:57:55 CST 2025"
-sleep 0.3
-echo "[✓] cart_confidence_decay operational"
