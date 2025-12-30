@@ -1,0 +1,91 @@
+:root {
+  --bg: #070b12;
+  --panel: #0d1420;
+  --text: #cfd8ff;
+
+  --green: #1aff64;
+  --yellow: #ffcc00;
+  --red: #ff3b3b;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, monospace;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #10182a, #05070c);
+  color: var(--text);
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.brain {
+  background: var(--panel);
+  border-radius: 14px;
+  padding: 16px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.brain:hover {
+  transform: translateY(-3px);
+}
+
+.brain h2 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.brain small {
+  opacity: 0.7;
+}
+
+/* STATUS COLORS */
+
+.healthy {
+  box-shadow: 0 0 12px rgba(26,255,100,0.45);
+  border: 1px solid var(--green);
+}
+
+.dirty {
+  box-shadow: 0 0 10px rgba(255,204,0,0.4);
+  border: 1px solid var(--yellow);
+}
+
+.broken {
+  box-shadow: 0 0 14px rgba(255,59,59,0.55);
+  border: 1px solid var(--red);
+  animation: pulse 1.6s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 6px rgba(255,59,59,0.4); }
+  50% { box-shadow: 0 0 18px rgba(255,59,59,0.8); }
+  100% { box-shadow: 0 0 6px rgba(255,59,59,0.4); }
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 12px;
+}

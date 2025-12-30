@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Infinity Vector Visualizer</title>
+<style>
+body{margin:0;overflow:hidden;background:#02040a;font-family:monospace}
+canvas{position:fixed;top:0;left:0}
+#hud{
+ position:fixed;top:10px;left:10px;
+ color:#9fd3ff;background:rgba(0,0,0,.4);
+ padding:8px;border:1px solid #4af
+}
+.node{pointer-events:none}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="hud">
+<b>∞ Vector Visualizer</b><br/>
+<span style="color:#2aa9ff">Engineer</span> |
+<span style="color:#2aff9f">Fix</span> |
+<span style="color:#ffb347">Decide</span> |
+<span style="color:#b47cff">Assimilate</span>
+</div>
+
+<script>
+const c=document.getElementById("c"),x=c.getContext("2d");
+function resize(){c.width=innerWidth;c.height=innerHeight}
+resize();onresize=resize;
+
+const COLORS={
+ engineer:"#2aa9ff",
+ fix:"#2aff9f",
+ decide:"#ffb347",
+ assimilate:"#b47cff"
+};
+
+let nodes=[],edges=[];
+const modes=["engineer","fix","decide","assimilate"];
+
+for(let i=0;i<80;i++){
+ let m=modes[i%4];
+ nodes.push({
+  x:Math.random()*c.width,
+  y:Math.random()*c.height,
+  vx:(Math.random()-.5)*0.4,
+  vy:(Math.random()-.5)*0.4,
+  mode:m
+ });
+}
+
+function draw(){
+ x.clearRect(0,0,c.width,c.height);
+
+ // edges / lasers
+ for(let i=0;i<nodes.length;i++){
+  for(let j=i+1;j<nodes.length;j++){
+   let a=nodes[i],b=nodes[j];
+   let dx=a.x-b.x,dy=a.y-b.y;
+   let d=Math.hypot(dx,dy);
+   if(d<120){
+    x.strokeStyle=COLORS[a.mode];
+    x.globalAlpha=0.2;
+    x.beginPath();
+    x.moveTo(a.x,a.y);
+    x.lineTo(b.x,b.y);
+    x.stroke();
+   }
+  }
+ }
+
+ // nodes
+ x.globalAlpha=1;
+ nodes.forEach(n=>{
+  n.x+=n.vx;n.y+=n.vy;
+  if(n.x<0||n.x>c.width) n.vx*=-1;
+  if(n.y<0||n.y>c.height) n.vy*=-1;
+  x.fillStyle=COLORS[n.mode];
+  x.fillRect(n.x,n.y,3,3);
+ });
+
+ requestAnimationFrame(draw);
+}
+draw();
+</script>
+<footer><hr><p>Powered by Infinity</p><p><a href="mailto:marvaseater@gmail.com">marvaseater@gmail.com</a></p><p>808-342-9975</p><p>The Lending Giant</p></footer>
+</body>
+</html>
