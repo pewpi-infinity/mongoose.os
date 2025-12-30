@@ -415,50 +415,41 @@
   <!-- Load Machine OS Core -->
   <script src="/firmware/machine-os.js"></script>
 
-  <!-- Load Components -->
+  <!-- Load Components (Note: In production, use iframe or web components for better security) -->
   <script>
-    // Load hamburger menu
-    fetch('/navigation/hamburger-menu.html')
-      .then(response => response.text())
-      .then(html => {
-        document.getElementById('hamburgerMenuContainer').innerHTML = html;
-        // Execute scripts in the loaded HTML
-        const scripts = document.getElementById('hamburgerMenuContainer').getElementsByTagName('script');
-        Array.from(scripts).forEach(script => {
-          const newScript = document.createElement('script');
-          newScript.textContent = script.textContent;
-          document.body.appendChild(newScript);
-        });
-      })
-      .catch(error => console.error('Failed to load hamburger menu:', error));
+    // Helper function to safely load and execute component HTML
+    function loadComponent(url, containerId) {
+      fetch(url)
+        .then(response => response.text())
+        .then(html => {
+          const container = document.getElementById(containerId);
+          container.innerHTML = html;
+          
+          // Execute scripts in the loaded HTML
+          // Note: This executes scripts from local components only (same origin)
+          const scripts = container.getElementsByTagName('script');
+          Array.from(scripts).forEach(oldScript => {
+            const newScript = document.createElement('script');
+            // Copy script content and attributes
+            if (oldScript.src) {
+              newScript.src = oldScript.src;
+            } else {
+              newScript.textContent = oldScript.textContent;
+            }
+            document.body.appendChild(newScript);
+          });
+        })
+        .catch(error => console.error(`Failed to load ${url}:`, error));
+    }
+    
+    // Load all components
+    loadComponent('/navigation/hamburger-menu.html', 'hamburgerMenuContainer');
 
     // Load i terminal
-    fetch('/terminals/i-terminal.html')
-      .then(response => response.text())
-      .then(html => {
-        document.getElementById('iTerminalContainer').innerHTML = html;
-        const scripts = document.getElementById('iTerminalContainer').getElementsByTagName('script');
-        Array.from(scripts).forEach(script => {
-          const newScript = document.createElement('script');
-          newScript.textContent = script.textContent;
-          document.body.appendChild(newScript);
-        });
-      })
-      .catch(error => console.error('Failed to load i terminal:', error));
+    loadComponent('/terminals/i-terminal.html', 'iTerminalContainer');
 
     // Load j terminal
-    fetch('/terminals/j-terminal.html')
-      .then(response => response.text())
-      .then(html => {
-        document.getElementById('jTerminalContainer').innerHTML = html;
-        const scripts = document.getElementById('jTerminalContainer').getElementsByTagName('script');
-        Array.from(scripts).forEach(script => {
-          const newScript = document.createElement('script');
-          newScript.textContent = script.textContent;
-          document.body.appendChild(newScript);
-        });
-      })
-      .catch(error => console.error('Failed to load j terminal:', error));
+    loadComponent('/terminals/j-terminal.html', 'jTerminalContainer');
 
     // Load machine count from census
     fetch('/GLOBAL_REPO_CENSUS.json')
