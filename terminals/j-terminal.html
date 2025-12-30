@@ -1,0 +1,226 @@
+<!-- j Terminal Component -->
+<style>
+  .j-terminal {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px;
+    max-height: 400px;
+    background: rgba(11, 11, 11, 0.95);
+    border: 2px solid #00e5ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 229, 255, 0.4);
+    display: none;
+    flex-direction: column;
+    z-index: 998;
+  }
+
+  .j-terminal.active {
+    display: flex;
+  }
+
+  .j-terminal-header {
+    background: rgba(0, 229, 255, 0.1);
+    padding: 10px 15px;
+    border-bottom: 1px solid #00e5ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move;
+  }
+
+  .j-terminal-title {
+    color: #00e5ff;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+
+  .j-terminal-close {
+    background: none;
+    border: none;
+    color: #00e5ff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .j-terminal-close:hover {
+    color: #ff6b6b;
+  }
+
+  .j-terminal-output {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #e6e6e6;
+    max-height: 320px;
+  }
+
+  .j-terminal-line {
+    margin-bottom: 8px;
+  }
+
+  .j-terminal-line.output {
+    color: #51cf66;
+  }
+
+  .j-terminal-line.status {
+    color: #00e5ff;
+  }
+
+  .j-terminal-line.warning {
+    color: #ffd43b;
+  }
+
+  .j-terminal-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 229, 255, 0.1);
+    border: 2px solid #00e5ff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 997;
+    transition: all 0.3s ease;
+  }
+
+  .j-terminal-toggle:hover {
+    background: rgba(0, 229, 255, 0.2);
+    transform: scale(1.1);
+  }
+
+  .j-terminal-toggle span {
+    color: #00e5ff;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+</style>
+
+<div class="j-terminal-toggle" id="jTerminalToggle" onclick="toggleJTerminal()">
+  <span>j</span>
+</div>
+
+<div class="j-terminal" id="jTerminal">
+  <div class="j-terminal-header" id="jTerminalHeader">
+    <span class="j-terminal-title">∞ j Terminal (Output)</span>
+    <button class="j-terminal-close" onclick="toggleJTerminal()">×</button>
+  </div>
+  <div class="j-terminal-output" id="jTerminalOutput">
+    <div class="j-terminal-line status">j Terminal initialized...</div>
+    <div class="j-terminal-line">Output terminal for pewpi-infinity/j repository integration</div>
+    <div class="j-terminal-line">System status: Operational</div>
+    <div class="j-terminal-line output">Monitoring system output...</div>
+  </div>
+</div>
+
+<script>
+  function toggleJTerminal() {
+    document.getElementById('jTerminal').classList.toggle('active');
+  }
+
+  function addJOutput(message, type = 'output') {
+    const output = document.getElementById('jTerminalOutput');
+    const line = document.createElement('div');
+    line.className = `j-terminal-line ${type}`;
+    line.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+    output.appendChild(line);
+    
+    // Limit output to last 50 lines
+    const lines = output.querySelectorAll('.j-terminal-line');
+    if (lines.length > 50) {
+      lines[0].remove();
+    }
+    
+    output.scrollTop = output.scrollHeight;
+  }
+
+  // Simulate periodic output with Machine OS integration
+  let outputInterval;
+  
+  function startJMonitoring() {
+    outputInterval = setInterval(() => {
+      if (document.getElementById('jTerminal').classList.contains('active')) {
+        if (window.MachineOS && window.MachineOS.systemState.initialized) {
+          const status = window.MachineOS.getStatus();
+          const messages = [
+            `Machine OS: ${status.totalMachines} machines online`,
+            `Active machines: ${status.activeMachines}`,
+            `Brain nodes: ${status.categories.brain_nodes} operational`,
+            `Quantum portal: ${status.quantumPortal.active ? 'Connected' : 'Disconnected'}`,
+            `System heartbeat: OK`,
+            `Inter-machine connections: Stable`
+          ];
+          const types = ['status', 'output', 'status', 'output', 'output', 'status'];
+          const randomIndex = Math.floor(Math.random() * messages.length);
+          addJOutput(messages[randomIndex], types[randomIndex]);
+        } else {
+          const messages = [
+            'System heartbeat: OK',
+            'Initializing Machine OS...',
+            'Loading machine registry...',
+            'Network status: Connected'
+          ];
+          const types = ['output', 'status', 'status', 'output'];
+          const randomIndex = Math.floor(Math.random() * messages.length);
+          addJOutput(messages[randomIndex], types[randomIndex]);
+        }
+      }
+    }, 5000);
+  }
+
+  // Make terminal draggable
+  let isJDragging = false;
+  let jCurrentX, jCurrentY, jInitialX, jInitialY;
+  
+  const jHeader = document.getElementById('jTerminalHeader');
+  const jTerminal = document.getElementById('jTerminal');
+  
+  jHeader.addEventListener('mousedown', jDragStart);
+  document.addEventListener('mousemove', jDrag);
+  document.addEventListener('mouseup', jDragEnd);
+  
+  function jDragStart(e) {
+    jInitialX = e.clientX - jTerminal.offsetLeft;
+    jInitialY = e.clientY - jTerminal.offsetTop;
+    
+    if (e.target === jHeader || jHeader.contains(e.target)) {
+      isJDragging = true;
+    }
+  }
+  
+  function jDrag(e) {
+    if (isJDragging) {
+      e.preventDefault();
+      jCurrentX = e.clientX - jInitialX;
+      jCurrentY = e.clientY - jInitialY;
+      
+      jTerminal.style.right = 'auto';
+      jTerminal.style.left = jCurrentX + 'px';
+      jTerminal.style.bottom = 'auto';
+      jTerminal.style.top = jCurrentY + 'px';
+    }
+  }
+  
+  function jDragEnd() {
+    isJDragging = false;
+  }
+
+  // Start monitoring on page load
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', startJMonitoring);
+  } else {
+    startJMonitoring();
+  }
+</script>

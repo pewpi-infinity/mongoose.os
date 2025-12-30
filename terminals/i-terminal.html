@@ -1,0 +1,293 @@
+<!-- i Terminal Component -->
+<style>
+  .i-terminal {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 350px;
+    max-height: 400px;
+    background: rgba(11, 11, 11, 0.95);
+    border: 2px solid #00e5ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 229, 255, 0.4);
+    display: none;
+    flex-direction: column;
+    z-index: 998;
+  }
+
+  .i-terminal.active {
+    display: flex;
+  }
+
+  .terminal-header {
+    background: rgba(0, 229, 255, 0.1);
+    padding: 10px 15px;
+    border-bottom: 1px solid #00e5ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move;
+  }
+
+  .terminal-title {
+    color: #00e5ff;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+
+  .terminal-close {
+    background: none;
+    border: none;
+    color: #00e5ff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .terminal-close:hover {
+    color: #ff6b6b;
+  }
+
+  .terminal-output {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #e6e6e6;
+    max-height: 250px;
+  }
+
+  .terminal-input-container {
+    padding: 10px;
+    border-top: 1px solid #00e5ff;
+    display: flex;
+    gap: 10px;
+  }
+
+  .terminal-input {
+    flex: 1;
+    background: rgba(0, 229, 255, 0.05);
+    border: 1px solid #00e5ff;
+    border-radius: 4px;
+    color: #e6e6e6;
+    padding: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+  }
+
+  .terminal-input:focus {
+    outline: none;
+    background: rgba(0, 229, 255, 0.1);
+  }
+
+  .terminal-send {
+    background: rgba(0, 229, 255, 0.1);
+    border: 1px solid #00e5ff;
+    border-radius: 4px;
+    color: #00e5ff;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+
+  .terminal-send:hover {
+    background: rgba(0, 229, 255, 0.2);
+  }
+
+  .terminal-toggle {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 229, 255, 0.1);
+    border: 2px solid #00e5ff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 997;
+    transition: all 0.3s ease;
+  }
+
+  .terminal-toggle:hover {
+    background: rgba(0, 229, 255, 0.2);
+    transform: scale(1.1);
+  }
+
+  .terminal-toggle span {
+    color: #00e5ff;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .terminal-line {
+    margin-bottom: 8px;
+  }
+
+  .terminal-line.input {
+    color: #00e5ff;
+  }
+
+  .terminal-line.output {
+    color: #e6e6e6;
+  }
+
+  .terminal-line.error {
+    color: #ff6b6b;
+  }
+
+  .terminal-line.success {
+    color: #51cf66;
+  }
+</style>
+
+<div class="terminal-toggle" id="iTerminalToggle" onclick="toggleITerminal()">
+  <span>i</span>
+</div>
+
+<div class="i-terminal" id="iTerminal">
+  <div class="terminal-header" id="iTerminalHeader">
+    <span class="terminal-title">∞ i Terminal (Input)</span>
+    <button class="terminal-close" onclick="toggleITerminal()">×</button>
+  </div>
+  <div class="terminal-output" id="iTerminalOutput">
+    <div class="terminal-line success">i Terminal initialized...</div>
+    <div class="terminal-line">Input terminal for pewpi-infinity/i repository integration</div>
+    <div class="terminal-line">Type commands below to interact with the system</div>
+  </div>
+  <div class="terminal-input-container">
+    <input type="text" class="terminal-input" id="iTerminalInput" placeholder="Enter command..." />
+    <button class="terminal-send" onclick="sendICommand()">Send</button>
+  </div>
+</div>
+
+<script>
+  function toggleITerminal() {
+    document.getElementById('iTerminal').classList.toggle('active');
+  }
+
+  function sendICommand() {
+    const input = document.getElementById('iTerminalInput');
+    const output = document.getElementById('iTerminalOutput');
+    const command = input.value.trim();
+    
+    if (!command) return;
+    
+    // Add command to output
+    const commandLine = document.createElement('div');
+    commandLine.className = 'terminal-line input';
+    commandLine.textContent = `> ${command}`;
+    output.appendChild(commandLine);
+    
+    // Process command with Machine OS if available
+    const responseLine = document.createElement('div');
+    responseLine.className = 'terminal-line output';
+    
+    if (command.toLowerCase() === 'help') {
+      responseLine.textContent = 'Commands: help, status, repos, machines, connect [machine], list [category], clear';
+    } else if (command.toLowerCase() === 'status') {
+      if (window.MachineOS) {
+        const status = window.MachineOS.getStatus();
+        responseLine.textContent = `Machines: ${status.totalMachines}/${status.targetMachines} | Active: ${status.activeMachines} | Initialized: ${status.initialized}`;
+      } else {
+        responseLine.textContent = 'Status: i Terminal connected | Machine OS: Loading...';
+      }
+    } else if (command.toLowerCase() === 'repos') {
+      responseLine.textContent = 'Connected repos: 287 machines across brain, sandbox, alphabet, core, and utility categories';
+    } else if (command.toLowerCase() === 'machines') {
+      if (window.MachineOS) {
+        const status = window.MachineOS.getStatus();
+        responseLine.textContent = `Brain Nodes: ${status.categories.brain_nodes} | Sandbox: ${status.categories.sandbox} | Alphabet: ${status.categories.alphabet} | Core: ${status.categories.core_machines} | Utility: ${status.categories.utility}`;
+      } else {
+        responseLine.textContent = 'Machine categories loading...';
+      }
+    } else if (command.toLowerCase().startsWith('connect ')) {
+      const machineName = command.substring(8).trim();
+      if (window.MachineOS) {
+        const result = window.MachineOS.sendCommand(machineName, 'connect');
+        responseLine.textContent = result.success ? `Connected to ${machineName}` : `Error: ${result.error}`;
+      } else {
+        responseLine.textContent = `Connecting to ${machineName}...`;
+      }
+    } else if (command.toLowerCase().startsWith('list ')) {
+      const category = command.substring(5).trim();
+      if (window.MachineOS) {
+        const machines = window.MachineOS.getMachinesByCategory(category);
+        responseLine.textContent = machines.length > 0 ? `${category}: ${machines.length} machines` : `No machines in category: ${category}`;
+      } else {
+        responseLine.textContent = `Listing ${category} machines...`;
+      }
+    } else if (command.toLowerCase() === 'clear') {
+      output.innerHTML = '<div class="terminal-line success">i Terminal cleared...</div>';
+      input.value = '';
+      return;
+    } else {
+      // Send to Machine OS
+      if (window.MachineOS && window.MachineOS.systemState.initialized) {
+        responseLine.textContent = `Command "${command}" dispatched to Machine OS`;
+      } else {
+        responseLine.textContent = `Command "${command}" queued. Machine OS initializing...`;
+      }
+    }
+    
+    output.appendChild(responseLine);
+    
+    // Scroll to bottom
+    output.scrollTop = output.scrollHeight;
+    
+    // Clear input
+    input.value = '';
+  }
+
+  // Make terminal draggable
+  let isDragging = false;
+  let currentX, currentY, initialX, initialY;
+  
+  const iHeader = document.getElementById('iTerminalHeader');
+  const iTerminal = document.getElementById('iTerminal');
+  
+  iHeader.addEventListener('mousedown', dragStart);
+  document.addEventListener('mousemove', drag);
+  document.addEventListener('mouseup', dragEnd);
+  
+  function dragStart(e) {
+    initialX = e.clientX - iTerminal.offsetLeft;
+    initialY = e.clientY - iTerminal.offsetTop;
+    
+    if (e.target === iHeader || iHeader.contains(e.target)) {
+      isDragging = true;
+    }
+  }
+  
+  function drag(e) {
+    if (isDragging) {
+      e.preventDefault();
+      currentX = e.clientX - initialX;
+      currentY = e.clientY - initialY;
+      
+      iTerminal.style.left = currentX + 'px';
+      iTerminal.style.bottom = 'auto';
+      iTerminal.style.top = currentY + 'px';
+    }
+  }
+  
+  function dragEnd() {
+    isDragging = false;
+  }
+
+  // Allow Enter key to send command
+  document.getElementById('iTerminalInput').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      sendICommand();
+    }
+  });
+</script>
