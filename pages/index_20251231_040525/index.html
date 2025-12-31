@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index</title>
+
+<script type="application/json" id="c13b0-token">
+{
+  "source_file": "/data/data/com.termux/files/home/.c13b0_assim/diodes_quantum_helium/index.html",
+  "owner": "Kris Watson",
+  "repo": "mongoose.os",
+  "published": "20251231_040525",
+  "paypal": "https://www.paypal.me/watsonkris611",
+  "type": "machine-page",
+  "state": "active"
+}
+</script>
+
+</head>
+<body>
+<h1>index</h1>
+<pre>
+&lt;!doctype html>
+&lt;!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+&lt;div id="pewpi-gate">
+  &lt;h1>🐶 pewpi&lt;/h1>
+  &lt;input id="pewpi_user" placeholder="Handle">
+  &lt;button onclick="pewpiUnlock()">Enter&lt;/button>
+&lt;/div>
+&lt;script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+&lt;/script>
+&lt;style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+&lt;/style>
+&lt;html>
+&lt;head>
+&lt;meta charset="utf-8">
+&lt;title>∞ diodes_quantum_helium&lt;/title>
+&lt;style>
+body{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:20px}
+.box{border:1px solid #30363d;padding:16px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.card{border:1px solid #444;padding:12px}
+&lt;/style>
+&lt;/head>
+&lt;body>
+&lt;div class="box">
+&lt;h1>Octave :: diodes_quantum_helium&lt;/h1>
+&lt;p>Design style: octave-grid&lt;/p>
+&lt;div class="grid">
+  &lt;div class="card">🧱 Research&lt;/div>
+  &lt;div class="card">⭐ Acceleration&lt;/div>
+  &lt;div class="card">🍄 Growth&lt;/div>
+  &lt;div class="card">❤️ Memory&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;footer>&lt;hr>&lt;p>Powered by Infinity&lt;/p>&lt;p>&lt;a href="mailto:marvaseater@gmail.com">marvaseater@gmail.com&lt;/a>&lt;/p>&lt;p>808-342-9975&lt;/p>&lt;p>The Lending Giant&lt;/p>&lt;/footer>
+&lt;/body>
+&lt;/html>
+
+&lt;footer style="opacity:.6;margin-top:40px">
+Powered by ∞ Infinity&lt;br>
+&lt;a href="mailto:marvaseater@gmail.com">marvaseater@gmail.com&lt;/a>&lt;br>
+&lt;a href="#">The Lending Giant&lt;/a>&lt;br>
+&lt;span>808-342-9975&lt;/span>
+&lt;/footer>
+</pre>
+</body>
+</html>
