@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>∞ Cart Systems - Mongoose.OS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0b0b0b;
+      color: #e6e6e6;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #00e5ff;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .subtitle {
+      text-align: center;
+      opacity: 0.7;
+      margin-bottom: 40px;
+      font-size: 1.1rem;
+    }
+
+    .cart-categories {
+      display: grid;
+      gap: 30px;
+    }
+
+    .category-section {
+      background: rgba(0, 229, 255, 0.05);
+      border: 2px solid rgba(0, 229, 255, 0.3);
+      border-radius: 12px;
+      padding: 30px;
+      transition: all 0.3s ease;
+    }
+
+    .category-section:hover {
+      border-color: #00e5ff;
+      box-shadow: 0 8px 24px rgba(0, 229, 255, 0.3);
+    }
+
+    .category-title {
+      font-size: 1.8rem;
+      color: #00e5ff;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .category-description {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+
+    .cart-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 15px;
+    }
+
+    .cart-card {
+      background: rgba(0, 229, 255, 0.08);
+      border: 1px solid rgba(0, 229, 255, 0.2);
+      border-radius: 8px;
+      padding: 20px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .cart-card:hover {
+      border-color: #00e5ff;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 15px rgba(0, 229, 255, 0.2);
+    }
+
+    .cart-number {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #00e5ff;
+      margin-bottom: 8px;
+      font-family: 'Courier New', monospace;
+    }
+
+    .cart-name {
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 8px;
+      color: #e6e6e6;
+    }
+
+    .cart-description {
+      font-size: 0.9rem;
+      opacity: 0.8;
+      line-height: 1.4;
+    }
+
+    .cart-badge {
+      display: inline-block;
+      background: rgba(0, 229, 255, 0.2);
+      border: 1px solid #00e5ff;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      color: #00e5ff;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Include Desktop Navigation -->
+  <div id="desktopNavContainer"></div>
+
+  <!-- Include i Terminal -->
+  <div id="iTerminalContainer"></div>
+
+  <!-- Include j Terminal -->
+  <div id="jTerminalContainer"></div>
+
+  <div class="container">
+    <h1>∞ Cart Systems</h1>
+    <p class="subtitle">Research Orchestration, Automation & Character Building</p>
+
+    <div class="cart-categories">
+      <!-- Core System Carts (000-041) -->
+      <div class="category-section">
+        <div class="category-title">
+          🔧 Core System Carts (000-041)
+        </div>
+        <div class="category-description">
+          Foundation orchestrators and automation systems for the entire research ecosystem. 
+          These carts handle engineering, components, tokens, power systems, and specialized machinery.
+        </div>
+        <div class="cart-grid" id="coreCartsGrid"></div>
+      </div>
+
+      <!-- Research Carts (101-105) -->
+      <div class="category-section">
+        <div class="category-title">
+          🔬 Research Carts (101-105)
+        </div>
+        <div class="category-description">
+          Advanced research systems focusing on physics, AI, energy, academics, and materials science.
+          These carts generate research papers and scientific tokens.
+        </div>
+        <div class="cart-grid" id="researchCartsGrid"></div>
+      </div>
+
+      <!-- Physics Carts (C01-C33) -->
+      <div class="category-section">
+        <div class="category-title">
+          ⚛️ Physics Calculation Carts (C01-C33)
+        </div>
+        <div class="category-description">
+          Specialized physics and electromagnetic calculation systems. Includes Coulomb's law,
+          electric fields, magnetic flux, quantum mechanics, and more.
+        </div>
+        <div class="cart-grid" id="physicsCartsGrid"></div>
+      </div>
+
+      <!-- Composite Carts (X) -->
+      <div class="category-section">
+        <div class="category-title">
+          🧩 Composite Analysis Carts (X)
+        </div>
+        <div class="category-description">
+          Advanced composite systems for field analysis, material response, and stability envelopes.
+        </div>
+        <div class="cart-grid" id="compositeCartsGrid"></div>
+      </div>
+
+      <!-- Infinity Carts (Special) -->
+      <div class="category-section">
+        <div class="category-title">
+          ∞ Infinity System Carts
+        </div>
+        <div class="category-description">
+          Meta-level systems for cross-module messaging, dependency graphs, governance, 
+          orchestration, and system-wide coordination.
+        </div>
+        <div class="cart-grid" id="infinityCartsGrid"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load components -->
+  <script>
+    function loadComponent(url, containerId) {
+      fetch(url)
+        .then(response => {
+          if (!response.ok) {
+            console.warn(`Failed to load ${url}: ${response.status}`);
+            return '';
+          }
+          return response.text();
+        })
+        .then(html => {
+          if (!html) return;
+          
+          const container = document.getElementById(containerId);
+          if (!container) {
+            console.warn(`Container ${containerId} not found`);
+            return;
+          }
+          
+          container.innerHTML = html;
+          
+          const scripts = container.getElementsByTagName('script');
+          Array.from(scripts).forEach(oldScript => {
+            const newScript = document.createElement('script');
+            if (oldScript.src) {
+              newScript.src = oldScript.src;
+            } else {
+              newScript.textContent = oldScript.textContent;
+            }
+            document.body.appendChild(newScript);
+          });
+        })
+        .catch(error => console.warn(`Failed to load ${url}:`, error.message));
+    }
+    
+    loadComponent('/navigation/desktop-nav.html', 'desktopNavContainer');
+    loadComponent('/terminals/i-terminal.html', 'iTerminalContainer');
+    loadComponent('/terminals/j-terminal.html', 'jTerminalContainer');
+
+    // Cart data
+    const coreCarts = [
+      { num: '000', name: 'Orchestrator', desc: 'Core system bootstrap and orchestration' },
+      { num: '001A', name: 'Infinity Run Commands', desc: 'Execute infinity system commands' },
+      { num: '002', name: 'Engineering', desc: 'Engineering systems and processes' },
+      { num: '003', name: 'Computers', desc: 'Computer systems management' },
+      { num: '004', name: 'Nuances', desc: 'Subtle system behaviors' },
+      { num: '005', name: 'Code', desc: 'Code generation and management' },
+      { num: '006', name: 'Python', desc: 'Python-specific operations' },
+      { num: '007', name: 'Tokens', desc: 'Token system management' },
+      { num: '008', name: 'Government', desc: 'Governance and policy systems' },
+      { num: '009', name: 'Power', desc: 'Power generation and distribution' },
+      { num: '010', name: 'Components', desc: 'System component management' },
+      { num: '011', name: 'Speakeasy', desc: 'Communication systems' },
+      { num: '012', name: 'Solutes', desc: 'Solution chemistry systems' },
+      { num: '013', name: 'Mercury Aluminum Growth', desc: 'Material growth processes' },
+      { num: '014', name: 'Mercury Vapor Power', desc: 'Vapor-based power systems' },
+      { num: '015', name: 'Compression Hydrogen Engine', desc: 'Hydrogen compression technology' },
+      { num: '016', name: 'Hot-Cold TEG', desc: 'Thermoelectric generation' },
+      { num: '017', name: 'Spiderweb Engine', desc: 'Network topology engine' },
+      { num: '018', name: 'Zip Hashing', desc: 'Compression and hashing' },
+      { num: '019', name: 'Token Generation', desc: 'Generate research tokens' },
+      { num: '020', name: 'Unzip Install Strategy', desc: 'Deployment systems' },
+      { num: '021', name: 'Token Tiers', desc: 'Token classification system' },
+      { num: '022', name: 'Bank Grade Tokens', desc: 'High-security token generation' },
+      { num: '023', name: 'Idea Merger', desc: 'Combine research concepts' },
+      { num: '024', name: 'Quantum Transport', desc: 'Quantum state transfer' },
+      { num: '025', name: 'AI Watcher Login', desc: 'Authentication and monitoring' },
+      { num: '026', name: 'Aluminum Oxide Devices', desc: 'Material science applications' },
+      { num: '027', name: 'Robotics Factory', desc: 'Automated robot production' },
+      { num: '028', name: 'Machines', desc: 'Machine management systems' },
+      { num: '029', name: 'Crystal Truths', desc: 'Crystal structure analysis' },
+      { num: '030', name: 'Superchemistry Fireproof', desc: 'Advanced chemistry systems' },
+      { num: '031', name: 'Exoskeleton', desc: 'Structural support systems' },
+      { num: '032', name: 'Ecosystem', desc: 'Ecosystem management' },
+      { num: '033', name: 'Nature', desc: 'Natural systems modeling' },
+      { num: '034', name: 'Drones', desc: 'Autonomous drone systems' },
+      { num: '035', name: 'Signal Trace', desc: 'Signal analysis and tracking' },
+      { num: '036', name: 'RF Generation', desc: 'Radio frequency generation' },
+      { num: '037', name: 'Mice Brainmapping', desc: 'Neural mapping research' },
+      { num: '038', name: 'Genetics', desc: 'Genetic research systems' },
+      { num: '039', name: 'DNA Engine', desc: 'DNA sequence analysis' },
+      { num: '040', name: 'Gas Shell Code', desc: 'Atmospheric modeling' },
+      { num: '041', name: 'Hydrogen Expansion', desc: 'Hydrogen technology' }
+    ];
+
+    const researchCarts = [
+      { num: '101', name: 'Physics Research', desc: 'Blue paper builder and physics research generation' },
+      { num: '102', name: 'AI Research', desc: 'Artificial intelligence research papers' },
+      { num: '103', name: 'Energy Research', desc: 'Energy systems and power research' },
+      { num: '104', name: 'Academic Research', desc: 'General academic paper generation' },
+      { num: '105', name: 'Materials Research', desc: 'Materials science research' },
+      { num: '1054', name: 'Infinity Token Minter', desc: 'Special infinity token generation' }
+    ];
+
+    const physicsCarts = [
+      { num: 'C01', name: 'Coulombs Law', desc: 'Electrostatic force calculations' },
+      { num: 'C02', name: 'Electric Field', desc: 'Electric field analysis' },
+      { num: 'C03', name: 'Potential Energy', desc: 'Potential energy calculations' },
+      { num: 'C04', name: 'RC Charge Decay', desc: 'RC circuit analysis' },
+      { num: 'C05', name: 'Parallel Plate Cap', desc: 'Capacitor calculations' },
+      { num: 'C06', name: 'Force Vector X', desc: 'Force vector analysis' },
+      { num: 'C07', name: 'Work on Charge', desc: 'Work and energy calculations' },
+      { num: 'C08', name: 'Sphere Charge Density', desc: 'Charge distribution analysis' },
+      { num: 'C09', name: 'Biot Savart Wire', desc: 'Magnetic field from current' },
+      { num: 'C10', name: 'Magnetic Flux', desc: 'Magnetic flux calculations' },
+      { num: 'C11', name: 'Faradays Law', desc: 'Electromagnetic induction' },
+      { num: 'C12', name: 'Solenoid Field', desc: 'Solenoid magnetic field' },
+      { num: 'C13', name: 'Magnetic Force', desc: 'Magnetic force calculations' },
+      { num: 'C14', name: 'Dipole Moment', desc: 'Electric dipole analysis' },
+      { num: 'C15', name: 'Solenoid Inductance', desc: 'Inductance calculations' },
+      { num: 'C16', name: 'Inductor Energy', desc: 'Energy in inductors' },
+      { num: 'C17', name: 'Susceptibility Checker', desc: 'Magnetic susceptibility' },
+      { num: 'C18', name: 'Magnetization Calc', desc: 'Magnetization analysis' },
+      { num: 'C19', name: 'Relative Permeability', desc: 'Material permeability' },
+      { num: 'C20', name: 'Landau Diamagnetism', desc: 'Diamagnetic effects' },
+      { num: 'C21', name: 'Curie Law Calc', desc: 'Paramagnetic calculations' },
+      { num: 'C22', name: 'Speed of Light Check', desc: 'Relativistic calculations' },
+      { num: 'C23', name: 'Poynting Vector Mag', desc: 'Electromagnetic energy flow' },
+      { num: 'C24', name: 'Wave Converter', desc: 'Wave property conversions' },
+      { num: 'C25', name: 'Radiation Pressure', desc: 'Radiation pressure calculations' },
+      { num: 'C26', name: 'Hall Effect Voltage', desc: 'Hall effect analysis' },
+      { num: 'C27', name: 'Plasma Frequency', desc: 'Plasma physics calculations' },
+      { num: 'C28', name: 'Skin Depth Calc', desc: 'EM skin depth' },
+      { num: 'C29', name: 'Super Critical Field', desc: 'Superconductor properties' },
+      { num: 'C30', name: 'Quantum Flux', desc: 'Quantum flux calculations' },
+      { num: 'C31', name: 'Electrophoresis Velocity', desc: 'Particle separation' },
+      { num: 'C32', name: 'Thermal Noise', desc: 'Thermal noise analysis' },
+      { num: 'C33', name: 'Dielectric Breakdown', desc: 'Dielectric properties' }
+    ];
+
+    const compositeCarts = [
+      { num: 'X-01', name: 'EM Limits Auditor', desc: 'Electromagnetic limits and assumptions' },
+      { num: 'X-02', name: 'Energy Stability Envelope', desc: 'Energy system stability analysis' },
+      { num: 'X-03', name: 'Field Regime Analyzer', desc: 'Field regime classification' },
+      { num: 'X-04', name: 'Material Response Classifier', desc: 'Material property classification' }
+    ];
+
+    const infinityCarts = [
+      { num: '∞-01', name: 'Cross Module Messenger', desc: 'Inter-module communication' },
+      { num: '∞-02', name: 'Dependency Graph', desc: 'System dependency mapping' },
+      { num: '∞-03', name: 'Governance Engine', desc: 'System governance and policy' },
+      { num: '∞-04', name: 'Pipeline Orchestrator', desc: 'Workflow orchestration' },
+      { num: '∞-05', name: 'Machine Harmonizer', desc: 'Multi-machine coordination' },
+      { num: '∞-06', name: 'Recovery Resume', desc: 'System recovery and continuation' }
+    ];
+
+    function renderCarts(carts, gridId) {
+      const grid = document.getElementById(gridId);
+      grid.innerHTML = carts.map(cart => `
+        <div class="cart-card">
+          <div class="cart-number">CART ${cart.num}</div>
+          <div class="cart-name">${cart.name}</div>
+          <div class="cart-description">${cart.desc}</div>
+          <span class="cart-badge">Python</span>
+        </div>
+      `).join('');
+    }
+
+    // Render all cart categories
+    renderCarts(coreCarts, 'coreCartsGrid');
+    renderCarts(researchCarts, 'researchCartsGrid');
+    renderCarts(physicsCarts, 'physicsCartsGrid');
+    renderCarts(compositeCarts, 'compositeCartsGrid');
+    renderCarts(infinityCarts, 'infinityCartsGrid');
+  </script>
+</body>
+</html>

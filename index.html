@@ -135,7 +135,7 @@
   </style>
 </head>
 <body>
-  <!-- Include Hamburger Menu -->
+  <!-- Include Hamburger Menu (Mobile-First) -->
   <div id="hamburgerMenuContainer"></div>
 
   <!-- Include i Terminal -->
@@ -168,6 +168,11 @@
         <a href="/truvio-studios/index.html" class="link-card">
           <h4>🎬 Truvio Studios</h4>
           <p>Machine production hub with budget allocation</p>
+        </a>
+
+        <a href="/carts.html" class="link-card">
+          <h4>🔧 Cart Systems</h4>
+          <p>Research orchestration carts (000-041, 101-105, C01-C33)</p>
         </a>
 
         <a href="/auth/login.html" class="link-card">
@@ -253,7 +258,7 @@
         .catch(error => console.warn(`Failed to load ${url}:`, error.message));
     }
     
-    // Load all components (with fallback if they don't exist)
+    // Load all components (mobile-first with hamburger menu)
     loadComponent('/navigation/hamburger-menu.html', 'hamburgerMenuContainer');
     loadComponent('/terminals/i-terminal.html', 'iTerminalContainer');
     loadComponent('/terminals/j-terminal.html', 'jTerminalContainer');
