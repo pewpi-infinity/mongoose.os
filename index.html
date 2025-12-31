@@ -135,8 +135,8 @@
   </style>
 </head>
 <body>
-  <!-- Include Desktop Navigation -->
-  <div id="desktopNavContainer"></div>
+  <!-- Include Hamburger Menu (Mobile-First) -->
+  <div id="hamburgerMenuContainer"></div>
 
   <!-- Include i Terminal -->
   <div id="iTerminalContainer"></div>
@@ -258,8 +258,8 @@
         .catch(error => console.warn(`Failed to load ${url}:`, error.message));
     }
     
-    // Load all components (with fallback if they don't exist)
-    loadComponent('/navigation/desktop-nav.html', 'desktopNavContainer');
+    // Load all components (mobile-first with hamburger menu)
+    loadComponent('/navigation/hamburger-menu.html', 'hamburgerMenuContainer');
     loadComponent('/terminals/i-terminal.html', 'iTerminalContainer');
     loadComponent('/terminals/j-terminal.html', 'jTerminalContainer');
 
