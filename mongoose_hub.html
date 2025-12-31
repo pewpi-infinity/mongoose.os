@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mongoose.OS Research Hub</title>
+  
+  <!-- Load Shared Components -->
+  <script src="/shared-components.js"></script>
+  
   <style>
     * {
       margin: 0;
@@ -301,6 +305,11 @@
   </style>
 </head>
 <body>
+  <!-- Shared Component Containers -->
+  <div id="hamburgerMenuContainer"></div>
+  <div id="iTerminalContainer"></div>
+  <div id="jTerminalContainer"></div>
+  
   <div class="header">
     <h1>🔬 Mongoose.OS Research Hub</h1>
     <p>Operating System for Research Token Generation & Cart Integration</p>
@@ -642,6 +651,10 @@
       logToConsole('Ready to connect carts and research', 'info');
     };
   </script>
+  
+  <!-- Load Machine OS Core -->
+  <script src="/firmware/machine-os.js"></script>
+  
 <footer><hr><p>Powered by Infinity</p><p><a href="mailto:marvaseater@gmail.com">marvaseater@gmail.com</a></p><p>808-342-9975</p><p>The Lending Giant</p></footer>
 </body>
 </html>
