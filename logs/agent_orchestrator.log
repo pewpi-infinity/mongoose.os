@@ -1,0 +1,5 @@
+[2025-12-31T22:21:40.580981] [SUCCESS] Orchestrator Agent: Agent registered: Code Review Agent
+[2025-12-31T22:21:40.581104] [SUCCESS] Orchestrator Agent: Agent registered: Token Manager Agent
+[2025-12-31T22:21:40.583706] [INFO] Orchestrator Agent: Generating system report...
+[2025-12-31T22:21:40.583968] [INFO] Orchestrator Agent: System report generated: metrics/system_report_1767219700.json
+[2025-12-31T22:21:40.584202] [SUCCESS] Orchestrator Agent: Metrics exported to metrics/agent_orchestrator_metrics.json

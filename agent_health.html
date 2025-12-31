@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent System Health - Mongoose.OS</title>
+    <style>
+        body {
+            background: #0b0b0b;
+            color: #e6e6e6;
+            font-family: system-ui, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #00e5ff;
+        }
+        .status-card {
+            background: rgba(0, 229, 255, 0.05);
+            border: 2px solid rgba(0, 229, 255, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .metric {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00e5ff;
+        }
+        .healthy {
+            color: #00ff88;
+        }
+        .warning {
+            color: #ffaa00;
+        }
+        .error {
+            color: #ff4444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Agent System Health Dashboard</h1>
+        
+        <div class="status-card">
+            <h2>System Status: <span class="healthy">HEALTHY</span></h2>
+            <p>Last Updated: 2025-12-31T22:21:40.584012</p>
+        </div>
+        
+        <div class="status-card">
+            <h2>Active Agents</h2>
+            <p class="metric">0</p>
+        </div>
+        
+        <div class="status-card">
+            <h2>Total Tasks Completed</h2>
+            <p class="metric">0</p>
+        </div>
+        
+        <div class="status-card">
+            <h2>Pages Created</h2>
+            <p class="metric">0</p>
+        </div>
+        
+        <div class="status-card">
+            <h2>Tokens Generated</h2>
+            <p class="metric">0</p>
+        </div>
+        
+        
+        
+        <p style="margin-top: 20px;">
+            <a href="/" style="color: #00e5ff;">← Back to Home</a>
+        </p>
+    </div>
+</body>
+</html>
