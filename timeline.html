@@ -4,6 +4,10 @@
   <meta charset="utf-8">
   <title>∞ Mongoose.OS - All Views Timeline</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Load Shared Components -->
+  <script src="/shared-components.js"></script>
+  
   <style>
     * {
       margin: 0;
@@ -258,6 +262,11 @@
   </style>
 </head>
 <body>
+  <!-- Shared Component Containers -->
+  <div id="hamburgerMenuContainer"></div>
+  <div id="iTerminalContainer"></div>
+  <div id="jTerminalContainer"></div>
+  
   <div class="container">
     <header>
       <h1>∞ Mongoose.OS - Complete Timeline</h1>
@@ -406,5 +415,8 @@
       <p style="margin-top: 10px;">Mongoose.OS - Connecting all pewpi-infinity repositories</p>
     </footer>
   </div>
+  
+  <!-- Load Machine OS Core -->
+  <script src="/firmware/machine-os.js"></script>
 </body>
 </html>

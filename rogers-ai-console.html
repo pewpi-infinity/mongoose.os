@@ -4,6 +4,10 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>Rogers AI Console</title>
+  
+  <!-- Load Shared Components -->
+  <script src="/shared-components.js"></script>
+  
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body { font-family: Inter, system-ui, Arial; background:#0d1117; color:#c9d1d9; margin:0; padding:18px; display:flex; justify-content:center; }
@@ -38,6 +42,11 @@
   </style>
 </head>
 <body>
+  <!-- Shared Component Containers -->
+  <div id="hamburgerMenuContainer"></div>
+  <div id="iTerminalContainer"></div>
+  <div id="jTerminalContainer"></div>
+  
   <div class="container" id="app-root">
     <div class="flex justify-between items-center border-b pb-3 border-[#30363d]">
       <h1 class="text-2xl font-bold text-blue-400">Rogers AI Console</h1>
@@ -320,6 +329,10 @@
 
   })();
   </script>
+  
+  <!-- Load Machine OS Core -->
+  <script src="/firmware/machine-os.js"></script>
+  
 <footer><hr><p>Powered by Infinity</p><p><a href="mailto:marvaseater@gmail.com">marvaseater@gmail.com</a></p><p>808-342-9975</p><p>The Lending Giant</p></footer>
 </body>
 </html>
