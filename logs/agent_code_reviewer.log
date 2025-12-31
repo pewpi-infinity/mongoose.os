@@ -1,0 +1,15 @@
+[2025-12-31T22:21:40.581598] [INFO] Code Review Agent: Performing security scan on: agents
+[2025-12-31T22:21:40.581688] [INFO] Code Review Agent: Reviewing file: agents/agent_token_manager.py
+[2025-12-31T22:21:40.582098] [SUCCESS] Code Review Agent: Created token page: token_review_1767219700.html
+[2025-12-31T22:21:40.582149] [INFO] Code Review Agent: Review complete: 1 issues found
+[2025-12-31T22:21:40.582190] [INFO] Code Review Agent: Reviewing file: agents/agent_base.py
+[2025-12-31T22:21:40.582636] [SUCCESS] Code Review Agent: Created token page: token_review_1767219700.html
+[2025-12-31T22:21:40.582686] [INFO] Code Review Agent: Review complete: 0 issues found
+[2025-12-31T22:21:40.582727] [INFO] Code Review Agent: Reviewing file: agents/agent_code_review.py
+[2025-12-31T22:21:40.583103] [SUCCESS] Code Review Agent: Created token page: token_review_1767219700.html
+[2025-12-31T22:21:40.583151] [INFO] Code Review Agent: Review complete: 0 issues found
+[2025-12-31T22:21:40.583190] [INFO] Code Review Agent: Reviewing file: agents/agent_orchestrator.py
+[2025-12-31T22:21:40.583580] [SUCCESS] Code Review Agent: Created token page: token_review_1767219700.html
+[2025-12-31T22:21:40.583626] [INFO] Code Review Agent: Review complete: 0 issues found
+[2025-12-31T22:21:40.583668] [INFO] Code Review Agent: Security scan complete: 0 vulnerabilities found
+[2025-12-31T22:21:40.584323] [SUCCESS] Code Review Agent: Metrics exported to metrics/agent_code_reviewer_metrics.json
