@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>quantum</title>
+
+<script type="application/json" id="c13b0-token">
+{
+  "source_file": "/data/data/com.termux/files/home/.c13b0_assim/Osprey-5.0/portal/apps/quantum.html",
+  "owner": "Kris Watson",
+  "repo": "mongoose.os",
+  "published": "20251231_032246",
+  "paypal": "https://www.paypal.me/watsonkris611",
+  "type": "machine-page",
+  "state": "active"
+}
+</script>
+
+</head>
+<body>
+<h1>quantum</h1>
+<pre>
+&lt;!DOCTYPE html>
+&lt;html>&lt;head>
+&lt;meta charset="UTF-8">&lt;meta name="viewport" content="width=device-width,initial-scale=1.0">
+&lt;title>Quantum Visualizer&lt;/title>
+&lt;style>
+body{font-family:system-ui;background:#010f1a;color:#0ff;margin:0;text-align:center}
+canvas{background:#000;margin-top:40px;border-radius:10px}
+button{background:#09f;color:#fff;border:none;border-radius:10px;padding:10px 20px;margin:20px;font-size:1em}
+&lt;/style>
+&lt;/head>
+&lt;body>
+&lt;h2>🧬 Quantum Visualizer&lt;/h2>
+&lt;canvas id="q" width="360" height="360">&lt;/canvas>
+&lt;br>&lt;button onclick="window.location.href='../index.html'">⬅ Back to App Builder&lt;/button>
+&lt;script>
+const c=document.getElementById('q'),x=c.getContext('2d');
+let a=0;function draw(){
+x.fillStyle='#000';x.fillRect(0,0,c.width,c.height);
+for(let i=0;i&lt;60;i++){
+x.beginPath();x.arc(180+Math.sin(a+i/5)*100,180+Math.cos(a+i/5)*100,2,0,Math.PI*2);
+x.fillStyle=`hsl(${(a*30+i*6)%360},100%,50%)`;x.fill();
+}
+a+=0.02;requestAnimationFrame(draw);
+}draw();
+&lt;/script>
+&lt;footer>&lt;hr>&lt;p>Powered by Infinity&lt;/p>&lt;p>&lt;a href="mailto:marvaseater@gmail.com">marvaseater@gmail.com&lt;/a>&lt;/p>&lt;p>808-342-9975&lt;/p>&lt;p>The Lending Giant&lt;/p>&lt;/footer>
+&lt;/body>&lt;/html>
+
+&lt;footer style="opacity:.6;margin-top:40px">
+Powered by ∞ Infinity&lt;br>
+&lt;a href="mailto:marvaseater@gmail.com">marvaseater@gmail.com&lt;/a>&lt;br>
+&lt;a href="#">The Lending Giant&lt;/a>&lt;br>
+&lt;span>808-342-9975&lt;/span>
+&lt;/footer>
+</pre>
+</body>
+</html>
