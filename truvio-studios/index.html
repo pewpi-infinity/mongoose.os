@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>∞ Truvio Studios - Machine Production Hub</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0b;
+      color: #e6e6e6;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .studio-container {
+      min-height: 100vh;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .studio-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .studio-title {
+      font-size: 3rem;
+      color: #00e5ff;
+      margin-bottom: 10px;
+    }
+
+    .studio-subtitle {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+
+    .budget-section {
+      background: rgba(0, 229, 255, 0.05);
+      border: 2px solid #00e5ff;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 40px;
+    }
+
+    .budget-title {
+      font-size: 1.5rem;
+      color: #00e5ff;
+      margin-bottom: 20px;
+    }
+
+    .budget-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .budget-card {
+      background: rgba(0, 229, 255, 0.03);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .budget-label {
+      font-size: 0.9rem;
+      opacity: 0.7;
+      margin-bottom: 8px;
+    }
+
+    .budget-value {
+      font-size: 2rem;
+      color: #00e5ff;
+      font-weight: bold;
+    }
+
+    .machine-production {
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      color: #00e5ff;
+      margin-bottom: 30px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid rgba(0, 229, 255, 0.3);
+    }
+
+    .production-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .machine-card {
+      background: rgba(0, 229, 255, 0.05);
+      border: 2px solid rgba(0, 229, 255, 0.3);
+      border-radius: 12px;
+      padding: 25px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .machine-card:hover {
+      border-color: #00e5ff;
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px rgba(0, 229, 255, 0.3);
+    }
+
+    .machine-icon {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .machine-name {
+      font-size: 1.3rem;
+      color: #00e5ff;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .machine-desc {
+      font-size: 0.9rem;
+      opacity: 0.8;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .machine-status {
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px solid rgba(0, 229, 255, 0.3);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+    }
+
+    .status-badge {
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-weight: bold;
+    }
+
+    .status-ready {
+      background: rgba(81, 207, 102, 0.2);
+      color: #51cf66;
+    }
+
+    .status-building {
+      background: rgba(255, 212, 59, 0.2);
+      color: #ffd43b;
+    }
+
+    .nav-home {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      padding: 12px 24px;
+      background: rgba(0, 229, 255, 0.1);
+      border: 2px solid #00e5ff;
+      border-radius: 8px;
+      color: #00e5ff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      z-index: 100;
+    }
+
+    .nav-home:hover {
+      background: rgba(0, 229, 255, 0.2);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <a href="/index.html" class="nav-home">← Home</a>
+
+  <div class="studio-container">
+    <div class="studio-header">
+      <h1 class="studio-title">🎬 Truvio Studios</h1>
+      <p class="studio-subtitle">Machine Production & Token Generation Hub</p>
+    </div>
+
+    <div class="budget-section">
+      <h2 class="budget-title">Studio Budget Allocation</h2>
+      <div class="budget-grid">
+        <div class="budget-card">
+          <div class="budget-label">Total Allocated Budget</div>
+          <div class="budget-value">∞</div>
+        </div>
+        <div class="budget-card">
+          <div class="budget-label">Active Machines</div>
+          <div class="budget-value" id="activeMachines">0</div>
+        </div>
+        <div class="budget-card">
+          <div class="budget-label">Token Production</div>
+          <div class="budget-value">3031</div>
+        </div>
+        <div class="budget-card">
+          <div class="budget-label">Machine Capacity</div>
+          <div class="budget-value" id="machineCapacity">287</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="machine-production">
+      <h2 class="section-title">Machine Production Lines</h2>
+      <div class="production-grid">
+        <div class="machine-card" onclick="window.location.href='/k-spa-portal/k-portal.html'">
+          <div class="machine-icon">⚡</div>
+          <div class="machine-name">K SPA Portal</div>
+          <div class="machine-desc">Quantum rendering and vectorized algorithm system for distributed machine coordination</div>
+          <div class="machine-status">
+            <span>Production</span>
+            <span class="status-badge status-ready">READY</span>
+          </div>
+        </div>
+
+        <div class="machine-card" onclick="alert('Token Generator - Coming Soon')">
+          <div class="machine-icon">🎯</div>
+          <div class="machine-name">Token Generator</div>
+          <div class="machine-desc">Automated token generation and distribution system for machine licensing</div>
+          <div class="machine-status">
+            <span>Production</span>
+            <span class="status-badge status-building">BUILDING</span>
+          </div>
+        </div>
+
+        <div class="machine-card" onclick="alert('Machine Builder - Coming Soon')">
+          <div class="machine-icon">🔧</div>
+          <div class="machine-name">Machine Builder</div>
+          <div class="machine-desc">Self-building machine constructor with input steering and modular add-ons</div>
+          <div class="machine-status">
+            <span>Production</span>
+            <span class="status-badge status-building">BUILDING</span>
+          </div>
+        </div>
+
+        <div class="machine-card" onclick="alert('Repo Activator - Coming Soon')">
+          <div class="machine-icon">🚀</div>
+          <div class="machine-name">Repo Activator</div>
+          <div class="machine-desc">Automated repository activation and configuration for all 287+ machines</div>
+          <div class="machine-status">
+            <span>Production</span>
+            <span class="status-badge status-building">BUILDING</span>
+          </div>
+        </div>
+
+        <div class="machine-card" onclick="alert('I Terminal System - Coming Soon')">
+          <div class="machine-icon">📥</div>
+          <div class="machine-name">I Terminal System</div>
+          <div class="machine-desc">Input terminal integration for machine command and control interface</div>
+          <div class="machine-status">
+            <span>Production</span>
+            <span class="status-badge status-ready">READY</span>
+          </div>
+        </div>
+
+        <div class="machine-card" onclick="alert('J Terminal System - Coming Soon')">
+          <div class="machine-icon">📤</div>
+          <div class="machine-name">J Terminal System</div>
+          <div class="machine-desc">Output terminal for machine monitoring and status reporting</div>
+          <div class="machine-status">
+            <span>Production</span>
+            <span class="status-badge status-ready">READY</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function loadStudioData() {
+      try {
+        const response = await fetch('/GLOBAL_REPO_CENSUS.json');
+        const repos = await response.json();
+        
+        document.getElementById('machineCapacity').textContent = repos.length;
+        document.getElementById('activeMachines').textContent = Math.floor(repos.length * 0.65);
+      } catch (error) {
+        console.error('Failed to load studio data:', error);
+      }
+    }
+
+    loadStudioData();
+  </script>
+</body>
+</html>

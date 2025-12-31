@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>∞ /k SPA Portal - Quantum Rendering System</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0b;
+      color: #e6e6e6;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      overflow: hidden;
+    }
+
+    .portal-container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .portal-header {
+      padding: 20px;
+      background: rgba(0, 229, 255, 0.05);
+      border-bottom: 2px solid #00e5ff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .portal-title {
+      font-size: 1.5rem;
+      color: #00e5ff;
+      font-weight: bold;
+    }
+
+    .portal-nav {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-link {
+      color: #e6e6e6;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      border: 1px solid #00e5ff;
+      transition: all 0.3s ease;
+    }
+
+    .nav-link:hover {
+      background: rgba(0, 229, 255, 0.1);
+      transform: translateY(-2px);
+    }
+
+    .portal-content {
+      flex: 1;
+      display: flex;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .quantum-canvas {
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at 50% 50%, rgba(0, 229, 255, 0.05) 0%, #0b0b0b 100%);
+    }
+
+    .dot-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .quantum-dot {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: #00e5ff;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #00e5ff, 0 0 20px #00e5ff;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.5); }
+    }
+
+    .portal-sidebar {
+      width: 300px;
+      background: rgba(0, 229, 255, 0.02);
+      border-left: 2px solid #00e5ff;
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    .sidebar-section {
+      margin-bottom: 30px;
+    }
+
+    .sidebar-title {
+      color: #00e5ff;
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(0, 229, 255, 0.3);
+    }
+
+    .machine-card {
+      background: rgba(0, 229, 255, 0.05);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      border-radius: 6px;
+      padding: 12px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .machine-card:hover {
+      background: rgba(0, 229, 255, 0.1);
+      border-color: #00e5ff;
+      transform: translateX(5px);
+    }
+
+    .machine-name {
+      color: #00e5ff;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .machine-status {
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+
+    .status-indicator {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 6px;
+    }
+
+    .status-active {
+      background: #51cf66;
+      box-shadow: 0 0 8px #51cf66;
+    }
+
+    .status-standby {
+      background: #ffd43b;
+      box-shadow: 0 0 8px #ffd43b;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .stat-box {
+      background: rgba(0, 229, 255, 0.05);
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      text-align: center;
+    }
+
+    .stat-value {
+      font-size: 1.5rem;
+      color: #00e5ff;
+      font-weight: bold;
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      opacity: 0.7;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="portal-container">
+    <div class="portal-header">
+      <div class="portal-title">∞ /k SPA Portal - Quantum Rendering System</div>
+      <div class="portal-nav">
+        <a href="/index.html" class="nav-link">Home</a>
+        <a href="/truvio-studios/index.html" class="nav-link">Truvio Studios</a>
+      </div>
+    </div>
+
+    <div class="portal-content">
+      <canvas id="quantumCanvas" class="quantum-canvas"></canvas>
+      <div class="dot-layer" id="dotLayer"></div>
+
+      <div class="portal-sidebar">
+        <div class="sidebar-section">
+          <div class="sidebar-title">System Status</div>
+          <div class="stats-grid">
+            <div class="stat-box">
+              <div class="stat-value" id="machineCount">287</div>
+              <div class="stat-label">Machines</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-value" id="activeCount">0</div>
+              <div class="stat-label">Active</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-value" id="tokenCount">3031</div>
+              <div class="stat-label">Tokens</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-value">∞</div>
+              <div class="stat-label">Quantum Links</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-title">Active Machines</div>
+          <div id="machineList"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Initialize quantum canvas
+    const canvas = document.getElementById('quantumCanvas');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth - 300;
+    canvas.height = window.innerHeight - 70;
+
+    // Quantum dot rendering
+    class QuantumDot {
+      constructor(x, y) {
+        this.x = x;
+        this.y = y;
+        this.vx = (Math.random() - 0.5) * 0.5;
+        this.vy = (Math.random() - 0.5) * 0.5;
+        this.radius = Math.random() * 2 + 1;
+        this.opacity = Math.random() * 0.5 + 0.3;
+      }
+
+      update() {
+        this.x += this.vx;
+        this.y += this.vy;
+
+        if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+        if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+      }
+
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(0, 229, 255, ${this.opacity})`;
+        ctx.shadowBlur = 10;
+        ctx.shadowColor = '#00e5ff';
+        ctx.fill();
+        ctx.shadowBlur = 0;
+      }
+    }
+
+    // Create quantum dot array
+    const dots = [];
+    for (let i = 0; i < 100; i++) {
+      dots.push(new QuantumDot(
+        Math.random() * canvas.width,
+        Math.random() * canvas.height
+      ));
+    }
+
+    // Animation loop
+    function animate() {
+      ctx.fillStyle = 'rgba(11, 11, 11, 0.1)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      dots.forEach(dot => {
+        dot.update();
+        dot.draw();
+      });
+
+      // Draw connections
+      ctx.strokeStyle = 'rgba(0, 229, 255, 0.1)';
+      ctx.lineWidth = 1;
+      for (let i = 0; i < dots.length; i++) {
+        for (let j = i + 1; j < dots.length; j++) {
+          const dx = dots[i].x - dots[j].x;
+          const dy = dots[i].y - dots[j].y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+
+          if (distance < 150) {
+            ctx.beginPath();
+            ctx.moveTo(dots[i].x, dots[i].y);
+            ctx.lineTo(dots[j].x, dots[j].y);
+            ctx.stroke();
+          }
+        }
+      }
+
+      requestAnimationFrame(animate);
+    }
+    animate();
+
+    // Load machine data
+    async function loadMachines() {
+      try {
+        const response = await fetch('/GLOBAL_REPO_CENSUS.json');
+        const repos = await response.json();
+        
+        document.getElementById('machineCount').textContent = repos.length;
+        
+        const machineList = document.getElementById('machineList');
+        const featured = repos.slice(0, 8);
+        
+        machineList.innerHTML = featured.map((repo, index) => `
+          <div class="machine-card" onclick="window.open('${repo.url}', '_blank')">
+            <div class="machine-name">${repo.name}</div>
+            <div class="machine-status">
+              <span class="status-indicator ${index % 2 === 0 ? 'status-active' : 'status-standby'}"></span>
+              ${index % 2 === 0 ? 'Active' : 'Standby'}
+            </div>
+          </div>
+        `).join('');
+
+        document.getElementById('activeCount').textContent = Math.floor(repos.length * 0.6);
+      } catch (error) {
+        console.error('Failed to load machines:', error);
+      }
+    }
+
+    loadMachines();
+
+    // Handle window resize
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth - 300;
+      canvas.height = window.innerHeight - 70;
+    });
+  </script>
+</body>
+</html>

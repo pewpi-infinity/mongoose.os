@@ -2,50 +2,282 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Infinity</title>
+  <title>∞ Mongoose.OS - Infinity Hub</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
       background: #0b0b0b;
       color: #e6e6e6;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Main Content */
+    .main-content {
+      flex: 1;
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      padding: 40px 20px;
+      position: relative;
     }
+
     .wrap {
       text-align: center;
+      max-width: 1200px;
+      margin: 0 auto;
     }
+
     h1 {
       font-size: 3rem;
-      margin: 0;
+      margin: 0 0 20px 0;
     }
-    p {
-      opacity: 0.75;
-      margin-top: 0.5rem;
-    }
+
     .dot {
       color: #00e5ff;
+      text-shadow: 0 0 20px #00e5ff;
+    }
+
+    .subtitle {
+      opacity: 0.75;
+      margin: 10px 0 30px 0;
+      font-size: 1.2rem;
+    }
+
+    /* Stats Section */
+    .stats {
+      margin: 40px 0;
+      padding: 30px;
+      background: rgba(0, 229, 255, 0.05);
+      border: 2px solid rgba(0, 229, 255, 0.3);
+      border-radius: 12px;
+    }
+
+    .stats h3 {
+      color: #00e5ff;
+      margin-bottom: 20px;
+    }
+
+    .stats p {
+      margin: 8px 0;
+      font-size: 1.1rem;
+    }
+
+    /* Quick Links */
+    .quick-links {
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .link-card {
+      background: rgba(0, 229, 255, 0.05);
+      border: 2px solid rgba(0, 229, 255, 0.3);
+      border-radius: 12px;
+      padding: 25px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s ease;
+    }
+
+    .link-card:hover {
+      border-color: #00e5ff;
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px rgba(0, 229, 255, 0.3);
+    }
+
+    .link-card h4 {
+      color: #00e5ff;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    .link-card p {
+      opacity: 0.8;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    footer {
+      padding: 30px 20px;
+      text-align: center;
+      border-top: 2px solid rgba(0, 229, 255, 0.2);
+      background: rgba(0, 229, 255, 0.02);
+    }
+
+    footer p {
+      opacity: 0.7;
+      margin: 5px 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .quick-links {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>∞ Infinity<span class="dot">.</span></h1>
-    <p>GitHub Pages online</p>
+  <!-- Include Hamburger Menu -->
+  <div id="hamburgerMenuContainer"></div>
+
+  <!-- Include i Terminal -->
+  <div id="iTerminalContainer"></div>
+
+  <!-- Include j Terminal -->
+  <div id="jTerminalContainer"></div>
+
+  <div class="main-content">
+    <div class="wrap">
+      <h1>∞ Mongoose<span class="dot">.</span>OS</h1>
+      <p class="subtitle">Unified Hub for Pewpi-Infinity Ecosystem</p>
+
+      <!-- INFINITY_VALUE_PANEL -->
+      <div class="stats">
+        <h3>Infinity Value Metrics</h3>
+        <p>Files: 36053</p>
+        <p>Tokens: 3031</p>
+        <p>Machines: <span id="machineCount">287</span></p>
+        <p>Contact: marvaseater@gmail.com</p>
+      </div>
+
+      <!-- Quick Access Links -->
+      <div class="quick-links">
+        <a href="/k-spa-portal/k-portal.html" class="link-card">
+          <h4>⚡ /k SPA Portal</h4>
+          <p>Quantum rendering system connecting all machines</p>
+        </a>
+
+        <a href="/truvio-studios/index.html" class="link-card">
+          <h4>🎬 Truvio Studios</h4>
+          <p>Machine production hub with budget allocation</p>
+        </a>
+
+        <a href="/auth/login.html" class="link-card">
+          <h4>🔐 Authentication</h4>
+          <p>Unified login system with pewpi-ai integration</p>
+        </a>
+
+        <a href="https://github.com/pewpi-infinity" target="_blank" class="link-card">
+          <h4>🚀 All Repositories</h4>
+          <p>Browse all <span id="repoCount">287</span> machine repositories</p>
+        </a>
+
+        <a href="/timeline.html" class="link-card">
+          <h4>📅 Timeline View</h4>
+          <p>See all historical and future index versions</p>
+        </a>
+
+        <a href="/repo-history.html" class="link-card">
+          <h4>📜 Version History</h4>
+          <p>Complete repository work oldest to newest</p>
+        </a>
+
+        <a href="/MACHINE_OS_ARCHITECTURE.md" class="link-card">
+          <h4>📖 Documentation</h4>
+          <p>Complete Machine OS architecture and API docs</p>
+        </a>
+        
+        <a href="/infinity-file-explorer.html" class="link-card">
+          <h4>📂 File Explorer</h4>
+          <p>Browse all 53,810+ files - tokens, indexes, machines</p>
+        </a>
+      </div>
+    </div>
   </div>
-<!-- INFINITY_VALUE_PANEL -->
-<section>
-<h3>Infinity Value Metrics</h3>
-<p>Files: 36053</p>
-<p>Tokens: 3031</p>
-<p>Contact: marvaseater@gmail.com</p>
-</section>
+
+  <!-- Phase 4.2 Runtime Patch 2025-12-29T10:20:48Z -->
+  <footer>
+    <p>Powered by Infinity • marvaseater@gmail.com • The Lending Giant • 808-342-9975</p>
+    <p style="margin-top: 10px; font-size: 0.9rem;">
+      Mongoose.OS - Trick bike Freestyle BMX scripting<br>
+      Central hub connecting all pewpi-infinity repositories
+    </p>
+  </footer>
+
+  <!-- Load Machine OS Core -->
+  <script src="/firmware/machine-os.js"></script>
+
+  <!-- Load Components -->
+  <script>
+    // Helper function to safely load component HTML
+    function loadComponent(url, containerId) {
+      fetch(url)
+        .then(response => {
+          if (!response.ok) {
+            console.warn(`Failed to load ${url}: ${response.status}`);
+            return '';
+          }
+          return response.text();
+        })
+        .then(html => {
+          if (!html) return;
+          
+          const container = document.getElementById(containerId);
+          if (!container) {
+            console.warn(`Container ${containerId} not found`);
+            return;
+          }
+          
+          container.innerHTML = html;
+          
+          // Execute scripts in the loaded HTML
+          const scripts = container.getElementsByTagName('script');
+          Array.from(scripts).forEach(oldScript => {
+            const newScript = document.createElement('script');
+            if (oldScript.src) {
+              newScript.src = oldScript.src;
+            } else {
+              newScript.textContent = oldScript.textContent;
+            }
+            document.body.appendChild(newScript);
+          });
+        })
+        .catch(error => console.warn(`Failed to load ${url}:`, error.message));
+    }
+    
+    // Load all components (with fallback if they don't exist)
+    loadComponent('/navigation/hamburger-menu.html', 'hamburgerMenuContainer');
+    loadComponent('/terminals/i-terminal.html', 'iTerminalContainer');
+    loadComponent('/terminals/j-terminal.html', 'jTerminalContainer');
+
+    // Load machine count from census
+    fetch('/GLOBAL_REPO_CENSUS.json')
+      .then(response => {
+        if (!response.ok) throw new Error('Census not found');
+        return response.json();
+      })
+      .then(repos => {
+        document.getElementById('machineCount').textContent = repos.length;
+        
+        // Count core repos
+        const coreRepos = repos.filter(r => 
+          !r.name.includes('sandbox') && 
+          !r.name.includes('brain-')
+        ).length;
+        document.getElementById('repoCount').textContent = repos.length;
+      })
+      .catch(error => {
+        console.warn('Failed to load repo census:', error.message);
+        // Keep default values if census not available
+      });
+  </script>
 </body>
 </html>
-<!-- Phase 4.2 Runtime Patch 2025-12-29T10:20:48Z -->
-<footer>
-Powered by Infinity • marvaseater@gmail.com • The Lending Giant • 808-342-9975
-</footer>
