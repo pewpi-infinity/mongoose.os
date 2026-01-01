@@ -151,18 +151,71 @@
 
       <!-- INFINITY_VALUE_PANEL -->
       <div class="stats">
-        <h3>Infinity Value Metrics</h3>
-        <p>Files: 36053</p>
-        <p>Tokens: 3031</p>
-        <p>Machines: <span id="machineCount">287</span></p>
-        <p>Contact: marvaseater@gmail.com</p>
+        <h3>∞ Infinity Value Metrics</h3>
+        <p>🗂️ Cart Modules: <span id="cartCount">Loading...</span></p>
+        <p>🪙 Infinity Tokens: <span id="tokenCount">Loading...</span></p>
+        <p>📦 Total Files: <span id="fileCount">36053</span></p>
+        <p>🤖 Machines: <span id="machineCount">287</span></p>
+        <p>🔌 Backend API: <span id="apiStatus" style="color: #fbbf24;">Checking...</span></p>
+        <p>📧 Contact: marvaseater@gmail.com</p>
       </div>
       
       <!-- AGENT DASHBOARD -->
       <div id="agentDashboardContainer"></div>
 
+      <!-- Cart Category Overview -->
+      <div class="stats" style="margin-top: 40px;">
+        <h3>🚀 Cart System Overview</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px; text-align: left;">
+          <div style="padding: 15px; background: rgba(0, 229, 255, 0.1); border-radius: 8px; border-left: 4px solid #00e5ff;">
+            <h4 style="color: #00e5ff; margin-bottom: 8px;">🔬 Research (cart101-105)</h4>
+            <p style="font-size: 0.9rem; opacity: 0.9;">Physics, AI, Energy, Academic, Materials</p>
+          </div>
+          <div style="padding: 15px; background: rgba(147, 51, 234, 0.1); border-radius: 8px; border-left: 4px solid #9333ea;">
+            <h4 style="color: #9333ea; margin-bottom: 8px;">⚡ Core Modules (cart001-041)</h4>
+            <p style="font-size: 0.9rem; opacity: 0.9;">Engineering, Tokens, Power, Components</p>
+          </div>
+          <div style="padding: 15px; background: rgba(34, 197, 94, 0.1); border-radius: 8px; border-left: 4px solid #22c55e;">
+            <h4 style="color: #22c55e; margin-bottom: 8px;">🧮 Physics (cartC01-C33)</h4>
+            <p style="font-size: 0.9rem; opacity: 0.9;">Electromagnetism, Quantum, Thermodynamics</p>
+          </div>
+          <div style="padding: 15px; background: rgba(251, 191, 36, 0.1); border-radius: 8px; border-left: 4px solid #fbbf24;">
+            <h4 style="color: #fbbf24; margin-bottom: 8px;">♾️ Infinity System</h4>
+            <p style="font-size: 0.9rem; opacity: 0.9;">Governance, Pipeline, Recovery, Scheduler</p>
+          </div>
+          <div style="padding: 15px; background: rgba(239, 68, 68, 0.1); border-radius: 8px; border-left: 4px solid #ef4444;">
+            <h4 style="color: #ef4444; margin-bottom: 8px;">🎯 Specialized</h4>
+            <p style="font-size: 0.9rem; opacity: 0.9;">API, Monitoring, Automation, Analysis</p>
+          </div>
+          <div style="padding: 15px; background: rgba(236, 72, 153, 0.1); border-radius: 8px; border-left: 4px solid #ec4899;">
+            <h4 style="color: #ec4899; margin-bottom: 8px;">🔧 Utilities (3000+)</h4>
+            <p style="font-size: 0.9rem; opacity: 0.9;">Scripts, Tools, Helpers, Exporters</p>
+          </div>
+        </div>
+        <p style="margin-top: 20px; opacity: 0.8;">
+          <a href="/mongoose_hub.html" style="color: #00e5ff; text-decoration: none; font-weight: bold;">
+            → Launch Mongoose Research Hub to explore and execute carts
+          </a>
+        </p>
+      </div>
+
       <!-- Quick Access Links -->
       <div class="quick-links">
+        <a href="/mongoose_hub.html" class="link-card">
+          <h4>🔬 Mongoose Research Hub</h4>
+          <p>Main research interface with cart execution and token management</p>
+        </a>
+
+        <a href="/token_viewer.html" class="link-card">
+          <h4>🪙 Token Viewer</h4>
+          <p>Browse and explore <span id="tokenCountLink">25,676</span> infinity tokens with color tiers</p>
+        </a>
+
+        <a href="/carts.html" class="link-card">
+          <h4>🔧 Cart Systems</h4>
+          <p>Discover <span id="cartCountLink">3,163</span> carts: research, physics, AI, engineering, quantum</p>
+        </a>
+
         <a href="/k-spa-portal/k-portal.html" class="link-card">
           <h4>⚡ /k SPA Portal</h4>
           <p>Quantum rendering system connecting all machines</p>
@@ -173,14 +226,29 @@
           <p>Machine production hub with budget allocation</p>
         </a>
 
-        <a href="/carts.html" class="link-card">
-          <h4>🔧 Cart Systems</h4>
-          <p>Research orchestration carts (000-041, 101-105, C01-C33)</p>
-        </a>
-
         <a href="/auth/login.html" class="link-card">
           <h4>🔐 Authentication</h4>
           <p>Unified login system with pewpi-ai integration</p>
+        </a>
+
+        <a href="/INTEGRATION_DIAGRAM.md" class="link-card">
+          <h4>🗺️ Integration Diagram</h4>
+          <p>System architecture and data flow visualization</p>
+        </a>
+
+        <a href="/MACHINE_OS_ARCHITECTURE.md" class="link-card">
+          <h4>📖 Documentation</h4>
+          <p>Complete Machine OS architecture and API docs</p>
+        </a>
+
+        <a href="/README.md" class="link-card">
+          <h4>📘 README & Quick Start</h4>
+          <p>Getting started guide and system overview</p>
+        </a>
+        
+        <a href="/infinity-file-explorer.html" class="link-card">
+          <h4>📂 File Explorer</h4>
+          <p>Browse all 53,810+ files - tokens, indexes, machines</p>
         </a>
 
         <a href="https://github.com/pewpi-infinity" target="_blank" class="link-card">
@@ -191,22 +259,6 @@
         <a href="/timeline.html" class="link-card">
           <h4>📅 Timeline View</h4>
           <p>See all historical and future index versions</p>
-        </a>
-
-        <a href="/repo-history.html" class="link-card">
-          <h4>📜 Version History</h4>
-          <p>Complete repository work oldest to newest</p>
-        </a>
-
-        <a href="/MACHINE_OS_ARCHITECTURE.md" class="link-card">
-          <h4>📖 Documentation</h4>
-          <p>Complete Machine OS architecture and API docs</p>
-        </a>
-        
-        <a href="/infinity-file-explorer.html" class="link-card">
-          <h4>📂 File Explorer</h4>
-          <p>Browse all 53,810+ files - tokens, indexes, machines</p>
-          <p><a href="pages/silver_price_machine/">silver_price_machine</a></p>
         </a>
       </div>
     </div>
@@ -268,6 +320,49 @@
     loadComponent('/terminals/i-terminal.html', 'iTerminalContainer');
     loadComponent('/terminals/j-terminal.html', 'jTerminalContainer');
 
+    // Load cart statistics from mongoose_index.json
+    fetch('/mongoose_index.json')
+      .then(response => {
+        if (!response.ok) throw new Error('Cart index not found');
+        return response.json();
+      })
+      .then(data => {
+        const cartCount = data.module_count || 0;
+        document.getElementById('cartCount').textContent = cartCount;
+        document.getElementById('cartCountLink').textContent = cartCount;
+        console.log(`✓ Loaded cart index: ${cartCount} modules`);
+      })
+      .catch(error => {
+        console.warn('Failed to load cart index:', error.message);
+        document.getElementById('cartCount').textContent = '3,163 (cached)';
+        document.getElementById('cartCountLink').textContent = '3,163';
+      });
+
+    // Estimate token count (directory size)
+    // Since we can't easily count files via fetch, use a reasonable estimate
+    const estimatedTokenCount = 25676; // From actual count
+    document.getElementById('tokenCount').textContent = estimatedTokenCount.toLocaleString();
+    document.getElementById('tokenCountLink').textContent = estimatedTokenCount.toLocaleString();
+
+    // Check backend API status
+    fetch('/live')
+      .then(response => {
+        if (!response.ok) throw new Error('API offline');
+        return response.json();
+      })
+      .then(data => {
+        const statusEl = document.getElementById('apiStatus');
+        statusEl.textContent = '🟢 ONLINE';
+        statusEl.style.color = '#22c55e';
+        console.log(`✓ Backend API online: ${data.cart_count} carts detected`);
+      })
+      .catch(error => {
+        const statusEl = document.getElementById('apiStatus');
+        statusEl.textContent = '⚪ Static Mode';
+        statusEl.style.color = '#9ca3af';
+        console.log('ℹ Backend API not running (static file mode)');
+      });
+
     // Load machine count from census
     fetch('/GLOBAL_REPO_CENSUS.json')
       .then(response => {
@@ -283,25 +378,14 @@
           !r.name.includes('brain-')
         ).length;
         document.getElementById('repoCount').textContent = repos.length;
+        console.log(`✓ Loaded machine census: ${repos.length} repositories`);
       })
       .catch(error => {
         console.warn('Failed to load repo census:', error.message);
         // Keep default values if census not available
       });
+    
+    console.log('∞ Mongoose.OS Hub initialized successfully');
   </script>
-<p><a href="pages/quantum_20251231_032246/">quantum</a></p>
-<p><a href="pages/quantum_visualizer_20251231_032246/">quantum_visualizer</a></p>
-<p><a href="pages/GOAL_20251231_032246/">GOAL</a></p>
-<p><a href="pages/OWNERS_20251231_032246/">OWNERS</a></p>
-<p><a href="pages/README_20251231_032246/">README</a></p>
-<p><a href="pages/TOKEN_20251231_032246/">TOKEN</a></p>
-<p><a href="pages/index_20251231_032246/">index</a></p>
-<p><a href="pages/index_2_20251231_032246/">index_2</a></p>
-<p><a href="pages/GOAL_20251231_040525/">GOAL</a></p>
-<p><a href="pages/OWNERS_20251231_040525/">OWNERS</a></p>
-<p><a href="pages/README_20251231_040525/">README</a></p>
-<p><a href="pages/TOKEN_20251231_040525/">TOKEN</a></p>
-<p><a href="pages/index_20251231_040525/">index</a></p>
-<p><a href="pages/index_2_20251231_040525/">index_2</a></p>
 </body>
 </html>
