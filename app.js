@@ -1,6 +1,46 @@
 // Main Application JavaScript
 // Handles video/audio players, multi-page research, and term extraction
 
+// Initialize pewpi-shared services (wrapped in try/catch for backward compatibility)
+try {
+    // Note: Uncomment the following lines when using as ES6 module or add script tags in HTML
+    // import { tokenService } from './src/pewpi-shared/token-service.js';
+    // import { setupIntegration } from './src/pewpi-shared/integration-listener.js';
+    
+    // Initialize shared services if available
+    if (typeof window.pewpiShared !== 'undefined') {
+        // Initialize token service auto-tracking
+        if (window.pewpiShared.tokenService) {
+            window.pewpiShared.tokenService.initAutoTracking();
+            console.log('[Pewpi] Token service initialized');
+        }
+        
+        // Restore authentication session
+        if (window.pewpiShared.authService) {
+            window.pewpiShared.authService.restoreSession();
+            console.log('[Pewpi] Auth service initialized');
+        }
+        
+        // Setup event listeners for pewpi events
+        window.addEventListener('pewpi.token.created', (event) => {
+            console.log('[Pewpi] Token created:', event.detail);
+            // Add your custom logic here
+        });
+        
+        window.addEventListener('pewpi.token.updated', (event) => {
+            console.log('[Pewpi] Token updated:', event.detail);
+            // Add your custom logic here
+        });
+        
+        window.addEventListener('pewpi.login.changed', (event) => {
+            console.log('[Pewpi] Login changed:', event.detail);
+            // Add your custom logic here
+        });
+    }
+} catch (error) {
+    console.warn('[Pewpi] Shared services not available or error during initialization:', error);
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     initializeApp();
 });
