@@ -5,6 +5,10 @@ storage/tweets.jsonl
 # OS noise
 .DS_Store
 
+# Node modules and dependencies
+node_modules/
+package-lock.json
+
 # Infinity runtime state
 infinity_storage/logs/
 infinity_storage/ACTIVE_PORT

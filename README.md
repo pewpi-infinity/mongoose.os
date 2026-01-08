@@ -44,6 +44,38 @@ Then open your browser to `http://localhost:3000`
 - Tokens credit to your account
 - Track all your contributions
 
+## Pewpi Shared Library Integration
+
+This repository now integrates the canonical **pewpi unified auth + wallet + token** shared library from [GPT-Vector-Design](https://github.com/pewpi-infinity/GPT-Vector-Design).
+
+### What's Included
+
+The shared library (`src/pewpi-shared/`) provides:
+- **TokenService**: Production-grade token management with IndexedDB
+- **LoginComponent**: Passwordless authentication with magic-link
+- **WalletComponent**: Complete wallet UI with token management
+- **IntegrationListener**: Event-based cross-repo state synchronization
+
+### Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# The shared services auto-initialize on page load
+# See app.js for initialization code
+```
+
+### Learn More
+
+- **Integration Guide**: [docs/INTEGRATION.md](docs/INTEGRATION.md)
+- **Full Documentation**: [src/pewpi-shared/INTEGRATION.md](src/pewpi-shared/INTEGRATION.md)
+- **Source Repository**: [GPT-Vector-Design](https://github.com/pewpi-infinity/GPT-Vector-Design)
+
+The integration is designed to be backward-compatible and non-breaking. Existing features remain intact.
+
+---
+
 ## Documentation
 
 See [docs/README.md](docs/README.md) for complete documentation.
