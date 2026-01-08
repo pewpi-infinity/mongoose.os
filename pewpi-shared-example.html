@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pewpi Shared Library Example</title>
+    <link rel="stylesheet" href="./src/pewpi-shared/theme.css">
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #0a0a0a;
+            color: #e0e0e0;
+        }
+        
+        .section {
+            background: #1a1a1a;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        h1, h2 {
+            color: #00e5ff;
+        }
+        
+        button {
+            background: #00e5ff;
+            color: #0a0a0a;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            margin: 5px;
+        }
+        
+        button:hover {
+            background: #00b8cc;
+        }
+        
+        .log {
+            background: #0f0f0f;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .log-entry {
+            margin: 5px 0;
+            padding: 5px;
+            border-left: 3px solid #00e5ff;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔷 Pewpi Shared Library Example</h1>
+    <p>This page demonstrates the pewpi-shared library integration without requiring a build system.</p>
+    
+    <div class="section">
+        <h2>📦 Token Service Demo</h2>
+        <p>The TokenService manages tokens with IndexedDB + localStorage fallback.</p>
+        <button onclick="createToken()">Create Bronze Token</button>
+        <button onclick="createToken('silver')">Create Silver Token</button>
+        <button onclick="createToken('gold')">Create Gold Token</button>
+        <button onclick="getBalance()">Get Balance</button>
+        <button onclick="getAllTokens()">List All Tokens</button>
+        <button onclick="clearAllTokens()">Clear All Tokens</button>
+    </div>
+    
+    <div class="section">
+        <h2>🔔 Event Listener Demo</h2>
+        <p>Real-time event logging for pewpi system events.</p>
+        <button onclick="clearLog()">Clear Log</button>
+        <div class="log" id="eventLog">
+            <div class="log-entry">Event log will appear here...</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>💼 Integration Status</h2>
+        <p id="status">Checking integration status...</p>
+    </div>
+    
+    <div class="section">
+        <h2>📖 Usage Notes</h2>
+        <ul>
+            <li>This example uses CDN-loaded dependencies (Dexie, CryptoJS)</li>
+            <li>For production, install via npm: <code>npm install dexie crypto-js</code></li>
+            <li>Services initialize automatically on page load</li>
+            <li>Check browser console for additional debug info</li>
+            <li>IndexedDB is used for persistence (localStorage as fallback)</li>
+        </ul>
+        <p>
+            📚 Full documentation: <a href="./src/pewpi-shared/INTEGRATION.md" style="color: #00e5ff;">src/pewpi-shared/INTEGRATION.md</a>
+        </p>
+    </div>
+
+    <!-- Load dependencies from CDN (for demo purposes) -->
+    <script src="https://cdn.jsdelivr.net/npm/dexie@3.2.4/dist/dexie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+    
+    <!-- Load pewpi-shared library -->
+    <!-- Note: In production, use proper ES6 module imports -->
+    <script>
+        // Mock ES6 module imports for browser use
+        window.Dexie = Dexie;
+        window.CryptoJS = CryptoJS;
+        
+        // Log to event display
+        function logEvent(message, type = 'info') {
+            const log = document.getElementById('eventLog');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            entry.style.borderLeftColor = type === 'error' ? '#ff4444' : '#00e5ff';
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            log.appendChild(entry);
+            log.scrollTop = log.scrollHeight;
+            console.log(message);
+        }
+        
+        function clearLog() {
+            document.getElementById('eventLog').innerHTML = '<div class="log-entry">Log cleared...</div>';
+        }
+        
+        // Initialize status
+        function updateStatus() {
+            const status = document.getElementById('status');
+            if (typeof Dexie !== 'undefined' && typeof CryptoJS !== 'undefined') {
+                status.innerHTML = '✅ <strong>Dependencies loaded successfully</strong><br>' +
+                    'Dexie: ' + Dexie.semVer + '<br>' +
+                    'CryptoJS: Loaded<br>' +
+                    'IndexedDB: ' + (indexedDB ? 'Available' : 'Not available');
+                status.style.color = '#4ade80';
+            } else {
+                status.innerHTML = '❌ <strong>Dependencies failed to load</strong>';
+                status.style.color = '#ff4444';
+            }
+        }
+        
+        // Token service mock functions (simulating the actual service)
+        async function createToken(type = 'bronze') {
+            try {
+                // For demo, we'll just use localStorage
+                const token = {
+                    tokenId: 'tok_' + Date.now(),
+                    type: type,
+                    value: type === 'bronze' ? 1 : type === 'silver' ? 5 : 10,
+                    userId: 'demo_user',
+                    createdAt: new Date().toISOString(),
+                    status: 'active'
+                };
+                
+                // Store in localStorage
+                const tokens = JSON.parse(localStorage.getItem('pewpi_demo_tokens') || '[]');
+                tokens.push(token);
+                localStorage.setItem('pewpi_demo_tokens', JSON.stringify(tokens));
+                
+                // Emit event
+                window.dispatchEvent(new CustomEvent('pewpi.token.created', { detail: token }));
+                
+                logEvent(`✅ Created ${type} token (value: ${token.value})`);
+            } catch (error) {
+                logEvent(`❌ Error creating token: ${error.message}`, 'error');
+            }
+        }
+        
+        async function getBalance() {
+            try {
+                const tokens = JSON.parse(localStorage.getItem('pewpi_demo_tokens') || '[]');
+                const balance = tokens.reduce((sum, t) => sum + t.value, 0);
+                logEvent(`💰 Current balance: ${balance} (${tokens.length} tokens)`);
+            } catch (error) {
+                logEvent(`❌ Error getting balance: ${error.message}`, 'error');
+            }
+        }
+        
+        async function getAllTokens() {
+            try {
+                const tokens = JSON.parse(localStorage.getItem('pewpi_demo_tokens') || '[]');
+                if (tokens.length === 0) {
+                    logEvent('📭 No tokens found');
+                } else {
+                    logEvent(`📦 Found ${tokens.length} tokens:`);
+                    tokens.forEach((t, i) => {
+                        logEvent(`  ${i + 1}. ${t.type} (value: ${t.value}) - ${new Date(t.createdAt).toLocaleString()}`);
+                    });
+                }
+            } catch (error) {
+                logEvent(`❌ Error listing tokens: ${error.message}`, 'error');
+            }
+        }
+        
+        async function clearAllTokens() {
+            try {
+                localStorage.removeItem('pewpi_demo_tokens');
+                window.dispatchEvent(new CustomEvent('pewpi.tokens.cleared'));
+                logEvent('🗑️ All tokens cleared');
+            } catch (error) {
+                logEvent(`❌ Error clearing tokens: ${error.message}`, 'error');
+            }
+        }
+        
+        // Event listeners
+        window.addEventListener('pewpi.token.created', (event) => {
+            logEvent(`🔔 Token created event: ${event.detail.type} token`);
+        });
+        
+        window.addEventListener('pewpi.token.updated', (event) => {
+            logEvent(`🔔 Token updated event`);
+        });
+        
+        window.addEventListener('pewpi.tokens.cleared', () => {
+            logEvent(`🔔 Tokens cleared event`);
+        });
+        
+        window.addEventListener('pewpi.login.changed', (event) => {
+            const status = event.detail.loggedIn ? 'logged in' : 'logged out';
+            logEvent(`🔔 Login changed: ${status}`);
+        });
+        
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            updateStatus();
+            logEvent('🚀 Pewpi Shared Library Example loaded');
+            logEvent('ℹ️ This is a simplified demo. For full functionality, see docs/INTEGRATION.md');
+        });
+    </script>
+</body>
+</html>
