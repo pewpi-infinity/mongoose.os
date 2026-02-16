@@ -155,9 +155,9 @@
         <p>🗂️ Cart Modules: <span id="cartCount">Loading...</span></p>
         <p>🪙 Infinity Tokens: <span id="tokenCount">Loading...</span></p>
         <p>📦 Total Files: <span id="fileCount">36053</span></p>
-        <p>🤖 Machines: <span id="machineCount">287</span></p>
+        <p>🤖 Machines: <span id="machineCount">958</span></p>
         <p>🔌 Backend API: <span id="apiStatus" style="color: #fbbf24;">Checking...</span></p>
-        <p>📧 Contact: marvaseater@gmail.com</p>
+        <p>📧 Contact: marvasweater@gmail.com</p>
       </div>
       
       <!-- AGENT DASHBOARD -->
@@ -193,7 +193,7 @@
           </div>
         </div>
         <p style="margin-top: 20px; opacity: 0.8;">
-          <a href="/mongoose_hub.html" style="color: #00e5ff; text-decoration: none; font-weight: bold;">
+          <a href="mongoose_hub.html" style="color: #00e5ff; text-decoration: none; font-weight: bold;">
             → Launch Mongoose Research Hub to explore and execute carts
           </a>
         </p>
@@ -201,62 +201,72 @@
 
       <!-- Quick Access Links -->
       <div class="quick-links">
-        <a href="/mongoose_hub.html" class="link-card">
+        <a href="mongoose_hub.html" class="link-card">
           <h4>🔬 Mongoose Research Hub</h4>
           <p>Main research interface with cart execution and token management</p>
         </a>
 
-        <a href="/token_viewer.html" class="link-card">
+        <a href="infinity_tokens/" class="link-card">
           <h4>🪙 Token Viewer</h4>
           <p>Browse and explore <span id="tokenCountLink">25,676</span> infinity tokens with color tiers</p>
         </a>
 
-        <a href="/carts.html" class="link-card">
+        <a href="carts.html" class="link-card">
           <h4>🔧 Cart Systems</h4>
           <p>Discover <span id="cartCountLink">3,163</span> carts: research, physics, AI, engineering, quantum</p>
         </a>
 
-        <a href="/k-spa-portal/k-portal.html" class="link-card">
+        <a href="k-spa-portal/k-portal.html" class="link-card">
           <h4>⚡ /k SPA Portal</h4>
           <p>Quantum rendering system connecting all machines</p>
         </a>
 
-        <a href="/truvio-studios/index.html" class="link-card">
+        <a href="https://pewpi-infinity.github.io/infinity-spark-theater/" class="link-card">
           <h4>🎬 Truvio Studios</h4>
           <p>Machine production hub with budget allocation</p>
         </a>
 
-        <a href="/auth/login.html" class="link-card">
+        <a href="auth/login.html" class="link-card">
           <h4>🔐 Authentication</h4>
           <p>Unified login system with pewpi-ai integration</p>
         </a>
 
-        <a href="/INTEGRATION_DIAGRAM.md" class="link-card">
+        <a href="https://github.com/pewpi-infinity/mongoose.os/blob/main/INTEGRATION_DIAGRAM.md" class="link-card">
           <h4>🗺️ Integration Diagram</h4>
           <p>System architecture and data flow visualization</p>
         </a>
 
-        <a href="/MACHINE_OS_ARCHITECTURE.md" class="link-card">
+        <a href="https://github.com/pewpi-infinity/mongoose.os/blob/main/MACHINE_OS_ARCHITECTURE.md" class="link-card">
           <h4>📖 Documentation</h4>
           <p>Complete Machine OS architecture and API docs</p>
         </a>
 
-        <a href="/README.md" class="link-card">
+        <a href="https://github.com/pewpi-infinity/mongoose.os/blob/main/README.md" class="link-card">
           <h4>📘 README & Quick Start</h4>
           <p>Getting started guide and system overview</p>
         </a>
         
-        <a href="/infinity-file-explorer.html" class="link-card">
+        <a href="infinity-file-explorer.html" class="link-card">
           <h4>📂 File Explorer</h4>
           <p>Browse all 53,810+ files - tokens, indexes, machines</p>
         </a>
 
-        <a href="https://github.com/pewpi-infinity" target="_blank" class="link-card">
-          <h4>🚀 All Repositories</h4>
-          <p>Browse all <span id="repoCount">287</span> machine repositories</p>
+        
+        <a href="https://pewpi-infinity.github.io/infinity-crown-index/" class="link-card">
+          <h4>&#x1F451; Crown Index</h4>
+          <p>Master ecosystem index - search, manage, and build across all repos</p>
         </a>
 
-        <a href="/timeline.html" class="link-card">
+        <a href="https://pewpi-infinity.github.io/infinity-crown-hub/" class="link-card">
+          <h4>&#x1F4CA; Crown Hub</h4>
+          <p>Progress dashboard tracking all ecosystem repos and pages</p>
+        </a>
+        <a href="https://github.com/pewpi-infinity" target="_blank" class="link-card">
+          <h4>🚀 All Repositories</h4>
+          <p>Browse all <span id="repoCount">958</span> machine repositories</p>
+        </a>
+
+        <a href="timeline.html" class="link-card">
           <h4>📅 Timeline View</h4>
           <p>See all historical and future index versions</p>
         </a>
@@ -266,7 +276,7 @@
 
   <!-- Phase 4.2 Runtime Patch 2025-12-29T10:20:48Z -->
   <footer>
-    <p>Powered by Infinity • marvaseater@gmail.com • The Lending Giant • 808-342-9975</p>
+    <p>Powered by Infinity • marvasweater@gmail.com • The Lending Giant • 808-342-9975</p>
     <p style="margin-top: 10px; font-size: 0.9rem;">
       Mongoose.OS - Trick bike Freestyle BMX scripting<br>
       Central hub connecting all pewpi-infinity repositories
@@ -274,7 +284,7 @@
   </footer>
 
   <!-- Load Machine OS Core -->
-  <script src="/firmware/machine-os.js"></script>
+  <script src="firmware/machine-os.js"></script>
 
   <!-- Load Components -->
   <script>
@@ -321,7 +331,7 @@
     loadComponent('/terminals/j-terminal.html', 'jTerminalContainer');
 
     // Load cart statistics from mongoose_index.json
-    fetch('/mongoose_index.json')
+    fetch('mongoose_index.json')
       .then(response => {
         if (!response.ok) throw new Error('Cart index not found');
         return response.json();
@@ -345,7 +355,7 @@
     document.getElementById('tokenCountLink').textContent = estimatedTokenCount.toLocaleString();
 
     // Check backend API status
-    fetch('/live')
+    fetch('live')
       .then(response => {
         if (!response.ok) throw new Error('API offline');
         return response.json();
@@ -364,7 +374,7 @@
       });
 
     // Load machine count from census
-    fetch('/GLOBAL_REPO_CENSUS.json')
+    fetch('GLOBAL_REPO_CENSUS.json')
       .then(response => {
         if (!response.ok) throw new Error('Census not found');
         return response.json();
