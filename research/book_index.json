@@ -1,0 +1,48 @@
+{
+  "title": "The Infinity Research Book",
+  "subtitle": "Rationalized Data \u2014 From Biology to Digital Architecture",
+  "author": "Infinity Forge System",
+  "updated": "20260217_051518",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "Dental Signal Architecture",
+      "file": "tooth_regeneration_dental_signals.md",
+      "summary": "Teeth as sensory organs. USAG-1 antibody. BMP/Wnt signaling. Japan clinical trials."
+    },
+    {
+      "id": "ch02",
+      "title": "Precious Metal Nanomedicine",
+      "file": "precious_metal_nanomedicine_signals.md",
+      "summary": "Gold nanoparticles trigger BMP-2 via MAPK. Platinum metallic glass. Aplastic anemia risk."
+    },
+    {
+      "id": "ch03",
+      "title": "Gallium Liquid Metals",
+      "file": "gallium_liquid_metals_biomedical.md",
+      "summary": "GLMs as bioelectrodes. Electronic blood vessels. Cryopreservation. Antiviral activity."
+    },
+    {
+      "id": "ch04",
+      "title": "Quantum Intent Architecture",
+      "file": "quantum_intent_collapser.md",
+      "summary": "From passive likes to sovereign commands. Vector triggers. Alchemist's Chain value pipeline."
+    },
+    {
+      "id": "ch05",
+      "title": "Bio-Digital Transformer",
+      "file": "transformer_tackle_bio_digital.md",
+      "summary": "MAPK pathway parallels. Dental-to-repo mapping. Dissipative Soliton connections."
+    }
+  ],
+  "dictionary": "research/dictionary_v2.json",
+  "total_chapters": 5,
+  "categories": [
+    "bioengineering",
+    "nanomedicine",
+    "sovereign-tech",
+    "c13b0-architecture",
+    "forge-system"
+  ],
+  "total_terms": 48
+}
