@@ -16,7 +16,7 @@
   "sovereign_endpoint": "https://pewpi-infinity.github.io/sovereign-interface/",
   "crown_index": "https://pewpi-infinity.github.io/infinity-crown-index/",
   "auto_discovery": true,
-  "wired_at": "2026-02-17T08:15:43",
+  "wired_at": "2026-02-17T08:18:29",
   "links": {
     "self": "https://pewpi-infinity.github.io/mongoose.os/",
     "github": "https://github.com/pewpi-infinity/mongoose.os",
