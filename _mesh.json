@@ -1,0 +1,26 @@
+{
+  "mesh_version": "1.0.0",
+  "repo": "mongoose.os",
+  "machine_type": "mongoose",
+  "role": "logic_engine",
+  "cart_logic": "cart401_mongoose_logic_engine",
+  "color": "#7c3aed",
+  "upstream": [],
+  "downstream": [
+    "infinity-crown-index",
+    "infinity-crown-hub",
+    "infinity-wearable-manifesto",
+    "infinity-mega-labs",
+    "infinity-manifesto"
+  ],
+  "sovereign_endpoint": "https://pewpi-infinity.github.io/sovereign-interface/",
+  "crown_index": "https://pewpi-infinity.github.io/infinity-crown-index/",
+  "auto_discovery": true,
+  "wired_at": "2026-02-17T08:15:35",
+  "links": {
+    "self": "https://pewpi-infinity.github.io/mongoose.os/",
+    "github": "https://github.com/pewpi-infinity/mongoose.os",
+    "crown": "https://pewpi-infinity.github.io/infinity-crown-index/",
+    "sovereign": "https://pewpi-infinity.github.io/sovereign-interface/"
+  }
+}
