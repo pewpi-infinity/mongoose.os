@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "updated": "20260217_051518",
-  "total_entries": 5,
+  "updated": "20260217_052159",
+  "total_entries": 6,
   "book": {
     "title": "The Infinity Research Book",
     "reader": "https://pewpi-infinity.github.io/mongoose.os/research/index.html",
@@ -81,6 +81,20 @@
         "MAPK",
         "BMP",
         "dissipative-soliton"
+      ],
+      "date": "2026-02-17"
+    },
+    {
+      "id": "QUANTUM-TRIGGER-001",
+      "title": "Quantum Trigger System \u2014 Color-Coded Intent Vectors",
+      "file": "research/quantum_trigger_system.md",
+      "category": "sovereign-tech",
+      "tags": [
+        "quantum-trigger",
+        "intent-vectors",
+        "color-code",
+        "HNSW",
+        "electron-cloud"
       ],
       "date": "2026-02-17"
     }
