@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "updated": "20260217_052159",
-  "total_entries": 6,
+  "updated": "20260217_054221",
+  "total_entries": 8,
   "book": {
     "title": "The Infinity Research Book",
     "reader": "https://pewpi-infinity.github.io/mongoose.os/research/index.html",
@@ -95,6 +95,33 @@
         "color-code",
         "HNSW",
         "electron-cloud"
+      ],
+      "date": "2026-02-17"
+    },
+    {
+      "id": "GOLD-STANDARD-001",
+      "title": "Gold Standard Distribution \u2014 C13B0\u2077 Wealth Re-Index",
+      "file": "research/gold_standard_distribution.md",
+      "category": "sovereign-tech",
+      "tags": [
+        "gold-standard",
+        "distribution",
+        "wealth",
+        "platinum-archive"
+      ],
+      "date": "2026-02-17"
+    },
+    {
+      "id": "QUANTA-OPERATOR-001",
+      "title": "Quanta Operator \u2014 Multidimensional State Navigator",
+      "file": "research/quanta_operator_system.md",
+      "category": "sovereign-tech",
+      "tags": [
+        "quanta",
+        "operator",
+        "FCL",
+        "HNSW",
+        "golden-ratio"
       ],
       "date": "2026-02-17"
     }
