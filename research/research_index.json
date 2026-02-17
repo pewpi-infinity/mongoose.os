@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "updated": "20260217_050438",
-  "total_entries": 2,
+  "updated": "20260217_050648",
+  "total_entries": 3,
   "entries": [
     {
       "id": "TOOTH-REGEN-001",
@@ -45,6 +45,25 @@
         "Nanomedicine bone tissue engineering research",
         "Gold nanoparticle osteoblast differentiation studies",
         "Gallium treatment for osteoporosis/Paget's disease"
+      ]
+    },
+    {
+      "id": "GALLIUM-LM-001",
+      "title": "Gallium Liquid Metals \u2014 Biomedical Pulse Systems",
+      "file": "research/gallium_liquid_metals_biomedical.md",
+      "category": "nanomedicine",
+      "tags": [
+        "gallium",
+        "liquid-metal",
+        "bioelectrode",
+        "cryobiology",
+        "SARS-CoV-2"
+      ],
+      "date": "2026-02-17",
+      "sources": [
+        "NIH",
+        "OAE Publishing",
+        "Johns Hopkins Medicine"
       ]
     }
   ]
