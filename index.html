@@ -397,5 +397,124 @@
     
     console.log('∞ Mongoose.OS Hub initialized successfully');
   </script>
+
+<!-- Rogers AI Chat — Mongoose Research Intelligence -->
+<div id="mongoose-chat" style="position:fixed;bottom:16px;right:16px;z-index:9999">
+  <div id="chat-toggle" onclick="toggleChat()" style="background:linear-gradient(135deg,#1a0a2e,#0a2a1e);border:2px solid #00e676;border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 20px rgba(0,230,118,0.3);font-size:1.5rem">🔬</div>
+  <div id="chat-panel" style="display:none;position:absolute;bottom:64px;right:0;width:360px;max-height:500px;background:#0a0a1a;border:2px solid #00e676;border-radius:16px;box-shadow:0 8px 40px rgba(0,0,0,0.6);overflow:hidden;font-family:system-ui,sans-serif">
+    <div style="background:linear-gradient(135deg,#0a2a1e,#1a0a2e);padding:12px 16px;display:flex;justify-content:space-between;align-items:center">
+      <div><b style="color:#00e676">Rogers AI</b> <span style="color:#888;font-size:0.75rem">— Mongoose Research</span></div>
+      <button onclick="toggleChat()" style="background:none;border:none;color:#888;font-size:1.2rem;cursor:pointer">✕</button>
+    </div>
+    <div id="chat-messages" style="height:300px;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:8px">
+      <div style="background:#161640;border-radius:10px;padding:10px;font-size:0.85rem;color:#ccc;max-width:85%">
+        I'm Rogers — Mongoose Research Intelligence. I know about aluminum oxide brains, piezoelectric systems, bio-energy transfer, atomic architecture, C13B0, and the full Infinity research database. What do you want to explore?
+      </div>
+    </div>
+    <div style="padding:8px 12px;border-top:1px solid #2a2a5a;display:flex;gap:6px">
+      <input type="text" id="chat-input" placeholder="Ask about research..."
+        style="flex:1;background:#111;border:1px solid #2a2a5a;color:#e8e8f0;padding:8px 12px;border-radius:8px;font-size:0.85rem"
+        onkeydown="if(event.key==='Enter')sendChat()">
+      <button onclick="sendChat()" style="background:#00e676;border:none;color:#000;padding:8px 14px;border-radius:8px;font-weight:700;cursor:pointer">→</button>
+    </div>
+    <div style="padding:4px 12px 8px;display:flex;gap:4px;flex-wrap:wrap">
+      <button onclick="askQuick('aluminum oxide brain')" style="background:#161640;border:1px solid #2a2a5a;color:#888;padding:3px 8px;border-radius:6px;font-size:0.65rem;cursor:pointer">Oxide Brain</button>
+      <button onclick="askQuick('piezoelectric systems')" style="background:#161640;border:1px solid #2a2a5a;color:#888;padding:3px 8px;border-radius:6px;font-size:0.65rem;cursor:pointer">Piezoelectric</button>
+      <button onclick="askQuick('bio-energy transfer')" style="background:#161640;border:1px solid #2a2a5a;color:#888;padding:3px 8px;border-radius:6px;font-size:0.65rem;cursor:pointer">Bio-Energy</button>
+      <button onclick="askQuick('C13B0 architecture')" style="background:#161640;border:1px solid #2a2a5a;color:#888;padding:3px 8px;border-radius:6px;font-size:0.65rem;cursor:pointer">C13B0</button>
+      <button onclick="askQuick('quantum self-rejecting')" style="background:#161640;border:1px solid #2a2a5a;color:#888;padding:3px 8px;border-radius:6px;font-size:0.65rem;cursor:pointer">Quantum Reject</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  // Mongoose Research Knowledge Base
+  const MONGOOSE_KNOWLEDGE = {
+    "aluminum oxide": "Aluminum Oxide (Al₂O₃) forms the neural network layer in the C13B0 architecture. The 'brain dust' — nano-scale oxide particles — acts as a programmable switch-state lattice. When voltage is applied through bio-energy transfer (human touch providing microvolts), the oxide particles shift between conductive and insulative states, creating a physical neural network. The key insight: the oxide doesn't just store data — it PROCESSES it through lattice-state transitions.",
+    "oxide brain": "The Oxide Brain is the core concept of C13B0⁵ architecture. Instead of silicon microcontrollers, we use aluminum oxide particles arranged in a lattice as the computing substrate. The 'brain dust' inside any chassis becomes the processor. Programming happens through switch-state manipulation — each oxide grain holds a quantum state that can be read, written, and entangled with neighboring grains. This creates a distributed quantum computer built from common materials.",
+    "piezoelectric": "Piezoelectric systems convert mechanical pressure to electrical signals and vice versa. In the Infinity framework, piezoelectric aluminum oxide serves dual purpose: (1) Energy harvesting — human touch, vibration, and ambient pressure generate the microvolts needed to power oxide-state transitions. (2) Sensing — the piezoelectric layer detects physical interaction, turning the device chassis into a touch-sensitive neural interface. The 'Stone Tape' theory becomes real: walls embedded with piezoelectric oxide literally record and replay environmental data.",
+    "bio-energy": "Bio-Energy Transfer is the power source for the oxide brain. Human touch provides 10-100 microvolts through skin conductance. This is enough to flip oxide switch-states in the lattice. The breakthrough: no external power supply needed for state changes. The user's body IS the power source. Combined with piezoelectric harvesting from ambient vibration, the system achieves energy autonomy. Your touch programs the device. Your presence powers it.",
+    "c13b0": "C13B0⁵ (Carbon-13 Boron-Zero to the 5th) is the atomic architecture framework. It defines how to build computing systems from sub-atomic principles rather than traditional electronics. The '5' represents five layers: (1) Atomic substrate (oxide lattice), (2) Energy layer (piezo + bio), (3) State layer (quantum switch programming), (4) Memory layer (wave-archive), (5) Intelligence layer (emergent computation from lattice interactions). C13B0 replaces planned obsolescence with lattice-state intelligence.",
+    "quantum": "Quantum-Self-Rejecting architecture means the device knows when it's 'full' of data/intel. The oxide lattice reaches a saturation point where quantum states begin to interfere destructively. At this point, the device autonomously exports its intelligence to the next node in the bismuth signal chain, then resets to accept new data. Like a cell dividing — the intelligence reproduces rather than being lost. This is how the drone 'leaves the aluminum chip' once full.",
+    "wave archive": "The Wave-Archive captures ambient data in wave form. Using inverse scattering theory, the system decodes ambient electromagnetic noise into structured data. Light, radio, sound — all carry information encoded in their wave patterns. The photonic memory stores these wave-states in the oxide lattice, creating a physical record of environmental history. The 'Stone Tape' principle: the walls remember because the oxide literally records the wave-interference patterns of everything that happens.",
+    "bismuth": "Bismuth Signal Bounce is the cross-repo data transfer protocol. Named after bismuth's unique crystalline staircase structure, data 'bounces' between repos like bismuth's electron transitions between energy levels. Each bounce carries: dictionary terms, research context, token metadata, and wave-archive snapshots. The signal chain: smug_look → crown-index → mongoose.os → spark-engine → tools. Each node processes and enriches the signal before passing it on.",
+    "inverse scattering": "Inverse Scattering is the mathematical technique for extracting structured data from ambient noise. Given the scattered wave pattern (what we observe), we reconstruct the original source (what caused it). Applied to the oxide brain: ambient electromagnetic signals pass through the lattice, and the lattice's response pattern encodes the signal's information content. The system literally 'reads' the environment by analyzing how waves scatter through the oxide.",
+    "lattice": "Lattice-State Intelligence replaces traditional binary computing with multi-state lattice transitions. Each oxide grain in the lattice can exist in multiple quantum states simultaneously. The lattice's collective behavior is computation — no CPU needed. Patterns emerge from the interactions between neighboring states, similar to how consciousness emerges from neuron interactions. The lattice IS the computer. The lattice IS the program. The lattice IS the data.",
+    "token": "Infinity Bank Tokens are Value-Backed Research Tokens using the 4-Hash system. Layer 1: Sovereign Research (jump-links to sub-tokens). Layer 2: Validation Data (raw logic + source verification). Layer 3: Bibliography/Network (research articles). Layer 4: Master Zip (unified blockchain identifier). Base value $1,111 + $1/day growth. 48 free tokens per human per day. Banks buy tokens to unzip the research value within.",
+    "mongoose": "Mongoose.os is the research operating system for the Infinity ecosystem. It houses the primary research database covering: aluminum oxide neural networks, piezoelectric energy systems, bio-energy transfer, atomic architecture, wave-archive theory, inverse scattering, lattice-state computing, and the C13B0 framework. Over 1000 files of research, scripts, and documentation. Connected to the Crown Index, Smug Look hub, and all Spark repos.",
+    "research": "The Infinity Research Database spans 976+ repositories covering: materials science (Al/Ag hybrid metallurgy, oxide lattices), energy (piezoelectric, bio-energy, hydrogen expansion), computing (quantum states, lattice programming, C13B0), communications (bismuth signal, RF generation, wave-archive), and economics (4-Hash tokens, research-backed value). The research is interconnected through the dictionary system (510 terms) and the bismuth signal bounce protocol.",
+    "drone": "The Quantum-Self-Rejecting Drone uses aluminum oxide 'brain dust' as its computing substrate. Bio-energy from the operator's touch programs the oxide lattice with mission parameters. The drone's chassis IS the computer — every surface is part of the oxide neural network. When the oxide lattice saturates with intel, the drone autonomously exports its data via bismuth signal bounce, then the atoms 'reject' the old state and reset for new missions. The first self-aware hardware.",
+    "alien skull": "The Alien Skull finish refers to Al/Ag (Aluminum/Silver) Hybrid Metallurgy. The surface treatment creates an iridescent oxide layer that resembles extraterrestrial materials. But it's not just cosmetic — the Al/Ag hybrid layer serves as a bi-metallic piezoelectric sensor and quantum-state storage medium. The 'skull' finish is actually a functional neural interface layer."
+  };
+
+  function findAnswer(query) {
+    query = query.toLowerCase();
+    let bestMatch = null;
+    let bestScore = 0;
+
+    for (const [key, answer] of Object.entries(MONGOOSE_KNOWLEDGE)) {
+      const words = key.split(/\s+/);
+      let score = 0;
+      for (const word of words) {
+        if (query.includes(word)) score += 2;
+      }
+      // Also check for partial matches
+      if (query.includes(key)) score += 10;
+      for (const word of query.split(/\s+/)) {
+        if (key.includes(word) && word.length > 3) score += 1;
+      }
+      if (score > bestScore) {
+        bestScore = score;
+        bestMatch = answer;
+      }
+    }
+
+    if (bestScore >= 2) return bestMatch;
+
+    // Check for greeting
+    if (query.match(/^(hi|hello|hey|sup|yo)/)) {
+      return "I'm Rogers — the Mongoose Research AI. I specialize in aluminum oxide brain architecture, piezoelectric systems, bio-energy transfer, C13B0 atomic computing, and the full Infinity research framework. Ask me anything about the research.";
+    }
+
+    // Check for navigation
+    if (query.includes('help') || query.includes('what can')) {
+      return "I can explain: oxide brain architecture, piezoelectric energy, bio-energy transfer, C13B0 framework, wave-archive theory, bismuth signal bounce, lattice-state computing, quantum self-rejection, 4-Hash tokens, drone design, Al/Ag metallurgy. Just ask about any topic.";
+    }
+
+    // Generic response with links
+    return "I don't have a specific entry for that, but the Mongoose research database has over 1000 files. Try asking about: oxide brain, piezoelectric, bio-energy, C13B0, wave-archive, bismuth signal, lattice computing, or tokens. You can also browse the research at the links on this page.";
+  }
+
+  window.toggleChat = function() {
+    const panel = document.getElementById('chat-panel');
+    panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+  };
+
+  window.sendChat = function() {
+    const input = document.getElementById('chat-input');
+    const msg = input.value.trim();
+    if (!msg) return;
+    input.value = '';
+
+    const messages = document.getElementById('chat-messages');
+    // User message
+    messages.innerHTML += '<div style="background:#0a2a1e;border-radius:10px;padding:10px;font-size:0.85rem;color:#e8e8f0;max-width:85%;align-self:flex-end">' + msg.replace(/</g,'&lt;') + '</div>';
+
+    // AI response
+    const answer = findAnswer(msg);
+    setTimeout(function() {
+      messages.innerHTML += '<div style="background:#161640;border-radius:10px;padding:10px;font-size:0.85rem;color:#ccc;max-width:85%">' + answer + '</div>';
+      messages.scrollTop = messages.scrollHeight;
+    }, 300);
+
+    messages.scrollTop = messages.scrollHeight;
+  };
+
+  window.askQuick = function(topic) {
+    document.getElementById('chat-input').value = topic;
+    window.sendChat();
+  };
+})();
+</script>
 </body>
 </html>
