@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "updated": "20260217_050438",
+  "total_entries": 2,
+  "entries": [
+    {
+      "id": "TOOTH-REGEN-001",
+      "title": "Tooth Regeneration & Dental Signal Architecture",
+      "file": "research/tooth_regeneration_dental_signals.md",
+      "category": "bioengineering",
+      "tags": [
+        "teeth",
+        "regeneration",
+        "BMP",
+        "Wnt",
+        "USAG-1",
+        "calcium",
+        "Japan"
+      ],
+      "date": "2026-02-17",
+      "sources": [
+        "Integrative Endodontics \u2014 Dr. Jiyoung Jung",
+        "Kyoto University Hospital / Toregem Biopharma",
+        "WION Podcast",
+        "Einstein's Eyes",
+        "Concierge Dental"
+      ]
+    },
+    {
+      "id": "NANO-METAL-001",
+      "title": "Training Precious Metals for Biological Signaling",
+      "file": "research/precious_metal_nanomedicine_signals.md",
+      "category": "nanomedicine",
+      "tags": [
+        "gold",
+        "platinum",
+        "gallium",
+        "nanoparticles",
+        "bone-marrow",
+        "BMP-2",
+        "MAPK"
+      ],
+      "date": "2026-02-17",
+      "sources": [
+        "Nanomedicine bone tissue engineering research",
+        "Gold nanoparticle osteoblast differentiation studies",
+        "Gallium treatment for osteoporosis/Paget's disease"
+      ]
+    }
+  ]
+}
