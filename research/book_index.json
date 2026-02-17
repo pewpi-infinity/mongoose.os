@@ -2,7 +2,7 @@
   "title": "The Infinity Research Book",
   "subtitle": "Rationalized Data \u2014 From Biology to Digital Architecture",
   "author": "Infinity Forge System",
-  "updated": "20260217_051518",
+  "updated": "20260217_054221",
   "chapters": [
     {
       "id": "ch01",
@@ -33,10 +33,29 @@
       "title": "Bio-Digital Transformer",
       "file": "transformer_tackle_bio_digital.md",
       "summary": "MAPK pathway parallels. Dental-to-repo mapping. Dissipative Soliton connections."
+    },
+    {
+      "id": "ch6",
+      "title": "Chapter 6: Gold Standard Economics",
+      "description": "The wealth re-index, 4-hash compression, and peer-to-peer distribution model.",
+      "tokens": [
+        "GOLD-STANDARD-001"
+      ],
+      "color": "#FFD700"
+    },
+    {
+      "id": "ch7",
+      "title": "Chapter 7: The Quanta Realm",
+      "description": "Spacetime navigation, quanta alphabet, FCL tracking, and entropy transfer protocol.",
+      "tokens": [
+        "QUANTA-OPERATOR-001",
+        "QUANTUM-TRIGGER-001"
+      ],
+      "color": "#a855f7"
     }
   ],
   "dictionary": "research/dictionary_v2.json",
-  "total_chapters": 5,
+  "total_chapters": 7,
   "categories": [
     "bioengineering",
     "nanomedicine",
